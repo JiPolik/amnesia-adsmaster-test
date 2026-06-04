@@ -6,4 +6,4 @@ name: Adsmaster Smoke Test
 platform: google
 objective: TRAFFIC
 status: PAUSED          # PAUSED = conservative; nothing is eligible to go live
-budgetDailyUsd: 12   # bumped to trigger first git-sync push
+budgetDailyUsd: 13   # re-trigger to watch sync live
