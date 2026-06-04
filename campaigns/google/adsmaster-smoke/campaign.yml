@@ -1,0 +1,9 @@
+# Desired state for one Google Ads campaign.
+# git-sync parses this against campaign.schema.json, then the campaigns
+# module materializes it into a `campaign` row that Adsmaster can reconcile.
+schemaVersion: 1
+name: Adsmaster Smoke Test
+platform: google
+objective: TRAFFIC
+status: PAUSED          # PAUSED = conservative; nothing is eligible to go live
+budgetDailyUsd: 10
