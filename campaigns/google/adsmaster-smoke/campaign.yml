@@ -6,4 +6,4 @@ name: Adsmaster Smoke Test
 platform: google
 objective: TRAFFIC
 status: PAUSED          # PAUSED = conservative; nothing is eligible to go live
-budgetDailyUsd: 13   # re-trigger to watch sync live
+budgetDailyUsd: 14   # clean retest on f23328a (AMS-309) stable pod
