@@ -2,3 +2,4 @@ schemaVersion: 1
 name: main
 status: ENABLED          # campaign is PAUSED, so nothing serves regardless
 bidStrategy: MAXIMIZE_CONVERSIONS
+# retrigger ad-set materialization (AMS-289 ordering race on first sync)
