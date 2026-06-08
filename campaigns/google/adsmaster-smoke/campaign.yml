@@ -1,9 +1,6 @@
-# Desired state for one Google Ads campaign.
-# git-sync parses this against campaign.schema.json, then the campaigns
-# module materializes it into a `campaign` row that Adsmaster can reconcile.
 schemaVersion: 1
-name: Adsmaster Smoke Test
+name: adsmaster_smoke_test       # was "Adsmaster Smoke Test" — spaces break the UTM custom-param (ILLEGAL_CHARS)
 platform: google
 objective: TRAFFIC
-status: PAUSED          # PAUSED = conservative; nothing is eligible to go live
-budgetDailyUsd: 14   # clean retest on f23328a (AMS-309) stable pod
+status: PAUSED
+budgetDailyUsd: 14
