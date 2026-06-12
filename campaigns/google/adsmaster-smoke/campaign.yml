@@ -1,6 +1,6 @@
 schemaVersion: 1
-name: adsmaster_smoke_test       # was "Adsmaster Smoke Test" — spaces break the UTM custom-param (ILLEGAL_CHARS)
+name: adsmaster_smoke_test_1       # was "Adsmaster Smoke Test" — spaces break the UTM custom-param (ILLEGAL_CHARS)
 platform: google
 objective: TRAFFIC
 status: PAUSED
-budgetDailyUsd: 14
+budgetDailyUsd: 12
