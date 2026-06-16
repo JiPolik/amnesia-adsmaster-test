@@ -3,4 +3,4 @@ name: adsmaster_smoke_test_3       # was "Adsmaster Smoke Test" — spaces break
 platform: google
 objective: TRAFFIC
 status: PAUSED
-budget_daily_usd: 10
+budget_daily_usd: 11
