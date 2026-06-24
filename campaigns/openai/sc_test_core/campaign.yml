@@ -1,0 +1,5 @@
+schema_version: 1
+name: OpenAI Smoke
+platform: openai
+objective: SALES
+status: ENABLED
