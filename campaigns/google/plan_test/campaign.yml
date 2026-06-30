@@ -4,5 +4,4 @@ platform: "google"
 objective: "TRAFFIC"
 status: "PAUSED"
 budget_daily_usd: 15.00
-geo_preset_ref: "us_only"
 #just a comment
