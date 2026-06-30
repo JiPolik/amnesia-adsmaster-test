@@ -1,6 +1,5 @@
 schema_version: 1
-name: "plan_openai"
-platform: "openai"
-objective: "TRAFFIC"
-status: "PAUSED"
-budget_daily_usd: 15.00
+name: plan_openai
+platform: openai
+objective: TRAFFIC
+budget_daily_usd: 15.0
