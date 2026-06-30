@@ -1,0 +1,11 @@
+schema_version: 1
+name: "plan_tpl_openai"
+status: "ENABLED"
+creative_feed_ref: "plan_feed"
+destination_url: "https://example.com/sale"
+headlines:
+  - "Save 30% Today"
+descriptions:
+  - "Fast, free shipping on all orders."
+business_name: "Example Corp"
+call_to_action: "SHOP_NOW"

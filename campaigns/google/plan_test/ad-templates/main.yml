@@ -1,0 +1,16 @@
+schema_version: 1
+name: "plan_tpl_google"
+status: "ENABLED"
+creative_feed_ref: "plan_feed"
+destination_url: "https://example.com/sale"
+headlines:
+  - "Save 30% Today"
+  - "Limited Time Offer"
+  - "Shop the Best Deals"
+descriptions:
+  - "Fast, free shipping on all orders."
+  - "Quality products at great prices."
+  - "Shop now and save big today."
+  - "Don't miss our biggest sale ever."
+business_name: "Example Corp"
+call_to_action: "SHOP_NOW"
