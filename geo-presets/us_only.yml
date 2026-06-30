@@ -1,0 +1,5 @@
+schema_version: 1
+name: "us_only"
+include:
+  - type: "COUNTRY"
+    value: "US"

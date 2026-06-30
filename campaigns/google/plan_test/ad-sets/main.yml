@@ -1,0 +1,7 @@
+schema_version: 1
+name: "main"
+status: "PAUSED"
+bid_strategy: "MAXIMIZE_CLICKS"
+audience:
+  age_min: 18
+  age_max: 65

@@ -1,0 +1,6 @@
+schema_version: 1
+name: "plan_openai"
+platform: "openai"
+objective: "TRAFFIC"
+status: "PAUSED"
+budget_daily_usd: 15.00
