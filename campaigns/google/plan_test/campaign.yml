@@ -1,7 +1,6 @@
 schema_version: 1
-name: "plan_test"
-platform: "google"
-objective: "TRAFFIC"
-status: "PAUSED"
-budget_daily_usd: 15.00
-#just a comment
+name: plan_test
+platform: google
+objective: TRAFFIC
+status: PAUSED
+budget_daily_usd: 25
