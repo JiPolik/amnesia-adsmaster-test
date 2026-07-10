@@ -1,0 +1,41 @@
+apiVersion: amnesia/v1
+kind: CreativeFeed
+metadata: {name: iq_search_feed}
+spec:
+  description: "eFAQ IQ — Google Search creatives (English)"
+  languages: [ENGLISH_US, ENGLISH_GB]
+---
+apiVersion: amnesia/v1
+kind: CreativeFeed
+metadata: {name: career_search_feed}
+spec:
+  description: "eFAQ Career — Google Search creatives (English + German)"
+  languages: [ENGLISH_GB, GERMAN]
+---
+apiVersion: amnesia/v1
+kind: CreativeFeed
+metadata: {name: iq_dg_feed}
+spec:
+  description: "eFAQ IQ — Demand Gen creatives"
+  languages: [ENGLISH_US, POLISH]
+---
+apiVersion: amnesia/v1
+kind: CreativeFeed
+metadata: {name: leadership_dg_feed}
+spec:
+  description: "eFAQ Leadership — Demand Gen creatives"
+  languages: [ENGLISH_US]
+---
+apiVersion: amnesia/v1
+kind: CreativeFeed
+metadata: {name: spirit_animal_dg_feed}
+spec:
+  description: "eFAQ Spirit Animal — Demand Gen creatives"
+  languages: [ENGLISH_US, GERMAN]
+---
+apiVersion: amnesia/v1
+kind: CreativeFeed
+metadata: {name: iq_openai_feed}
+spec:
+  description: "eFAQ IQ — OpenAI creatives (English)"
+  languages: [ENGLISH_US]

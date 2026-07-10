@@ -1,0 +1,5 @@
+apiVersion: amnesia/v1
+kind: RepoConfig
+metadata: {name: default}
+spec:
+  schema_version: 2

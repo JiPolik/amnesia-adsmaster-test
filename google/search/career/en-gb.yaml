@@ -1,0 +1,47 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata: {name: en_gb_goog_s_efaq_career}
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  budget_daily_usd: 2000
+  geo_preset_ref: gb
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: career, campaign_ref: en_gb_goog_s_efaq_career}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 18
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: career_rsa, campaign_ref: en_gb_goog_s_efaq_career}
+spec:
+  status: ENABLED
+  ad_set_ref: career
+  creative_feed_ref: career_search_feed
+  destination_url: https://efaq.com/career/lp/quiz
+  business_name: eFAQ.com
+  headlines:
+    - "EFAQ.com - Official Site"
+    - "Don't Waste Your Money"
+    - "Career Aptitude Test"
+    - "Discover Your Ideal Career"
+    - "What's Your Best Job Fit?"
+    - "Find Your Strengths Fast"
+    - "Career Quiz for Everyone"
+    - "Professional Strengths Quiz"
+    - "Stuck in the Wrong Career?"
+    - "Discover Your Work Style"
+    - "Find Your Dream Job"
+    - "Can We Predict Your Career?"
+    - "5-Minute Career Quiz"
+    - "#1 Rated Career Test"
+    - "Switch Careers With Confidence"
+  descriptions:
+    - "Discover which career fits your strengths, skills, and interests with our aptitude test."
+    - "Get personalized career ideas based on your personality, strengths, and work style."
+    - "Thinking of changing careers? Explore new paths that fit you better."
+    - "Take our research-based career aptitude test and get personalized career advice."
