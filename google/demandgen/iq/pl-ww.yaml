@@ -16,7 +16,7 @@ spec:
   target_cpa_usd: 30
   demand_gen:
     lifecycle_goal: NEW_CUSTOMER_ACQUISITION
-    audience_user_lists: [iq-quiz-visitors]
+    audience_user_lists: [iq-visitors]
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
@@ -26,8 +26,8 @@ spec:
   ad_set_ref: multiasset
   creative_feed_ref: iq_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/pl/iq/lp/iq-test
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/pl/iq/lp/iq-test"
   call_to_action: LEARN_MORE
   headlines:
     - "Czy jesteś mądrzejszy?"

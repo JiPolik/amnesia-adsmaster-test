@@ -26,8 +26,8 @@ spec:
   ad_set_ref: multiasset
   creative_feed_ref: leadership_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/leadership-style/lp/leadership-styles-explained
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/leadership-style/lp/leadership-styles-explained"
   call_to_action: LEARN_MORE
   headlines:
     - "Leadership Style Quiz"
@@ -49,8 +49,8 @@ spec:
   ad_set_ref: multiasset
   creative_feed_ref: leadership_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/leadership-style/lp/leadership-styles-explained
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/leadership-style/lp/leadership-styles-explained"
   call_to_action: LEARN_MORE
   headlines:
     - "Leadership Style Quiz"
@@ -72,8 +72,8 @@ spec:
   ad_set_ref: multiasset
   creative_feed_ref: leadership_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/leadership-style/lp/leadership-styles-explained
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/leadership-style/lp/leadership-styles-explained"
   call_to_action: LEARN_MORE
   headlines:
     - "Leadership Style Quiz"

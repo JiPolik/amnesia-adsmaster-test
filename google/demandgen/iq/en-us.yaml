@@ -16,7 +16,7 @@ spec:
   target_cpa_usd: 25
   demand_gen:
     lifecycle_goal: NEW_CUSTOMER_ACQUISITION
-    audience_user_lists: [iq-quiz-visitors]
+    audience_user_lists: [iq-visitors]
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
@@ -26,8 +26,8 @@ spec:
   ad_set_ref: multiasset
   creative_feed_ref: iq_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/iq/lp/iq-test
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/iq/lp/iq-test"
   call_to_action: LEARN_MORE
   headlines:
     - "Are You Smarter Than Most?"
@@ -49,8 +49,8 @@ spec:
   ad_set_ref: multiasset
   creative_feed_ref: iq_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/iq/lp/iq-test
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/iq/lp/iq-test"
   call_to_action: LEARN_MORE
   headlines:
     - "Are you smarter than a Master?"
@@ -61,7 +61,7 @@ spec:
     - "Take a fast IQ test and see if you score above average in minutes."
     - "Discover your real IQ with a quick, accurate, and easy online test."
     - "Think you're smart? Take this test and prove you're high-IQ right now."
-    - "The best chess players in the world have an average IQ of 130."
+    - "A fast, fun IQ test that reveals how smart you really are."
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
@@ -71,8 +71,8 @@ spec:
   ad_set_ref: multiasset
   creative_feed_ref: iq_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/iq/lp/iq-test
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/iq/lp/iq-test"
   call_to_action: LEARN_MORE
   headlines:
     - "Are You Smarter Than Most?"
@@ -84,4 +84,4 @@ spec:
     - "Take a fast IQ test and see if you score above average in minutes."
     - "Discover your real IQ with a quick, accurate, and easy online test."
     - "Think you're smart? Take this test and prove you're high-IQ right now."
-    - "Quick IQ test with instant results. See how you compare today."
+    - "A fast, fun IQ test that reveals how smart you really are."

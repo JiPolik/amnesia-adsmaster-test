@@ -1,0 +1,78 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata: {name: en_us_goog_s_efaq_chat}
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  budget_daily_usd: 1000
+  geo_preset_ref: us
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: generic, campaign_ref: en_us_goog_s_efaq_chat}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 20
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: generic_rsa, campaign_ref: en_us_goog_s_efaq_chat}
+spec:
+  status: ENABLED
+  ad_set_ref: generic
+  creative_feed_ref: chat_search_feed
+  destination_url: "https://efaq.com/chat/lp/chat"
+  business_name: "eFAQ.com"
+  headlines:
+    - "EFAQ.com - Official Site"
+    - "Don't Waste Your Money"
+    - "{KeyWord:GPT AI} Powered Chat"
+    - "{KeyWord:GPT AI} Unlimited"
+    - "Ask AI Anything"
+    - "Fast, Accurate AI Chat"
+    - "AI Chat for Everyone"
+    - "Try AI Chat For Free"
+    - "Access The Top AI Models"
+    - "Generate Images With AI"
+  descriptions:
+    - "Chat with powerful AI models for answers, ideas, writing, and problem solving."
+    - "Stop overpaying for AI tools. Get fast, accurate AI chat in one place."
+    - "Ask anything and get clear responses instantly with advanced AI chat."
+    - "Unlimited AI conversations for work, learning, creativity, and daily tasks."
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: chatgpt, campaign_ref: en_us_goog_s_efaq_chat}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 20
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: chatgpt_rsa, campaign_ref: en_us_goog_s_efaq_chat}
+spec:
+  status: ENABLED
+  ad_set_ref: chatgpt
+  creative_feed_ref: chat_search_feed
+  destination_url: "https://efaq.com/chat/lp/chat"
+  business_name: "eFAQ.com"
+  headlines:
+    - "EFAQ.com - Official Site"
+    - "Don't Waste Your Money"
+    - "Chat GPT Without Any Limits"
+    - "ChatGPT, Grok, Claude and More"
+    - "Start Chatting with GPT Now"
+    - "Fast, Accurate AI Chat"
+    - "AI Chat for Everyone"
+    - "Try AI Chat For Free"
+    - "Access The Top AI Models"
+    - "Generate Images With AI"
+    - "One Platform, Many AI Models"
+    - "Try GPT Chat AI For Free"
+  descriptions:
+    - "Chat with powerful AI models for answers, ideas, writing, and problem solving."
+    - "Stop overpaying for AI tools. Get fast, accurate AI chat in one place."
+    - "Ask anything and get clear responses instantly with advanced AI chat."
+    - "Unlimited AI conversations for work, learning, creativity, and daily tasks."

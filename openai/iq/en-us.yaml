@@ -22,10 +22,12 @@ spec:
   status: ENABLED
   ad_set_ref: main
   creative_feed_ref: iq_openai_feed
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/iq/lp/iq-test
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/iq/lp/iq-test"
   headlines:
     - "Are You Smarter Than Most?"
     - "Test Your IQ in Minutes"
+    - "What's Your Real IQ Score?"
   descriptions:
     - "Take a fast IQ test and see if you score above average in minutes."
+    - "Discover your real IQ with a quick, accurate, and easy online test."

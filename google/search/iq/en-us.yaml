@@ -16,22 +16,14 @@ spec:
   target_cpa_usd: 20
 ---
 apiVersion: amnesia/v1
-kind: AdSet
-metadata: {name: am_i_smart, campaign_ref: en_us_goog_sn_efaq_iq}
-spec:
-  status: PAUSED
-  bid_strategy: TARGET_CPA
-  target_cpa_usd: 20
----
-apiVersion: amnesia/v1
 kind: AdTemplate
 metadata: {name: iq_test_rsa, campaign_ref: en_us_goog_sn_efaq_iq}
 spec:
   status: ENABLED
   ad_set_ref: iq_test
   creative_feed_ref: iq_search_feed
-  destination_url: https://efaq.com/iq/lp/iq-test
-  business_name: eFAQ.com
+  destination_url: "https://efaq.com/iq/lp/iq-test"
+  business_name: "eFAQ.com"
   headlines:
     - "EFAQ.com - Official Site"
     - "Check Your IQ in 20 Minutes"
@@ -51,14 +43,22 @@ spec:
     - "Join thousands who tested their IQ today and find out exactly how you measure up."
 ---
 apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: am_i_smart, campaign_ref: en_us_goog_sn_efaq_iq}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 20
+---
+apiVersion: amnesia/v1
 kind: AdTemplate
 metadata: {name: am_i_smart_rsa, campaign_ref: en_us_goog_sn_efaq_iq}
 spec:
   status: ENABLED
   ad_set_ref: am_i_smart
   creative_feed_ref: iq_search_feed
-  destination_url: https://efaq.com/iq/lp/iq-test
-  business_name: eFAQ.com
+  destination_url: "https://efaq.com/iq/lp/iq-test"
+  business_name: "eFAQ.com"
   headlines:
     - "EFAQ.com - Official Site"
     - "Check Your IQ in 20 Minutes"

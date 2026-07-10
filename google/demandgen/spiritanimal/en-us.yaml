@@ -16,7 +16,7 @@ spec:
   target_cpa_usd: 22
   demand_gen:
     lifecycle_goal: NEW_CUSTOMER_ACQUISITION
-    audience_user_lists: [spirit-animal-visitors]
+    audience_user_lists: [spiritanimal-visitors]
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
@@ -24,10 +24,10 @@ metadata: {name: animals_watching, campaign_ref: en_us_goog_dg_efaq_spiritanimal
 spec:
   status: ENABLED
   ad_set_ref: multiasset
-  creative_feed_ref: spirit_animal_dg_feed
+  creative_feed_ref: spiritanimal_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/spirit-animal/lp/quiz
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/spirit-animal/lp/quiz"
   call_to_action: LEARN_MORE
   headlines:
     - "Find Your Spirit Animal"
@@ -47,10 +47,10 @@ metadata: {name: brunette_wolf, campaign_ref: en_us_goog_dg_efaq_spiritanimal}
 spec:
   status: ENABLED
   ad_set_ref: multiasset
-  creative_feed_ref: spirit_animal_dg_feed
+  creative_feed_ref: spiritanimal_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/spirit-animal/lp/quiz
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/spirit-animal/lp/quiz"
   call_to_action: LEARN_MORE
   headlines:
     - "Find Your Spirit Animal"
@@ -70,10 +70,10 @@ metadata: {name: face_contrast, campaign_ref: en_us_goog_dg_efaq_spiritanimal}
 spec:
   status: ENABLED
   ad_set_ref: multiasset
-  creative_feed_ref: spirit_animal_dg_feed
+  creative_feed_ref: spiritanimal_dg_feed
   logo_asset_ref: efaq_logo
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/spirit-animal/lp/quiz
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/spirit-animal/lp/quiz"
   call_to_action: LEARN_MORE
   headlines:
     - "Find Your Spirit Animal"

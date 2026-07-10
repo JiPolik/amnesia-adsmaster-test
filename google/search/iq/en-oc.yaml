@@ -1,23 +1,23 @@
 apiVersion: amnesia/v1
 kind: Campaign
-metadata: {name: en_gb_goog_s_efaq_iq}
+metadata: {name: en_oc_goog_s_efaq_iq}
 spec:
   objective: TRAFFIC
   status: PAUSED
-  budget_daily_usd: 3000
-  geo_preset_ref: gb
+  budget_daily_usd: 1800
+  geo_preset_ref: oceania
 ---
 apiVersion: amnesia/v1
 kind: AdSet
-metadata: {name: iq_test, campaign_ref: en_gb_goog_s_efaq_iq}
+metadata: {name: iq_test, campaign_ref: en_oc_goog_s_efaq_iq}
 spec:
   status: PAUSED
   bid_strategy: TARGET_CPA
-  target_cpa_usd: 30
+  target_cpa_usd: 20
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
-metadata: {name: iq_test_rsa, campaign_ref: en_gb_goog_s_efaq_iq}
+metadata: {name: iq_test_rsa, campaign_ref: en_oc_goog_s_efaq_iq}
 spec:
   status: ENABLED
   ad_set_ref: iq_test
@@ -44,15 +44,15 @@ spec:
 ---
 apiVersion: amnesia/v1
 kind: AdSet
-metadata: {name: am_i_smart, campaign_ref: en_gb_goog_s_efaq_iq}
+metadata: {name: am_i_smart, campaign_ref: en_oc_goog_s_efaq_iq}
 spec:
   status: PAUSED
   bid_strategy: TARGET_CPA
-  target_cpa_usd: 30
+  target_cpa_usd: 20
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
-metadata: {name: am_i_smart_rsa, campaign_ref: en_gb_goog_s_efaq_iq}
+metadata: {name: am_i_smart_rsa, campaign_ref: en_oc_goog_s_efaq_iq}
 spec:
   status: ENABLED
   ad_set_ref: am_i_smart

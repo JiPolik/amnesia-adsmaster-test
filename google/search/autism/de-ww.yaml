@@ -1,0 +1,40 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata: {name: de_ww_goog_s_efaq_autism}
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  budget_daily_usd: 1500
+  geo_preset_ref: main_markets
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: autism, campaign_ref: de_ww_goog_s_efaq_autism}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 25
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: autism_rsa, campaign_ref: de_ww_goog_s_efaq_autism}
+spec:
+  status: ENABLED
+  ad_set_ref: autism
+  creative_feed_ref: autism_search_feed
+  destination_url: "https://efaq.com/de/autism/lp/quiz"
+  business_name: "eFAQ.com"
+  headlines:
+    - "eFAQ.com - Offizielle Seite"
+    - "Autismus-Test Online"
+    - "Autismus-Selbsteinschätzung"
+    - "Autismus-Screening starten"
+    - "Was ist Autismus (ASS)?"
+    - "Kostenloser Autismus-Test"
+    - "Bin ich autistisch?"
+    - "Autismus-Spektrum verstehen"
+  descriptions:
+    - "Machen Sie ein schnelles Online-Autismus-Screening und erkunden Sie häufige ASS-Merkmale."
+    - "Finden Sie mit dieser Selbsteinschätzung heraus, wo Sie im Autismus-Spektrum stehen."
+    - "Fragen Sie sich, ob Sie autistisch sind? Machen Sie dieses schnelle Online-Screening."
+    - "Ein schnelles Online-Autismus-Screening, entwickelt für mehr Klarheit und Verständnis."

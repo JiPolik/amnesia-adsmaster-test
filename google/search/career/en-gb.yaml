@@ -22,8 +22,8 @@ spec:
   status: ENABLED
   ad_set_ref: career
   creative_feed_ref: career_search_feed
-  destination_url: https://efaq.com/career/lp/quiz
-  business_name: eFAQ.com
+  destination_url: "https://efaq.com/career/lp/quiz"
+  business_name: "eFAQ.com"
   headlines:
     - "EFAQ.com - Official Site"
     - "Don't Waste Your Money"

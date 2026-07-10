@@ -1,0 +1,41 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata: {name: en_us_goog_s_efaq_leadership}
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  budget_daily_usd: 500
+  geo_preset_ref: us
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: leadership, campaign_ref: en_us_goog_s_efaq_leadership}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 19
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: leadership_rsa, campaign_ref: en_us_goog_s_efaq_leadership}
+spec:
+  status: ENABLED
+  ad_set_ref: leadership
+  creative_feed_ref: leadership_search_feed
+  destination_url: "https://efaq.com/leadership-style/lp/quiz"
+  business_name: "eFAQ.com"
+  headlines:
+    - "EFAQ.com - Official Site"
+    - "Leadership Style Quiz"
+    - "What's Your Leadership Style?"
+    - "Take the Assessment"
+    - "Discover Your Leader Type"
+    - "Find Your Leadership Style"
+    - "Are You a Natural Leader?"
+    - "Quick Leadership Assessment"
+    - "Become a Better Leader Today"
+  descriptions:
+    - "Take our leadership style quiz. Discover what type of leader you are in minutes!"
+    - "Find your unique leadership style in just minutes. Designed by experts to help you lead."
+    - "Are you a visionary, democratic, or servant leader? Take our self-assessment today."
+    - "Unlock your leadership potential. Learn your strengths and grow as a stronger leader."
