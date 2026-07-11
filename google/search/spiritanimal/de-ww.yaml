@@ -21,8 +21,8 @@ spec:
   status: ENABLED
   ad_set_ref: spirit_animal
   creative_feed_ref: spiritanimal_search_feed
-  destination_url: "https://efaq.com/de/spirit-animal/lp/quiz"
   business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/de/spirit-animal/lp/quiz"
   headlines:
     - "EFAQ.com - Offizielle Seite"
     - "Spar dir dein Geld"

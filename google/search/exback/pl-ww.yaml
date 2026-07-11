@@ -21,8 +21,8 @@ spec:
   status: ENABLED
   ad_set_ref: ex_back
   creative_feed_ref: exback_search_feed
-  destination_url: "https://efaq.com/pl/ex-back/lp/plan"
   business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/pl/ex-back/lp/plan"
   headlines:
     - "EFAQ.com - Oficjalna strona"
     - "Nie marnuj swoich pieniędzy"

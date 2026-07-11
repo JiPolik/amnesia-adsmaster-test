@@ -21,8 +21,8 @@ spec:
   status: ENABLED
   ad_set_ref: career
   creative_feed_ref: career_search_feed
-  destination_url: "https://efaq.com/de/career/lp/quiz"
   business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/de/career/lp/quiz"
   headlines:
     - "EFAQ.com - Offizielle Seite"
     - "Verschwende kein Geld"

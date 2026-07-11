@@ -21,8 +21,8 @@ spec:
   status: ENABLED
   ad_set_ref: personality
   creative_feed_ref: personality_search_feed
-  destination_url: "https://efaq.com/personality/lp/quiz"
   business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/personality/lp/quiz"
   headlines:
     - "EFAQ.com - Official Site"
     - "Don't Waste Your Money"

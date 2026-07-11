@@ -21,8 +21,8 @@ spec:
   status: ENABLED
   ad_set_ref: love_style
   creative_feed_ref: lovestyle_search_feed
-  destination_url: "https://efaq.com/pl/love-style/lp/quiz"
   business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/pl/love-style/lp/quiz"
   headlines:
     - "EFAQ.com - Oficjalna Strona"
     - "Nie marnuj pieniędzy"
