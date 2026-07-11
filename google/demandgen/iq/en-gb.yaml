@@ -1,0 +1,87 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata: {name: en_gb_goog_dg_efaq_iq}
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  budget_daily_usd: 1000
+  geo_preset_ref: gb
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: multiasset, campaign_ref: en_gb_goog_dg_efaq_iq}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 25
+  demand_gen:
+    lifecycle_goal: NEW_CUSTOMER_ACQUISITION
+    audience_user_lists: [iq-visitors]
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: multiasset_detective, campaign_ref: en_gb_goog_dg_efaq_iq}
+spec:
+  status: ENABLED
+  ad_set_ref: multiasset
+  creative_feed_ref: iq_dg_feed
+  logo_asset_ref: efaq_logo
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/iq/lp/iq-test"
+  call_to_action: LEARN_MORE
+  headlines:
+    - "Are You Smarter Than Most?"
+    - "Test Your IQ in Minutes"
+    - "What's Your Real IQ Score?"
+    - "Prove You're Truly Smart"
+    - "The Test Everyone Is Taking"
+  descriptions:
+    - "Take a fast IQ test and see if you score above average in minutes."
+    - "Discover your real IQ with a quick, accurate, and easy online test."
+    - "Think you're smart? Take this test and prove you're high-IQ right now."
+    - "A fast, fun IQ test that reveals how smart you really are."
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: multiasset_chess, campaign_ref: en_gb_goog_dg_efaq_iq}
+spec:
+  status: ENABLED
+  ad_set_ref: multiasset
+  creative_feed_ref: iq_dg_feed
+  logo_asset_ref: efaq_logo
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/iq/lp/iq-test"
+  call_to_action: LEARN_MORE
+  headlines:
+    - "Are you smarter than a Master?"
+    - "Test Your IQ in Minutes"
+    - "What's Your Real IQ Score?"
+    - "The Test Everyone Is Taking"
+  descriptions:
+    - "Take a fast IQ test and see if you score above average in minutes."
+    - "Discover your real IQ with a quick, accurate, and easy online test."
+    - "Think you're smart? Take this test and prove you're high-IQ right now."
+    - "A fast, fun IQ test that reveals how smart you really are."
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: multiasset_dashes, campaign_ref: en_gb_goog_dg_efaq_iq}
+spec:
+  status: ENABLED
+  ad_set_ref: multiasset
+  creative_feed_ref: iq_dg_feed
+  logo_asset_ref: efaq_logo
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/iq/lp/iq-test"
+  call_to_action: LEARN_MORE
+  headlines:
+    - "Are You Smarter Than Most?"
+    - "Test Your IQ in Minutes"
+    - "What's Your Real IQ Score?"
+    - "The Test Everyone Is Taking"
+    - "Can You Spot The Missing Dash?"
+  descriptions:
+    - "Take a fast IQ test and see if you score above average in minutes."
+    - "Discover your real IQ with a quick, accurate, and easy online test."
+    - "Think you're smart? Take this test and prove you're high-IQ right now."
+    - "A fast, fun IQ test that reveals how smart you really are."

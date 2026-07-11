@@ -1,0 +1,47 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata: {name: pl_ww_goog_s_efaq_lovestyle}
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  budget_daily_usd: 300
+  geo_preset_ref: main_markets
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: love_style, campaign_ref: pl_ww_goog_s_efaq_lovestyle}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 14
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: love_style_rsa, campaign_ref: pl_ww_goog_s_efaq_lovestyle}
+spec:
+  status: ENABLED
+  ad_set_ref: love_style
+  creative_feed_ref: lovestyle_search_feed
+  destination_url: "https://efaq.com/pl/love-style/lp/quiz"
+  business_name: "eFAQ.com"
+  headlines:
+    - "EFAQ.com - Oficjalna Strona"
+    - "Nie marnuj pieniędzy"
+    - "Jaki jest Twój styl?"
+    - "Quiz o Miłości 2026"
+    - "Zrób Test Stylów Miłości"
+    - "Odkryj Swój Styl Miłości"
+    - "Jak okazujesz miłość?"
+    - "Test Miłości dla Par"
+    - "Popraw Swój Związek"
+    - "Kochaj Lepiej, Żyj Lepiej"
+    - "Zrozum Potrzeby Partnera"
+    - "Czego Potrzebuje Serce?"
+    - "Bądź Lepszym Partnerem"
+    - "5-Minutowy Quiz Miłości"
+    - "Najlepszy Test Miłości"
+  descriptions:
+    - "Odkryj swój styl miłości: Rozwiąż quiz i dowiedz się, jak okazujesz uczucia."
+    - "Użyj naszego krótkiego quizu, aby poznać swój styl miłości i poprawić relację."
+    - "Naucz się lepiej kochać swojego partnera, rozumiejąc swój styl miłości."
+    - "Odmień swój związek dzięki naszemu naukowo opracowanemu quizowi o stylach miłości."

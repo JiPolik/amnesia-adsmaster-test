@@ -1,0 +1,88 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata: {name: de_ww_goog_dg_efaq_spiritanimal}
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  budget_daily_usd: 1000
+  geo_preset_ref: main_markets
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: multiasset, campaign_ref: de_ww_goog_dg_efaq_spiritanimal}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 30
+  demand_gen:
+    lifecycle_goal: NEW_CUSTOMER_ACQUISITION
+    audience_user_lists: [spiritanimal-visitors]
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: animals_watching, campaign_ref: de_ww_goog_dg_efaq_spiritanimal}
+spec:
+  status: ENABLED
+  ad_set_ref: multiasset
+  creative_feed_ref: spiritanimal_dg_feed
+  logo_asset_ref: efaq_logo
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/de/spirit-animal/lp/quiz"
+  call_to_action: LEARN_MORE
+  headlines:
+    - "Finde dein Seelentier"
+    - "Entdecke deine Natur"
+    - "Triff dein inneres Tier"
+    - "Welches Tier bist du?"
+    - "Dein Seelentier wartet"
+  descriptions:
+    - "Mach das Quiz und entdecke dein Seelentier in nur wenigen Minuten."
+    - "Entfalte deine Instinkte und finde noch heute dein Seelentier."
+    - "Neugierig, welches Tier du bist? Finde es sofort heraus."
+    - "Welches Tier passt zu dir? Mach jetzt den Test."
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: brunette_wolf, campaign_ref: de_ww_goog_dg_efaq_spiritanimal}
+spec:
+  status: ENABLED
+  ad_set_ref: multiasset
+  creative_feed_ref: spiritanimal_dg_feed
+  logo_asset_ref: efaq_logo
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/de/spirit-animal/lp/quiz"
+  call_to_action: LEARN_MORE
+  headlines:
+    - "Finde dein Seelentier"
+    - "Entdecke deine Natur"
+    - "Triff dein inneres Tier"
+    - "Welches Tier bist du?"
+    - "Dein Seelentier wartet"
+  descriptions:
+    - "Eine wilde Seite steckt in dir. Finde jetzt dein Seelentier."
+    - "Deine Instinkte sagen mehr. Finde dein Tier."
+    - "Ruhig, stark oder wild? Entdecke deine wahre Natur."
+    - "Ein schneller Test, der dein inneres Tier zeigt."
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: face_contrast, campaign_ref: de_ww_goog_dg_efaq_spiritanimal}
+spec:
+  status: ENABLED
+  ad_set_ref: multiasset
+  creative_feed_ref: spiritanimal_dg_feed
+  logo_asset_ref: efaq_logo
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/de/spirit-animal/lp/quiz"
+  call_to_action: LEARN_MORE
+  headlines:
+    - "Finde dein Seelentier"
+    - "Entdecke deine Natur"
+    - "Triff dein inneres Tier"
+    - "Welches Tier bist du?"
+    - "Dein Seelentier wartet"
+  descriptions:
+    - "Zwei Seiten, eine Wahrheit. Finde dein Seelentier in Minuten."
+    - "Eine andere Seite in dir. Finde dein Tier jetzt."
+    - "Logik oder Instinkt? Entdecke dein inneres Tier."
+    - "Sieh deine verborgene Seite. Mach jetzt den Test."

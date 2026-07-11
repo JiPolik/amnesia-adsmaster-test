@@ -1,0 +1,48 @@
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata: {name: ca}
+spec:
+  include:
+    - {type: COUNTRY, value: CA}
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata: {name: gb}
+spec:
+  include:
+    - {type: COUNTRY, value: GB}
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata: {name: ie}
+spec:
+  include:
+    - {type: COUNTRY, value: IE}
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata: {name: main_markets}
+spec:
+  include:
+    - {type: COUNTRY, value: US}
+    - {type: COUNTRY, value: GB}
+    - {type: COUNTRY, value: CA}
+    - {type: COUNTRY, value: AU}
+    - {type: COUNTRY, value: DE}
+    - {type: COUNTRY, value: FR}
+    - {type: COUNTRY, value: PL}
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata: {name: oceania}
+spec:
+  include:
+    - {type: COUNTRY, value: AU}
+    - {type: COUNTRY, value: NZ}
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata: {name: us}
+spec:
+  include:
+    - {type: COUNTRY, value: US}

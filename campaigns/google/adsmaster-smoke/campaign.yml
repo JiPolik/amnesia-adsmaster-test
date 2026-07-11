@@ -1,6 +1,0 @@
-schema_version: 1
-name: adsmaster_smoke_test_3
-platform: google
-objective: TRAFFIC
-status: PAUSED
-budget_daily_usd: 31

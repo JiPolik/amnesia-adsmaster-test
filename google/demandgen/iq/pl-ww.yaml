@@ -1,0 +1,42 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata: {name: pl_ww_goog_dg_efaq_iq}
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  budget_daily_usd: 500
+  geo_preset_ref: main_markets
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata: {name: multiasset, campaign_ref: pl_ww_goog_dg_efaq_iq}
+spec:
+  status: PAUSED
+  bid_strategy: TARGET_CPA
+  target_cpa_usd: 30
+  demand_gen:
+    lifecycle_goal: NEW_CUSTOMER_ACQUISITION
+    audience_user_lists: [iq-visitors]
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata: {name: multiasset_detective, campaign_ref: pl_ww_goog_dg_efaq_iq}
+spec:
+  status: ENABLED
+  ad_set_ref: multiasset
+  creative_feed_ref: iq_dg_feed
+  logo_asset_ref: efaq_logo
+  business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/pl/iq/lp/iq-test"
+  call_to_action: LEARN_MORE
+  headlines:
+    - "Czy jesteś mądrzejszy?"
+    - "Sprawdź swoje IQ w minutę"
+    - "Jaki masz prawdziwy IQ?"
+    - "Udowodnij inteligencję"
+    - "Test, który robią wszyscy"
+  descriptions:
+    - "Zrób szybki test IQ i sprawdź, czy masz wynik powyżej średniej."
+    - "Poznaj swoje IQ dzięki szybkiemu, dokładnemu i prostemu testowi online."
+    - "Myślisz, że jesteś inteligentny? Zrób test i sprawdź swój wynik."
+    - "Szybki i ciekawy test IQ, który pokazuje Twój poziom inteligencji."
