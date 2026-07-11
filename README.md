@@ -14,7 +14,7 @@ directory path `<platform>/<vertical>/…`:
 - `google/demandgen/<vertical>/`→ Google Demand Gen
 - `openai/<vertical>/`          → OpenAI Ads
 - `feeds/`                      → CreativeFeed docs (unscoped)
-- `geo/`                        → GeoPreset docs (unscoped)
+- `geo/`                        → GeoPreset docs (unscoped; authored but not yet referenced — see below)
 
 ## Provenance & documented differences from the real `ads` repo
 
@@ -25,7 +25,16 @@ one headline/description set), and multi-size image variants (images come from t
 not this repo).
 
 Other conventions: campaigns use `objective: TRAFFIC` and `status: PAUSED` (no real spend on staging);
-legacy `maximize_conversions` + `cpa_target` maps to `bid_strategy: TARGET_CPA` + `target_cpa_usd`;
-named legacy geos (`WW`/`MAIN_MARKETS`) are approximated by an explicit-country `main_markets` preset.
+legacy `maximize_conversions` + `cpa_target` maps to `bid_strategy: TARGET_CPA` + `target_cpa_usd`.
+
+**Geo targeting is deferred.** The `geo/` directory carries real `GeoPreset` docs (`us`, `gb`, `ca`,
+`ie`, `oceania`, and a `main_markets` explicit-country expansion of the legacy `WW`/`MAIN_MARKETS`
+geos), but campaigns do **not** yet set `geo_preset_ref`: git-sync has no `GeoPreset` materializer
+(the sibling of the AdTemplate materializer from AMS-385 and the CreativeFeed materializer from
+AMS-387), so a git-authored geo preset never lands in the org and `geo_preset_ref` can't resolve —
+which would skip every ad-set/ad-template on materialization. Once a git-native `GeoPreset`
+materializer ships, campaigns can reference these presets. The presets are kept here so that change
+is a one-line-per-campaign edit.
+
 `creative_feed_ref` / `logo_asset_ref` are real names but resolve to live image bytes only once
 AMS-409 lands.
