@@ -1,8 +1,10 @@
 # amnesia-adsmaster-test
 
 **v2 (`schema_version: 2`) fixture repo** for the Amnesia git-sync → materialize → reconcile flow.
-Contents are a curated subset of the real eFAQ ad configs from `haremedia/ads`, re-expressed in
-the Amnesia v2 config format (AMS-400).
+Contents are a subset of the real eFAQ ad configs from `haremedia/ads` (all 11 verticals,
+representative languages), re-expressed in the Amnesia v2 config format (AMS-400). The one
+exception is `openai/iq` — a synthetic campaign that reuses the real IQ copy to exercise the v2
+OpenAI platform path, since `ads` is Google-only.
 
 ## Layout
 
@@ -33,8 +35,8 @@ geos), but campaigns do **not** yet set `geo_preset_ref`: git-sync has no `GeoPr
 (the sibling of the AdTemplate materializer from AMS-385 and the CreativeFeed materializer from
 AMS-387), so a git-authored geo preset never lands in the org and `geo_preset_ref` can't resolve —
 which would skip every ad-set/ad-template on materialization. Once a git-native `GeoPreset`
-materializer ships, campaigns can reference these presets. The presets are kept here so that change
-is a one-line-per-campaign edit.
+materializer ships (tracked as **AMS-411**), campaigns can reference these presets. The presets are
+kept here so that change is a one-line-per-campaign edit.
 
 `creative_feed_ref` / `logo_asset_ref` are real names but resolve to live image bytes only once
 AMS-409 lands.

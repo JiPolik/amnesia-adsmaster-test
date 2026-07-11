@@ -21,8 +21,8 @@ spec:
   status: ENABLED
   ad_set_ref: iq_test
   creative_feed_ref: iq_search_feed
-  destination_url: "https://efaq.com/de/iq/lp/iq-test"
   business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/de/iq/lp/iq-test"
   headlines:
     - "EFAQ.com – Offizielle Seite"
     - "Ihr IQ in 20 Minuten"
@@ -56,8 +56,8 @@ spec:
   status: ENABLED
   ad_set_ref: am_i_smart
   creative_feed_ref: iq_search_feed
-  destination_url: "https://efaq.com/de/iq/lp/iq-test"
   business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/de/iq/lp/iq-test"
   headlines:
     - "EFAQ.com – Offizielle Seite"
     - "Ihr IQ in 20 Minuten"

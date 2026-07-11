@@ -19,7 +19,7 @@ spec:
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
-metadata: {name: multiasset_detective, campaign_ref: en_us_goog_dg_efaq_iq}
+metadata: {name: detective, campaign_ref: en_us_goog_dg_efaq_iq}
 spec:
   status: ENABLED
   ad_set_ref: multiasset
@@ -42,7 +42,7 @@ spec:
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
-metadata: {name: multiasset_chess, campaign_ref: en_us_goog_dg_efaq_iq}
+metadata: {name: chess, campaign_ref: en_us_goog_dg_efaq_iq}
 spec:
   status: ENABLED
   ad_set_ref: multiasset
@@ -64,7 +64,7 @@ spec:
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
-metadata: {name: multiasset_dashes, campaign_ref: en_us_goog_dg_efaq_iq}
+metadata: {name: dashes, campaign_ref: en_us_goog_dg_efaq_iq}
 spec:
   status: ENABLED
   ad_set_ref: multiasset

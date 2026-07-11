@@ -21,8 +21,8 @@ spec:
   status: ENABLED
   ad_set_ref: generic
   creative_feed_ref: chat_search_feed
-  destination_url: "https://efaq.com/chat/lp/chat"
   business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/chat/lp/chat"
   headlines:
     - "EFAQ.com - Official Site"
     - "Don't Waste Your Money"
@@ -55,8 +55,8 @@ spec:
   status: ENABLED
   ad_set_ref: chatgpt
   creative_feed_ref: chat_search_feed
-  destination_url: "https://efaq.com/chat/lp/chat"
   business_name: "eFAQ.com"
+  destination_url: "https://efaq.com/chat/lp/chat"
   headlines:
     - "EFAQ.com - Official Site"
     - "Don't Waste Your Money"
