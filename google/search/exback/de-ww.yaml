@@ -5,7 +5,6 @@ spec:
   objective: TRAFFIC
   status: PAUSED
   budget_daily_usd: 400
-  geo_preset_ref: main_markets
 ---
 apiVersion: amnesia/v1
 kind: AdSet
