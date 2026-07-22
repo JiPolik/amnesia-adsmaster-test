@@ -1,6 +1,10 @@
 apiVersion: amnesia/v1
 kind: Campaign
-metadata: {name: pl_ww_goog_s_efaq_leadership}
+metadata:
+  name: pl_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
+  geo_preset_ref: main_markets
 spec:
   objective: TRAFFIC
   status: PAUSED
@@ -8,7 +12,11 @@ spec:
 ---
 apiVersion: amnesia/v1
 kind: AdSet
-metadata: {name: leadership, campaign_ref: pl_ww_goog_s_efaq_leadership}
+metadata:
+  name: leadership
+  campaign_ref: pl_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
 spec:
   status: PAUSED
   bid_strategy: TARGET_CPA
@@ -16,25 +24,29 @@ spec:
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
-metadata: {name: leadership_rsa, campaign_ref: pl_ww_goog_s_efaq_leadership}
-spec:
-  status: ENABLED
+metadata:
+  name: leadership_rsa
+  campaign_ref: pl_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
   ad_set_ref: leadership
   creative_feed_ref: leadership_search_feed
-  business_name: "eFAQ.com"
-  destination_url: "https://efaq.com/pl/leadership-style/lp/quiz"
+spec:
+  status: ENABLED
+  business_name: eFAQ.com
+  destination_url: https://efaq.com/pl/leadership-style/lp/quiz
   headlines:
-    - "EFAQ.com - Oficjalna strona"
-    - "Quiz stylu przywództwa"
-    - "Jaki jest Twój styl lidera?"
-    - "Wykonaj ocenę online"
-    - "Odkryj swój typ lidera"
-    - "Znajdź swój styl przywództwa"
-    - "Czy jesteś urodzonym liderem?"
-    - "Szybka ocena przywództwa"
-    - "Zostań lepszym liderem"
+  - EFAQ.com - Oficjalna strona
+  - Quiz stylu przywództwa
+  - Jaki jest Twój styl lidera?
+  - Wykonaj ocenę online
+  - Odkryj swój typ lidera
+  - Znajdź swój styl przywództwa
+  - Czy jesteś urodzonym liderem?
+  - Szybka ocena przywództwa
+  - Zostań lepszym liderem
   descriptions:
-    - "Rozwiąż nasz quiz o stylu przywództwa. Odkryj, jakim typem lidera jesteś w kilka minut!"
-    - "Znajdź swój unikalny styl w kilka minut. Stworzony przez ekspertów, by pomóc Ci w pracy."
-    - "Jesteś wizjonerem, demokratą czy liderem służebnym? Wykonaj naszą samoocenę już dzisiaj."
-    - "Uwolnij swój potencjał przywódczy. Poznaj swoje mocne strony i stań się lepszym liderem."
+  - Rozwiąż nasz quiz o stylu przywództwa. Odkryj, jakim typem lidera jesteś w kilka minut!
+  - Znajdź swój unikalny styl w kilka minut. Stworzony przez ekspertów, by pomóc Ci w pracy.
+  - Jesteś wizjonerem, demokratą czy liderem służebnym? Wykonaj naszą samoocenę już dzisiaj.
+  - Uwolnij swój potencjał przywódczy. Poznaj swoje mocne strony i stań się lepszym liderem.

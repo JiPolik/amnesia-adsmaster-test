@@ -1,6 +1,10 @@
 apiVersion: amnesia/v1
 kind: Campaign
-metadata: {name: en_us_goog_s_efaq_psychopath}
+metadata:
+  name: en_us_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  geo_preset_ref: us
 spec:
   objective: TRAFFIC
   status: PAUSED
@@ -8,7 +12,11 @@ spec:
 ---
 apiVersion: amnesia/v1
 kind: AdSet
-metadata: {name: psychopath, campaign_ref: en_us_goog_s_efaq_psychopath}
+metadata:
+  name: psychopath
+  campaign_ref: en_us_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
 spec:
   status: PAUSED
   bid_strategy: TARGET_CPA
@@ -16,27 +24,31 @@ spec:
 ---
 apiVersion: amnesia/v1
 kind: AdTemplate
-metadata: {name: psychopath_rsa, campaign_ref: en_us_goog_s_efaq_psychopath}
-spec:
-  status: ENABLED
+metadata:
+  name: psychopath_rsa
+  campaign_ref: en_us_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
   ad_set_ref: psychopath
   creative_feed_ref: psychopath_search_feed
-  business_name: "eFAQ.com"
-  destination_url: "https://efaq.com/psychopath/lp/quiz"
+spec:
+  status: ENABLED
+  business_name: eFAQ.com
+  destination_url: https://efaq.com/psychopath/lp/quiz
   headlines:
-    - "EFAQ.com - Official Site"
-    - "Take the Psychopath Test"
-    - "Am I a Psychopath? Find Out"
-    - "Free Psychopath Quiz Online"
-    - "Psychopath Self-Assessment"
-    - "Are You a Sociopath?"
-    - "Dark Triad Personality Test"
-    - "Get Instant Results Now"
-    - "Expert-Designed Assessment"
-    - "Quick & Confidential Quiz"
-    - "Discover Your Traits Today"
+  - EFAQ.com - Official Site
+  - Take the Psychopath Test
+  - Am I a Psychopath? Find Out
+  - Free Psychopath Quiz Online
+  - Psychopath Self-Assessment
+  - Are You a Sociopath?
+  - Dark Triad Personality Test
+  - Get Instant Results Now
+  - Expert-Designed Assessment
+  - Quick & Confidential Quiz
+  - Discover Your Traits Today
   descriptions:
-    - "Take our free psychopath self-assessment. Answer questions and get instant results."
-    - "Expert-designed quiz based on clinical research. Evaluate psychopathic traits."
-    - "Discover where you fall on the psychopathy spectrum. Private results in just minutes."
-    - "Explore psychopathic traits, the dark triad, and more. Take the quiz."
+  - Take our free psychopath self-assessment. Answer questions and get instant results.
+  - Expert-designed quiz based on clinical research. Evaluate psychopathic traits.
+  - Discover where you fall on the psychopathy spectrum. Private results in just minutes.
+  - Explore psychopathic traits, the dark triad, and more. Take the quiz.
