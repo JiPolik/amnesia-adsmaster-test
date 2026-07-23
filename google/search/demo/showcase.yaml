@@ -1,0 +1,48 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: demo_goog_s_showcase
+  platform: google_search
+  vertical: demo
+  geo_preset_ref: us
+  geo_exclude_refs: [demo_no_nordics]
+  ad_extension_refs: [demo_sitelink_pricing, demo_callout_fast, demo_snippet_topics, demo_bizname]
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  budget_daily_usd: 50.0
+  customer_acquisition_goal: TARGET_NEW_CUSTOMER
+---
+apiVersion: amnesia/v1
+kind: AdSet
+metadata:
+  name: main
+  platform: google_search
+  vertical: demo
+  campaign_ref: demo_goog_s_showcase
+spec:
+  status: PAUSED
+  bid_strategy: MAXIMIZE_CONVERSION_VALUE
+  target_roas: 4.0
+---
+apiVersion: amnesia/v1
+kind: AdTemplate
+metadata:
+  name: main_rsa
+  platform: google_search
+  vertical: demo
+  campaign_ref: demo_goog_s_showcase
+  ad_set_ref: main
+  creative_feed_ref: demo_search_feed
+spec:
+  status: ENABLED
+  business_name: eFAQ.com
+  destination_url: https://efaq.com/demo/lp/quiz
+  call_to_action: LEARN_MORE
+  headlines:
+    - eFAQ.com - Official Site
+    - Free 3-Minute Quiz
+    - Discover Your Results
+  descriptions:
+    - Take our research-based quiz and get personalized insight in minutes.
+    - Trusted by thousands. Start your free assessment today.
