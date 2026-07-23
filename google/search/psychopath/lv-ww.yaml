@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: lv_ww_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1000.0
+  ad_sets:
+  - name: psychopath
+    ad_templates:
+    - name: psychopath__rsa
+      destination_url: https://efaq.com/lv/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Oficiālā vietne
+      - Aizpildiet psihopātijas testu
+      - Vai esmu psihopāts? Uzziniet
+      - Bezmaksas psihopātijas tests
+      - Psihopātijas pašnovērtējums
+      - Vai jūs esat sociopāts?
+      - Tumšās triādes tests
+      - Saņemiet rezultātus tūlīt
+      - Ekspertu izstrādāts tests
+      - Ātrs un konfidenciāls tests
+      - Atklājiet savas iezīmes šodien
+      descriptions:
+      - Aizpildiet mūsu bezmaksas pašnovērtējumu. Atbildiet uz jautājumiem un saņemiet rezultātus.
+      - Ekspertu izstrādāts tests, kas balstīts uz klīniskiem pētījumiem. Novērtējiet iezīmes.
+      - Uzziniet, kur atrodaties psihopātijas spektrā. Konfidenciāli rezultāti dažu minūšu laikā.
+      - Izpētiet psihopātiskās iezīmes, tumšo triādi un daudz ko citu. Aizpildiet mūsu testu.

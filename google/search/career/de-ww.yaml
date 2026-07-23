@@ -4,55 +4,34 @@ metadata:
   name: de_ww_goog_s_efaq_career
   platform: google_search
   vertical: career
-  geo_preset_ref: main_markets
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
 spec:
-  objective: TRAFFIC
-  status: PAUSED
-  budget_daily_usd: 3000
----
-apiVersion: amnesia/v1
-kind: AdSet
-metadata:
-  name: career
-  campaign_ref: de_ww_goog_s_efaq_career
-  platform: google_search
-  vertical: career
-spec:
-  status: PAUSED
-  bid_strategy: TARGET_CPA
-  target_cpa_usd: 18
----
-apiVersion: amnesia/v1
-kind: AdTemplate
-metadata:
-  name: career_rsa
-  campaign_ref: de_ww_goog_s_efaq_career
-  platform: google_search
-  vertical: career
-  ad_set_ref: career
-  creative_feed_ref: career_search_feed
-spec:
-  status: ENABLED
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/de/career/lp/quiz
-  headlines:
-  - EFAQ.com - Offizielle Seite
-  - Verschwende kein Geld
-  - Berufseignungstest Online
-  - Finde deine ideale Karriere
-  - Welcher Job passt zu dir?
-  - Finde schnell deine Stärken
-  - Berufsquiz für jedermann
-  - 'Quiz: Berufliche Stärken'
-  - Im falschen Job gefangen?
-  - Entdecke deinen Arbeitsstil
-  - Finde deinen Traumjob
-  - Deine Karriere vorhersagen?
-  - 5-Minuten Karrieretest
-  - Top bewerteter Berufstest
-  - Jobwechsel mit Sicherheit
-  descriptions:
-  - Entdecke, welcher Beruf zu deinen Stärken, Fähigkeiten und Interessen passt.
-  - Erhalte Jobideen basierend auf deiner Persönlichkeit, Stärken und Arbeitsstil.
-  - Denkst du an einen Jobwechsel? Entdecke neue Wege, die besser zu dir passen.
-  - Mache unseren wissenschaftlichen Eignungstest und erhalte persönliche Tipps.
+  budget_daily_usd: 3000.0
+  target_cpa_usd: 18.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/de/career/lp/quiz
+      headlines:
+      - EFAQ.com - Offizielle Seite
+      - Verschwende kein Geld
+      - Berufseignungstest Online
+      - Finde deine ideale Karriere
+      - Welcher Job passt zu dir?
+      - Finde schnell deine Stärken
+      - Berufsquiz für jedermann
+      - 'Quiz: Berufliche Stärken'
+      - Im falschen Job gefangen?
+      - Entdecke deinen Arbeitsstil
+      - Finde deinen Traumjob
+      - Deine Karriere vorhersagen?
+      - 5-Minuten Karrieretest
+      - Top bewerteter Berufstest
+      - Jobwechsel mit Sicherheit
+      descriptions:
+      - Entdecke, welcher Beruf zu deinen Stärken, Fähigkeiten und Interessen passt.
+      - Erhalte Jobideen basierend auf deiner Persönlichkeit, Stärken und Arbeitsstil.
+      - Denkst du an einen Jobwechsel? Entdecke neue Wege, die besser zu dir passen.
+      - Mache unseren wissenschaftlichen Eignungstest und erhalte persönliche Tipps.

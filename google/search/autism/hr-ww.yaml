@@ -1,0 +1,29 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: hr_ww_goog_s_efaq_autism
+  platform: google_search
+  vertical: autism
+  extends: autism_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/hr/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Službena stranica
+      - Online test za autizam
+      - Samoprocjena autizma
+      - Započnite test za autizam
+      - Što je autizam (PSA)?
+      - Besplatni test za autizam
+      - Prepoznajte znakove autizma
+      descriptions:
+      - Ispunite brzi online test za autizam i istražite uobičajene osobine povezane s PSA.
+      - Istražite gdje se možda nalazite u spektru autizma pomoću ove samoprocjene.
+      - Pitate se jeste li možda autistični? Riješite ovaj brzi online test za autizam.
+      - Brzi online test za autizam osmišljen za lakše razumijevanje i jasnoću.

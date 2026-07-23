@@ -1,0 +1,35 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: love_style_search_tmpl
+  platform: google_search
+  vertical: love_style
+  extends: efaq_base
+spec:
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      creative_feed_ref: love_style_search_feed
+      destination_url: https://efaq.com/bg/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Официален сайт
+      - Не харчете излишно
+      - Какъв е твоят стил?
+      - Топ Любовен Тест 2026
+      - Направи любовния тест
+      - Открий своя стил
+      - Как показваш любов?
+      - Тест за двойки
+      - Подобри връзката си
+      - Обичай по-добре
+      - Разбери нуждите ви
+      - Какво иска сърцето?
+      - Бъди по-добър партньор
+      - 5-минутен любовен тест
+      - '#1 Тест за любовта'
+      descriptions:
+      - 'Открий своя език на любовта: Направи теста и разбери как показваш чувствата си днес.'
+      - Използвай краткия ни тест, за да откриеш стила си и да подобриш връзката си веднага.
+      - Научи се да обичаш партньора си по-добре, като разбереш собствения си език на любовта.
+      - Преобрази връзката си с нашия научно разработен тест за езиците на любовта.

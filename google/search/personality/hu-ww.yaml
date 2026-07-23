@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: hu_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 12.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/hu/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Hivatalos oldal
+      - Ne pazarolja a pénzét
+      - Személyiségtípus teszt
+      - Milyen a személyisége?
+      - Gyors 16 típusú kvíz
+      - ENTJ vagy ENFP? Tesztelje!
+      - Ön INTJ vagy INFP?
+      - Logika vagy érzelem?
+      - 5 perces személyiségkvíz
+      - '#1 Személyiségteszt'
+      descriptions:
+      - Válaszoljon a kérdésekre, és fedezze fel személyiségtípusát és fő erősségeit.
+      - Ön introvertált vagy extrovertált? Tudjon meg többet személyiségtesztünkkel.
+      - Tudja meg, hogyan befolyásolja személyiségtípusa viselkedését és kapcsolatait.
+      - Fedezze fel személyiségtípusát, és nyerjen betekintést erősségeibe és gyengeségeibe.

@@ -1,0 +1,11 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fr_eu_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_3
+  geo_preset_ref: europe
+spec:
+  budget_daily_usd: 3000.0
+  target_cpa_usd: 30.0

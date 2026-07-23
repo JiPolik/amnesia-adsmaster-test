@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: nl_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1900.0
+  target_cpa_usd: 17.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/nl/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Officiële Site
+      - Verspil Geen Geld
+      - Persoonlijkheidstest
+      - Wat is Jouw Type?
+      - Snelle 16-Type Quiz
+      - ENTJ of ENFP? Doe de Quiz
+      - Ben Je een INTJ of INFP?
+      - Ben Je Logica of Emotie?
+      - 5-Minuten Karaktertest
+      - '#1 Beoordeelde Test'
+      descriptions:
+      - Beantwoord de vragen om je persoonlijkheidstype en sterke punten te ontdekken.
+      - Ben je introvert of extravert? Kom erachter met onze persoonlijkheidsquiz.
+      - Leer hoe jouw persoonlijkheidstype je gedrag en relaties beïnvloedt.
+      - Ontdek je persoonlijkheidstype en krijg inzicht in je sterke en zwakke punten.

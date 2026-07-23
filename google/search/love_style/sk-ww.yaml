@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sk_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 12.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/sk/love-style/lp/quiz
+      headlines:
+      - EFAQ.com – Oficiálny web
+      - Nevyhadzujte peniaze
+      - Aký je váš jazyk lásky?
+      - Top kvíz o láske 2026
+      - Spravte si test lásky
+      - Objavte svoj jazyk lásky
+      - Ako prejavujete lásku?
+      - Test lásky pre páry
+      - Zlepšite svoj vzťah
+      - Milujte lepšie, žite šťastne
+      - Pochopte potreby druhého
+      - Čo potrebuje vaše srdce?
+      - Buďte lepším partnerom
+      - 5-minútový kvíz lásky
+      - '#1 hodnotený test lásky'
+      descriptions:
+      - 'Odhaľte svoj jazyk lásky: Spravte si kvíz a zistite, ako prejavujete lásku.'
+      - Zistite svoj jazyk lásky pomocou nášho krátkeho kvízu a zlepšite svoj vzťah.
+      - Naučte sa lepšie milovať svojho partnerja pochopením svojho jazyka lásky.
+      - Zmeňte svoj vzťah pomocou nášho vedecky navrhnutého kvízu o jazykoch lásky.

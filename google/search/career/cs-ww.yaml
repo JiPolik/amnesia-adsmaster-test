@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: cs_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 900.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/cs/career/lp/quiz
+      headlines:
+      - EFAQ.com - Oficiální web
+      - Nevyhazujte peníze
+      - Test kariérních předpokladů
+      - Objevte ideální kariéru
+      - Jaká práce vám sedí?
+      - Najděte své silné stránky
+      - Kariérní kvíz pro každého
+      - Kvíz vašich silných stránek
+      - Zasekli jste se v kariéře?
+      - Objevte svůj pracovní styl
+      - Najděte práci snů
+      - Předpovíme vaši kariéru?
+      - 5minutový kariérní kvíz
+      - '#1 hodnocený test kariéry'
+      - Změňte kariéru s jistotou
+      descriptions:
+      - Zjistěte, která kariéra vám sedí dle vašich silných stránek a zájmů, pomocí našeho testu.
+      - Získejte nápady na kariéru na míru podle vaší osobnosti, silných stránek a stylu práce.
+      - Přemýšlíte o změně kariéry? Prozkoumejte nové cesty, které vám budou lépe vyhovovat.
+      - Vyzkoušejte náš test kariérních předpokladů a získejte osobní kariérní poradenství.

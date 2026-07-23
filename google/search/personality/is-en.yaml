@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: is_en_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/is/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Opinber síða
+      - Ekki eyða peningum
+      - Persónuleikapróf
+      - Hver er þín persónuleikagerð?
+      - Fljótt 16 gerða próf
+      - ENTJ eða ENFP? Taktu prófið
+      - Ertu INTJ eða INFP?
+      - Rökhugsun eða tilfinningar?
+      - 5 mínútna persónuleikapróf
+      - Vinsælasta persónuleikaprófið
+      descriptions:
+      - Svaraðu spurningunum til að uppgötva þína persónuleikagerð og helstu styrkleika.
+      - Ertu innhverfur eða úthverfur? Komdu að því með persónuleikaprófinu okkar.
+      - Lærðu hvernig persónuleikagerð þín hefur áhrif á hegðun þína og sambönd.
+      - Uppgötvaðu persónuleikagerð þína og fáðu innsýn í styrkleika þína og veikleika.

@@ -1,0 +1,51 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: lt_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 13.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/lt/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Oficiali svetainė
+      - Pasitikrinkite IQ per 20 min
+      - Oficialus IQ testas 2026
+      - Tiksliausias IQ testas
+      - Nešvaistykite pinigų
+      - Pradėti IQ testą
+      - Koks jūsų intelektas?
+      - Greiti ir tikslūs rezultatai
+      - Moksliškai pagrįstas testas
+      - Tikras testas, rezultatai
+      - Protingesnis už draugus?
+      descriptions:
+      - Manote, kad esate protingesnis už vidurkį? Atlikite testą ir sužinokite tikrąjį lygį.
+      - Gaukite greitus ir tikslius IQ rezultatus per mažiau nei 20 min. tiesiai telefone.
+      - Moksliškai sukurtas IQ testas, kuriuo pasitiki ekspertai, suteiks tikslius rezultatus.
+      - Prisijunkite prie tūkstančių, kurie šiandien pasitikrino IQ, ir sužinokite savo balą.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/lt/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Oficiali svetainė
+      - Pasitikrinkite IQ per 20 min
+      - Oficialus IQ testas 2026
+      - Tiksliausias IQ testas
+      - Kiek aš protingas?
+      - Koks jūsų intelektas?
+      - Nešvaistykite pinigų
+      - Intelekto testas internetu
+      descriptions:
+      - Ar kada nors svarstėte, koks protingas esate iš tikrųjų? Atlikite testą ir sužinokite.
+      - Sužinokite, ar esate vidutinis, gabus, ar virš vidurkio. Greiti ir tikslūs rezultatai.
+      - Nustokite spėlioti. Išmatuokite savo intelektą atlikdami tikrą IQ testą. Sužinokite balą.
+      - Prisijunkite prie tūkstančių, kurie uždavė tą patį klausimą ir pagaliau gavo atsakymus.

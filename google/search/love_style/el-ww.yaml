@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: el_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/el/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Επίσημο Site
+      - Μην Ξοδεύετε Χρήματα
+      - Ποιο Είναι το Στυλ Σου;
+      - Το Καλύτερο Κουίζ 2026
+      - Κάνε το Τεστ Αγάπης
+      - Ανακάλυψε το Στυλ Σου
+      - Πώς Δείχνεις Αγάπη;
+      - Τεστ Αγάπης για Ζευγάρια
+      - Βελτίωσε τη Σχέση Σου
+      - Αγάπα Καλύτερα, Ζήσε Χαρούμενα
+      - Κατανόησε τις Ανάγκες
+      - Τι Χρειάζεται η Καρδιά;
+      - Γίνε Καλύτερος Σύντροφος
+      - 5λεπτο Κουίζ Αγάπης
+      - '#1 Τεστ Στυλ Αγάπης'
+      descriptions:
+      - 'Ξεκλείδωσε το στυλ αγάπης σου: Κάνε το κουίζ και δες πώς δείχνεις αγάπη σήμερα.'
+      - Βρες το στυλ σου με το σύντομο κουίζ μας και βελτίωσε τη σχέση σου άμεσα.
+      - Μάθε πώς να αγαπάς τον σύντροφό σου καλύτερα κατανοώντας το δικό σου στυλ αγάπης.
+      - Μεταμόρφωσε τη σχέση σου με το επιστημονικά σχεδιασμένο κουίζ στυλ αγάπης.

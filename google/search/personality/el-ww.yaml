@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: el_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1200.0
+  target_cpa_usd: 17.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/el/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Επίσημο Site
+      - Μην Ξοδεύετε Χρήματα
+      - Τεστ Προσωπικότητας
+      - Ποιος Είναι ο Τύπος Σου;
+      - Γρήγορο Τεστ 16 Τύπων
+      - ENTJ ή ENFP; Κάνε το Τεστ
+      - Είσαι INTJ ή INFP;
+      - Λογική ή Συναίσθημα;
+      - 5λεπτο Τεστ Προσωπικότητας
+      - 'Το #1 Τεστ Προσωπικότητας'
+      descriptions:
+      - Απάντησε στις ερωτήσεις για να ανακαλύψεις τον τύπο προσωπικότητας και τις δυνάμεις σου.
+      - Είσαι εσωστρεφής ή εξωστρεφής; Μάθε περισσότερα με το κουίζ προσωπικότητάς μας.
+      - Μάθε πώς ο τύπος προσωπικότητας επηρεάζει τη συμπεριφορά και τις σχέσεις σου.
+      - Ανακάλυψε τον τύπο σου και απόκτησε εικόνα για τα δυνατά και αδύνατα σημεία σου.

@@ -1,0 +1,29 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: no_ww_goog_s_efaq_autism
+  platform: google_search
+  vertical: autism
+  extends: autism_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/no/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Offisiell side
+      - Autisme-test på nett
+      - Autisme selvvurdering
+      - Start autisme-screening
+      - Hva er autisme (ASD)?
+      - Ta en gratis autisme-test
+      - Er du på autismespekteret?
+      descriptions:
+      - Ta en rask autisme-screening på nett og utforsk vanlige trekk knyttet til ASD.
+      - Utforsk hvor du befinner deg på autismespekteret med denne enkle selvvurderingen.
+      - Lurer du på om du kan være autistisk? Ta denne raske autisme-screeningen på nett.
+      - En rask autisme-screening på nett bygget for å gi deg klarhet og bedre forståelse.

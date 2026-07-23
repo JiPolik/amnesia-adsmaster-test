@@ -1,0 +1,51 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: is_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 18.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/is/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Opinber síða
+      - Mældu greind á 20 mín
+      - Opinbert greindarpróf 2026
+      - Nákvæmasta greindarprófið
+      - Ekki sóa peningunum þínum
+      - Byrjaðu greindarprófið
+      - Hversu klár ertu?
+      - Fljótar og nákvæmar tölur
+      - Vísindalegt próf
+      - Raunverulegt próf og tölur
+      - Klárari en vinirnir?
+      descriptions:
+      - Heldurðu að þú sért klárari en meðalmaðurinn? Taktu prófið og sjáðu hvar þú stendur.
+      - Fáðu fljótar og nákvæmar niðurstöður á innan við 10 mínútum, beint í símann þinn.
+      - Vísindalega hannað greindarpróf sem sérfræðingar treysta fyrir nákvæmar niðurstöður.
+      - Slástu í hóp þúsunda sem mældu greind sína í dag og sjáðu nákvæmlega hvar þú stendur.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/is/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Opinber síða
+      - Mældu greind á 20 mín
+      - Opinbert greindarpróf 2026
+      - Nákvæmasta greindarprófið
+      - Hversu klár er ég?
+      - Hversu klár ertu?
+      - Ekki sóa peningunum þínum
+      - Greindarpróf á netinu
+      descriptions:
+      - Hefurðu velt því fyrir þér hversu klár þú ert í raun? Taktu prófið og fáðu skýr svör.
+      - Komdu að því hvort þú ert í meðallagi eða afburða. Fljótlegar og nákvæmar niðurstöður.
+      - Hættu að giska. Mældu greind þína með alvöru greindarprófi. Fáðu niðurstöðuna núna.
+      - Slástu í hóp þúsunda sem spurðu sömu spurningar og fengu loksins svör.

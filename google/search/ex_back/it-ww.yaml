@@ -1,0 +1,31 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: it_ww_goog_s_efaq_exback
+  platform: google_search
+  vertical: ex_back
+  extends: ex_back_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 400.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: ex_back
+    ad_templates:
+    - name: ex_back__rsa
+      destination_url: https://efaq.com/it/ex-back/lp/plan
+      headlines:
+      - EFAQ.com - Sito Ufficiale
+      - Non Sprecare I Tuoi Soldi
+      - Metodo Per Riconquistare L'Ex
+      - Piano Riconquista Su Misura
+      - Quiz Riconquista In 2 Min
+      - Piano Riconquista Con IA
+      - Strategie Riconquista Provate
+      - Usa L'IA Per Riconquistare
+      - Ottieni Chiarezza E Strategia
+      descriptions:
+      - Ottieni un piano per riconquistare l'ex basato su rottura, emozioni e mosse successive.
+      - Smetti di tirare a indovinare. Usa l'IA per creare una strategia chiara che funziona.
+      - Rispondi a poche domande e ottieni un piano per riconnetterti, fidarti o andare avanti.
+      - Progettato per aiutarti a migliorare, comunicare meglio ed evitare gli errori più comuni.

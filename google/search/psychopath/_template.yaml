@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: psychopath_search_tmpl
+  platform: google_search
+  vertical: psychopath
+  extends: efaq_base
+spec:
+  ad_sets:
+  - name: psychopath
+    target_cpa_usd: 25.0
+    ad_templates:
+    - name: psychopath__rsa
+      creative_feed_ref: psychopath_search_feed
+      destination_url: https://efaq.com/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Official Site
+      - Take the Psychopath Test
+      - Am I a Psychopath? Find Out
+      - Free Psychopath Quiz Online
+      - Psychopath Self-Assessment
+      - Are You a Sociopath?
+      - Dark Triad Personality Test
+      - Get Instant Results Now
+      - Expert-Designed Assessment
+      - Quick & Confidential Quiz
+      - Discover Your Traits Today
+      descriptions:
+      - Take our free psychopath self-assessment. Answer questions and get instant results.
+      - Expert-designed quiz based on clinical research. Evaluate psychopathic traits.
+      - Discover where you fall on the psychopathy spectrum. Private results in just minutes.
+      - Explore psychopathic traits, the dark triad, and more. Take the quiz.

@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fi_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 800.0
+  target_cpa_usd: 18.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/fi/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Virallinen sivu
+      - Älä tuhlaa rahojasi
+      - Persoonallisuustesti
+      - Mikä on luonnetyyppisi?
+      - Nopea 16 tyypin testi
+      - ENTJ vai ENFP? Tee testi
+      - Oletko INTJ vai INFP?
+      - Järki vai tunteet?
+      - 5 minuutin testi
+      - Suosittu persoonallisuustesti
+      descriptions:
+      - Vastaa kysymyksiin ja selvitä persoonallisuustyyppisi sekä vahvuutesi.
+      - Oletko introvertti vai ekstrovertti? Selvitä asia persoonallisuustestillämme.
+      - Opi, miten persoonallisuustyyppisi vaikuttaa käyttäytymiseesi ja ihmissuhteisiisi.
+      - Selvitä persoonallisuustyyppisi ja saa tietoa vahvuuksistasi ja heikkouksistasi.

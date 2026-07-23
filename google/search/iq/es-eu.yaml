@@ -1,0 +1,51 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: es_eu_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: europe
+spec:
+  budget_daily_usd: 1200.0
+  target_cpa_usd: 18.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/es/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Sitio Oficial
+      - Tu CI en 20 Minutos
+      - Test de CI Oficial 2026
+      - El Test de CI Más Preciso
+      - No Malgastes Tu Dinero
+      - Empieza Tu Test de CI
+      - ¿Cuán Inteligente Eres?
+      - Resultados Rápidos
+      - Test Científico
+      - Test Real, Resultados Reales
+      - ¿Más Listo Que Tus Amigos?
+      descriptions:
+      - ¿Crees ser más listo que la media? Haz el test y descubre tu verdadera posición.
+      - Obtén resultados de CI rápidos y precisos en menos de 10 min, directo en tu móvil.
+      - Test de CI diseñado científicamente por expertos para darte resultados precisos.
+      - Únete a los miles que han probado su CI hoy y descubre exactamente tu nivel.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/es/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Sitio Oficial
+      - Tu CI en 20 Minutos
+      - Test de CI Oficial 2026
+      - El Test de CI Más Preciso
+      - ¿Cómo de Listo Soy?
+      - ¿Cuán Inteligente Eres?
+      - No Malgastes Tu Dinero
+      - Test de Inteligencia Online
+      descriptions:
+      - ¿Te has preguntado cuán listo eres? Haz el test y obtén respuestas claras.
+      - Descubre si eres promedio, superdotado o superior. Resultados de CI rápidos y precisos.
+      - Deja de adivinar. Mide tu inteligencia con un test de CI real. Obtén tu nota hoy.
+      - Únete a miles que se hicieron la misma pregunta y al fin obtuvieron respuestas.

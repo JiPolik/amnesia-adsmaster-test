@@ -1,0 +1,11 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fr_yy_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_3
+  geo_preset_ref: anglosphere
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 18.0

@@ -1,0 +1,51 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: da_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 2000.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/da/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Officiel side
+      - Tjek din IQ på 20 min
+      - Officiel IQ-test 2026
+      - Den mest præcise IQ-test
+      - Spild ikke dine penge
+      - Start din IQ-test
+      - Hvor klog er du?
+      - Hurtige og præcise svar
+      - Videnskabelig test
+      - Ægte test, ægte svar
+      - Klogere end vennerne?
+      descriptions:
+      - Tror du, du er klogere end gennemsnittet? Tag testen og se din placering.
+      - Få hurtige og præcise IQ-resultater på under 10 minutter, direkte på mobilen.
+      - Videnskabeligt designet IQ-test, der bruges af eksperter for præcise resultater.
+      - Gør som tusindvis af andre, der testede deres IQ i dag, og se dit niveau.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/da/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Officiel side
+      - Tjek din IQ på 20 min
+      - Officiel IQ-test 2026
+      - Den mest præcise IQ-test
+      - Hvor klog er jeg?
+      - Hvor klog er du?
+      - Spild ikke dine penge
+      - Intelligenstest online
+      descriptions:
+      - Har du undret dig over, hvor klog du egentlig er? Tag testen og få svar.
+      - Find ud af, om du er gennemsnitlig eller begavet. Hurtige og præcise IQ-resultater.
+      - Stop gætterierne. Mål din intelligens med en ægte IQ-test. Få din score nu.
+      - Slut dig til tusinder, der stillede samme spørgsmål og endelig fik svar.

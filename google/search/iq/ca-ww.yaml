@@ -1,0 +1,51 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: ca_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/ca/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Lloc Oficial
+      - El teu QI en 20 minuts
+      - Test de QI Oficial 2026
+      - El test de QI més precís
+      - No malgastis els diners
+      - Comença el test de QI
+      - Ets intel·ligent?
+      - Resultats ràpids i precisos
+      - Test dissenyat per experts
+      - Test real, resultats reals
+      - Més llest que els amics?
+      descriptions:
+      - Et creus més llest que la mitjana? Fes el test i descobreix on et situes realment.
+      - Obtén resultats de QI ràpids i precisos en menys de 10 minuts, directament al mòbil.
+      - Test de QI dissenyat científicament per experts per oferir resultats precisos.
+      - Uneix-te als milers que han provat el seu QI avui i descobreix la teva puntuació.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/ca/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Lloc Oficial
+      - El teu QI en 20 minuts
+      - Test de QI Oficial 2026
+      - El test de QI més precís
+      - Com sóc d'intel·ligent?
+      - Ets intel·ligent?
+      - No malgastis els diners
+      - Test d'intel·ligència online
+      descriptions:
+      - T'has preguntat mai com d'intel·ligent ets? Fes el test i obtén respostes clares.
+      - Descobreix si ets mitjà, superdotat o superior. Resultats de QI ràpids i precisos.
+      - Deixa d'endevinar. Mesura la teva intel·ligència amb un test de QI real avui mateix.
+      - Uneix-te als milers que s'han fet la mateixa pregunta i finalment han obtingut respostes.

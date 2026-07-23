@@ -4,49 +4,28 @@ metadata:
   name: en_us_goog_s_efaq_leadership
   platform: google_search
   vertical: leadership
+  extends: leadership_search_tmpl
   geo_preset_ref: us
 spec:
-  objective: TRAFFIC
-  status: PAUSED
-  budget_daily_usd: 500
----
-apiVersion: amnesia/v1
-kind: AdSet
-metadata:
-  name: leadership
-  campaign_ref: en_us_goog_s_efaq_leadership
-  platform: google_search
-  vertical: leadership
-spec:
-  status: PAUSED
-  bid_strategy: TARGET_CPA
-  target_cpa_usd: 19
----
-apiVersion: amnesia/v1
-kind: AdTemplate
-metadata:
-  name: leadership_rsa
-  campaign_ref: en_us_goog_s_efaq_leadership
-  platform: google_search
-  vertical: leadership
-  ad_set_ref: leadership
-  creative_feed_ref: leadership_search_feed
-spec:
-  status: ENABLED
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/leadership-style/lp/quiz
-  headlines:
-  - EFAQ.com - Official Site
-  - Leadership Style Quiz
-  - What's Your Leadership Style?
-  - Take the Assessment
-  - Discover Your Leader Type
-  - Find Your Leadership Style
-  - Are You a Natural Leader?
-  - Quick Leadership Assessment
-  - Become a Better Leader Today
-  descriptions:
-  - Take our leadership style quiz. Discover what type of leader you are in minutes!
-  - Find your unique leadership style in just minutes. Designed by experts to help you lead.
-  - Are you a visionary, democratic, or servant leader? Take our self-assessment today.
-  - Unlock your leadership potential. Learn your strengths and grow as a stronger leader.
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: leadership
+    ad_templates:
+    - name: leadership__rsa
+      destination_url: https://efaq.com/leadership-style/lp/quiz
+      headlines:
+      - EFAQ.com - Official Site
+      - Leadership Style Quiz
+      - What's Your Leadership Style?
+      - Take the Assessment
+      - Discover Your Leader Type
+      - Find Your Leadership Style
+      - Are You a Natural Leader?
+      - Quick Leadership Assessment
+      - Become a Better Leader Today
+      descriptions:
+      - Take our leadership style quiz. Discover what type of leader you are in minutes!
+      - Find your unique leadership style in just minutes. Designed by experts to help you lead.
+      - Are you a visionary, democratic, or servant leader? Take our self-assessment today.
+      - Unlock your leadership potential. Learn your strengths and grow as a stronger leader.

@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: tr_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 800.0
+  target_cpa_usd: 10.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/tr/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Resmi Site
+      - Paranızı Boşa Harcamayın
+      - Kişilik Tipi Testi
+      - Kişilik Tipiniz Nedir?
+      - Hızlı 16 Tip Kişilik Testi
+      - ENTJ mi ENFP mi? Testi Çöz
+      - INTJ misin yoksa INFP mi?
+      - Mantık mı Duygu mu?
+      - 5 Dakikalık Kişilik Testi
+      - 1 Numaralı Kişilik Testi
+      descriptions:
+      - Soruları yanıtlayın, kişilik tipinizi ve temel güçlü yönlerinizi keşfedin.
+      - İçe dönük müsünüz yoksa dışa dönük mü? Kişilik testimizle daha fazlasını öğrenin.
+      - Kişilik tipinizin davranışlarınızı ve ilişkilerinizi nasıl etkilediğini öğrenin.
+      - Kişilik tipinizi keşfedin, güçlü ve zayıf yönleriniz hakkında bilgi edinin.

@@ -1,0 +1,51 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: es_us_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: us
+spec:
+  budget_daily_usd: 700.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/es-us/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Sitio Oficial
+      - Tu IQ en Solo 20 Minutos
+      - Test de IQ Oficial 2026
+      - El Test de IQ Más Preciso
+      - No Malgastes Tu Dinero
+      - Inicia Tu Prueba de IQ
+      - ¿Qué Tan Listo Eres?
+      - Resultados Rápidos y Reales
+      - Prueba Científica de IQ
+      - Test Real, Resultados Reales
+      - ¿Más Inteligente Que Otros?
+      descriptions:
+      - ¿Crees ser más listo que el promedio? Haz la prueba y descubre tu posición real.
+      - Obtén resultados rápidos y precisos en menos de 10 minutos, desde tu teléfono.
+      - Prueba de IQ diseñada científicamente y avalada por expertos para darte precisión.
+      - Únete a los miles que midieron su IQ hoy y descubre exactamente cuál es tu nivel.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/es-us/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Sitio Oficial
+      - Tu IQ en Solo 20 Minutos
+      - Test de IQ Oficial 2026
+      - El Test de IQ Más Preciso
+      - ¿Qué Tan Inteligente Soy?
+      - ¿Qué Tan Listo Eres?
+      - No Malgastes Tu Dinero
+      - Test de Inteligencia Online
+      descriptions:
+      - ¿Alguna vez dudaste de tu inteligencia? Haz la prueba y obtén respuestas claras.
+      - Descubre si eres promedio o superdotado. Resultados de IQ rápidos y muy precisos.
+      - Deja de adivinar. Mide tu inteligencia con un test de IQ real. Obtén tu puntaje ya.
+      - Únete a miles que se hicieron la misma pregunta y finalmente obtuvieron respuestas.

@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: da_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 600.0
+  target_cpa_usd: 17.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/da/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Officiel side
+      - Spild ikke dine penge
+      - Hvad er din kærlighedsstil?
+      - Bedste kærlighedstest 2026
+      - Tag kærlighedstesten
+      - Find din kærlighedsstil
+      - Hvordan viser du kærlighed?
+      - Kærlighedstest for par
+      - Forbedr dit forhold
+      - Elsk bedre, lev gladere
+      - Forstå hinandens behov
+      - Hvad har dit hjerte brug for?
+      - Bliv en bedre partner i dag
+      - 5 min kærlighedstest
+      - '#1 Vurderet Kærlighedstest'
+      descriptions:
+      - 'Find din kærlighedsstil: Tag testen og opdag, hvordan du viser kærlighed i dag.'
+      - Brug vores korte test til at finde din kærlighedsstil og forbedre dit forhold.
+      - Lær at elske din partner bedre ved at forstå din egen kærlighedsstil.
+      - Forvandl dit forhold med vores videnskabeligt designede test af kærlighedsstil.

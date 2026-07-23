@@ -1,0 +1,11 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_us_goog_s_efaq_normalcy
+  platform: google_search
+  vertical: normalcy
+  extends: normalcy_search_tmpl
+  geo_preset_ref: us
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 15.0

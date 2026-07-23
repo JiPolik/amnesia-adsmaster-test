@@ -1,0 +1,11 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: ca_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
+  extends: leadership_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0

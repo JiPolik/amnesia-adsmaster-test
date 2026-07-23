@@ -1,0 +1,31 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sv_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
+  extends: leadership_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: leadership
+    ad_templates:
+    - name: leadership__rsa
+      destination_url: https://efaq.com/sv/leadership-style/lp/quiz
+      headlines:
+      - EFAQ.com - Officiell sajt
+      - Testa din ledarstil
+      - Vad är din ledarstil?
+      - Gör självutvärderingen
+      - Upptäck din ledartyp
+      - Hitta din ledarstil
+      - Är du en naturlig ledare?
+      - Snabb ledarskapsbedömning
+      - Bli en bättre ledare idag
+      descriptions:
+      - Gör vårt test om ledarstil. Upptäck vilken typ av ledare du är på bara några minuter!
+      - Hitta din unika ledarstil på några minuter. Designad av experter för att hjälpa dig leda.
+      - Är du en visionär, demokratisk eller tjänande ledare? Gör vår självutvärdering idag.
+      - Frigör din ledarpotential. Lär dig dina styrkor och utvecklas till en starkare ledare.

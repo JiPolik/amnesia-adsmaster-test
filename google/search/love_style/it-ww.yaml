@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: it_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/it/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Sito Ufficiale
+      - Non Sprecare Soldi
+      - Qual è il Tuo Stile?
+      - Miglior Quiz Amore 2026
+      - Fai il Test sull'Amore
+      - Scopri il Tuo Stile
+      - Come Dimostri Amore?
+      - Test Amore per Coppie
+      - Migliora la Relazione
+      - Ama Meglio, Vivi Felice
+      - Capire i Bisogni Altrui
+      - Cosa Vuole il Tuo Cuore?
+      - Sii un Partner Migliore
+      - Quiz Amore in 5 Minuti
+      - Test Amore N.1
+      descriptions:
+      - 'Sblocca il tuo stile: fai il quiz e scopri come dimostri amore oggi stesso.'
+      - Usa il nostro breve quiz per trovare il tuo stile e migliorare la tua relazione.
+      - Impara ad amare meglio il tuo partner comprendendo il tuo linguaggio dell'amore.
+      - Trasforma la tua relazione con il nostro quiz scientifico sugli stili d'amore.

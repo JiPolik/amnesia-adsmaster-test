@@ -1,0 +1,33 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: is_ww_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: psychopath
+    ad_templates:
+    - name: psychopath__rsa
+      destination_url: https://efaq.com/is/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Opinber vefsíða
+      - Taktu siðblinduprófið
+      - Er ég siðblindur? Komdu að því
+      - Ókeypis siðblindupróf á netinu
+      - Sjálfsmat fyrir siðblindu
+      - Ert þú andfélagslegur?
+      - Myrka þrenningin persónupróf
+      - Fáðu niðurstöður strax
+      - Hannað af sérfræðingum
+      - Fljótlegt og leynilegt próf
+      - Uppgötvaðu einkenni þín í dag
+      descriptions:
+      - Taktu ókeypis sjálfsmat fyrir siðblindu. Svaraðu spurningum og fáðu niðurstöður strax.
+      - Sérfræðihannað próf byggt á klínískum rannsóknum. Metið einkenni siðblindu.
+      - Uppgötvaðu hvar þú ert á rófi siðblindu. Persónulegar niðurstöður á örfáum mínútum.
+      - Kannaðu einkenni siðblindu, myrku þrenninguna og fleira. Taktu prófið núna.

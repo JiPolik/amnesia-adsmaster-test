@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: lt_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/lt/career/lp/quiz
+      headlines:
+      - EFAQ.com - Oficiali svetainė
+      - Nešvaistykite pinigų
+      - Karjeros tinkamumo testas
+      - Atraskite idealią karjerą
+      - Koks darbas jums tinka?
+      - Raskite stiprybes greitai
+      - Karjeros testas visiems
+      - Profesinių stiprybių testas
+      - Dirbate nemėgstamą darbą?
+      - Sužinokite darbo stilių
+      - Raskite svajonių darbą
+      - Ar nuspėsime jūsų karjerą?
+      - 5 minučių karjeros testas
+      - Geriausiai įvertintas testas
+      - Keiskite karjerą užtikrintai
+      descriptions:
+      - Sužinokite, kuri karjera atitinka jūsų stiprybes, įgūdžius ir pomėgius su mūsų testu.
+      - Gaukite asmenines karjeros idėjas, pagrįstas jūsų stiprybėmis ir darbo stiliumi.
+      - Galvojate keisti karjerą? Atraskite naujus kelius, kurie jums tinka geriau.
+      - Atlikite tyrimais pagrįstą karjeros testą ir gaukite asmeninius patarimus.

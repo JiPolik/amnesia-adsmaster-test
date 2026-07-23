@@ -1,0 +1,31 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: pl_ww_goog_s_efaq_exback
+  platform: google_search
+  vertical: ex_back
+  extends: ex_back_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 400.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: ex_back
+    ad_templates:
+    - name: ex_back__rsa
+      destination_url: https://efaq.com/pl/ex-back/lp/plan
+      headlines:
+      - EFAQ.com - Oficjalna strona
+      - Nie marnuj swoich pieniędzy
+      - Skuteczna metoda na powrót
+      - Twój osobisty plan powrotu
+      - 2-minutowy quiz o powrocie
+      - Kreator planu powrotu AI
+      - Sprawdzone strategie powrotu
+      - Użyj AI, aby ich odzyskać
+      - Zyskaj jasność i strategię
+      descriptions:
+      - Zdobądź spersonalizowany plan powrotu oparty na Twoim rozstaniu i emocjach.
+      - Przestań zgadywać. Użyj AI, aby zbudować jasną strategię, która naprawdę działa.
+      - Odpowiedz na kilka pytań i otrzymaj inteligentny plan, aby odbudować zaufanie.
+      - Zaprojektowane, aby pomóc Ci się poprawić, lepiej komunikować i unikać błędów.

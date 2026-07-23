@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_gb_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: gb
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 18.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Official Site
+      - Don't Waste Your Money
+      - What’s Your Love Style?
+      - Best Love Style Quiz of 2026
+      - Take the Love Style Test
+      - Discover Your Love Style
+      - How Do You Show Love?
+      - Love Style Test for Couples
+      - Improve Your Relationship
+      - Love Better, Live Happier
+      - Understand Each Other’s Needs
+      - Discover What Your Heart Needs
+      - Be a Better Partner Today
+      - 5 Minute Love Style Quiz
+      - '#1 Rated Love Style Test'
+      descriptions:
+      - 'Unlock Your Love Style: Take the quiz and discover how you show love today.'
+      - Use our short quiz to find out your love style and improve your relationship.
+      - Learn how to love your partner better by understanding your love style.
+      - Transform your relationship with our scientifically designed love style quiz.

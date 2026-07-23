@@ -1,0 +1,28 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: iq_dg_tmpl_1
+  platform: google_demand_gen
+  vertical: iq
+  extends: efaq_base
+spec:
+  ad_sets:
+  - name: multiasset
+    demand_gen: {}
+    ad_templates:
+    - name: multiasset_detective
+      creative_feed_ref: iq_dg_feed
+      logo_asset_ref: image__dg__128x128_logo
+      business_name: eFAQ.com
+      destination_url: https://efaq.com/pl/iq/lp/iq-test
+      headlines:
+      - Czy jesteś mądrzejszy?
+      - Sprawdź swoje IQ w minutę
+      - Jaki masz prawdziwy IQ?
+      - Udowodnij inteligencję
+      - Test, który robią wszyscy
+      descriptions:
+      - Zrób szybki test IQ i sprawdź, czy masz wynik powyżej średniej.
+      - Poznaj swoje IQ dzięki szybkiemu, dokładnemu i prostemu testowi online.
+      - Myślisz, że jesteś inteligentny? Zrób test i sprawdź swój wynik.
+      - Szybki i ciekawy test IQ, który pokazuje Twój poziom inteligencji.

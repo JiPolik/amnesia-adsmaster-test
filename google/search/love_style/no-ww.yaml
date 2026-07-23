@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: no_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 800.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/no/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Offisiell side
+      - Ikke kast bort penger
+      - Hva er din kjærlighetsstil?
+      - Beste kjærlighetstest 2026
+      - Ta kjærlighetsstilstesten
+      - Oppdag din kjærlighetsstil
+      - Hvordan viser du kjærlighet?
+      - Kjærlighetstest for par
+      - Forbedre forholdet ditt
+      - Elsk bedre, lev lykkeligere
+      - Forstå hverandres behov
+      - Hva trenger hjertet ditt?
+      - Bli en bedre partner i dag
+      - 5 min kjærlighetstest
+      - '#1 rangert kjærlighetstest'
+      descriptions:
+      - 'Lås opp din kjærlighetsstil: Ta quizen og oppdag hvordan du viser kjærlighet i dag.'
+      - Bruk vår korte quiz for å finne din kjærlighetsstil og forbedre forholdet ditt.
+      - Lær hvordan du elsker partneren din bedre ved å forstå din kjærlighetsstil.
+      - Forvandle forholdet ditt med vår vitenskapelig designede kjærlighetsstil-quiz.

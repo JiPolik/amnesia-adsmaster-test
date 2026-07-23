@@ -1,0 +1,50 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: iq_search_tmpl_3
+  platform: google_search
+  vertical: iq
+  extends: efaq_base
+spec:
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      creative_feed_ref: iq_search_feed
+      destination_url: https://efaq.com/fr/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Site Officiel
+      - Votre QI en 20 Minutes
+      - Test de QI Officiel 2026
+      - Le Test le Plus Précis
+      - Ne perdez pas votre argent
+      - Commencer le Test de QI
+      - Êtes-vous intelligent ?
+      - Résultats Rapides
+      - Test Scientifique
+      - Vrai Test QI, Vrais Résultats
+      - Plus malin que vos amis ?
+      descriptions:
+      - Pensez-vous être au-dessus de la moyenne ? Faites le test et découvrez votre classement.
+      - Résultat de QI rapide et précis en moins de 10 min, directement sur votre mobile.
+      - Test de QI conçu scientifiquement et approuvé par des experts pour des résultats précis.
+      - Rejoignez ceux qui ont testé leur QI aujourd'hui et découvrez où vous vous situez.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      creative_feed_ref: iq_search_feed
+      destination_url: https://efaq.com/fr/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Site Officiel
+      - Votre QI en 20 Minutes
+      - Test de QI Officiel 2026
+      - Le Test le Plus Précis
+      - Suis-je intelligent ?
+      - À quel point êtes-vous futé ?
+      - Ne perdez pas votre argent
+      - Test d'Intelligence en Ligne
+      descriptions:
+      - Vous vous demandez si vous êtes intelligent ? Faites le test pour des réponses claires.
+      - Découvrez si vous êtes moyen, surdoué ou au-dessus. Résultats de QI rapides et précis.
+      - Arrêtez de deviner. Mesurez votre intelligence avec un vrai test QI. Voir votre score.
+      - Rejoignez des milliers de personnes qui ont enfin obtenu des réponses.

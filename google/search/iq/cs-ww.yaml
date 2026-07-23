@@ -1,0 +1,51 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: cs_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/cs/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Oficiální web
+      - Otestujte své IQ za 20 min
+      - Oficiální IQ test 2026
+      - Nejpřesnější IQ test
+      - Neplýtvejte penězi
+      - Začněte svůj IQ test
+      - Jak jste chytří?
+      - Rychlé a přesné výsledky
+      - Vědecky navržený test
+      - Skutečný IQ test, výsledky
+      - Chytřejší než přátelé?
+      descriptions:
+      - Myslíte si, že jste chytřejší než průměr? Udělejte test a zjistěte své místo.
+      - Rychlé a přesné IQ výsledky do 10 minut, kdykoli, přímo ve vašem telefonu.
+      - Vědecky navržený IQ test, kterému důvěřují odborníci pro přesné výsledky.
+      - Přidejte se k tisícům lidí, kteří si dnes otestovali IQ a zjistili svou úroveň.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/cs/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Oficiální web
+      - Zjistěte své IQ za 20 min
+      - Oficiální IQ test 2026
+      - Nejpřesnější IQ test
+      - Jak jsem chytrý?
+      - Jak jste chytří?
+      - Neplaťte zbytečně
+      - Online test inteligence
+      descriptions:
+      - Zajímá vás, jak jste opravdu chytří? Udělejte test a získejte jasné odpovědi.
+      - Zjistěte, zda jste průměrní, nadaní či podprůměrní. Rychlé a přesné IQ výsledky.
+      - Přestaňte hádat. Změřte svou inteligenci skutečným IQ testem. Zjistěte skóre.
+      - Přidejte se k tisícům lidí, kteří se ptali stejně a konečně znají odpovědi.

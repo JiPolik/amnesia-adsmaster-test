@@ -1,0 +1,28 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: nl_ww_goog_s_efaq_autism
+  platform: google_search
+  vertical: autism
+  extends: autism_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/nl/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Officiële Site
+      - Online Autisme Test
+      - Autisme Zelfevaluatie
+      - Start Autisme Screening
+      - Wat is Autisme (ASS)?
+      - Doe De Autisme Test
+      descriptions:
+      - Doe een snelle online autisme screening en ontdek veelvoorkomende kenmerken van ASS.
+      - Ontdek waar u zich mogelijk bevindt op het autismespectrum met deze zelfevaluatie.
+      - Vraagt u zich af of u autistisch bent? Doe deze snelle autisme screening online.
+      - Een snelle online autisme screening, gemaakt voor duidelijkheid en beter begrip.

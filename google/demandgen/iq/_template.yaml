@@ -1,0 +1,59 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: iq_dg_tmpl
+  platform: google_demand_gen
+  vertical: iq
+  extends: efaq_base
+spec:
+  ad_sets:
+  - name: multiasset
+    demand_gen: {}
+    ad_templates:
+    - name: multiasset_detective
+      creative_feed_ref: iq_dg_feed
+      logo_asset_ref: image__dg__128x128_logo
+      business_name: eFAQ.com
+      destination_url: https://efaq.com/iq/lp/iq-test
+      headlines:
+      - Are You Smarter Than Most?
+      - Test Your IQ in Minutes
+      - What's Your Real IQ Score?
+      - Prove You're Truly Smart
+      - The Test Everyone Is Taking
+      descriptions:
+      - Take a fast IQ test and see if you score above average in minutes.
+      - Discover your real IQ with a quick, accurate, and easy online test.
+      - Think you're smart? Take this test and prove you're high-IQ right now.
+      - A fast, fun IQ test that reveals how smart you really are.
+    - name: multiasset_chess
+      creative_feed_ref: iq_dg_feed
+      logo_asset_ref: image__dg__128x128_logo
+      business_name: eFAQ.com
+      destination_url: https://efaq.com/iq/lp/iq-test
+      headlines:
+      - Are you smarter than a Master?
+      - Test Your IQ in Minutes
+      - What's Your Real IQ Score?
+      - The Test Everyone Is Taking
+      descriptions:
+      - Take a fast IQ test and see if you score above average in minutes.
+      - Discover your real IQ with a quick, accurate, and easy online test.
+      - Think you're smart? Take this test and prove you're high-IQ right now.
+      - A fast, fun IQ test that reveals how smart you really are.
+    - name: multiasset_dashes
+      creative_feed_ref: iq_dg_feed
+      logo_asset_ref: image__dg__128x128_logo
+      business_name: eFAQ.com
+      destination_url: https://efaq.com/iq/lp/iq-test
+      headlines:
+      - Are You Smarter Than Most?
+      - Test Your IQ in Minutes
+      - What's Your Real IQ Score?
+      - The Test Everyone Is Taking
+      - Can You Spot The Missing Dash?
+      descriptions:
+      - Take a fast IQ test and see if you score above average in minutes.
+      - Discover your real IQ with a quick, accurate, and easy online test.
+      - Think you're smart? Take this test and prove you're high-IQ right now.
+      - A fast, fun IQ test that reveals how smart you really are.

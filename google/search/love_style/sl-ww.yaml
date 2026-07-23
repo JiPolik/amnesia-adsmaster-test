@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sl_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/sl/love-style/lp/quiz
+      headlines:
+      - EFAQ.com – Uradna stran
+      - Ne zapravljajte denarja
+      - Kakšen je vaš slog?
+      - Najboljši kviz 2026
+      - Rešite test ljubezni
+      - Odkrijte svoj slog
+      - Kako izkazujete ljubezen?
+      - Test ljubezni za pare
+      - Izboljšajte odnos
+      - Ljubite bolje, živite bolje
+      - Razumite potrebe drugega
+      - Kaj potrebuje vaše srce?
+      - Bodite boljši partner
+      - 5-minutni kviz ljubezni
+      - Najbolje ocenjen test
+      descriptions:
+      - 'Odkrijte svoj slog ljubezni: Rešite kviz in ugotovite, kako izkazujete ljubezen.'
+      - S kratkim kvizom ugotovite svoj slog ljubezni in izboljšajte svoj odnos s partnerjem.
+      - Naučite se bolje ljubiti svojega partnerja z razumevanjem svojega sloga ljubezni.
+      - Preoblikujte svoj odnos z našim znanstveno zasnovanim kvizom o slogih ljubezni.

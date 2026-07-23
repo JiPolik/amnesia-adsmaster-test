@@ -1,0 +1,11 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: bg_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0

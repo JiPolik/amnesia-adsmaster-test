@@ -1,0 +1,11 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_us_goog_s_efaq_exback
+  platform: google_search
+  vertical: ex_back
+  extends: ex_back_search_tmpl
+  geo_preset_ref: us
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 25.0

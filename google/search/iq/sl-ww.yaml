@@ -1,0 +1,51 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sl_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/sl/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Uradna stran
+      - Preverite IQ v 20 min
+      - Uradni IQ test 2026
+      - Najbolj natančen IQ test
+      - Ne zapravljajte denarja
+      - Začnite svoj IQ test
+      - Kako pametni ste?
+      - Hitri in točni rezultati
+      - Znanstveno zasnovan test
+      - Pravi test, pravi rezultati
+      - Pametnejši od prijateljev?
+      descriptions:
+      - Mislite, da ste nadpovprečno pametni? Rešite test in preverite svojo uvrstitev.
+      - Hitri in natančni IQ rezultati v manj kot 10 minutah, neposredno na vašem telefonu.
+      - Znanstveno zasnovan IQ test, ki mu zaupajo strokovnjaki za natančne rezultate.
+      - Pridružite se tisočim, ki so danes testirali svoj IQ, in preverite svoj rezultat.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/sl/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Uradna stran
+      - Preverite IQ v 20 min
+      - Uradni IQ test 2026
+      - Najbolj natančen IQ test
+      - Kako pameten sem?
+      - Kako pametni ste?
+      - Ne zapravljajte denarja
+      - Spletni test inteligence
+      descriptions:
+      - Ste se kdaj vprašali, kako pametni ste v resnici? Rešite test in dobite odgovore.
+      - Ugotovite, ali ste povprečni ali nadarjeni. Hitri in natančni IQ rezultati.
+      - Ne ugibajte več. Izmerite svojo inteligenco s pravim IQ testom. Preverite rezultat.
+      - Pridružite se tisočim, ki so si zastavili isto vprašanje in dobili odgovore.

@@ -1,0 +1,36 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: career_search_tmpl_2
+  platform: google_search
+  vertical: career
+  extends: efaq_base
+spec:
+  ad_sets:
+  - name: career
+    target_cpa_usd: 18.0
+    ad_templates:
+    - name: career__rsa
+      creative_feed_ref: career_search_feed
+      destination_url: https://efaq.com/fr/career/lp/quiz
+      headlines:
+      - EFAQ.com - Site Officiel
+      - Ne Perdez Pas Votre Argent
+      - Test d'Aptitude Carrière
+      - Découvrez Votre Carrière
+      - Quel Métier Vous Correspond ?
+      - Trouvez Vos Forces Vite
+      - Quiz Carrière Pour Tous
+      - Quiz Forces Professionnelles
+      - Mauvaise Carrière ?
+      - Votre Style de Travail
+      - Trouvez le Job de Rêve
+      - Prédire Votre Carrière ?
+      - Quiz Carrière de 5 Min
+      - Test Carrière N°1
+      - Changez de Carrière
+      descriptions:
+      - Découvrez quelle carrière correspond à vos forces et intérêts avec notre test d'aptitude.
+      - Obtenez des idées de carrière basées sur votre personnalité, vos forces et votre style.
+      - Vous pensez changer de carrière ? Explorez de nouvelles voies qui vous correspondent.
+      - Passez notre test d'aptitude basé sur la recherche et obtenez des conseils personnalisés.

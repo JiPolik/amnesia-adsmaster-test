@@ -4,45 +4,8 @@ metadata:
   name: en_us_goog_s_efaq_autism
   platform: google_search
   vertical: autism
+  extends: autism_search_tmpl
   geo_preset_ref: us
 spec:
-  objective: TRAFFIC
-  status: PAUSED
-  budget_daily_usd: 3000
----
-apiVersion: amnesia/v1
-kind: AdSet
-metadata:
-  name: autism
-  campaign_ref: en_us_goog_s_efaq_autism
-  platform: google_search
-  vertical: autism
-spec:
-  status: PAUSED
-  bid_strategy: TARGET_CPA
-  target_cpa_usd: 25
----
-apiVersion: amnesia/v1
-kind: AdTemplate
-metadata:
-  name: autism_rsa
-  campaign_ref: en_us_goog_s_efaq_autism
-  platform: google_search
-  vertical: autism
-  ad_set_ref: autism
-  creative_feed_ref: autism_search_feed
-spec:
-  status: ENABLED
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/autism/lp/quiz
-  headlines:
-  - eFAQ.com - Official Site
-  - Autism Test Online
-  - Autism Self Assessment
-  - Start Autism Screening
-  - What Is Autism (ASD)?
-  descriptions:
-  - Take a quick online autism screening and explore common traits linked to ASD.
-  - Explore where you may fall on the autism spectrum with this self assessment.
-  - Wondering if you may be autistic? Take this quick autism screening online.
-  - A fast online autism screening built for clarity and understanding.
+  budget_daily_usd: 3000.0
+  target_cpa_usd: 20.0

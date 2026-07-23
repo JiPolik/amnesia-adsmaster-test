@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: pt_eu_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: europe
+spec:
+  budget_daily_usd: 1000.0
+  ad_sets:
+  - name: psychopath
+    ad_templates:
+    - name: psychopath__rsa
+      destination_url: https://efaq.com/pt/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Site Oficial
+      - Faça o Teste de Psicopatia
+      - Sou Psicopata? Descubra Aqui
+      - Quiz Grátis de Psicopatia
+      - Autoavaliação de Psicopatia
+      - Será Que É Um Sociopata?
+      - Teste da Tríade Negra
+      - Obtenha Resultados na Hora
+      - Avaliação de Especialistas
+      - Quiz Rápido e Confidencial
+      - Descubra os Seus Traços Hoje
+      descriptions:
+      - Faça a nossa autoavaliação gratuita de psicopatia. Responda e obtenha resultados na hora.
+      - Quiz criado por especialistas com base em pesquisa clínica. Avalie traços psicopáticos.
+      - Descubra a sua posição no espetro da psicopatia. Resultados privados em poucos minutos.
+      - Explore os traços psicopáticos, a tríade negra e muito mais. Faça o nosso quiz online.

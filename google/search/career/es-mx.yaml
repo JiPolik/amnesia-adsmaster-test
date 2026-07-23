@@ -1,0 +1,11 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: es_mx_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: mx
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 12.0

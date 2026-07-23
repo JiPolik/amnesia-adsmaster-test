@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: lv_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 14.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/lv/personality/lp/quiz
+      headlines:
+      - EFAQ.com — Oficiālā vietne
+      - Netērē savu naudu
+      - Personības tipa tests
+      - Kāds ir tavs personības tips?
+      - Ātrs 16 tipu tests
+      - ENTJ vai ENFP? Izpildi testu
+      - Esi INTJ vai INFP?
+      - Loģika vai emocijas?
+      - 5 minūšu personības tests
+      - Augstu novērtēts tests
+      descriptions:
+      - Atbildi uz jautājumiem, lai atklātu savu personības tipu un stiprās puses.
+      - Esi introverts vai ekstraverts? Uzzini vairāk, izpildot mūsu personības testu.
+      - Uzzini, kā tavs personības tips ietekmē tavu uzvedību un attiecības.
+      - Atklāj savu personības tipu un gūsti ieskatu savās stiprajās un vājajās pusēs.

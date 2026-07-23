@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sl_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/sl/career/lp/quiz
+      headlines:
+      - EFAQ.com - Uradna Stran
+      - Ne Zapravljajte Denarja
+      - Test Karierne Sposobnosti
+      - Odkrijte Idealno Kariero
+      - Katera Služba Vam Ustreza?
+      - Hitro Odkrijte Prednosti
+      - Karierni Kviz za Vsakogar
+      - Kviz Poklicnih Prednosti
+      - Ste v Napačni Karieri?
+      - Odkrijte Svoj Slog Dela
+      - Najdite Sanjsko Službo
+      - Lahko Napovemo Kariero?
+      - 5-Minutni Karierni Kviz
+      - Najbolje Ocenjen Test
+      - Samozavestna Menjava Kariere
+      descriptions:
+      - Odkrijte, katera kariera ustreza vašim prednostim, veščinam in interesom z našim testom.
+      - Pridobite prilagojene karierne ideje na podlagi vaše osebnosti, prednosti in sloga dela.
+      - Razmišljate o menjavi kariere? Raziščite nove poti, ki vam bolj ustrezajo.
+      - Rešite naš raziskovalni test karierne sposobnosti in pridobite osebne nasvete.

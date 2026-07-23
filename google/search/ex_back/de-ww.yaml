@@ -1,0 +1,31 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: de_ww_goog_s_efaq_exback
+  platform: google_search
+  vertical: ex_back
+  extends: ex_back_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 400.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: ex_back
+    ad_templates:
+    - name: ex_back__rsa
+      destination_url: https://efaq.com/de/ex-back/lp/plan
+      headlines:
+      - EFAQ.com - Offizielle Website
+      - Verschwenden Sie kein Geld
+      - Ex-Zurück-Methode mit Erfolg
+      - Personalisierter Ex-Plan
+      - 2-Minuten Ex-Zurück-Quiz
+      - KI-Planer für Ex zurück
+      - Bewährte Ex-Strategien
+      - Ex zurück mit KI-Hilfe
+      - Klarheit und neue Strategie
+      descriptions:
+      - Erhalten Sie einen persönlichen Ex-Zurück-Plan basierend auf Trennung und Emotionen.
+      - Hören Sie auf zu raten. Nutzen Sie KI für eine klare Strategie, die wirklich funktioniert.
+      - Beantworten Sie Fragen für einen Plan zum Vertrauensaufbau, Neustart oder Loslassen.
+      - Entwickelt, um sich selbst zu verbessern, besser zu kommunizieren und Fehler zu meiden.

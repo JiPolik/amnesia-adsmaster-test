@@ -1,0 +1,36 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: hu_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/hu/love-style/lp/quiz
+      headlines:
+      - EFAQ.com – Hivatalos Oldal
+      - Ne pazarolja a pénzét
+      - Mi az Ön szeretetnyelve?
+      - A legjobb szeretetnyelv teszt
+      - Töltse ki a tesztet
+      - Fedezze fel szeretetnyelvét
+      - Hogyan fejezi ki a szeretetet?
+      - Szeretetnyelv teszt pároknak
+      - Javítsa kapcsolatát
+      - Értsék meg egymás igényeit
+      - Mire vágyik a szíve?
+      - Legyen jobb társ ma
+      - 5 perces szeretetnyelv teszt
+      - No.1 Szeretetnyelv teszt
+      descriptions:
+      - 'Ismerje meg szeretetnyelvét: Töltse ki a kvízt és fedezze fel, hogyan szeret.'
+      - Rövid tesztünkkel megtudhatja szeretetnyelvét és javíthat kapcsolatán.
+      - Szeresse jobban párját saját és társa szeretetnyelvének megértésével.
+      - Alakítsa át kapcsolatát tudományosan összeállított szeretetnyelv tesztünkkel.

@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: tr_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 10.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/tr/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Resmi Site
+      - Paranızı Boşa Harcamayın
+      - Aşk Diliniz Nedir?
+      - 2026'nın En İyi Aşk Testi
+      - Aşk Dili Testini Çözün
+      - Aşk Dilinizi Keşfedin
+      - Sevgini Nasıl Gösterirsin?
+      - Çiftler İçin Aşk Testi
+      - İlişkinizi Geliştirin
+      - Daha İyi Sev, Mutlu Yaşa
+      - Birbirinizi Anlayın
+      - Kalbinin İhtiyacını Bul
+      - Bugün Daha İyi Partner Ol
+      - 5 Dakikalık Aşk Testi
+      - 1 Numaralı Aşk Testi
+      descriptions:
+      - 'Aşk dilinizi ortaya çıkarın: Testi çözün ve sevginizi nasıl gösterdiğinizi keşfedin.'
+      - Kısa testimizi kullanarak aşk dilinizi öğrenin ve ilişkinizi hemen geliştirin.
+      - Aşk dilinizi anlayarak partnerinizi nasıl daha iyi seveceğinizi öğrenin.
+      - Bilimsel olarak tasarlanmış aşk dili testimizle ilişkinizi dönüştürün.

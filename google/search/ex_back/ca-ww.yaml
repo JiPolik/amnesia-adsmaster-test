@@ -1,0 +1,31 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: ca_ww_goog_s_efaq_exback
+  platform: google_search
+  vertical: ex_back
+  extends: ex_back_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 400.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: ex_back
+    ad_templates:
+    - name: ex_back__rsa
+      destination_url: https://efaq.com/ca/ex-back/lp/plan
+      headlines:
+      - EFAQ.com - Lloc oficial
+      - No malgastis els teus diners
+      - Mètode efectiu per tornar
+      - Pla personalitzat per tornar
+      - Test de 2 minuts per tornar
+      - Creador de plans amb IA
+      - Estratègies provades
+      - Usa IA per recuperar-la
+      - Guanya claredat i estratègia
+      descriptions:
+      - Obté un pla personalitzat basat en la ruptura, les emocions i el teu pròxim pas.
+      - Deixa d'endevinar què fer. Usa la IA per crear una estratègia clara que funcioni.
+      - Respon unes preguntes i obté un pla intel·ligent per reconnectar o avançar.
+      - Dissenyat per ajudar-te a millorar, comunicar-te millor i evitar errors comuns.

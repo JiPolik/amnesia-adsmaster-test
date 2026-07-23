@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fr_eu_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: europe
+spec:
+  budget_daily_usd: 700.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/fr/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Site Officiel
+      - Ne perdez pas votre argent
+      - Quel est votre langage ?
+      - Meilleur Quiz Amour 2026
+      - Faites le Test d'Amour
+      - Votre Langage de l'Amour
+      - Comment aimez-vous ?
+      - Test Amour pour Couples
+      - Améliorez votre Relation
+      - Aimez Mieux, Vivez Heureux
+      - Comprendre ses besoins
+      - Ce que votre cœur veut
+      - Meilleur Partenaire
+      - Quiz Amour en 5 Min
+      - Test Amour N°1
+      descriptions:
+      - 'Débloquez votre style : Faites le quiz et découvrez comment vous montrez votre amour.'
+      - Utilisez notre quiz rapide pour trouver votre langage de l'amour et améliorer votre couple
+      - Apprenez à mieux aimer votre partenaire en comprenant votre propre langage de l'amour.
+      - Transformez votre relation avec notre quiz sur les styles d'amour conçu scientifiquement.

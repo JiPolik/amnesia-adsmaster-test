@@ -4,48 +4,27 @@ metadata:
   name: de_ww_goog_s_efaq_autism
   platform: google_search
   vertical: autism
-  geo_preset_ref: main_markets
+  extends: autism_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
 spec:
-  objective: TRAFFIC
-  status: PAUSED
-  budget_daily_usd: 1500
----
-apiVersion: amnesia/v1
-kind: AdSet
-metadata:
-  name: autism
-  campaign_ref: de_ww_goog_s_efaq_autism
-  platform: google_search
-  vertical: autism
-spec:
-  status: PAUSED
-  bid_strategy: TARGET_CPA
-  target_cpa_usd: 25
----
-apiVersion: amnesia/v1
-kind: AdTemplate
-metadata:
-  name: autism_rsa
-  campaign_ref: de_ww_goog_s_efaq_autism
-  platform: google_search
-  vertical: autism
-  ad_set_ref: autism
-  creative_feed_ref: autism_search_feed
-spec:
-  status: ENABLED
-  business_name: eFAQ.com
-  destination_url: https://efaq.com/de/autism/lp/quiz
-  headlines:
-  - eFAQ.com - Offizielle Seite
-  - Autismus-Test Online
-  - Autismus-Selbsteinschätzung
-  - Autismus-Screening starten
-  - Was ist Autismus (ASS)?
-  - Kostenloser Autismus-Test
-  - Bin ich autistisch?
-  - Autismus-Spektrum verstehen
-  descriptions:
-  - Machen Sie ein schnelles Online-Autismus-Screening und erkunden Sie häufige ASS-Merkmale.
-  - Finden Sie mit dieser Selbsteinschätzung heraus, wo Sie im Autismus-Spektrum stehen.
-  - Fragen Sie sich, ob Sie autistisch sind? Machen Sie dieses schnelle Online-Screening.
-  - Ein schnelles Online-Autismus-Screening, entwickelt für mehr Klarheit und Verständnis.
+  budget_daily_usd: 2000.0
+  target_cpa_usd: 18.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/de/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Offizielle Seite
+      - Autismus-Test Online
+      - Autismus-Selbsteinschätzung
+      - Autismus-Screening starten
+      - Was ist Autismus (ASS)?
+      - Kostenloser Autismus-Test
+      - Bin ich autistisch?
+      - Autismus-Spektrum verstehen
+      descriptions:
+      - Machen Sie ein schnelles Online-Autismus-Screening und erkunden Sie häufige ASS-Merkmale.
+      - Finden Sie mit dieser Selbsteinschätzung heraus, wo Sie im Autismus-Spektrum stehen.
+      - Fragen Sie sich, ob Sie autistisch sind? Machen Sie dieses schnelle Online-Screening.
+      - Ein schnelles Online-Autismus-Screening, entwickelt für mehr Klarheit und Verständnis.

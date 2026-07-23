@@ -1,0 +1,31 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: nl_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
+  extends: leadership_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: leadership
+    ad_templates:
+    - name: leadership__rsa
+      destination_url: https://efaq.com/nl/leadership-style/lp/quiz
+      headlines:
+      - EFAQ.com - Officiële Site
+      - Leiderschapsstijl Quiz
+      - Wat is je leiderschapsstijl?
+      - Doe de Zelfevaluatie
+      - Ontdek Jouw Leiderschapstype
+      - Vind Jouw Leiderschapsstijl
+      - Ben Jij Een Geboren Leider?
+      - Snelle Leiderschapstest
+      - Word Vandaag Een Betere Leider
+      descriptions:
+      - Doe onze leiderschapsstijl quiz. Ontdek in enkele minuten welk type leider jij bent!
+      - Vind jouw unieke leiderschapsstijl in slechts minuten. Ontworpen door experts.
+      - Ben jij een visionaire, democratische of dienende leider? Doe vandaag de zelfevaluatie.
+      - Ontgrendel jouw leiderschapspotentieel. Leer je sterke punten en groei als leider.

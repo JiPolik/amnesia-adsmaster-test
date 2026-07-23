@@ -1,0 +1,37 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: et_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 14.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/et/love-style/lp/quiz
+      headlines:
+      - EFAQ.com – Ametlik leht
+      - Ära raiska raha
+      - Milline on sinu stiil?
+      - Parim armastuse test 2026
+      - Tee armastuse stiili test
+      - Avasta oma armastuse stiil
+      - Kuidas näitad armastust?
+      - Armastuse test paaridele
+      - Paranda oma suhet
+      - Armasta paremini
+      - Mõista teise vajadusi
+      - Mida su süda vajab?
+      - Ole parem partner täna
+      - 5 min armastuse test
+      - '#1 armastuse stiili test'
+      descriptions:
+      - 'Avasta oma armastuse stiil: Tee test ja saa teada, kuidas sa täna armastust välja näitad.'
+      - Kasuta meie lühikest testi, et leida oma armastuse stiil ja parandada oma suhet.
+      - Õpi oma partnerit paremini armastama, mõistes oma armastuse stiili.
+      - Muuda oma suhet meie teaduslikult koostatud armastuse stiili testiga.

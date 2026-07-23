@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sr_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 12.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/sr/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Званични сајт
+      - Не бацајте новац
+      - Тест типа личности
+      - Који је ваш тип личности?
+      - Брзи квиз 16 типова
+      - ENTJ или ENFP? Решите квиз
+      - Да ли сте INTJ или INFP?
+      - Логика или емоције?
+      - 5-минутни квиз личности
+      - '#1 Оцењени тест личности'
+      descriptions:
+      - Одговорите на питања да бисте открили свој тип личности и главне снаге.
+      - Да ли сте интроверт или екстроверт? Сазнајте више уз наш квиз личности.
+      - Сазнајте како ваш тип личности утиче на ваше понашање и односе.
+      - Откријте свој тип личности и стекните увид у своје снаге и слабости.
