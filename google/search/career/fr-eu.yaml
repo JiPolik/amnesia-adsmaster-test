@@ -1,0 +1,10 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fr_eu_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_2
+  geo_preset_ref: europe
+spec:
+  budget_daily_usd: 3000.0

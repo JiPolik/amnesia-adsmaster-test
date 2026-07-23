@@ -1,0 +1,9 @@
+apiVersion: amnesia/v1
+kind: GeoBlocklist
+metadata:
+  name: global-blocklist
+spec:
+  # Global geo blocklist (AMS-417): every campaign on every platform excludes these on each sync.
+  # Editing this list propagates to all live campaigns (adsmaster fleet re-reconcile). Sanctioned +
+  # business-risk countries; mirrors platform-google Geocode.BLOCKED (the hardcoded floor beneath).
+  countries: [UA, RU, BY, VE, IR, KP, CU, AT]

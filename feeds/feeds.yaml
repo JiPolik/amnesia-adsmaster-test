@@ -1,104 +1,97 @@
 apiVersion: amnesia/v1
 kind: CreativeFeed
-metadata: {name: autism_search_feed}
+metadata:
+  name: autism_search_feed
 spec:
-  description: "eFAQ autism search feed"
-  languages: [ENGLISH_US, GERMAN]
+  languages:
+  - CROATIAN
+  - CZECH
+  - DUTCH
+  - ENGLISH_US
+  - ESTONIAN
+  - GERMAN
+  - GREEK
+  - NORWEGIAN
 ---
 apiVersion: amnesia/v1
 kind: CreativeFeed
-metadata: {name: career_search_feed}
+metadata:
+  name: career_search_feed
 spec:
-  description: "eFAQ career search feed"
-  languages: [ENGLISH_US, GERMAN, POLISH]
+  languages:
+  - BULGARIAN
+  - CATALAN
+  - CROATIAN
+  - CZECH
+  - DANISH
+  - DUTCH
+  - ENGLISH_US
+  - ESTONIAN
+  - FINNISH
+  - FRENCH_FRANCE
+  - GERMAN
+  - GREEK
+  - HUNGARIAN
+  - ICELANDIC
+  - ITALIAN
+  - LATVIAN
+  - LITHUANIAN
+  - NORWEGIAN
+  - POLISH
+  - PORTUGUESE_PORTUGAL
+  - ROMANIAN
+  - SERBIAN
+  - SLOVAK
+  - SLOVENIAN
+  - SPANISH_EUROPE
+  - SPANISH_LATAM
+  - SWEDISH
+  - TURKISH
 ---
 apiVersion: amnesia/v1
 kind: CreativeFeed
-metadata: {name: chat_search_feed}
+metadata:
+  name: iq_dg_feed
 spec:
-  description: "eFAQ chat search feed"
+  languages:
+  - ENGLISH_US
+  - POLISH
+---
+apiVersion: amnesia/v1
+kind: CreativeFeed
+metadata:
+  name: iq_search_feed
+spec:
+  languages:
+  - BULGARIAN
+  - CATALAN
+  - CROATIAN
+  - CZECH
+  - DANISH
+  - DUTCH
+  - ENGLISH_US
+  - ESTONIAN
+  - FINNISH
+  - FRENCH_FRANCE
+  - GERMAN
+  - HUNGARIAN
+  - ICELANDIC
+  - LATVIAN
+  - LITHUANIAN
+  - NORWEGIAN
+  - PORTUGUESE_PORTUGAL
+  - ROMANIAN
+  - SERBIAN
+  - SLOVENIAN
+  - SPANISH_EUROPE
+  - SPANISH_LATAM
+  - SPANISH_US
+  - SWEDISH
+  - TURKISH
+---
+apiVersion: amnesia/v1
+kind: CreativeFeed
+metadata: {name: demo_search_feed}
+spec:
+  description: Demo Google Search feed
   languages: [ENGLISH_US]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: exback_search_feed}
-spec:
-  description: "eFAQ exback search feed"
-  languages: [ENGLISH_US, GERMAN, POLISH]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: iq_dg_feed}
-spec:
-  description: "eFAQ iq dg feed"
-  languages: [ENGLISH_US, POLISH]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: iq_openai_feed}
-spec:
-  description: "eFAQ iq openai feed"
-  languages: [ENGLISH_US]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: iq_search_feed}
-spec:
-  description: "eFAQ iq search feed"
-  languages: [ENGLISH_US, GERMAN]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: leadership_dg_feed}
-spec:
-  description: "eFAQ leadership dg feed"
-  languages: [ENGLISH_US]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: leadership_search_feed}
-spec:
-  description: "eFAQ leadership search feed"
-  languages: [ENGLISH_US, GERMAN, POLISH]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: licenseplate_search_feed}
-spec:
-  description: "eFAQ licenseplate search feed"
-  languages: [ENGLISH_US, SPANISH_US]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: lovestyle_search_feed}
-spec:
-  description: "eFAQ lovestyle search feed"
-  languages: [ENGLISH_US, GERMAN, POLISH]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: personality_search_feed}
-spec:
-  description: "eFAQ personality search feed"
-  languages: [ENGLISH_US, GERMAN]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: psychopath_search_feed}
-spec:
-  description: "eFAQ psychopath search feed"
-  languages: [ENGLISH_US]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: spiritanimal_dg_feed}
-spec:
-  description: "eFAQ spiritanimal dg feed"
-  languages: [ENGLISH_US, GERMAN]
----
-apiVersion: amnesia/v1
-kind: CreativeFeed
-metadata: {name: spiritanimal_search_feed}
-spec:
-  description: "eFAQ spiritanimal search feed"
-  languages: [ENGLISH_US, GERMAN]

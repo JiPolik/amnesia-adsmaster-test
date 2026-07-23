@@ -1,0 +1,25 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: autism_search_tmpl
+  platform: google_search
+  vertical: autism
+  extends: efaq_base
+spec:
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      creative_feed_ref: autism_search_feed
+      destination_url: https://efaq.com/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Official Site
+      - Autism Test Online
+      - Autism Self Assessment
+      - Start Autism Screening
+      - What Is Autism (ASD)?
+      descriptions:
+      - Take a quick online autism screening and explore common traits linked to ASD.
+      - Explore where you may fall on the autism spectrum with this self assessment.
+      - Wondering if you may be autistic? Take this quick autism screening online.
+      - A fast online autism screening built for clarity and understanding.

@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata: {name: demo_sitelink_pricing}
+spec:
+  type: SITELINK
+  url: https://efaq.com/pricing
+  title: See Pricing
+  description1: Transparent monthly plans
+  description2: Cancel anytime
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata: {name: demo_callout_fast}
+spec:
+  type: CALLOUT
+  text: 3-Minute Test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata: {name: demo_snippet_topics}
+spec:
+  type: STRUCTURED_SNIPPET
+  header: Types
+  values: [Career, IQ, Personality]
+  language: en
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata: {name: demo_bizname}
+spec:
+  type: BUSINESS_NAME
+  text: eFAQ.com

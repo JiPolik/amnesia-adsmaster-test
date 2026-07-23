@@ -1,0 +1,50 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: iq_search_tmpl_1
+  platform: google_search
+  vertical: iq
+  extends: efaq_base
+spec:
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      creative_feed_ref: iq_search_feed
+      destination_url: https://efaq.com/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Official Site
+      - Check Your IQ in 20 Minutes
+      - Official IQ Test 2026
+      - The Most Accurate IQ Test
+      - Don't Waste Your Money
+      - Start Your IQ Test
+      - How Smart Are You?
+      - Quick & Accurate Results
+      - Scientifically Designed Test
+      - Real IQ Test, Real Results
+      - Smarter Than Your Friends?
+      descriptions:
+      - Think you’re smarter than average? Take the test and see how you really rank.
+      - Get fast and accurate IQ results in under 10 minutes, anytime, right on your phone.
+      - Scientifically designed IQ test trusted by experts to give you precise results.
+      - Join thousands who tested their IQ today and find out exactly how you measure up.
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      creative_feed_ref: iq_search_feed
+      destination_url: https://efaq.com/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Official Site
+      - Check Your IQ in 20 Minutes
+      - Official IQ Test 2026
+      - The Most Accurate IQ Test
+      - How Smart Am I?
+      - How Smart Are You?
+      - Don't Waste Your Money
+      - Online Intelligence Test
+      descriptions:
+      - Ever wondered how smart you really are? Take the test and get clear answers.
+      - Find out if you’re average, gifted, above, or below average. Fast, accurate IQ results.
+      - Stop guessing. Measure your intelligence with a real IQ test. Get your score now.
+      - Join thousands who asked the same question and finally got answers.

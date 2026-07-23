@@ -1,0 +1,6 @@
+apiVersion: amnesia/v1
+kind: CreativeFeed
+metadata: {name: iq_openai_feed}
+spec:
+  description: "eFAQ iq openai feed"
+  languages: [ENGLISH_US]
