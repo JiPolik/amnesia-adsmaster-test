@@ -1,0 +1,779 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__bear
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/bear
+  title: Medvěd
+  description1: Síla, ochrana a odvaha
+  description2: Co o vás říká medvěd
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__cat
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/cat
+  title: Kočka
+  description1: Nezávislost a intuice
+  description2: Objevte v sobě kočku
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__dolphin
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/dolphin
+  title: Delfín
+  description1: Radost, inteligence, spojení
+  description2: Je delfín vaším průvodcem?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__eagle
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/eagle
+  title: Orel
+  description1: Vize, svoboda, vedení
+  description2: Poznejte život z nadhledu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/quiz
+  title: Kvíz o duchovním zvířeti
+  description1: Najděte své duchovní zvíře
+  description2: Zjistěte o sobě více
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__how
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/how-spirit-animals-guide-you
+  title: Jak vás zvířata vedou
+  description1: Jak pomáhají duchovní zvířata
+  description2: Pochopte jejich hlubší význam
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__lion
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/lion
+  title: Lev
+  description1: Sebevědomí, moc a autorita
+  description2: Objevte v sobě vůdce
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__narwhale
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/narwhale
+  title: Narval
+  description1: Jedinečnost a vnitřní pravda
+  description2: Co vás dělá jedinečnými
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__owl
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/owl
+  title: Sova
+  description1: Moudrost, vhled a uvědomění
+  description2: Odhalte své skryté znalosti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__snake
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/snake
+  title: Had
+  description1: Transformace a znovuzrození
+  description2: Co pro vás znamená změna
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__unicorn
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/unicorn
+  title: Jednorožec
+  description1: Představivost a čistota
+  description2: Přijměte svou jedinečnou magii
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__what
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/what-is-a-spirit-animal
+  title: Co je to duchovní zvíře
+  description1: Význam duchovních zvířat
+  description2: Proč jsou v životě důležitá
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_spiritanimal__wolf
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/spirit-animal/lp/wolf
+  title: Vlk
+  description1: Věrnost, instinkt a svoboda
+  description2: Vede vás v životě vlk?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__bear
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/bear
+  title: Der Bär
+  description1: Stärke, Schutz und Mut
+  description2: Was der Bär über dich sagt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__cat
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/cat
+  title: Die Katze
+  description1: Unabhängigkeit, Intuition
+  description2: Entdecke deine innere Katze
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__dolphin
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/dolphin
+  title: Der Delfin
+  description1: Freude und Intelligenz
+  description2: Ist er dein Seelenführer?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__eagle
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/eagle
+  title: Der Adler
+  description1: Vision, Freiheit, Führung
+  description2: Sieh das Leben von oben
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/quiz
+  title: Krafttier-Quiz
+  description1: Finde dein Krafttier
+  description2: Lerne mehr über dich
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__how
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/how-spirit-animals-guide-you
+  title: Wie Tiere dich führen
+  description1: Wie Krafttiere helfen
+  description2: Verstehe ihre Bedeutung
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__lion
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/lion
+  title: Der Löwe
+  description1: Vertrauen, Macht, Autorität
+  description2: Finde den Anführer in dir
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__narwhale
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/narwhale
+  title: Der Narwal
+  description1: Einzigartigkeit, Wahrheit
+  description2: Was dich besonders macht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__owl
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/owl
+  title: Die Eule
+  description1: Weisheit und Einsicht
+  description2: Entdecke verborgenes Wissen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__snake
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/snake
+  title: Die Schlange
+  description1: Wandel und Wiedergeburt
+  description2: Was Wandel für dich heißt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__unicorn
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/unicorn
+  title: Das Einhorn
+  description1: Fantasie und Reinheit
+  description2: Nutze deine eigene Magie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__what
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/what-is-a-spirit-animal
+  title: Was ist ein Krafttier?
+  description1: Bedeutung von Krafttieren
+  description2: Warum sie wichtig sind
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_spiritanimal__wolf
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/spirit-animal/lp/wolf
+  title: Der Wolf
+  description1: Treue, Instinkt, Freiheit
+  description2: Führt dich der Wolf?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__bear
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/bear
+  title: The Bear
+  description1: Strength, protection, courage
+  description2: What the Bear says about you
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__cat
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/cat
+  title: The Cat
+  description1: Independence and intuition
+  description2: Discover your inner Cat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__dolphin
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/dolphin
+  title: The Dolphin
+  description1: Joy, intelligence, connection
+  description2: Is Dolphin your spirit guide?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__eagle
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/eagle
+  title: The Eagle
+  description1: Vision, freedom, leadership
+  description2: See life from a higher view
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/quiz
+  title: Spirit Animal Quiz
+  description1: Find your Spirit Animal
+  description2: Learn more about yourself
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__how
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/how-spirit-animals-guide-you
+  title: How Animals Guide You
+  description1: Learn how spirit animals help
+  description2: Understand their deeper meaning
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__lion
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/lion
+  title: The Lion
+  description1: Confidence, power, authority
+  description2: Discover your inner leader
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__narwhale
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/narwhale
+  title: The Narwhale
+  description1: Uniqueness and inner truth
+  description2: What makes you one of a kind
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__owl
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/owl
+  title: The Owl
+  description1: Wisdom, insight, awareness
+  description2: Uncover your hidden knowledge
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__snake
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/snake
+  title: The Snake
+  description1: Transformation and rebirth
+  description2: Learn what change means for you
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__unicorn
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/unicorn
+  title: The Unicorn
+  description1: Imagination and purity
+  description2: Embrace your unique magic
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__what
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/what-is-a-spirit-animal
+  title: What is a Spirit Animal?
+  description1: Meaning behind spirit animals
+  description2: Why they matter in your life
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_spiritanimal__wolf
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/spirit-animal/lp/wolf
+  title: The Wolf
+  description1: Loyalty, instinct, freedom
+  description2: Are you guided by the Wolf?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__bear
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/bear
+  title: De Beer
+  description1: Kracht, bescherming, moed
+  description2: Wat de Beer over je zegt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__cat
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/cat
+  title: De Kat
+  description1: Onafhankelijk & intuïtie
+  description2: Ontdek je innerlijke Kat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__dolphin
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/dolphin
+  title: De Dolfijn
+  description1: Vreugde, slimheid, band
+  description2: Is de Dolfijn jouw gids?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__eagle
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/eagle
+  title: De Adelaar
+  description1: Visie, vrijheid, leiding
+  description2: Bekijk het leven van boven
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/quiz
+  title: Spirit Animal Quiz
+  description1: Ontdek jouw totemdier
+  description2: Leer meer over jezelf
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__how
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/how-spirit-animals-guide-you
+  title: Hoe Dieren Je Gidsen
+  description1: Hoe totemdieren helpen
+  description2: Begrijp de betekenis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__lion
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/lion
+  title: De Leeuw
+  description1: Vertrouwen, macht, gezag
+  description2: Ontdek de leider in jou
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__narwhale
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/narwhale
+  title: De Narwal
+  description1: Uniekheid en waarheid
+  description2: Wat jou uniek maakt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__owl
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/owl
+  title: De Uil
+  description1: Wijsheid, inzicht, besef
+  description2: Ontdek verborgen kennis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__snake
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/snake
+  title: De Slang
+  description1: Transformatie en groei
+  description2: Wat verandering betekent
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__unicorn
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/unicorn
+  title: De Eenhoorn
+  description1: Fantasie en puurheid
+  description2: Omarm je unieke magie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__what
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/what-is-a-spirit-animal
+  title: Wat is een Spirit Animal?
+  description1: Betekenis van totemdieren
+  description2: Waarom ze belangrijk zijn
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_spiritanimal__wolf
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/spirit-animal/lp/wolf
+  title: De Wolf
+  description1: Trouw, instinct, vrijheid
+  description2: Leidt de Wolf jou?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__bear
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/bear
+  title: Bjørnen
+  description1: Styrke, vern og mot
+  description2: Hva bjørnen sier om deg
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__cat
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/cat
+  title: Katten
+  description1: Uavhengighet og intuisjon
+  description2: Oppdag din indre katt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__dolphin
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/dolphin
+  title: Delfinen
+  description1: Glede, intelligens og bånd
+  description2: Er delfinen din veileder?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__eagle
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/eagle
+  title: Ørnen
+  description1: Visjon, frihet og ledelse
+  description2: Se livet fra et nytt syn
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/quiz
+  title: Åndedyr-quiz
+  description1: Finn ditt åndedyr
+  description2: Lær mer om deg selv
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__how
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/how-spirit-animals-guide-you
+  title: Hvordan dyr veileder deg
+  description1: Lær hvordan åndedyr hjelper
+  description2: Forstå deres dypere mening
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__lion
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/lion
+  title: Løven
+  description1: Selvtillit, makt, autoritet
+  description2: Oppdag din indre leder
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__narwhale
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/narwhale
+  title: Narhvalen
+  description1: Unikhet og indre sannhet
+  description2: Hva gjør deg helt unik
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__owl
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/owl
+  title: Uglen
+  description1: Visdom, innsikt, bevissthet
+  description2: Avdekk din skjulte viten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__snake
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/snake
+  title: Slangen
+  description1: Transformasjon og gjenfødelse
+  description2: Hva betyr endring for deg?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__unicorn
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/unicorn
+  title: Enhjørningen
+  description1: Fantasi og renhet
+  description2: Omfavn din unike magi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__what
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/what-is-a-spirit-animal
+  title: Hva er et åndedyr?
+  description1: Meningen bak åndedyr
+  description2: Hvorfor de betyr noe
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_spiritanimal__wolf
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/spirit-animal/lp/wolf
+  title: Ulven
+  description1: Lojalitet, instinkt, frihet
+  description2: Er du ledet av ulven?

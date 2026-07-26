@@ -1,0 +1,133 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sr_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_sr_iq__breakdown
+  - callout_sr_iq__experts
+  - callout_sr_iq__fun_challenging
+  - callout_sr_iq__instant
+  - callout_sr_iq__mobile_friendly
+  - callout_sr_iq__secure
+  - efaq_business_name
+  - sitelink_sr_iq__am_i_gifted
+  - sitelink_sr_iq__can_you_improve
+  - sitelink_sr_iq__generic
+  - sitelink_sr_iq__students
+  - sitelink_sr_iq__what_is_iq
+  - snip_sr_iq__test_types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/sr/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Званичан сајт
+      - Проверите ИК за 20 мин
+      - Званични ИК тест 2026
+      - Најпрецизнији ИК тест
+      - Не бацајте новац
+      - Започните ИК тест
+      - Колико сте паметни?
+      - Брзи и тачни резултати
+      - Научно дизајниран тест
+      - Прави тест, резултати
+      - Паметнији од пријатеља?
+      descriptions:
+      - Мислите да сте паметнији од просека? Урадите тест и видите свој прави ранг.
+      - Добијте брзе и тачне ИК резултате за мање од 10 минута, директно на телефону.
+      - Научно дизајниран ИК тест коме верују стручњаци за прецизне резултате.
+      - Придружите се хиљадама који су данас тестирали свој ИК и сазнајте свој ниво.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq тест
+      match_type: BROAD
+    - text: тест iq
+      match_type: BROAD
+    - text: ик тест
+      match_type: BROAD
+    - text: ик тест онлајн
+      match_type: BROAD
+    - text: бесплатан ик тест
+      match_type: BROAD
+    - text: тест интелигенције
+      match_type: BROAD
+    - text: тест интелигенције онлајн
+      match_type: BROAD
+    - text: провера интелигенције
+      match_type: BROAD
+    - text: брзи ик тест
+      match_type: BROAD
+    - text: онлајн ик тест
+      match_type: BROAD
+    - text: колики ми је ик
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/sr/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Званичан сајт
+      - Проверите ИК за 20 мин
+      - Званични ИК тест 2026
+      - Најпрецизнији ИК тест
+      - Колико сам паметан?
+      - Колико сте паметни?
+      - Не бацајте новац
+      - Онлајн тест интелигенције
+      descriptions:
+      - Да ли сте се икада запитали колико сте заиста паметни? Урадите тест и сазнајте.
+      - Сазнајте да ли сте просечни, надарени или изнад просека. Брзи ИК резултати.
+      - Престаните да нагађате. Измерите своју интелигенцију правим ИК тестом данас.
+      - Придружите се хиљадама који су поставили исто питање и коначно добили одговоре.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: да ли сам паметан
+      match_type: BROAD
+    - text: колико сам паметан
+      match_type: BROAD
+    - text: да ли сам интелигентан
+      match_type: BROAD
+    - text: тест за интелигенцију
+      match_type: BROAD
+    - text: да ли сам надарен
+      match_type: BROAD

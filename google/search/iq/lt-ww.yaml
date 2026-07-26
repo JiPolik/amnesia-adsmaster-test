@@ -1,0 +1,139 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: lt_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_lt_iq__breakdown
+  - callout_lt_iq__experts
+  - callout_lt_iq__fun_challenging
+  - callout_lt_iq__instant
+  - callout_lt_iq__mobile_friendly
+  - callout_lt_iq__secure
+  - efaq_business_name
+  - sitelink_lt_iq__am_i_gifted
+  - sitelink_lt_iq__can_you_improve
+  - sitelink_lt_iq__generic
+  - sitelink_lt_iq__students
+  - sitelink_lt_iq__what_is_iq
+  - snip_lt_iq__test_types
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 13.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/lt/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Oficiali svetainė
+      - Pasitikrinkite IQ per 20 min
+      - Oficialus IQ testas 2026
+      - Tiksliausias IQ testas
+      - Nešvaistykite pinigų
+      - Pradėti IQ testą
+      - Koks jūsų intelektas?
+      - Greiti ir tikslūs rezultatai
+      - Moksliškai pagrįstas testas
+      - Tikras testas, rezultatai
+      - Protingesnis už draugus?
+      descriptions:
+      - Manote, kad esate protingesnis už vidurkį? Atlikite testą ir sužinokite tikrąjį lygį.
+      - Gaukite greitus ir tikslius IQ rezultatus per mažiau nei 20 min. tiesiai telefone.
+      - Moksliškai sukurtas IQ testas, kuriuo pasitiki ekspertai, suteiks tikslius rezultatus.
+      - Prisijunkite prie tūkstančių, kurie šiandien pasitikrino IQ, ir sužinokite savo balą.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq testas
+      match_type: BROAD
+    - text: iq testas internetu
+      match_type: BROAD
+    - text: iq testas nemokamai
+      match_type: BROAD
+    - text: nemokamas iq testas
+      match_type: BROAD
+    - text: intelekto testas
+      match_type: BROAD
+    - text: online iq testas
+      match_type: BROAD
+    - text: greitas iq testas
+      match_type: BROAD
+    - text: iq testas lietuviškai
+      match_type: BROAD
+    - text: iq lygio nustatymas
+      match_type: BROAD
+    - text: tikras iq testas
+      match_type: BROAD
+    - text: geriausias iq testas
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/lt/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Oficiali svetainė
+      - Pasitikrinkite IQ per 20 min
+      - Oficialus IQ testas 2026
+      - Tiksliausias IQ testas
+      - Kiek aš protingas?
+      - Koks jūsų intelektas?
+      - Nešvaistykite pinigų
+      - Intelekto testas internetu
+      descriptions:
+      - Ar kada nors svarstėte, koks protingas esate iš tikrųjų? Atlikite testą ir sužinokite.
+      - Sužinokite, ar esate vidutinis, gabus, ar virš vidurkio. Greiti ir tikslūs rezultatai.
+      - Nustokite spėlioti. Išmatuokite savo intelektą atlikdami tikrą IQ testą. Sužinokite balą.
+      - Prisijunkite prie tūkstančių, kurie uždavė tą patį klausimą ir pagaliau gavo atsakymus.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: ar aš protingas
+      match_type: BROAD
+    - text: koks mano iq
+      match_type: BROAD
+    - text: ar aš gabus
+      match_type: BROAD
+    - text: kiek aš protingas
+      match_type: BROAD
+    - text: ar aš kvailas
+      match_type: BROAD
+    - text: intelekto patikrinimas
+      match_type: BROAD
+    - text: protinių gebėjimų testas
+      match_type: BROAD
+    - text: testas ar aš protingas
+      match_type: BROAD

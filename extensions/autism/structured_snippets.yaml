@@ -1,0 +1,170 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_cs_autism__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Sociální komunikace
+  - Smyslová citlivost
+  - Preference rutiny
+  - Rozpoznávání vzorů
+  - Zaměřené zájmy
+  - Emoční zpracování
+  - Rysy chování
+  - Pozornost k detailům
+  language: CZECH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_autism__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Soziale Kommunikation
+  - Sensorische Sensibilität
+  - Vorliebe für Routinen
+  - Mustererkennung
+  - Fokussierte Interessen
+  - Emotionale Verarbeitung
+  - Verhaltensmerkmale
+  - Liebe zum Detail
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_el_autism__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Κοινωνική Επικοινωνία
+  - Αισθητηριακή Ευαισθησία
+  - Προτίμηση Ρουτίνας
+  - Αναγνώριση Μοτίβων
+  - Ειδικά Ενδιαφέροντα
+  - Συναισθηματική Αντίδραση
+  - Συμπεριφορά
+  - Προσοχή Στη Λεπτομέρεια
+  language: GREEK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_autism__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Social Communication
+  - Sensory Sensitivity
+  - Routine Preference
+  - Pattern Recognition
+  - Focused Interests
+  - Emotional Processing
+  - Behavioral Traits
+  - Attention to Detail
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_et_autism__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Sotsiaalne suhtlus
+  - Sensoorne tundlikkus
+  - Rutiini eelistamine
+  - Mustrite tuvastamine
+  - Fookustatud huvid
+  - Emotsioonide töötlus
+  - Käitumuslikud jooned
+  - Tähelepanu detailidele
+  language: ESTONIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fr_autism__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Communication Sociale
+  - Sensibilité Sensorielle
+  - Préférence pour Routines
+  - Reconnaissance de Motifs
+  - Intérêts Spécifiques
+  - Gestion des Émotions
+  - Traits Comportementaux
+  - Attention aux Détails
+  language: FRENCH_FRANCE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hr_autism__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Društvena komunikacija
+  - Senzorna osjetljivost
+  - Sklonost rutini
+  - Prepoznavanje obrazaca
+  - Usmjereni interesi
+  - Emocionalna obrada
+  - Osobine ponašanja
+  - Pažnja na detalje
+  language: CROATIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_autism__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Sociale communicatie
+  - Zintuiglijke prikkels
+  - Voorkeur voor routines
+  - Patroonherkenning
+  - Gerichte interesses
+  - Emotionele verwerking
+  - Gedragskenmerken
+  - Oog voor detail
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_autism__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Sosial kommunikasjon
+  - Sensorisk sensitivitet
+  - Rutinepreferanser
+  - Mønstergjenkjenning
+  - Fokuserte interesser
+  - Følelsesprosessering
+  - Atferdstrekk
+  - Øye for detaljer
+  language: NORWEGIAN

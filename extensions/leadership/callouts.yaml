@@ -1,0 +1,629 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Autoavaluació en Línia
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sigues un Millor Líder
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dissenyat per Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultats Instantanis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Triga Només Uns Minuts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web Adaptada a Mòbils
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Lloc Web Segur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online selvevaluering
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bliv en bedre leder
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designet af eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Øjeblikkelige resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tager kun få minutter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvenlig hjemmeside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker hjemmeside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online-Selbsteinschätzung
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Besserer Leader werden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Von Experten entwickelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sofortige Ergebnisse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dauert nur wenige Minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Handyfreundliche Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sichere Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online Self-Assessment
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Become a Better Leader
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takes Only Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Itsearviointi verkossa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Kehity hyvänä johtajana
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Asiantuntijoiden tekemä
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Välittömät tulokset
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Kestää vain minuutteja
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobiiliystävällinen sivu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvallinen verkkosivusto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Autovalutazione Online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Diventa un Vero Leader
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Creato da Esperti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Risultati Immediati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Richiede Pochi Minuti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Mobile Friendly
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Web Sicuro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online zelfevaluatie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Word een betere leider
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ontworpen door experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Directe resultaten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Duurt slechts minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobielvriendelijke site
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Beveiligde website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Egenevaluering på nett
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bli en bedre leder
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Utviklet av eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Umiddelbare resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tar kun noen minutter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvennlig nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Samoocena online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zostań lepszym liderem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Stworzone przez ekspertów
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Natychmiastowe wyniki
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zajmuje tylko kilka minut
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Działa na smartfonach
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bezpieczna strona
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_leadership__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Självutvärdering online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_leadership__better
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bli en bättre ledare
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_leadership__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designad av experter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_leadership__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Omedelbara resultat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_leadership__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tar bara några minuter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_leadership__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvänlig webbplats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_leadership__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Säker webbplats

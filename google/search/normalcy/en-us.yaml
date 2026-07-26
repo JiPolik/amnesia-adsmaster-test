@@ -1,0 +1,44 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_us_goog_s_efaq_normalcy
+  platform: google_search
+  vertical: normalcy
+  extends: normalcy_search_tmpl
+  geo_preset_ref: us
+  ad_extension_refs:
+  - efaq_business_name
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: general
+    keywords:
+    - text: am i normal
+      match_type: BROAD
+    - text: is my behavior normal
+      match_type: BROAD
+    - text: is this normal
+      match_type: BROAD
+    - text: how normal am i
+      match_type: BROAD
+    - text: am i weird
+      match_type: BROAD
+    - text: why am i different
+      match_type: BROAD
+    - text: do i act normal
+      match_type: BROAD
+    - text: am i average
+      match_type: BROAD
+    - text: how different am i
+      match_type: BROAD
+    - text: is it normal to
+      match_type: BROAD
+    - text: am i unusual
+      match_type: BROAD
+    - text: am i strange
+      match_type: BROAD
+    - text: what is normal
+      match_type: BROAD
+    - text: normal person test
+      match_type: BROAD

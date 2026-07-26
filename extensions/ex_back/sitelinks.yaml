@@ -1,0 +1,671 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_exback__build_plan
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/ex-back/lp/build-my-plan
+  title: AI план за бившия
+  description1: Вземете персонализиран AI план
+  description2: Създаден за вашата ситуация
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_exback__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/ex-back/lp/plan
+  title: План за връщане на бившия
+  description1: Спечелете отново бившия си
+  description2: Станете по-добър партньор днес
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_exback__grow
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/ex-back/lp/grow-first-decide-later
+  title: Израснете като личност
+  description1: Първо подобрете себе си
+  description2: Привлечете ги обратно естествено
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_exback__missing
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/ex-back/lp/what-youre-missing
+  title: Какво пропускате.
+  description1: Вижте какво не са ви казали
+  description2: Разкрийте скритите проблеми
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_exback__move
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/ex-back/lp/the-right-move
+  title: Направете правилния ход
+  description1: Кажете правилните неща
+  description2: Действайте в точния момент
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_exback__pattern
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/ex-back/lp/see-the-pattern
+  title: Разпознайте модела
+  description1: Разберете какво се обърка
+  description2: Забележете повтарящи се грешки
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_exback__worth
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/ex-back/lp/is-it-worth-saving
+  title: Струва ли си спасяването?
+  description1: Разберете дали може да проработи
+  description2: Не губете време и енергия
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_exback__build_plan
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/ex-back/lp/build-my-plan
+  title: Pla amb IA per tornar-hi
+  description1: Aconsegueix un pla amb IA
+  description2: Creat per a la teva situació
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_exback__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/ex-back/lp/plan
+  title: Pla per recuperar l'ex
+  description1: Recupera la teva exparella
+  description2: Millora com a parella avui
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_exback__grow
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/ex-back/lp/grow-first-decide-later
+  title: Creix com a persona
+  description1: Millora tu primer
+  description2: Atreu la teva ex naturalment
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_exback__missing
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/ex-back/lp/what-youre-missing
+  title: Què t'estàs perdent.
+  description1: Mira què no t'han dit mai
+  description2: Revela problemes ocults
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_exback__move
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/ex-back/lp/the-right-move
+  title: Fes el pas correcte
+  description1: Digues allò que toca
+  description2: Actua en el moment adequat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_exback__pattern
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/ex-back/lp/see-the-pattern
+  title: Observa el patró
+  description1: Entén què va sortir malament
+  description2: Detecta errors repetitius
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_exback__worth
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/ex-back/lp/is-it-worth-saving
+  title: Val la pena salvar-ho?
+  description1: Descobreix si pot funcionar
+  description2: No perdis temps ni energia
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_exback__build_plan
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/ex-back/lp/build-my-plan
+  title: KI Ex-Zurück-Planer
+  description1: Personalisierter KI-Plan
+  description2: Perfekt für Ihre Situation
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_exback__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/ex-back/lp/plan
+  title: Ex Zurück Plan Erstellen
+  description1: Ex-Partner zurückgewinnen
+  description2: Werden Sie ein besserer Partner
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_exback__grow
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/ex-back/lp/grow-first-decide-later
+  title: Persönlich wachsen
+  description1: Arbeiten Sie an sich selbst
+  description2: Natürliche Anziehungskraft
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_exback__missing
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/ex-back/lp/what-youre-missing
+  title: Was Ihnen fehlt.
+  description1: Was nie gesagt wurde
+  description2: Versteckte Probleme finden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_exback__move
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/ex-back/lp/the-right-move
+  title: Der richtige Schritt
+  description1: Sagen Sie das Richtige
+  description2: Handeln im richtigen Moment
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_exback__pattern
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/ex-back/lp/see-the-pattern
+  title: Muster erkennen
+  description1: Verstehen was falsch lief
+  description2: Wiederholte Fehler finden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_exback__worth
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/ex-back/lp/is-it-worth-saving
+  title: Lohnt sich die Rettung?
+  description1: Finden Sie heraus ob es klappt
+  description2: Sparen Sie Zeit und Energie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_exback__build_plan
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ex-back/lp/build-my-plan
+  title: AI Ex Back Plan Builder
+  description1: Get a personalized AI plan
+  description2: Built for your exact situation
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_exback__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ex-back/lp/plan
+  title: Ex Back Plan Builder
+  description1: Win back your ex
+  description2: Become a better partner today
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_exback__grow
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ex-back/lp/grow-first-decide-later
+  title: Grow as a Person
+  description1: Improve yourself first
+  description2: Attract them back naturally
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_exback__missing
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ex-back/lp/what-youre-missing
+  title: What You're Missing.
+  description1: See what they never told you
+  description2: Reveal hidden dealbreakers
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_exback__move
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ex-back/lp/the-right-move
+  title: Make The Right Move
+  description1: Say the right thing
+  description2: Act at the right moment
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_exback__pattern
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ex-back/lp/see-the-pattern
+  title: See The Pattern
+  description1: Understand what went wrong
+  description2: Spot repeating mistakes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_exback__worth
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ex-back/lp/is-it-worth-saving
+  title: Is it worth saving?
+  description1: Know if it can truly work
+  description2: Avoid wasting time or energy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_exback__build_plan
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/ex-back/lp/build-my-plan
+  title: Piano Riconquista IA
+  description1: Ottieni un piano IA su misura
+  description2: Creato per la tua situazione
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_exback__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/ex-back/lp/plan
+  title: Crea Piano Riconquista
+  description1: Riconquista il tuo ex
+  description2: Diventa un partner migliore
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_exback__grow
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/ex-back/lp/grow-first-decide-later
+  title: Cresci Come Persona
+  description1: Migliora prima te stesso
+  description2: Riconquista in modo naturale
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_exback__missing
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/ex-back/lp/what-youre-missing
+  title: Cosa Ti Manca Veramente
+  description1: Scopri cosa non ti hanno detto
+  description2: Rivela i problemi nascosti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_exback__move
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/ex-back/lp/the-right-move
+  title: Fai La Mossa Giusta
+  description1: Dì la cosa più giusta
+  description2: Agisci nel momento perfetto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_exback__pattern
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/ex-back/lp/see-the-pattern
+  title: Vedi Gli Schemi Ripetuti
+  description1: Capisci cosa è andato storto
+  description2: Individua gli errori comuni
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_exback__worth
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/ex-back/lp/is-it-worth-saving
+  title: Vale la pena salvarla?
+  description1: Scopri se può funzionare
+  description2: Non sprecare tempo o energie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_exback__build_plan
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/ex-back/lp/build-my-plan
+  title: AI Ex Terug Plan Maken
+  description1: Krijg een persoonlijk AI-plan
+  description2: Gemaakt voor jouw situatie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_exback__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/ex-back/lp/plan
+  title: Ex Terug Plan Maken
+  description1: Win je ex terug met ons plan
+  description2: Word vandaag een betere partner
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_exback__grow
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/ex-back/lp/grow-first-decide-later
+  title: Groei als persoon
+  description1: Verbeter eerst jezelf
+  description2: Trek je ex natuurlijk aan
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_exback__missing
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/ex-back/lp/what-youre-missing
+  title: Wat je nu nog mist.
+  description1: Zie wat ze je nooit vertelden
+  description2: Onthul verborgen dealbreakers
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_exback__move
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/ex-back/lp/the-right-move
+  title: Maak de juiste stap
+  description1: Zeg precies de juiste dingen
+  description2: Handel op het juiste moment
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_exback__pattern
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/ex-back/lp/see-the-pattern
+  title: Herken het patroon
+  description1: Begrijp wat er misging
+  description2: Ontdek herhalende fouten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_exback__worth
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/ex-back/lp/is-it-worth-saving
+  title: Is het de moeite waard?
+  description1: Weet of het echt kan werken
+  description2: Voorkom verspilling van tijd
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_exback__build_plan
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/ex-back/lp/build-my-plan
+  title: AI-plan for å få eksen
+  description1: Få en personlig AI-plan
+  description2: Tilpasset din unike situasjon
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_exback__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/ex-back/lp/plan
+  title: Få eksen tilbake-plan
+  description1: Vinn tilbake eksen din
+  description2: Bli en bedre partner i dag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_exback__grow
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/ex-back/lp/grow-first-decide-later
+  title: Utvikle deg som person
+  description1: Forbedre deg selv først
+  description2: Få dem tilbake naturlig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_exback__missing
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/ex-back/lp/what-youre-missing
+  title: Hva du går glipp av.
+  description1: Se hva de aldri fortalte
+  description2: Avslør skjulte problemer
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_exback__move
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/ex-back/lp/the-right-move
+  title: Gjør det rette trekket
+  description1: Si de riktige tingene
+  description2: Handle i rett øyeblikk
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_exback__pattern
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/ex-back/lp/see-the-pattern
+  title: Se det skjulte mønsteret
+  description1: Forstå hva som gikk galt
+  description2: Oppdag gjentakende feil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_exback__worth
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/ex-back/lp/is-it-worth-saving
+  title: Er det verdt å redde?
+  description1: Finn ut om det kan fungere
+  description2: Ikke kast bort tid og energi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_exback__build_plan
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/ex-back/lp/build-my-plan
+  title: Kreator Planu Powrotu AI
+  description1: Zdobądź spersonalizowany plan AI
+  description2: Stworzony dla Twojej sytuacji
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_exback__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/ex-back/lp/plan
+  title: Kreator Planu Powrotu
+  description1: Odzyskaj swoją miłość
+  description2: Zostań lepszym partnerem już dziś
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_exback__grow
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/ex-back/lp/grow-first-decide-later
+  title: Rozwijaj się jako osoba
+  description1: Najpierw popraw samego siebie
+  description2: Przyciągnij ich z powrotem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_exback__missing
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/ex-back/lp/what-youre-missing
+  title: To, co przegapiasz.
+  description1: Zobacz, czego Ci nie powiedzieli
+  description2: Odkryj ukryte problemy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_exback__move
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/ex-back/lp/the-right-move
+  title: Wykonaj właściwy ruch
+  description1: Powiedz właściwe słowa
+  description2: Działaj w odpowiednim momencie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_exback__pattern
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/ex-back/lp/see-the-pattern
+  title: Dostrzeż ten schemat
+  description1: Zrozum, co poszło nie tak
+  description2: Zauważ powtarzające się błędy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_exback__worth
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/ex-back/lp/is-it-worth-saving
+  title: Czy warto to ratować?
+  description1: Dowiedz się, czy to zadziała
+  description2: Uniknij marnowania czasu

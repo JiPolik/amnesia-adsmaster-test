@@ -1,0 +1,121 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: no_ww_goog_s_efaq_autism
+  platform: google_search
+  vertical: autism
+  extends: autism_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_no_autism__assessment
+  - callout_no_autism__experts
+  - callout_no_autism__instant
+  - callout_no_autism__minutes
+  - callout_no_autism__mobile_friendly
+  - callout_no_autism__secure
+  - efaq_business_name
+  - sitelink_no_autism__aspergers
+  - sitelink_no_autism__behavioral
+  - sitelink_no_autism__generic
+  - sitelink_no_autism__indicators
+  - sitelink_no_autism__interests
+  - sitelink_no_autism__savant
+  - sitelink_no_autism__spectrum
+  - sitelink_no_autism__whatis
+  - snip_no_autism__types
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/no/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Offisiell side
+      - Autisme-test på nett
+      - Autisme selvvurdering
+      - Start autisme-screening
+      - Hva er autisme (ASD)?
+      - Ta en gratis autisme-test
+      - Er du på autismespekteret?
+      descriptions:
+      - Ta en rask autisme-screening på nett og utforsk vanlige trekk knyttet til ASD.
+      - Utforsk hvor du befinner deg på autismespekteret med denne enkle selvvurderingen.
+      - Lurer du på om du kan være autistisk? Ta denne raske autisme-screeningen på nett.
+      - En rask autisme-screening på nett bygget for å gi deg klarhet og bedre forståelse.
+    keywords:
+    - text: autism test
+      match_type: BROAD
+    - text: what is autism
+      match_type: BROAD
+    - text: autism test for adults
+      match_type: BROAD
+    - text: am i autistic
+      match_type: BROAD
+    - text: autism spectrum test
+      match_type: BROAD
+    - text: autism test free
+      match_type: BROAD
+    - text: do i have autism
+      match_type: BROAD
+    - text: autism quiz
+      match_type: BROAD
+    - text: adult autism test
+      match_type: BROAD
+    - text: autism test online
+      match_type: BROAD
+    - text: signs of autism
+      match_type: BROAD
+    - text: signs of autism in adults
+      match_type: BROAD
+    - text: autism screening test
+      match_type: BROAD
+    - text: adult autism symptoms
+      match_type: BROAD
+    - text: autism symptoms
+      match_type: BROAD
+    - text: online autism assessment
+      match_type: BROAD
+    - text: asperger test
+      match_type: BROAD
+    - text: aspergers test
+      match_type: BROAD
+    - text: free autism test
+      match_type: BROAD
+    - text: autisme test
+      match_type: BROAD
+    - text: hva er autisme
+      match_type: BROAD
+    - text: autisme test for voksne
+      match_type: BROAD
+    - text: er jeg autistisk
+      match_type: BROAD
+    - text: autismespekter test
+      match_type: BROAD
+    - text: autisme test gratis
+      match_type: BROAD
+    - text: har jeg autisme
+      match_type: BROAD
+    - text: autisme quiz
+      match_type: BROAD
+    - text: voksen autisme test
+      match_type: BROAD
+    - text: autisme test på nett
+      match_type: BROAD
+    - text: tegn på autisme
+      match_type: BROAD
+    - text: tegn på autisme hos voksne
+      match_type: BROAD
+    - text: autisme screening test
+      match_type: BROAD
+    - text: voksen autisme symptomer
+      match_type: BROAD
+    - text: autisme symptomer
+      match_type: BROAD
+    - text: autisme kartlegging på nett
+      match_type: BROAD
+    - text: aspergers syndrom test
+      match_type: BROAD
+    - text: gratis autisme test
+      match_type: BROAD

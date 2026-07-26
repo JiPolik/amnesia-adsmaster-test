@@ -1,0 +1,135 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: no_ww_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_no_psychopath__assessment
+  - callout_no_psychopath__experts
+  - callout_no_psychopath__instant
+  - callout_no_psychopath__minutes
+  - callout_no_psychopath__mobile_friendly
+  - callout_no_psychopath__secure
+  - efaq_business_name
+  - sitelink_no_psychopath__callous_unemotional
+  - sitelink_no_psychopath__dark_triad
+  - sitelink_no_psychopath__emotional_detachment
+  - sitelink_no_psychopath__generic
+  - sitelink_no_psychopath__lack_of_empathy
+  - sitelink_no_psychopath__manipulation_deceit
+  - sitelink_no_psychopath__superficial_charm
+  - sitelink_no_psychopath__what_is_psychopathy
+  - snip_no_psychopath__types
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 30.0
+  ad_sets:
+  - name: psychopath
+    ad_templates:
+    - name: psychopath__rsa
+      destination_url: https://efaq.com/no/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Offisiell side
+      - Ta vår psykopat-test
+      - Er jeg en psykopat? Finn ut
+      - Gratis psykopat-test på nett
+      - Egenevaluering for psykopati
+      - Er du en sosiopat?
+      - Mørk triade personlighetstest
+      - Få resultatet umiddelbart
+      - Test designet av eksperter
+      - Rask og konfidensiell test
+      - Oppdag dine trekk i dag
+      descriptions:
+      - Ta vår gratis egenevaluering for psykopati. Svar på spørsmålene og få svaret umiddelbart.
+      - Ekspertdesignet test basert på klinisk forskning. Vurder dine psykopatiske trekk.
+      - Finn ut hvor du befinner deg på psykopatispekteret. Private resultater på få minutter.
+      - Utforsk psykopatiske trekk, den mørke triaden og mer. Ta testen vår i dag.
+    keywords:
+    - text: psychopath test
+      match_type: BROAD
+    - text: am i a psychopath
+      match_type: BROAD
+    - text: am i a sociopath
+      match_type: BROAD
+    - text: psychopath
+      match_type: BROAD
+    - text: sociopath
+      match_type: BROAD
+    - text: psychopath quiz
+      match_type: BROAD
+    - text: psychopathy test
+      match_type: BROAD
+    - text: sociopath test
+      match_type: BROAD
+    - text: what is psychopathy
+      match_type: BROAD
+    - text: signs of a psychopath
+      match_type: BROAD
+    - text: psychopath traits
+      match_type: BROAD
+    - text: dark triad test
+      match_type: BROAD
+    - text: dark triad
+      match_type: BROAD
+    - text: callous unemotional traits
+      match_type: BROAD
+    - text: lack of empathy test
+      match_type: BROAD
+    - text: lack of empathy
+      match_type: BROAD
+    - text: emotional detachment test
+      match_type: BROAD
+    - text: superficial charm
+      match_type: BROAD
+    - text: manipulation and deceit
+      match_type: BROAD
+    - text: antisocial personality test
+      match_type: BROAD
+    - text: sociopath traits
+      match_type: BROAD
+    - text: psykopat test
+      match_type: BROAD
+    - text: er jeg en psykopat
+      match_type: BROAD
+    - text: er jeg en sosiopat
+      match_type: BROAD
+    - text: psykopat
+      match_type: BROAD
+    - text: sosiopat
+      match_type: BROAD
+    - text: psykopat quiz
+      match_type: BROAD
+    - text: test for psykopati
+      match_type: BROAD
+    - text: sosiopat test
+      match_type: BROAD
+    - text: hva er psykopati
+      match_type: BROAD
+    - text: tegn på en psykopat
+      match_type: BROAD
+    - text: psykopatiske trekk
+      match_type: BROAD
+    - text: mørk triade test
+      match_type: BROAD
+    - text: den mørke triaden
+      match_type: BROAD
+    - text: ufølsomme trekk
+      match_type: BROAD
+    - text: mangel på empati test
+      match_type: BROAD
+    - text: mangel på empati
+      match_type: BROAD
+    - text: emosjonell distanse test
+      match_type: BROAD
+    - text: overfladisk sjarm
+      match_type: BROAD
+    - text: manipulasjon og svik
+      match_type: BROAD
+    - text: antisosial personlighetstest
+      match_type: BROAD
+    - text: sosiopatiske trekk
+      match_type: BROAD

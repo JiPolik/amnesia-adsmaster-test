@@ -1,0 +1,89 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_licenseplate__history
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Vehicle History Reports
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_licenseplate__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_licenseplate__lookup
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Lookup Any License Plate
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_licenseplate__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_licenseplate__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_licenseplate__history
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Historial del Vehículo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_licenseplate__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados Instantáneos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_licenseplate__lookup
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Busque Cualquier Placa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_licenseplate__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Móvil Amigable
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_licenseplate__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Web Seguro

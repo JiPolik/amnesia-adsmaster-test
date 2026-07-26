@@ -1,0 +1,88 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: no_ww_goog_s_efaq_exback
+  platform: google_search
+  vertical: ex_back
+  extends: ex_back_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_no_exback__experts
+  - callout_no_exback__fix
+  - callout_no_exback__instant
+  - callout_no_exback__mobile_friendly
+  - callout_no_exback__secure
+  - callout_no_exback__win_back
+  - efaq_business_name
+  - sitelink_no_exback__build_plan
+  - sitelink_no_exback__generic
+  - sitelink_no_exback__grow
+  - sitelink_no_exback__missing
+  - sitelink_no_exback__move
+  - sitelink_no_exback__pattern
+  - sitelink_no_exback__worth
+  - snip_no_exback__services
+spec:
+  budget_daily_usd: 400.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: ex_back
+    ad_templates:
+    - name: ex_back__rsa
+      destination_url: https://efaq.com/no/ex-back/lp/plan
+      headlines:
+      - EFAQ.com - Offisiell side
+      - Ikke kast bort pengene
+      - Metode for å få eksen tilbake
+      - Personlig plan for eksen
+      - 2-minutters eks-quiz
+      - AI-plan for å få eksen
+      - Påviste eks-strategier
+      - Bruk AI for å vinne dem
+      - Få klarhet og legg strategi
+      descriptions:
+      - Få en personlig plan basert på bruddet, følelsene dine og ditt neste beste trekk.
+      - Slutt å gjette hva du skal gjøre. Bruk AI til å bygge en tydelig strategi som fungerer.
+      - Svar på noen spørsmål og få en smart plan for å gjenopprette kontakt og bygge tillit.
+      - Designet for å hjelpe deg med å bli bedre, kommunisere riktig og unngå vanlige feil.
+    keywords:
+    - text: relationship advice
+      match_type: BROAD
+    - text: win back ex
+      match_type: BROAD
+    - text: win ex back
+      match_type: BROAD
+    - text: get back ex
+      match_type: BROAD
+    - text: get ex back
+      match_type: BROAD
+    - text: how to get your ex back
+      match_type: BROAD
+    - text: how to get my ex back
+      match_type: BROAD
+    - text: will my ex come back
+      match_type: BROAD
+    - text: how to get your ex girlfriend back
+      match_type: BROAD
+    - text: how to get your ex boyfriend back
+      match_type: BROAD
+    - text: forholdsråd
+      match_type: BROAD
+    - text: vinn tilbake eksen
+      match_type: BROAD
+    - text: få eksen tilbake
+      match_type: BROAD
+    - text: hvordan få eksen tilbake
+      match_type: BROAD
+    - text: hvordan få tilbake eksen
+      match_type: BROAD
+    - text: kommer eksen tilbake
+      match_type: BROAD
+    - text: hvordan få ekskjæresten tilbake
+      match_type: BROAD
+    - text: få tilbake ekskjæresten
+      match_type: BROAD
+    - text: hvordan vinne tilbake eksen
+      match_type: BROAD
+    - text: få tilbake eksen min
+      match_type: BROAD

@@ -1,0 +1,32 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_chat__models
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: MODELS
+  values:
+  - ChatGPT
+  - DeepSeek
+  - Claude
+  - Gemini
+  - Grok
+  - Llama
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_chat__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - General Chat
+  - Advanced Reasoning
+  - Creative Writing
+  - Coding Assistant
+  - Research Assistant
+  language: ENGLISH_US

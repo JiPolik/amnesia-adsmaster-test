@@ -1,0 +1,153 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: et_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_et_career__experts
+  - callout_et_career__instant
+  - callout_et_career__minutes
+  - callout_et_career__mobile_friendly
+  - callout_et_career__plan_future
+  - callout_et_career__secure
+  - callout_et_career__strengths
+  - efaq_business_name
+  - sitelink_et_career__ai
+  - sitelink_et_career__career_change
+  - sitelink_et_career__fit
+  - sitelink_et_career__generic
+  - sitelink_et_career__graduates
+  - sitelink_et_career__how_it_works
+  - sitelink_et_career__plan_future
+  - sitelink_et_career__science
+  - sitelink_et_career__strengths
+  - sitelink_et_career__students
+  - sitelink_et_career__what_is
+  - snip_et_career__services
+  - snip_et_career__styles
+  - snip_et_career__types
+spec:
+  budget_daily_usd: 700.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/et/career/lp/quiz
+      headlines:
+      - EFAQ.com - Ametlik leht
+      - Ära raiska raha
+      - Karjääri sobivustest
+      - Leia ideaalne karjäär
+      - Milline töö sulle sobib?
+      - Leia oma tugevused
+      - Karjääritest kõigile
+      - Tööalaste tugevuste test
+      - Vale karjäärivalik?
+      - Avasta oma tööstiil
+      - Leia oma unistuste töö
+      - Ennusta oma karjääri
+      - 5-minutiline test
+      - Hinnatuim karjääritest
+      - Vaheta karjääri kindlalt
+      descriptions:
+      - Avasta meie sobivustestiga, milline karjäär sobib sinu tugevuste ja oskustega.
+      - Saa personaalseid karjääriideid, mis põhinevad sinu tugevustel ja tööstiilil.
+      - Mõtled karjäärimuutusele? Avasta uued teed, mis sobivad sulle paremini.
+      - Tee meie teaduspõhine karjääri sobivustest ja saa personaalset nõu.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: karjääritest
+      match_type: BROAD
+    - text: karjääri test
+      match_type: BROAD
+    - text: tasuta karjääritest
+      match_type: BROAD
+    - text: karjääri sobivustest
+      match_type: BROAD
+    - text: kutsesobivustest
+      match_type: BROAD
+    - text: milline töö mulle sobib
+      match_type: BROAD
+    - text: sobiv töö
+      match_type: BROAD
+    - text: erialavaliku test
+      match_type: BROAD
+    - text: ameti valik
+      match_type: BROAD
+    - text: töö leidmine
+      match_type: BROAD
+    - text: unistuste töö
+      match_type: BROAD
+    - text: karjäärinõustamine
+      match_type: BROAD
+    - text: karjääri planeerimine
+      match_type: BROAD

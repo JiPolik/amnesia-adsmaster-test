@@ -1,0 +1,133 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fi_ww_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_fi_psychopath__assessment
+  - callout_fi_psychopath__experts
+  - callout_fi_psychopath__instant
+  - callout_fi_psychopath__minutes
+  - callout_fi_psychopath__mobile_friendly
+  - callout_fi_psychopath__secure
+  - efaq_business_name
+  - sitelink_fi_psychopath__callous_unemotional
+  - sitelink_fi_psychopath__dark_triad
+  - sitelink_fi_psychopath__emotional_detachment
+  - sitelink_fi_psychopath__generic
+  - sitelink_fi_psychopath__lack_of_empathy
+  - sitelink_fi_psychopath__manipulation_deceit
+  - sitelink_fi_psychopath__superficial_charm
+  - sitelink_fi_psychopath__what_is_psychopathy
+  - snip_fi_psychopath__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: psychopath
+    ad_templates:
+    - name: psychopath__rsa
+      destination_url: https://efaq.com/fi/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Virallinen sivu
+      - Tee psykopaattitesti
+      - Olenko psykopaatti? Selvitä
+      - Ilmainen psykopaattitesti
+      - Psykopatian itsearviointi
+      - Oletko sosiopaatti?
+      - Pimeä kolmikko -testi
+      - Saa välittömät tulokset
+      - Asiantuntijoiden arviointi
+      - Nopea ja luottamuksellinen
+      - Löydä piirteesi jo tänään
+      descriptions:
+      - Tee ilmainen psykopatian itsearviointi. Vastaa kysymyksiin ja saa välittömät tulokset
+      - Asiantuntijoiden suunnittelema testi perustuu tutkimukseen. Arvioi psykopaatin piirteitä
+      - Selvitä sijoituksesi psykopatiaspektrillä. Yksityiset tulokset vain muutamassa minuutissa
+      - Tutki psykopaattisia piirteitä, pimeää kolmikkoa ja paljon muuta. Tee testi nyt
+    keywords:
+    - text: psychopath test
+      match_type: BROAD
+    - text: am i a psychopath
+      match_type: BROAD
+    - text: am i a sociopath
+      match_type: BROAD
+    - text: psychopath
+      match_type: BROAD
+    - text: sociopath
+      match_type: BROAD
+    - text: psychopath quiz
+      match_type: BROAD
+    - text: psychopathy test
+      match_type: BROAD
+    - text: sociopath test
+      match_type: BROAD
+    - text: what is psychopathy
+      match_type: BROAD
+    - text: signs of a psychopath
+      match_type: BROAD
+    - text: psychopath traits
+      match_type: BROAD
+    - text: dark triad test
+      match_type: BROAD
+    - text: dark triad
+      match_type: BROAD
+    - text: callous unemotional traits
+      match_type: BROAD
+    - text: lack of empathy test
+      match_type: BROAD
+    - text: lack of empathy
+      match_type: BROAD
+    - text: emotional detachment test
+      match_type: BROAD
+    - text: superficial charm
+      match_type: BROAD
+    - text: manipulation and deceit
+      match_type: BROAD
+    - text: antisocial personality test
+      match_type: BROAD
+    - text: sociopath traits
+      match_type: BROAD
+    - text: psykopaattitesti
+      match_type: BROAD
+    - text: olenko psykopaatti
+      match_type: BROAD
+    - text: olenko sosiopaatti
+      match_type: BROAD
+    - text: psykopaatti
+      match_type: BROAD
+    - text: sosiopaatti
+      match_type: BROAD
+    - text: psykopatia testi
+      match_type: BROAD
+    - text: sosiopaatti testi
+      match_type: BROAD
+    - text: mitä on psykopatia
+      match_type: BROAD
+    - text: psykopaatin merkit
+      match_type: BROAD
+    - text: psykopaatin piirteet
+      match_type: BROAD
+    - text: pimeä kolmikko testi
+      match_type: BROAD
+    - text: pimeä kolmikko
+      match_type: BROAD
+    - text: tunteettomuuden piirteet
+      match_type: BROAD
+    - text: empatian puute testi
+      match_type: BROAD
+    - text: empatian puute
+      match_type: BROAD
+    - text: tunnekylmyys testi
+      match_type: BROAD
+    - text: pinnallinen viehätys
+      match_type: BROAD
+    - text: manipulaatio ja petos
+      match_type: BROAD
+    - text: antisosiaalinen persoonallisuus
+      match_type: BROAD
+    - text: sosiopaatin piirteet
+      match_type: BROAD

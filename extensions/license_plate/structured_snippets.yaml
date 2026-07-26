@@ -1,0 +1,33 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_licenseplate__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Vehicle History Reports
+  - Car History Reports
+  - VIN Lookup
+  - License Plate Lookup
+  - Odometer Records
+  - Accident Records
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_esus_licenseplate__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Historial del Vehículo
+  - Historial del Auto
+  - Búsqueda de VIN
+  - Búsqueda de Placa
+  - Registros de Odómetro
+  - Historial de Accidentes
+  language: SPANISH_US

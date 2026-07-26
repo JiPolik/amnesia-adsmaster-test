@@ -1,0 +1,120 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: et_ww_goog_s_efaq_autism
+  platform: google_search
+  vertical: autism
+  extends: autism_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_et_autism__assessment
+  - callout_et_autism__experts
+  - callout_et_autism__instant
+  - callout_et_autism__minutes
+  - callout_et_autism__mobile_friendly
+  - callout_et_autism__secure
+  - efaq_business_name
+  - sitelink_et_autism__aspergers
+  - sitelink_et_autism__behavioral
+  - sitelink_et_autism__generic
+  - sitelink_et_autism__indicators
+  - sitelink_et_autism__interests
+  - sitelink_et_autism__savant
+  - sitelink_et_autism__spectrum
+  - sitelink_et_autism__whatis
+  - snip_et_autism__types
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/et/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Ametlik leht
+      - Autismi test veebis
+      - Autismi enesehindamine
+      - Alusta autismi sõeluuringut
+      - Mis on autism (ASS)?
+      - Tee tasuta autismi test
+      - Kas mul on autism?
+      - Autismi sümptomid
+      descriptions:
+      - Tee kiire veebipõhine autismi sõeluuring ja uuri levinud autismispektriga seotud jooni.
+      - Uuri selle enesehindamise abil, kus sa võiksid autismispektril asuda.
+      - Mõtled, kas sa võid olla autistlik? Tee see kiire autismi sõeluuring veebis.
+      - Kiire veebipõhine autismi sõeluuring, mis on loodud selguse ja mõistmise tagamiseks.
+    keywords:
+    - text: autism test
+      match_type: BROAD
+    - text: what is autism
+      match_type: BROAD
+    - text: autism test for adults
+      match_type: BROAD
+    - text: am i autistic
+      match_type: BROAD
+    - text: autism spectrum test
+      match_type: BROAD
+    - text: autism test free
+      match_type: BROAD
+    - text: do i have autism
+      match_type: BROAD
+    - text: autism quiz
+      match_type: BROAD
+    - text: adult autism test
+      match_type: BROAD
+    - text: autism test online
+      match_type: BROAD
+    - text: signs of autism
+      match_type: BROAD
+    - text: signs of autism in adults
+      match_type: BROAD
+    - text: autism screening test
+      match_type: BROAD
+    - text: adult autism symptoms
+      match_type: BROAD
+    - text: autism symptoms
+      match_type: BROAD
+    - text: online autism assessment
+      match_type: BROAD
+    - text: asperger test
+      match_type: BROAD
+    - text: aspergers test
+      match_type: BROAD
+    - text: free autism test
+      match_type: BROAD
+    - text: autismi test
+      match_type: BROAD
+    - text: mis on autism
+      match_type: BROAD
+    - text: autismi test täiskasvanutele
+      match_type: BROAD
+    - text: kas ma olen autist
+      match_type: BROAD
+    - text: autismispektri test
+      match_type: BROAD
+    - text: tasuta autismi test
+      match_type: BROAD
+    - text: kas mul on autism
+      match_type: BROAD
+    - text: autismi küsimustik
+      match_type: BROAD
+    - text: täiskasvanute autismi test
+      match_type: BROAD
+    - text: autismi test veebis
+      match_type: BROAD
+    - text: autismi sümptomid
+      match_type: BROAD
+    - text: autismi tunnused täiskasvanutel
+      match_type: BROAD
+    - text: autismi sõeluuring
+      match_type: BROAD
+    - text: täiskasvanute autismi tunnused
+      match_type: BROAD
+    - text: autismi tunnused
+      match_type: BROAD
+    - text: veebipõhine autismi test
+      match_type: BROAD
+    - text: aspergeri sündroomi test
+      match_type: BROAD

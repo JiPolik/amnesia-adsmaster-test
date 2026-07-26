@@ -1,0 +1,125 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sv_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_sv_iq__breakdown
+  - callout_sv_iq__experts
+  - callout_sv_iq__fun_challenging
+  - callout_sv_iq__instant
+  - callout_sv_iq__mobile_friendly
+  - callout_sv_iq__secure
+  - efaq_business_name
+  - sitelink_sv_iq__am_i_gifted
+  - sitelink_sv_iq__can_you_improve
+  - sitelink_sv_iq__generic
+  - sitelink_sv_iq__students
+  - sitelink_sv_iq__what_is_iq
+  - snip_sv_iq__test_types
+spec:
+  budget_daily_usd: 2000.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/sv/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Officiell sida
+      - Testa din IQ på 20 minuter
+      - Officiellt IQ-test 2026
+      - Det mest exakta IQ-testet
+      - Slösa inte dina pengar
+      - Starta ditt IQ-test nu
+      - Hur smart är du?
+      - Snabba och exakta resultat
+      - Vetenskapligt utformat test
+      - Riktigt IQ-test, riktiga svar
+      - Smartare än dina vänner?
+      descriptions:
+      - Tror du att du är smartare än snittet? Gör testet och se hur du ligger till.
+      - Få snabba och exakta IQ-resultat på under 10 minuter, direkt i mobilen.
+      - Vetenskapligt utformat IQ-test som ger tillförlitliga och exakta resultat.
+      - Gå med tusentals som testat sin IQ och se exakt hur du presterar.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq test svenska
+      match_type: BROAD
+    - text: gratis iq test
+      match_type: BROAD
+    - text: iq test på nätet
+      match_type: BROAD
+    - text: intelligenstest
+      match_type: BROAD
+    - text: intelligenstest online
+      match_type: BROAD
+    - text: vad är min iq
+      match_type: BROAD
+    - text: hur smart är jag
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/sv/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Officiell sida
+      - Testa din IQ på 20 minuter
+      - Officiellt IQ-test 2026
+      - Det mest exakta IQ-testet
+      - Hur smart är jag?
+      - Hur smart är du?
+      - Slösa inte dina pengar
+      - Intelligenstest online
+      descriptions:
+      - Har du undrat hur smart du är? Gör testet och få tydliga svar direkt.
+      - Se om du är genomsnittlig, begåvad eller över snittet. Snabbt IQ-test.
+      - Sluta gissa. Mät din intelligens med ett riktigt IQ-test redan idag.
+      - Tusentals har testat sin IQ. Ta reda på var du själv hamnar.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: är jag smart
+      match_type: BROAD
+    - text: hur smart är jag
+      match_type: BROAD
+    - text: är jag intelligent
+      match_type: BROAD
+    - text: är jag begåvad
+      match_type: BROAD
+    - text: har jag hög iq
+      match_type: BROAD

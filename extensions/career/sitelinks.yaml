@@ -1,0 +1,3695 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/top-ai-careers
+  title: Топ AI кариери
+  description1: Виж търсените AI работи
+  description2: Подсигури бъдещето си
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/career-change
+  title: Смяна на кариерата
+  description1: Открий нов път за развитие
+  description2: Намери идеалната роля
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/careers-that-fit-you
+  title: Кариери за теб
+  description1: Намери подходяща работа
+  description2: Роли според силните страни
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/quiz
+  title: Тест за кариера
+  description1: Открий правилната кариера
+  description2: Направи нашия тест сега
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/graduates
+  title: За завършващи
+  description1: Насоки за абсолвенти
+  description2: Започни кариерата уверено
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/how-career-tests-work
+  title: Как работят тестовете
+  description1: Научи за тестовете
+  description2: Разбери резултатите си
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/plan-your-future
+  title: Планирай бъдещето
+  description1: Създай ясен план
+  description2: Избери уверено професия
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/career-quiz-science
+  title: Науката зад теста
+  description1: Виж научните методи
+  description2: Анализ, базиран на данни
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/find-your-strengths
+  title: Открий силните страни
+  description1: Разбери в какво си добър
+  description2: Превърни уменията в успех
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/students
+  title: 'Кариерен тест: Ученици'
+  description1: Тест, създаден за ученици
+  description2: Намери пътя си рано
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/career/lp/what-is-a-career-aptitude-test
+  title: Що е кариерен тест?
+  description1: Какво измерват тестовете
+  description2: Подходящ ли е за теб?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/top-ai-careers
+  title: Top Carreres IA
+  description1: Explora feines d'IA top
+  description2: Assegura el teu futur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/career-change
+  title: Canvia de Carrera
+  description1: Descobreix nous camins
+  description2: Troba rols ideals per a tu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/careers-that-fit-you
+  title: Carreres per a Tu
+  description1: Troba feines que t'encaixin
+  description2: Rols segons els teus punts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/quiz
+  title: Test d'Aptitud Laboral
+  description1: Troba la teva carrera ideal
+  description2: Fes el nostre test laboral
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/graduates
+  title: Per a Graduats
+  description1: Orientació per a graduats
+  description2: Comença amb claredat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/how-career-tests-work
+  title: Com Funcionen els Tests
+  description1: Aprèn com funcionen
+  description2: Entén els teus resultats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/plan-your-future
+  title: Planifica el Teu Futur
+  description1: Crea un pla de carrera clar
+  description2: Decideix amb confiança
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/career-quiz-science
+  title: Ciència del Test Laboral
+  description1: La ciència darrere el test
+  description2: Anàlisi basada en dades
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/find-your-strengths
+  title: Troba els Teus Forts
+  description1: Descobreix en què destaques
+  description2: Converteix forts en feina
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/students
+  title: Test Laboral Estudiants
+  description1: Test pensat per estudiants
+  description2: Troba el camí aviat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/career/lp/what-is-a-career-aptitude-test
+  title: Què és un Test Laboral
+  description1: Què mesuren els tests
+  description2: Mira si és per a tu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/top-ai-careers
+  title: Top kariéry v AI
+  description1: Prozkoumejte žádané AI práce
+  description2: Zajistěte si budoucnost
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/career-change
+  title: Změna kariéry
+  description1: Objevte nové profesní cesty
+  description2: Najděte roli, která vám sedne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/careers-that-fit-you
+  title: Kariéra, co vám sedne
+  description1: Najděte práci, co k vám jde
+  description2: Role podle silných stránek
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/quiz
+  title: Test kariérních vloh
+  description1: Zjistěte, jaká práce vám sedí
+  description2: Zkuste náš test kariéry
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/graduates
+  title: Pro absolventy
+  description1: Kariérní poradenství
+  description2: Začněte kariéru s jasnem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/how-career-tests-work
+  title: Jak fungují testy kariéry
+  description1: Jak fungují testy vloh
+  description2: Pochopte své výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/plan-your-future
+  title: Naplánujte si budoucnost
+  description1: Vytvořte si jasný plán
+  description2: Rozhodujte se s jistotou
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/career-quiz-science
+  title: Věda za testem kariéry
+  description1: Poznejte vědu za testem
+  description2: Analýza kariéry na datech
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/find-your-strengths
+  title: Najděte své silné stránky
+  description1: Zjistěte, v čem vynikáte
+  description2: Proměňte talent v kariéru
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/students
+  title: Test kariéry pro studenty
+  description1: Test navržený pro studenty
+  description2: Najděte správnou cestu včas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/career/lp/what-is-a-career-aptitude-test
+  title: Co je test kariéry
+  description1: Co měří kariérní testy
+  description2: Zjistěte, zda je test pro vás
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/top-ai-careers
+  title: Top AI-karrierer
+  description1: Udforsk AI-jobs i vækst
+  description2: Fremtidssikr din karriere
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/career-change
+  title: Skift karriere
+  description1: Opdag nye karriereveje
+  description2: Find job der passer dig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/careers-that-fit-you
+  title: Karrierer der matcher
+  description1: Find job der matcher dig
+  description2: Roller baseret på styrker
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/quiz
+  title: Karrieretest
+  description1: Find den rette karriere
+  description2: Tag vores karrieretest nu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/graduates
+  title: For nyuddannede
+  description1: Vejledning til dimittender
+  description2: Start din karriere rigtigt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/how-career-tests-work
+  title: Sådan virker testen
+  description1: Lær hvordan testen virker
+  description2: Forstå dine resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/plan-your-future
+  title: Planlæg din fremtid
+  description1: Lav en klar karriereplan
+  description2: Vælg karriere med vished
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/career-quiz-science
+  title: Videnskaben bag
+  description1: Se videnskaben bag testen
+  description2: Datadrevet karriereanalyse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/find-your-strengths
+  title: Find dine styrker
+  description1: Opdag hvad du er god til
+  description2: Brug dine styrker i jobbet
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/students
+  title: Karrieretest studerende
+  description1: Karrieretest for elever
+  description2: Find rette vej tidligt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/career/lp/what-is-a-career-aptitude-test
+  title: Hvad er en karrieretest
+  description1: Lær hvad testen måler
+  description2: Er testen noget for dig?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/top-ai-careers
+  title: Top KI-Karrieren
+  description1: Gefragte KI-Jobs finden
+  description2: Sichere deine Zukunft
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/career-change
+  title: Jobwechsel planen
+  description1: Neue Karrierewege finden
+  description2: Finde den passenden Job
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/careers-that-fit-you
+  title: Jobs, die passen
+  description1: Finde passende Berufe
+  description2: Rollen nach Stärken
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/quiz
+  title: Berufstest Online
+  description1: Welcher Beruf passt zu dir?
+  description2: Mach unseren Berufstest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/graduates
+  title: Für Absolventen
+  description1: Hilfe beim Karrierestart
+  description2: Starte mit Klarheit
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/how-career-tests-work
+  title: So funktioniert's
+  description1: Infos zu Eignungstests
+  description2: Verstehe dein Ergebnis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/plan-your-future
+  title: Plane deine Zukunft
+  description1: Erstelle einen Plan
+  description2: Sicher entscheiden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/career-quiz-science
+  title: Wissenschaft im Test
+  description1: Wissenschaftliche Basis
+  description2: Datenbasierte Analyse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/find-your-strengths
+  title: Deine Stärken finden
+  description1: Entdecke dein Talent
+  description2: Stärken im Job nutzen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/students
+  title: Berufstest für Schüler
+  description1: Speziell für Schüler
+  description2: Finde deinen Weg früh
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/career/lp/what-is-a-career-aptitude-test
+  title: Was ist ein Berufstest
+  description1: Was Tests messen
+  description2: Ist der Test für dich?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/top-ai-careers
+  title: Κορυφαίες Καριέρες AI
+  description1: Εξερεύνησε δουλειές AI
+  description2: Διασφάλισε την καριέρα σου
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/career-change
+  title: Αλλαγή Καριέρας
+  description1: Ανακάλυψε νέα μονοπάτια
+  description2: Βρες ρόλους που σου ταιριάζουν
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/careers-that-fit-you
+  title: Καριέρες στα Μέτρα σου
+  description1: Βρες καριέρες για σένα
+  description2: Ρόλοι βάσει δυνατοτήτων
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/quiz
+  title: Τεστ Καριέρας
+  description1: Βρες την ιδανική καριέρα
+  description2: Κάνε το τεστ καριέρας μας
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/graduates
+  title: Για Απόφοιτους
+  description1: Οδηγίες καριέρας αποφοίτων
+  description2: Ξεκίνα με καθαρή ματιά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/how-career-tests-work
+  title: Πώς Λειτουργούν τα Τεστ
+  description1: Μάθε πώς δουλεύουν τα τεστ
+  description2: Κατανόησε τα αποτελέσματα
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/plan-your-future
+  title: Σχεδίασε το Μέλλον σου
+  description1: Χτίσε πλάνο καριέρας
+  description2: Κάνε σίγουρες επιλογές
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/career-quiz-science
+  title: Επιστήμη Τεστ Καριέρας
+  description1: Η επιστήμη πίσω από το τεστ
+  description2: Ανάλυση βάσει δεδομένων
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/find-your-strengths
+  title: Βρες τα Δυνατά σου Σημεία
+  description1: Ανακάλυψε πού ξεχωρίζεις
+  description2: Κάνε τα προσόντα καριέρα
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/students
+  title: Τεστ Καριέρας Φοιτητών
+  description1: Τεστ ειδικά για φοιτητές
+  description2: Βρες το δρόμο σου νωρίς
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/career/lp/what-is-a-career-aptitude-test
+  title: Τι είναι το Τεστ Καριέρας
+  description1: Τι μετρούν τα τεστ καριέρας
+  description2: Δες αν σου ταιριάζει
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/top-ai-careers
+  title: Top AI Careers
+  description1: Explore high demand AI jobs
+  description2: Future proof your career
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/career-change
+  title: Change Careers
+  description1: Discover new career paths
+  description2: Find perfect roles that fit you
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/careers-that-fit-you
+  title: Careers That Fit You
+  description1: Find careers that match you
+  description2: Roles based on your strengths
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/quiz
+  title: Career Aptitude Test
+  description1: Find out which career is right
+  description2: Take our career aptitude test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/graduates
+  title: For Graduates
+  description1: Career guidance for graduates
+  description2: Start your career with clarity
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/how-career-tests-work
+  title: How Career Tests Work
+  description1: Learn how aptitude tests work
+  description2: Understand your results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/plan-your-future
+  title: Plan Your Future
+  description1: Build a clear career plan
+  description2: Make confident career choices
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/career-quiz-science
+  title: Career Quiz Science
+  description1: See the science behind our test
+  description2: Data driven career analysis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/find-your-strengths
+  title: Find Your Strengths
+  description1: Discover what you excel at
+  description2: Turn strengths into careers
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/students
+  title: Career Test for Students
+  description1: Career test designed for students
+  description2: Find the right path early
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/career/lp/what-is-a-career-aptitude-test
+  title: What Is a Career Test
+  description1: Learn what career tests measure
+  description2: See if a test is right for you
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/top-ai-careers
+  title: Carreras de IA Top
+  description1: Empleos de IA en auge
+  description2: Asegura tu futuro hoy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/career-change
+  title: Cambia de Carrera
+  description1: Descubre nuevos caminos
+  description2: Encuentra roles para ti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/careers-that-fit-you
+  title: Carreras Para Ti
+  description1: Halla trabajos afines
+  description2: Roles según tus fuerzas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/quiz
+  title: Test de Aptitud Laboral
+  description1: Descubre tu carrera ideal
+  description2: Haz nuestro test vocacional
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/graduates
+  title: Para Graduados
+  description1: Orientación laboral
+  description2: Inicia tu carrera bien
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/how-career-tests-work
+  title: Cómo Funciona el Test
+  description1: Aprende cómo funciona
+  description2: Entiende tus resultados
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/plan-your-future
+  title: Planifica Tu Futuro
+  description1: Crea un plan de carrera
+  description2: Decide con confianza
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/career-quiz-science
+  title: Ciencia del Test
+  description1: La ciencia tras el test
+  description2: Análisis basado en datos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/find-your-strengths
+  title: Halla Tus Fortalezas
+  description1: Descubre en qué destacas
+  description2: Usa tus puntos fuertes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/students
+  title: Test para Estudiantes
+  description1: Diseñado para alumnos
+  description2: Halla tu camino pronto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/career/lp/what-is-a-career-aptitude-test
+  title: Qué es un Test Laboral
+  description1: Qué miden estos tests
+  description2: Mira si es para ti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/top-ai-careers
+  title: Carreras en IA
+  description1: Empleos de IA en auge
+  description2: Asegura tu futuro hoy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/career-change
+  title: Cambia de Carrera
+  description1: Halla nuevas rutas laborales
+  description2: Roles perfectos para ti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/careers-that-fit-you
+  title: Carreras Para Ti
+  description1: Carreras que te encajan
+  description2: Roles según tus fuerzas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/quiz
+  title: Test de Aptitud Laboral
+  description1: Descubre tu carrera ideal
+  description2: Haz nuestro test laboral
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/graduates
+  title: Para Graduados
+  description1: Guía para graduados
+  description2: Inicia tu carrera bien
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/how-career-tests-work
+  title: Cómo Funciona el Test
+  description1: Aprende cómo funciona
+  description2: Entiende tus resultados
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/plan-your-future
+  title: Planea Tu Futuro
+  description1: Crea un plan de carrera
+  description2: Decide con confianza
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/career-quiz-science
+  title: Ciencia del Test Laboral
+  description1: La ciencia tras el test
+  description2: Análisis basado en datos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/find-your-strengths
+  title: Halla Tus Fortalezas
+  description1: Descubre en qué destacas
+  description2: Usa tus puntos fuertes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/students
+  title: Test Vocacional Alumnos
+  description1: Test para estudiantes
+  description2: Halla tu camino pronto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/career/lp/what-is-a-career-aptitude-test
+  title: ¿Qué es un Test Laboral?
+  description1: Qué mide el test laboral
+  description2: Mira si es para ti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/top-ai-careers
+  title: Parimad AI karjäärid
+  description1: Avasta nõutud AI tööd
+  description2: Kindlusta oma karjäär
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/career-change
+  title: Vaheta karjääri
+  description1: Avasta uued karjääriteed
+  description2: Leia sobivad rollid
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/careers-that-fit-you
+  title: Sulle sobivad tööd
+  description1: Leia tööd, mis sobivad
+  description2: Tugevustel põhinevad rollid
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/quiz
+  title: Karjääri sobivustest
+  description1: Leia, milline karjäär sobib
+  description2: Tee meie karjääritest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/graduates
+  title: Lõpetajatele
+  description1: Karjäärinõu lõpetajatele
+  description2: Alusta karjääri selgelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/how-career-tests-work
+  title: Kuidas test töötab
+  description1: Õpi, kuidas testid töötavad
+  description2: Mõista oma tulemusi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/plan-your-future
+  title: Planeeri tulevikku
+  description1: Loo selge karjääriplaan
+  description2: Tee kindlaid valikuid
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/career-quiz-science
+  title: Teaduslik karjääritest
+  description1: Vaata testi teadust
+  description2: Andmepõhine analüüs
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/find-your-strengths
+  title: Leia oma tugevused
+  description1: Avasta, milles oled hea
+  description2: Muuda tugevused karjääriks
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/students
+  title: Karjääritest õpilastele
+  description1: Test mõeldud õpilastele
+  description2: Leia õige tee varakult
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/career/lp/what-is-a-career-aptitude-test
+  title: Mis on karjääritest
+  description1: Mida karjääritest mõõdab
+  description2: Vaata, kas see sobib sulle
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/top-ai-careers
+  title: Parhaat tekoälyurat
+  description1: Tutki kysyttyjä AI-töitä
+  description2: Turvaa tulevaisuutesi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/career-change
+  title: Vaihda alaa
+  description1: Löydä uusia urapolkuja
+  description2: Löydä sopivat työtehtävät
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/careers-that-fit-you
+  title: Sinulle sopivat urat
+  description1: Löydä sopivat ammatit
+  description2: Vahvuuksiisi sopiva työ
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/quiz
+  title: Ura - ja soveltuvuustesti
+  description1: Löydä sinulle sopiva ura
+  description2: Tee uratesti nyt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/graduates
+  title: Vastavalmistuneille
+  description1: Uraohjausta valmistuville
+  description2: Aloita urasi selkeästi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/how-career-tests-work
+  title: Miten uratestit toimivat
+  description1: Tietoa soveltuvuustesteistä
+  description2: Ymmärrä tuloksesi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/plan-your-future
+  title: Suunnittele tulevaisuus
+  description1: Tee selkeä urasuunnitelma
+  description2: Tee varmoja valintoja
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/career-quiz-science
+  title: Testin tieteellisyys
+  description1: Tiede testimme taustalla
+  description2: Datapohjainen analyysi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/find-your-strengths
+  title: Löydä vahvuutesi
+  description1: Missä olet parhaimmillasi?
+  description2: Muuta vahvuudet uraksi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/students
+  title: Uratesti opiskelijoille
+  description1: Opiskelijoille tehty testi
+  description2: Löydä oikea polku ajoissa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/career/lp/what-is-a-career-aptitude-test
+  title: Mikä on uratesti?
+  description1: Mitä uratestit mittaavat?
+  description2: Sopiiko testi sinulle?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/top-ai-careers
+  title: Carrières en IA
+  description1: Explorez les métiers IA
+  description2: Assurez votre avenir pro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/career-change
+  title: Changer de Carrière
+  description1: Découvrez de nouvelles voies
+  description2: Trouvez le rôle parfait
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/careers-that-fit-you
+  title: Carrières Sur Mesure
+  description1: Trouvez un métier adapté
+  description2: Rôles basés sur vos atouts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/quiz
+  title: Test Aptitude Carrière
+  description1: Quelle carrière est idéale ?
+  description2: Faites notre test d'aptitude
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/graduates
+  title: Pour les Diplômés
+  description1: Conseils pour diplômés
+  description2: Débutez avec clarté
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/how-career-tests-work
+  title: Comment Ça Marche
+  description1: Comprendre les tests pro
+  description2: Comprendre vos résultats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/plan-your-future
+  title: Planifiez L'Avenir
+  description1: Créez un plan de carrière
+  description2: Choix de carrière assurés
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/career-quiz-science
+  title: Science du Test Pro
+  description1: La science derrière le test
+  description2: Analyse basée sur les données
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/find-your-strengths
+  title: Trouvez Vos Forces
+  description1: Découvrez vos talents
+  description2: Transformez vos atouts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/students
+  title: Test Pro pour Étudiants
+  description1: Conçu pour les étudiants
+  description2: Trouvez votre voie tôt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/career/lp/what-is-a-career-aptitude-test
+  title: C'est Quoi un Test ?
+  description1: Ce que le test mesure
+  description2: Est-ce fait pour vous ?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/top-ai-careers
+  title: Najbolje AI karijere
+  description1: Istražite tražene AI poslove
+  description2: Osigurajte svoju karijeru
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/career-change
+  title: Promjena karijere
+  description1: Otkrijte nove puteve
+  description2: Nađite savršene uloge
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/careers-that-fit-you
+  title: Karijere za vas
+  description1: Nađite posao koji vam paše
+  description2: Uloge prema vašim snagama
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/quiz
+  title: Test karijere
+  description1: Saznajte koja je prava
+  description2: Riješite test karijere
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/graduates
+  title: Za diplomante
+  description1: Savjeti za diplomante
+  description2: Započnite karijeru jasno
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/how-career-tests-work
+  title: Kako testovi rade
+  description1: Saznajte kako test radi
+  description2: Razumijte svoje rezultate
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/plan-your-future
+  title: Planirajte budućnost
+  description1: Izradite jasan plan
+  description2: Odaberite karijeru sigurno
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/career-quiz-science
+  title: Znanost testa
+  description1: Znanost iza našeg testa
+  description2: Analiza na bazi podataka
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/find-your-strengths
+  title: Otkrijte svoje snage
+  description1: Otkrijte u čemu ste dobri
+  description2: Pretvorite snage u karijeru
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/students
+  title: Test za studente
+  description1: Test karijere za studente
+  description2: Pronađite pravi put rano
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/career/lp/what-is-a-career-aptitude-test
+  title: Što je test karijere
+  description1: Što testovi mjere
+  description2: Je li test pravi za vas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/top-ai-careers
+  title: Top AI karrierek
+  description1: Keresett AI munkák
+  description2: Jövőbiztos karrier
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/career-change
+  title: Karrierváltás
+  description1: Új utak felfedezése
+  description2: Találd meg a tökéletes munkát
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/careers-that-fit-you
+  title: Hozzád illő karrierek
+  description1: Találj hozzád illő munkát
+  description2: Erősségekre alapozva
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/quiz
+  title: Pályaalkalmassági teszt
+  description1: Melyik karrier illik hozzád?
+  description2: Töltsd ki a tesztünket
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/graduates
+  title: Frissdiplomásoknak
+  description1: Karrier-tanácsadás
+  description2: Kezdd tudatosan a karriered
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/how-career-tests-work
+  title: Hogyan működik a teszt?
+  description1: Ismerd meg a működését
+  description2: Értsd meg az eredményeket
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/plan-your-future
+  title: Tervezd a jövődet
+  description1: Készíts tiszta karriertervet
+  description2: Dönts magabiztosan
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/career-quiz-science
+  title: Tudományos háttér
+  description1: A teszt tudományos alapjai
+  description2: Adatalapú elemzés
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/find-your-strengths
+  title: Ismerd meg erősségeidet
+  description1: Miben vagy kiemelkedő?
+  description2: Erősségek karrieré tétele
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/students
+  title: Diákoknak szóló teszt
+  description1: Diákokra szabott teszt
+  description2: Találd meg az utad korán
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/career/lp/what-is-a-career-aptitude-test
+  title: Mi a pályaalkalmassági?
+  description1: Mit mér a teszt?
+  description2: Neked való a teszt?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/top-ai-careers
+  title: Gervigreindarstörf
+  description1: Skoðaðu AI störf
+  description2: Tryggðu framtíðina
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/career-change
+  title: Skipta um starf
+  description1: Uppgötvaðu nýja leið
+  description2: Finndu fullkomið starf
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/careers-that-fit-you
+  title: Störf sem henta þér
+  description1: Finndu viðeigandi störf
+  description2: Byggt á styrkleikum
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/quiz
+  title: Starfsvalspróf
+  description1: Finndu rétta starfið
+  description2: Taktu starfsvalsprófið
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/graduates
+  title: Fyrir útskrifaða
+  description1: Ráðgjöf við útskrift
+  description2: Byrjaðu ferilinn rétt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/how-career-tests-work
+  title: Hvernig virkar þetta?
+  description1: Lærðu um prófið
+  description2: Skildu niðurstöður
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/plan-your-future
+  title: Skipuleggðu framtíð
+  description1: Gerðu starfsáætlun
+  description2: Veldu starf af öryggi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/career-quiz-science
+  title: Vísindin að baki
+  description1: Sjáðu vísindin bakvið
+  description2: Gagnadrifin greining
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/find-your-strengths
+  title: Finndu styrkleika
+  description1: Hvað gerir þú best?
+  description2: Nýttu styrkleikana
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/students
+  title: Starfspróf námsmanna
+  description1: Próf fyrir námsmenn
+  description2: Finndu réttu leiðina
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/career/lp/what-is-a-career-aptitude-test
+  title: Hvað er starfspróf?
+  description1: Hvað mælir prófið?
+  description2: Er þetta fyrir þig?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/top-ai-careers
+  title: Carriere Top nell'AI
+  description1: Esplora i lavori AI più richiesti
+  description2: Assicura il tuo futuro lavorativo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/career-change
+  title: Cambiare Carriera
+  description1: Scopri nuovi percorsi lavorativi
+  description2: Trova il ruolo perfetto per te
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/careers-that-fit-you
+  title: Lavori Adatti a Te
+  description1: Trova la carriera ideale per te
+  description2: Ruoli basati sui tuoi punti forti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/quiz
+  title: Test Attitudinale Lavoro
+  description1: Scopri la carriera giusta per te
+  description2: Fai il nostro test attitudinale
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/graduates
+  title: Per Neo-Laureati
+  description1: Guida alla carriera per laureati
+  description2: Inizia il lavoro con chiarezza
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/how-career-tests-work
+  title: Come Funziona il Test
+  description1: Come funzionano i test attitudinali
+  description2: Comprendi i tuoi risultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/plan-your-future
+  title: Pianifica il Futuro
+  description1: Crea un piano di carriera chiaro
+  description2: Fai scelte lavorative sicure
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/career-quiz-science
+  title: La Scienza del Test
+  description1: Scopri la scienza dietro i test
+  description2: Analisi di carriera basata sui dati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/find-your-strengths
+  title: Trova i Tuoi Punti Forti
+  description1: Scopri i tuoi talenti naturali
+  description2: Trasforma i punti forti in lavoro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/students
+  title: Test Carriera Studenti
+  description1: Test di carriera per studenti
+  description2: Trova la strada giusta subito
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/career/lp/what-is-a-career-aptitude-test
+  title: Cos'è un Test Carriera
+  description1: Scopri cosa misurano i test
+  description2: Scopri se il test è per te
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/top-ai-careers
+  title: Geriausios DI karjeros
+  description1: Paklausūs DI darbai
+  description2: Užsitikrinkite ateitį
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/career-change
+  title: Keisti karjerą
+  description1: Atraskite naujus kelius
+  description2: Raskite tinkamą darbą
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/careers-that-fit-you
+  title: Jums tinkanti karjera
+  description1: Raskite tinkamą profesiją
+  description2: Darbas pagal stiprybes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/quiz
+  title: Karjeros testas
+  description1: Sužinokite, kokia karjera tinka
+  description2: Atlikite karjeros testą
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/graduates
+  title: Absolventams
+  description1: Karjeros gairės studentams
+  description2: Pradėkite karjerą užtikrintai
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/how-career-tests-work
+  title: Kaip veikia testas
+  description1: Sužinokite apie testus
+  description2: Supraskite rezultatus
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/plan-your-future
+  title: Planuokite ateitį
+  description1: Kurkite karjeros planą
+  description2: Rinkitės užtikrintai
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/career-quiz-science
+  title: Testo mokslas
+  description1: Mokslinis pagrindas
+  description2: Duomenimis pagrįsta analizė
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/find-your-strengths
+  title: Atraskite stiprybes
+  description1: Sužinokite, ką gebate
+  description2: Panaudokite savo talentus
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/students
+  title: Karjeros testas mokiniams
+  description1: Testas skirtas studentams
+  description2: Raskite kelią anksčiau
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/career/lp/what-is-a-career-aptitude-test
+  title: Kas yra karjeros testas
+  description1: Ką matuoja testai
+  description2: Ar testas jums tinka
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/top-ai-careers
+  title: Top AI karjeras
+  description1: Pieprasīti AI darbi
+  description2: Nodrošini savu nākotni
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/career-change
+  title: Mainīt karjeru
+  description1: Atklāj jaunas iespējas
+  description2: Atrodi sev piemērotu darbu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/careers-that-fit-you
+  title: Tev piemērota karjera
+  description1: Atrodi atbilstošu darbu
+  description2: Tavām stiprajām pusēm
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/quiz
+  title: Karjeras tests
+  description1: Uzzini, kas tev ir piemērots
+  description2: Izpildi mūsu karjeras testu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/graduates
+  title: Absolventiem
+  description1: Karjeras ceļvedis jauniešiem
+  description2: Sāc karjeru pārliecinoši
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/how-career-tests-work
+  title: Kā darbojas testi
+  description1: Uzzini par testu metodēm
+  description2: Izproti savus rezultātus
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/plan-your-future
+  title: Plāno savu nākotni
+  description1: Izveido skaidru plānu
+  description2: Izvēlies karjeru droši
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/career-quiz-science
+  title: Testa zinātniskā bāze
+  description1: Kā darbojas mūsu tests
+  description2: Datos balstīta analīze
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/find-your-strengths
+  title: Atklāj stiprās puses
+  description1: Uzzini, kas tev padodas
+  description2: Pārvērt talantu karjerā
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/students
+  title: Karjeras tests studentiem
+  description1: Tests domāts studentiem
+  description2: Atrodi pareizo ceļu laikus
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/career/lp/what-is-a-career-aptitude-test
+  title: Kas ir karjeras tests
+  description1: Ko mēra karjeras testi
+  description2: Vai tests tev ir piemērots
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/top-ai-careers
+  title: Top AI-carrières
+  description1: Ontdek gewilde AI-banen
+  description2: Maak je baan toekomstbestendig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/career-change
+  title: Carrièreverandering
+  description1: Ontdek nieuwe carrièrepaden
+  description2: Vind de perfecte baan voor jou
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/careers-that-fit-you
+  title: Passende Carrières
+  description1: Vind carrières die bij je passen
+  description2: Rollen op basis van je kracht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/quiz
+  title: Beroepskeuzetest
+  description1: Ontdek welke carrière bij je past
+  description2: Doe onze beroepskeuzetest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/graduates
+  title: Voor Afgestudeerden
+  description1: Loopbaanbegeleiding voor starters
+  description2: Start je carrière met overzicht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/how-career-tests-work
+  title: Hoe de Test Werkt
+  description1: Leer hoe de testen werken
+  description2: Begrijp je resultaten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/plan-your-future
+  title: Plan je Toekomst
+  description1: Bouw een helder carrièreplan
+  description2: Maak zelfverzekerde keuzes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/career-quiz-science
+  title: Wetenschap van de Test
+  description1: Zie de wetenschap achter de test
+  description2: Data-gedreven carrière-analyse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/find-your-strengths
+  title: Vind je Sterke Punten
+  description1: Ontdek waar je in uitblinkt
+  description2: Maak van kracht een carrière
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/students
+  title: Beroepstest Studenten
+  description1: Beroepstest voor studenten
+  description2: Vind vroegtijdig het juiste pad
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/career/lp/what-is-a-career-aptitude-test
+  title: Wat is een Beroepstest?
+  description1: Leer wat beroepstesten meten
+  description2: Kijk of een test bij je past
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/top-ai-careers
+  title: Topp AI-karrierer
+  description1: Utforsk AI-jobber
+  description2: Fremtidssikre karrieren
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/career-change
+  title: Bytt karriere
+  description1: Oppdag nye karriereveier
+  description2: Finn jobber som passer deg
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/careers-that-fit-you
+  title: Jobber som passer deg
+  description1: Finn jobber som matcher
+  description2: Jobber basert på styrker
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/quiz
+  title: Karrieretest
+  description1: Finn karrieren for deg
+  description2: Ta vår karrieretest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/graduates
+  title: For nyutdannede
+  description1: Karriereråd for studenter
+  description2: Start karrieren riktig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/how-career-tests-work
+  title: Slik virker testen
+  description1: Lær om evnetester
+  description2: Forstå resultatene dine
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/plan-your-future
+  title: Planlegg fremtiden
+  description1: Lag en karriereplan
+  description2: Ta trygge karrierevalg
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/career-quiz-science
+  title: Vitenskapen bak
+  description1: Se forskningen bak testen
+  description2: Datadrevet karriereanalyse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/find-your-strengths
+  title: Finn dine styrker
+  description1: Se hva du er god til
+  description2: Bruk styrkene i jobb
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/students
+  title: Karrieretest for elever
+  description1: Test laget for studenter
+  description2: Finn rett vei tidlig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/career/lp/what-is-a-career-aptitude-test
+  title: Hva er en karrieretest
+  description1: Hva måler testen?
+  description2: Er testen rett for deg?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/top-ai-careers
+  title: Kariera w AI
+  description1: Poznaj prace w AI
+  description2: Zabezpiecz swoją karierę
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/career-change
+  title: Zmień zawód
+  description1: Odkryj nowe ścieżki
+  description2: Znajdź idealną rolę
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/careers-that-fit-you
+  title: Kariera dla Ciebie
+  description1: Znajdź pasujące zawody
+  description2: Role oparte na mocnych stronach
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/quiz
+  title: Test predyspozycji
+  description1: Znajdź odpowiedni zawód
+  description2: Zrób nasz test kariery
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/graduates
+  title: Dla absolwentów
+  description1: Porady dla absolwentów
+  description2: Rozpocznij karierę z jasnością
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/how-career-tests-work
+  title: Jak to działa?
+  description1: Jak działają testy?
+  description2: Zrozum swoje wyniki
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/plan-your-future
+  title: Zaplanuj przyszłość
+  description1: Zbuduj plan kariery
+  description2: Wybieraj pewnie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/career-quiz-science
+  title: Nauka i nasz test
+  description1: Poznaj naukowe podstawy
+  description2: Analiza kariery oparta na danych
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/find-your-strengths
+  title: Poznaj swoje atuty
+  description1: Odkryj, w czym celujesz
+  description2: Zmień atuty w karierę
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/students
+  title: Test dla studentów
+  description1: Test kariery dla uczniów
+  description2: Znajdź drogę wcześnie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/career/lp/what-is-a-career-aptitude-test
+  title: Co to jest test?
+  description1: Co mierzą testy kariery?
+  description2: Czy test jest dla Ciebie?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/top-ai-careers
+  title: Carreiras em IA
+  description1: Explore empregos em IA
+  description2: Prepare o seu futuro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/career-change
+  title: Mudar de Carreira
+  description1: Novos rumos profissionais
+  description2: Encontre a função ideal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/careers-that-fit-you
+  title: Carreiras à Sua Medida
+  description1: Carreiras que combinam
+  description2: Funções e pontos fortes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/quiz
+  title: Teste de Aptidão Laboral
+  description1: Descubra a carreira certa
+  description2: Faça o nosso teste agora
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/graduates
+  title: Para Recém-Licenciados
+  description1: Orientação para licenciados
+  description2: Comece a carreira com foco
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/how-career-tests-work
+  title: Como Funciona o Teste
+  description1: Entenda os testes de aptidão
+  description2: Compreenda os resultados
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/plan-your-future
+  title: Planeie o Seu Futuro
+  description1: Crie um plano de carreira
+  description2: Decisões profissionais
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/career-quiz-science
+  title: Ciência do Teste
+  description1: A ciência por trás do teste
+  description2: Análise baseada em dados
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/find-your-strengths
+  title: Os Seus Pontos Fortes
+  description1: Saiba onde se destaca
+  description2: Converta talento em carreira
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/students
+  title: Teste para Estudantes
+  description1: Teste feito para alunos
+  description2: Ache o caminho certo cedo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/career/lp/what-is-a-career-aptitude-test
+  title: O Que é um Teste?
+  description1: O que os testes avaliam
+  description2: Veja se o teste é para si
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/top-ai-careers
+  title: Cariere de Top în AI
+  description1: Joburi AI la mare căutare
+  description2: Asigură-ți viitorul
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/career-change
+  title: Schimbă Cariera
+  description1: Descoperă noi drumuri
+  description2: Găsește roluri potrivite
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/careers-that-fit-you
+  title: Cariere Potrivite Ție
+  description1: Găsește cariere compatibile
+  description2: Roluri bazate pe atuurile tale
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/quiz
+  title: Test Aptitudini Carieră
+  description1: Află ce carieră ți se potrivește
+  description2: Fă testul de aptitudini
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/graduates
+  title: Pentru Absolvenți
+  description1: Ghidare carieră absolvenți
+  description2: Începe cariera cu claritate
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/how-career-tests-work
+  title: Cum Funcționează
+  description1: Află cum merg testele
+  description2: Înțelege rezultatele tale
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/plan-your-future
+  title: Planifică Viitorul
+  description1: Creează un plan clar
+  description2: Alege cariera cu încredere
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/career-quiz-science
+  title: Știința Testului
+  description1: Vezi știința din spate
+  description2: Analiză bazată pe date
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/find-your-strengths
+  title: Află Punctele Forte
+  description1: Descoperă la ce ești bun
+  description2: Transformă atuurile în carieră
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/students
+  title: Test Carieră Studenți
+  description1: Test creat pentru studenți
+  description2: Găsește drumul din timp
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/career/lp/what-is-a-career-aptitude-test
+  title: Ce E Un Test Carieră
+  description1: Ce măsoară testele
+  description2: Vezi dacă ți se potrivește
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/top-ai-careers
+  title: Top AI kariéry
+  description1: Pozrite si žiadané AI pozície
+  description2: Pripravte sa na budúcnosť
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/career-change
+  title: Zmena kariéry
+  description1: Objavte nové kariérne cesty
+  description2: Nájdite roly, ktoré vám sadnú
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/careers-that-fit-you
+  title: Kariéry pre vás
+  description1: Nájdite prácu, ktorá vám sadne
+  description2: Roly podľa vašich silných stránok
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/quiz
+  title: Kariérny test
+  description1: Zistite, ktorá kariéra je správna
+  description2: Urobte si náš kariérny test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/graduates
+  title: Pre absolventov
+  description1: Kariérne poradenstvo pre vás
+  description2: Začnite kariéru s istotou
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/how-career-tests-work
+  title: Ako testy fungujú
+  description1: Zistite, ako testy fungujú
+  description2: Pochopte svoje výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/plan-your-future
+  title: Plánujte budúcnosť
+  description1: Vytvorte si kariérny plán
+  description2: Robte sebavedomé rozhodnutia
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/career-quiz-science
+  title: Veda za testom
+  description1: Pozrite si vedu za naším testom
+  description2: Analýza založená na dátach
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/find-your-strengths
+  title: Vaše silné stránky
+  description1: Zistite, v čom vynikáte
+  description2: Premeňte silné stránky na prácu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/students
+  title: Test pre študentov
+  description1: Kariérny test pre študentov
+  description2: Nájdite správnu cestu včas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/career/lp/what-is-a-career-aptitude-test
+  title: Čo je kariérny test
+  description1: Zistite, čo testy merajú
+  description2: Zistite, či je test pre vás
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/top-ai-careers
+  title: Najboljše AI Kariere
+  description1: Raziščite AI službe
+  description2: Zavarujte svojo kariero
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/career-change
+  title: Zamenjajte Kariero
+  description1: Odkrijte nove poti
+  description2: Najdite popolno vlogo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/careers-that-fit-you
+  title: Kariere, Ki Vam Ustrezajo
+  description1: Najdite ustrezne kariere
+  description2: Vloge glede na prednosti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/quiz
+  title: Karierni Test
+  description1: Katera kariera je prava?
+  description2: Rešite naš karierni test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/graduates
+  title: Za Diplomante
+  description1: Karierno svetovanje
+  description2: Začnite kariero jasno
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/how-career-tests-work
+  title: Kako Delujejo Testi
+  description1: Spoznajte teste sposobnosti
+  description2: Razumite svoje rezultate
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/plan-your-future
+  title: Načrtujte Prihodnost
+  description1: Ustvarite jasen načrt
+  description2: Samozavestne odločitve
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/career-quiz-science
+  title: Znanost Kariernega Kviza
+  description1: Znanost za našim testom
+  description2: Analiza na podlagi podatkov
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/find-your-strengths
+  title: Odkrijte Svoje Prednosti
+  description1: Odkrijte, v čem blestite
+  description2: Spremenite prednosti v delo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/students
+  title: Karierni Test za Študente
+  description1: Test zasnovan za študente
+  description2: Najdite pravo pot zgodaj
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/career/lp/what-is-a-career-aptitude-test
+  title: Kaj Je Karierni Test
+  description1: Kaj merijo karierni testi
+  description2: Je test pravi za vas?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/top-ai-careers
+  title: Најбоље АИ каријере
+  description1: Истражите тражене АИ послове
+  description2: Осигурајте своју каријеру
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/career-change
+  title: Промените каријеру
+  description1: Откријте нове пословне путеве
+  description2: Нађите савршене улоге за вас
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/careers-that-fit-you
+  title: Каријере по вашој мери
+  description1: Нађите посао који вам лежи
+  description2: Улоге према вашим снагама
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/quiz
+  title: Тест за избор каријере
+  description1: Сазнајте која је каријера права
+  description2: Решите наш тест каријере
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/graduates
+  title: За дипломце
+  description1: Савети за каријеру дипломаца
+  description2: Започните каријеру јасно
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/how-career-tests-work
+  title: Како тестови раде
+  description1: Сазнајте како раде тестови
+  description2: Разумите своје резултате
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/plan-your-future
+  title: Планирајте будућност
+  description1: Направите јасан план каријере
+  description2: Доносите сигурне одлуке
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/career-quiz-science
+  title: Наука иза теста
+  description1: Погледајте науку иза теста
+  description2: Анализа заснована на подацима
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/find-your-strengths
+  title: Откријте своје снаге
+  description1: Откријте у чему сте добри
+  description2: Претворите снаге у каријеру
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/students
+  title: Тест каријере за ђаке
+  description1: Тест дизајниран за студенте
+  description2: Пронађите прави пут раније
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/career/lp/what-is-a-career-aptitude-test
+  title: Шта је тест каријере
+  description1: Шта мере тестови каријере
+  description2: Да ли је тест прави за вас
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/top-ai-careers
+  title: Toppkarriärer Inom AI
+  description1: Utforska eftertraktade jobb
+  description2: Framtidssäkra din karriär
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/career-change
+  title: Byt Karriär
+  description1: Upptäck nya karriärvägar
+  description2: Hitta roller som passar dig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/careers-that-fit-you
+  title: Karriärer För Dig
+  description1: Hitta yrken som matchar dig
+  description2: Roller baserade på styrkor
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/quiz
+  title: Karriärtest
+  description1: Hitta rätt karriär för dig
+  description2: Gör vårt anlagstest nu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/graduates
+  title: För Nyutexaminerade
+  description1: Vägledning för studenter
+  description2: Starta karriären med klarhet
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/how-career-tests-work
+  title: Så Funkar Testet
+  description1: Lär dig hur testet fungerar
+  description2: Förstå dina resultat direkt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/plan-your-future
+  title: Planera Din Framtid
+  description1: Bygg en tydlig karriärplan
+  description2: Gör säkra karriärval idag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/career-quiz-science
+  title: Vetenskapen Bakom
+  description1: Se vetenskapen bakom testet
+  description2: Datadriven karriäranalys
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/find-your-strengths
+  title: Hitta Dina Styrkor
+  description1: Se vad du är bäst på
+  description2: Vänd styrkor till karriär
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/students
+  title: Karriärtest Student
+  description1: Test designat för studenter
+  description2: Hitta rätt väg tidigt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/career/lp/what-is-a-career-aptitude-test
+  title: Vad Är Ett Karriärtest
+  description1: Lär dig vad testet mäter
+  description2: Se om testet är rätt för dig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__ai
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/top-ai-careers
+  title: En İyi AI Kariyerleri
+  description1: Popüler YZ işlerini keşfedin
+  description2: Kariyerinizi geleceğe hazırlayın
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__career_change
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/career-change
+  title: Kariyer Değiştirin
+  description1: Yeni kariyer yollarını keşfedin
+  description2: Size uyan mükemmel roller bulun
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__fit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/careers-that-fit-you
+  title: Size Uygun Kariyerler
+  description1: Size eşleşen kariyerleri bulun
+  description2: Güçlü yanlarınıza uygun roller
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/quiz
+  title: Kariyer Uygunluk Testi
+  description1: Hangi kariyer size uygun öğrenin
+  description2: Hemen kariyer testimizi çözün
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__graduates
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/graduates
+  title: Mezunlar İçin
+  description1: Mezunlar için kariyer rehberliği
+  description2: Kariyerinize netlikle başlayın
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__how_it_works
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/how-career-tests-work
+  title: Testler Nasıl Çalışır
+  description1: Yetenek testlerini öğrenin
+  description2: Sonuçlarınızı anlamlandırın
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__plan_future
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/plan-your-future
+  title: Geleceğinizi Planlayın
+  description1: Net bir kariyer planı oluşturun
+  description2: Emin kariyer seçimleri yapın
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/career-quiz-science
+  title: Kariyer Testi Bilimi
+  description1: Testimizin arkasındaki bilimi görün
+  description2: Veri odaklı kariyer analizi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__strengths
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/find-your-strengths
+  title: Güçlü Yanlarınızı Bulun
+  description1: Nelerde iyi olduğunuzu keşfedin
+  description2: Güçlerinizi kariyere dönüştürün
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/students
+  title: Öğrenciler İçin Test
+  description1: Öğrencilere özel kariyer testi
+  description2: Doğru yolu erkenden bulun
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_career__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/career/lp/what-is-a-career-aptitude-test
+  title: Kariyer Testi Nedir
+  description1: Kariyer testleri neyi ölçer?
+  description2: Testin size uygunluğunu görün

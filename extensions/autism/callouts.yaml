@@ -1,0 +1,485 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_autism__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online sebehodnocení
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_autism__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Navrženo odborníky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_autism__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Okamžité výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_autism__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zabere to jen pár minut
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_autism__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web pro mobily
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_autism__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bezpečné webové stránky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_autism__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online-Selbsteinschätzung
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_autism__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Von Experten entwickelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_autism__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sofortige Ergebnisse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_autism__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dauert nur wenige Minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_autism__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilfreundliche Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_autism__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sichere Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_autism__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online Αξιολόγηση
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_autism__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Σχεδιασμένο Από Ειδικούς
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_autism__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Άμεσα Αποτελέσματα
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_autism__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Διαρκεί Μόνο Λίγα Λεπτά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_autism__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Φιλικό Για Κινητά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_autism__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ασφαλής Ιστότοπος
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_autism__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online Self-Assessment
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_autism__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_autism__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_autism__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takes Only Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_autism__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_autism__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_autism__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Veebipõhine enesetest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_autism__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertide loodud
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_autism__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Kiired tulemused
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_autism__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Võtab vaid mõne minuti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_autism__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobiilisõbralik veebileht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_autism__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvaline veebileht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_autism__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Auto-Évaluation en Ligne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_autism__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Conçu par des Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_autism__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Résultats Instantanés
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_autism__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Prend Quelques Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_autism__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Adapté aux Mobiles
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_autism__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Web Sécurisé
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_autism__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online samoprocjena
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_autism__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Izradili stručnjaci
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_autism__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Trenutni rezultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_autism__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Traje samo par minuta
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_autism__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Prilagođeno za mobitele
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_autism__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sigurna web stranica
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_autism__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online Zelfevaluatie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_autism__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Gemaakt door experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_autism__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Directe resultaten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_autism__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Duurt slechts minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_autism__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobielvriendelijke site
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_autism__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Beveiligde website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_autism__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Selvvurdering på nett
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_autism__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designet av eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_autism__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Umiddelbare resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_autism__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tar kun noen minutter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_autism__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvennlig nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_autism__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker nettside

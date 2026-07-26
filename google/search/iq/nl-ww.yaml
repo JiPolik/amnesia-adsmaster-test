@@ -1,0 +1,135 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: nl_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_nl_iq__breakdown
+  - callout_nl_iq__experts
+  - callout_nl_iq__fun_challenging
+  - callout_nl_iq__instant
+  - callout_nl_iq__mobile_friendly
+  - callout_nl_iq__secure
+  - efaq_business_name
+  - sitelink_nl_iq__am_i_gifted
+  - sitelink_nl_iq__can_you_improve
+  - sitelink_nl_iq__generic
+  - sitelink_nl_iq__students
+  - sitelink_nl_iq__what_is_iq
+  - snip_nl_iq__test_types
+spec:
+  budget_daily_usd: 2500.0
+  target_cpa_usd: 14.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/nl/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Officiële Site
+      - Check uw IQ in 20 min
+      - Officiële IQ-test 2026
+      - De nauwkeurigste IQ-test
+      - Verspil geen geld
+      - Start uw IQ-test
+      - Hoe slim bent u?
+      - Snel & accuraat resultaat
+      - Wetenschappelijke test
+      - Echte test, echt resultaat
+      - Slimmer dan uw vrienden?
+      descriptions:
+      - Denkt u slimmer te zijn dan gemiddeld? Doe de test en zie hoe u echt scoort.
+      - Krijg snelle en nauwkeurige IQ-resultaten in minder dan 10 min, direct op uw mobiel.
+      - Wetenschappelijk ontworpen IQ-test, vertrouwd door experts voor precieze resultaten.
+      - Doe mee met duizenden die vandaag hun IQ testten en ontdek precies waar u staat.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq test nederlands
+      match_type: BROAD
+    - text: gratis iq test
+      match_type: BROAD
+    - text: intelligentietest
+      match_type: BROAD
+    - text: hoogbegaafdheid test
+      match_type: BROAD
+    - text: iq testen
+      match_type: BROAD
+    - text: doe de iq test
+      match_type: BROAD
+    - text: iq score berekenen
+      match_type: BROAD
+    - text: snelle iq test
+      match_type: BROAD
+    - text: betrouwbare iq test
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/nl/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Officiële Site
+      - Check uw IQ in 20 min
+      - Officiële IQ-test 2026
+      - De nauwkeurigste IQ-test
+      - Hoe slim ben ik?
+      - Hoe slim bent u?
+      - Verspil geen geld
+      - Online intelligentietest
+      descriptions:
+      - Ooit afgevraagd hoe slim u echt bent? Doe de test en krijg duidelijke antwoorden.
+      - Ontdek of u gemiddeld of hoogbegaafd bent. Snelle, nauwkeurige IQ-resultaten.
+      - Stop met raden. Meet uw intelligentie met een echte IQ-test. Krijg nu uw score.
+      - Sluit u aan bij duizenden die dezelfde vraag stelden en eindelijk antwoord kregen.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: ben ik slim
+      match_type: BROAD
+    - text: hoe slim ben ik
+      match_type: BROAD
+    - text: ben ik intelligent
+      match_type: BROAD
+    - text: hoe intelligent ben ik
+      match_type: BROAD
+    - text: ben ik hoogbegaafd
+      match_type: BROAD
+    - text: ben ik dom
+      match_type: BROAD
+    - text: test mijn intelligentie
+      match_type: BROAD
+    - text: online intelligentietest
+      match_type: BROAD

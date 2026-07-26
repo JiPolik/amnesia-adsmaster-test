@@ -1,0 +1,82 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: bg_ww_goog_s_efaq_exback
+  platform: google_search
+  vertical: ex_back
+  extends: ex_back_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_bg_exback__experts
+  - callout_bg_exback__fix
+  - callout_bg_exback__instant
+  - callout_bg_exback__mobile_friendly
+  - callout_bg_exback__secure
+  - callout_bg_exback__win_back
+  - efaq_business_name
+  - sitelink_bg_exback__build_plan
+  - sitelink_bg_exback__generic
+  - sitelink_bg_exback__grow
+  - sitelink_bg_exback__missing
+  - sitelink_bg_exback__move
+  - sitelink_bg_exback__pattern
+  - sitelink_bg_exback__worth
+  - snip_bg_exback__services
+spec:
+  budget_daily_usd: 400.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: ex_back
+    ad_templates:
+    - name: ex_back__rsa
+      destination_url: https://efaq.com/bg/ex-back/lp/plan
+      headlines:
+      - EFAQ.com - Официален сайт
+      - Не си губете парите
+      - Метод за връщане на бившия
+      - Личен план за връщане
+      - 2-минутен тест за бившия
+      - AI план за връщане на бившия
+      - Доказани стратегии за връщане
+      - Използвайте AI за връщане
+      - Получете яснота и стратегия
+      descriptions:
+      - Вземете личен план за връщане на бившия въз основа на раздялата и емоциите ви.
+      - Спрете да гадаете. Използвайте AI, за да изградите ясна стратегия, която работи.
+      - Отговорете на въпроси и вземете умен план за възстановяване на доверието или продължаване.
+      - Създаден да ви помогне да се подобрите, да общувате по-добре и да избегнете чести грешки.
+    keywords:
+    - text: relationship advice
+      match_type: BROAD
+    - text: win back ex
+      match_type: BROAD
+    - text: win ex back
+      match_type: BROAD
+    - text: get back ex
+      match_type: BROAD
+    - text: get ex back
+      match_type: BROAD
+    - text: how to get your ex back
+      match_type: BROAD
+    - text: how to get my ex back
+      match_type: BROAD
+    - text: will my ex come back
+      match_type: BROAD
+    - text: how to get your ex girlfriend back
+      match_type: BROAD
+    - text: how to get your ex boyfriend back
+      match_type: BROAD
+    - text: съвети за връзка
+      match_type: BROAD
+    - text: как да върна бившия
+      match_type: BROAD
+    - text: връщане на бившия
+      match_type: BROAD
+    - text: как да си върна бившата
+      match_type: BROAD
+    - text: как да си върна бившия
+      match_type: BROAD
+    - text: ще се върне ли бившият ми
+      match_type: BROAD
+    - text: спечели бившия обратно
+      match_type: BROAD

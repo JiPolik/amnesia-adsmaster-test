@@ -1,0 +1,1499 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/iq/lp/am-i-gifted
+  title: Надарен ли съм?
+  description1: Проверете дали сте гений
+  description2: Направете теста сега
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/iq/lp/can-you-improve-iq
+  title: Подобрете своето IQ
+  description1: Развийте мозъка си
+  description2: Направете нашия IQ тест
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/iq/lp/iq-test
+  title: IQ Тест
+  description1: Направете онлайн IQ тест
+  description2: Вижте своя IQ резултат
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/iq/lp/iq-test-for-students
+  title: IQ Тест за студенти
+  description1: Предизвикайте ума си
+  description2: Подготовка за успех
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/iq/lp/what-is-iq
+  title: Какво е IQ?
+  description1: Как се измерва IQ?
+  description2: Направете онлайн тест
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/iq/lp/am-i-gifted
+  title: Sóc superdotat?
+  description1: Mira si tens un QI alt
+  description2: Fes el test i comprova-ho
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/iq/lp/can-you-improve-iq
+  title: Pots millorar el QI?
+  description1: Millora la teva ment
+  description2: Fes el nostre test de QI
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/iq/lp/iq-test
+  title: Test de QI
+  description1: Fes el test de QI online
+  description2: Descobreix la teva puntuació
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/iq/lp/iq-test-for-students
+  title: Test de QI estudiants
+  description1: Desafia la teva ment
+  description2: Prepara't per a l'èxit
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/iq/lp/what-is-iq
+  title: Què és el QI?
+  description1: Com es mesura el QI
+  description2: Fes el nostre test online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/iq/lp/am-i-gifted
+  title: Jsem nadaný?
+  description1: Zjistěte, zda jste nadaní
+  description2: Udělejte test, zkontrolujte skóre
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/iq/lp/can-you-improve-iq
+  title: Lze IQ zlepšit?
+  description1: Zjistěte, jak posílit mozek
+  description2: Vyzkoušejte náš IQ test nyní
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/iq/lp/iq-test
+  title: IQ test
+  description1: Udělejte si online IQ test
+  description2: Zjistěte své IQ ještě dnes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/iq/lp/iq-test-for-students
+  title: IQ test pro studenty
+  description1: Otestujte svou mysl ve škole
+  description2: Chytrá příprava na vysokou školu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/iq/lp/what-is-iq
+  title: Co je IQ?
+  description1: Pochopte, jak se IQ měří
+  description2: Udělejte si náš online IQ test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/iq/lp/am-i-gifted
+  title: Er jeg begavet?
+  description1: Se om du har høj IQ
+  description2: Tag testen, se score
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/iq/lp/can-you-improve-iq
+  title: Kan man øge sin IQ?
+  description1: Styrk din hjernekraft
+  description2: Tag vores IQ-test nu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/iq/lp/iq-test
+  title: IQ-test
+  description1: Tag IQ-testen online
+  description2: Få din IQ-score i dag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/iq/lp/iq-test-for-students
+  title: IQ-test for studerende
+  description1: Udfordr din hjerne
+  description2: Klar til studiet?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/iq/lp/what-is-iq
+  title: Hvad er IQ?
+  description1: Hvordan måles IQ?
+  description2: Tag vores onlinetest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/iq/lp/am-i-gifted
+  title: Bin ich hochbegabt?
+  description1: Ist Ihr IQ überdurchschnittlich?
+  description2: Test machen & Ergebnis sehen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/iq/lp/can-you-improve-iq
+  title: Kann man den IQ steigern?
+  description1: Steigern Sie Ihre Denkleistung
+  description2: Jetzt unseren IQ-Test machen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/iq/lp/iq-test
+  title: IQ-Test
+  description1: Machen Sie den IQ-Test
+  description2: Erfahren Sie Ihren IQ-Wert
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/iq/lp/iq-test-for-students
+  title: IQ-Test für Studenten
+  description1: Fordern Sie Ihren Geist
+  description2: Ideal für Studium & Schule
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/iq/lp/what-is-iq
+  title: Was ist der IQ?
+  description1: Wie wird Intelligenz gemessen?
+  description2: Machen Sie den Online-Test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/iq/lp/am-i-gifted
+  title: Am I Gifted?
+  description1: See if your IQ ranks you gifted
+  description2: Take the test, check your score
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/iq/lp/can-you-improve-iq
+  title: Can You Improve IQ?
+  description1: Learn how to boost brain power
+  description2: Take our IQ Test now
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/iq/lp/iq-test
+  title: IQ Test
+  description1: Take the online IQ Test
+  description2: Learn your IQ Score today
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/iq/lp/iq-test-for-students
+  title: IQ Test for Students
+  description1: Challenge your mind in school
+  description2: Smart prep for college success
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/iq/lp/what-is-iq
+  title: What Is IQ?
+  description1: Understand how IQ is measured
+  description2: Take Our Online IQ Test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/iq/lp/am-i-gifted
+  title: ¿Soy superdotado?
+  description1: Comprueba si eres un genio
+  description2: Haz el test y mira tu nota
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/iq/lp/can-you-improve-iq
+  title: ¿Se puede mejorar el CI?
+  description1: Potencia tu mente ahora
+  description2: Realiza nuestro test de CI
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/iq/lp/iq-test
+  title: Test de CI
+  description1: Haz el test de CI online
+  description2: Descubre tu CI hoy mismo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/iq/lp/iq-test-for-students
+  title: Test de CI estudiantes
+  description1: Desafía tu mente
+  description2: Prepárate para el éxito
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/iq/lp/what-is-iq
+  title: ¿Qué es el CI?
+  description1: Cómo se mide el CI
+  description2: Haz nuestro test online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/iq/lp/am-i-gifted
+  title: ¿Soy Superdotado?
+  description1: Mira si tu IQ es de genio
+  description2: Haz la prueba y ve tu nivel
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/iq/lp/can-you-improve-iq
+  title: ¿Mejorar tu IQ?
+  description1: Potencia tu capacidad mental
+  description2: Haz nuestro test de IQ ahora
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/iq/lp/iq-test
+  title: Prueba de IQ
+  description1: Haz el test de IQ en línea
+  description2: Conoce tu puntaje de IQ hoy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/iq/lp/iq-test-for-students
+  title: Test de IQ Estudiantes
+  description1: Desafía tu mente en clase
+  description2: Prepárate para el éxito total
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/iq/lp/what-is-iq
+  title: ¿Qué es el IQ?
+  description1: Entiende cómo se mide el IQ
+  description2: Haz el test de IQ en línea
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/iq/lp/am-i-gifted
+  title: ¿Soy Superdotado?
+  description1: Mira si tu IQ es de genio
+  description2: Haz la prueba y ve tu nivel
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/iq/lp/can-you-improve-iq
+  title: ¿Mejorar tu IQ?
+  description1: Aprende a potenciar tu mente
+  description2: Haz nuestro test de IQ ahora
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/iq/lp/iq-test
+  title: Prueba de IQ
+  description1: Haz el test de IQ en línea
+  description2: Conoce tu puntaje de IQ hoy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/iq/lp/iq-test-for-students
+  title: Test de IQ Estudiantes
+  description1: Desafía tu mente en la escuela
+  description2: Prepárate para el éxito social
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/iq/lp/what-is-iq
+  title: ¿Qué es el IQ?
+  description1: Entiende cómo se mide el IQ
+  description2: Haz el test de IQ en línea
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/iq/lp/am-i-gifted
+  title: Kas olen andekas?
+  description1: Kontrolli oma võimeid
+  description2: Tee test ja vaata skoori
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/iq/lp/can-you-improve-iq
+  title: Kas IQ-d saab tõsta?
+  description1: Treeni oma aju
+  description2: Alusta IQ-testi kohe
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/iq/lp/iq-test
+  title: IQ-test
+  description1: Tee IQ-test internetis
+  description2: Saa teada oma IQ skoor
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/iq/lp/iq-test-for-students
+  title: IQ-test õpilastele
+  description1: Pane oma mõistus proovile
+  description2: Valmistu edukaks eluks
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/iq/lp/what-is-iq
+  title: Mis on IQ?
+  description1: Kuidas mõõdetakse IQ-d?
+  description2: Tee meie veebitest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/iq/lp/am-i-gifted
+  title: Olenko lahjakas?
+  description1: Oletko erityislahjakas?
+  description2: Tee testi, katso tulos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/iq/lp/can-you-improve-iq
+  title: Voiko ÄO:ta parantaa?
+  description1: Kehitä aivokapasiteettia
+  description2: Tee meidän ÄO-testi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/iq/lp/iq-test
+  title: Älykkyystesti
+  description1: Tee ÄO-testi netissä
+  description2: Selvitä älykkyysosamääräsi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/iq/lp/iq-test-for-students
+  title: ÄO-testi opiskelijoille
+  description1: Haasta mielesi koulussa
+  description2: Menesty opinnoissa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/iq/lp/what-is-iq
+  title: Mikä on ÄO?
+  description1: Miten ÄO mitataan?
+  description2: Tee nettitestimme
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/iq/lp/am-i-gifted
+  title: Êtes-vous surdoué ?
+  description1: Êtes-vous Haut Potentiel ?
+  description2: Faites le test et vérifiez
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/iq/lp/can-you-improve-iq
+  title: Améliorer son QI ?
+  description1: Boostez votre cerveau
+  description2: Passez notre test de QI
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/iq/lp/iq-test
+  title: Test de QI
+  description1: Passez le test de QI en ligne
+  description2: Obtenez votre score de QI
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/iq/lp/iq-test-for-students
+  title: Test de QI Étudiant
+  description1: Défiez votre esprit
+  description2: Préparez votre avenir
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/iq/lp/what-is-iq
+  title: Qu'est-ce que le QI ?
+  description1: Comment mesurer le QI ?
+  description2: Testez votre QI en ligne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/iq/lp/am-i-gifted
+  title: Jesam li nadaren?
+  description1: Provjeri svoju nadarenost
+  description2: Riješi test, vidi rezultat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/iq/lp/can-you-improve-iq
+  title: Poboljšaj svoj IQ
+  description1: Povećaj snagu mozga
+  description2: Započni naš IQ test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/iq/lp/iq-test
+  title: IQ Test
+  description1: Riješi online IQ test
+  description2: Saznaj svoj IQ rezultat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/iq/lp/iq-test-for-students
+  title: IQ Test za studente
+  description1: Izazovi svoj um
+  description2: Priprema za uspjeh
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/iq/lp/what-is-iq
+  title: Što je IQ?
+  description1: Kako se mjeri IQ?
+  description2: Riješi naš online test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/iq/lp/am-i-gifted
+  title: Tehetséges vagyok?
+  description1: Nézze meg, tehetséges-e
+  description2: Töltse ki, lássa pontszámát
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/iq/lp/can-you-improve-iq
+  title: Növelhető az IQ?
+  description1: Fokozza agyi teljesítményét
+  description2: Töltse ki IQ-tesztünket
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/iq/lp/iq-test
+  title: IQ-teszt
+  description1: Töltse ki az online tesztet
+  description2: Tudja meg IQ-pontszámát
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/iq/lp/iq-test-for-students
+  title: IQ-teszt diákoknak
+  description1: Tegye próbára elméjét
+  description2: Felkészülés a sikerre
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/iq/lp/what-is-iq
+  title: Mi az IQ?
+  description1: Hogyan mérik az IQ-t?
+  description2: Online IQ-teszt indítása
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/iq/lp/am-i-gifted
+  title: Er ég með háa greind?
+  description1: Sjáðu hvort þú ert afburða
+  description2: Taktu prófið, sjáðu stig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/iq/lp/can-you-improve-iq
+  title: Má bæta greind?
+  description1: Auktu heilagetu þína
+  description2: Taktu okkar próf núna
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/iq/lp/iq-test
+  title: Greindarpróf
+  description1: Taktu greindarpróf á netinu
+  description2: Fáðu greindarvísitölu þína
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/iq/lp/iq-test-for-students
+  title: Próf fyrir nemendur
+  description1: Reyndu á hugann í skóla
+  description2: Undirbúningur fyrir nám
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/iq/lp/what-is-iq
+  title: Hvað er greindarpróf?
+  description1: Hvernig er greind mæld?
+  description2: Taktu prófið okkar á netinu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/iq/lp/am-i-gifted
+  title: Ar aš gabus?
+  description1: Ar jūsų IQ rodo gabumus?
+  description2: Atlikite testą, sužinokite
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/iq/lp/can-you-improve-iq
+  title: Ar galima pagerinti IQ?
+  description1: Pagerinkite smegenų veiklą
+  description2: Atlikite mūsų IQ testą
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/iq/lp/iq-test
+  title: IQ testas
+  description1: Atlikite IQ testą internetu
+  description2: Sužinokite savo IQ šiandien
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/iq/lp/iq-test-for-students
+  title: IQ testas studentams
+  description1: Iššūkis protui mokykloje
+  description2: Pasiruošimas studijoms
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/iq/lp/what-is-iq
+  title: Kas yra IQ?
+  description1: Kaip matuojamas IQ?
+  description2: Atlikite IQ testą dabar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/iq/lp/am-i-gifted
+  title: Vai esmu apdāvināts?
+  description1: Pārbaudiet savas spējas
+  description2: Veiciet testu, uzziniet
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/iq/lp/can-you-improve-iq
+  title: Vai var uzlabot IQ?
+  description1: Uzlabojiet prāta spējas
+  description2: Sāciet mūsu IQ testu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/iq/lp/iq-test
+  title: IQ tests
+  description1: Veiciet IQ testu tiešsaistē
+  description2: Uzziniet savu IQ šodien
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/iq/lp/iq-test-for-students
+  title: IQ tests studentiem
+  description1: Pārbaudiet prātu skolā
+  description2: Sagatavojieties studijām
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/iq/lp/what-is-iq
+  title: Kas ir IQ?
+  description1: Kā mēra inteliģenci?
+  description2: Veiciet IQ testu internetā
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/iq/lp/am-i-gifted
+  title: Ben ik hoogbegaafd?
+  description1: Test uw begaafdheid nu
+  description2: Doe de test, zie score
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/iq/lp/can-you-improve-iq
+  title: Kan IQ verbeteren?
+  description1: Vergroot uw denkkracht
+  description2: Doe nu onze IQ-test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/iq/lp/iq-test
+  title: IQ-test
+  description1: Doe de online IQ-test
+  description2: Ontdek vandaag uw IQ
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/iq/lp/iq-test-for-students
+  title: IQ-test studenten
+  description1: Daag uw brein uit
+  description2: Bereid u voor op succes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/iq/lp/what-is-iq
+  title: Wat is IQ?
+  description1: Hoe wordt IQ gemeten?
+  description2: Doe de online test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/iq/lp/am-i-gifted
+  title: Er jeg begavet?
+  description1: Se om IQ-en din er høy
+  description2: Ta testen og sjekk poeng
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/iq/lp/can-you-improve-iq
+  title: Kan du forbedre IQ?
+  description1: Lær å styrke hjernekraft
+  description2: Ta vår IQ-test nå
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/iq/lp/iq-test
+  title: IQ-test
+  description1: Ta IQ-testen på nett
+  description2: Få din IQ-score i dag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/iq/lp/iq-test-for-students
+  title: IQ-test for studenter
+  description1: Utfordre hjernen på skolen
+  description2: God forberedelse til studier
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/iq/lp/what-is-iq
+  title: Hva er IQ?
+  description1: Forstå hvordan IQ måles
+  description2: Ta vår IQ-test på nett
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/iq/lp/am-i-gifted
+  title: Sou sobredotado?
+  description1: Veja se o seu QI é elevado
+  description2: Faça o teste e veja o QI
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/iq/lp/can-you-improve-iq
+  title: Pode melhorar o QI?
+  description1: Aprenda a treinar o cérebro
+  description2: Faça já o teste de QI
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/iq/lp/iq-test
+  title: Teste de QI
+  description1: Faça o teste de QI online
+  description2: Veja o seu resultado hoje
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/iq/lp/iq-test-for-students
+  title: Teste de QI estudantes
+  description1: Desafie a mente nos estudos
+  description2: Boa preparação académica
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/iq/lp/what-is-iq
+  title: O que é o QI?
+  description1: Saiba como o QI é medido
+  description2: Faça o teste de QI online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/iq/lp/am-i-gifted
+  title: Sunt supradotat?
+  description1: Vezi dacă ești genial
+  description2: Fă testul, vezi scorul
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/iq/lp/can-you-improve-iq
+  title: Poți crește IQ-ul?
+  description1: Antrenează-ți mintea
+  description2: Începe testul IQ acum
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/iq/lp/iq-test
+  title: Test de IQ
+  description1: Fă testul IQ online
+  description2: Află scorul tău IQ azi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/iq/lp/iq-test-for-students
+  title: Test IQ pt. studenți
+  description1: Provoacă-ți mintea
+  description2: Pregătire pentru succes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/iq/lp/what-is-iq
+  title: Ce este IQ-ul?
+  description1: Cum se măsoară IQ-ul
+  description2: Fă testul nostru online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/iq/lp/am-i-gifted
+  title: Sem nadarjen?
+  description1: Preverite svojo nadarjenost
+  description2: Rešite test, vidite rezultat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/iq/lp/can-you-improve-iq
+  title: Izboljšajte IQ?
+  description1: Povečajte moč možganov
+  description2: Rešite naš IQ test zdaj
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/iq/lp/iq-test
+  title: IQ test
+  description1: Rešite spletni IQ test
+  description2: Spoznajte svoj IQ danes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/iq/lp/iq-test-for-students
+  title: IQ test za študente
+  description1: Izzovite svoj um v šoli
+  description2: Priprava na uspeh v šoli
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/iq/lp/what-is-iq
+  title: Kaj je IQ?
+  description1: Kako se meri IQ?
+  description2: Rešite spletni test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/iq/lp/am-i-gifted
+  title: Да ли сам надарен?
+  description1: Проверите своју надареност
+  description2: Урадите тест, видите скор
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/iq/lp/can-you-improve-iq
+  title: Повећање ИК-а?
+  description1: Побољшајте рад мозга
+  description2: Урадите наш ИК тест
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/iq/lp/iq-test
+  title: ИК Тест
+  description1: Урадите онлајн ИК тест
+  description2: Сазнајте свој ИК данас
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/iq/lp/iq-test-for-students
+  title: ИК тест за студенте
+  description1: Изазовите свој ум
+  description2: Припрема за успех
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/iq/lp/what-is-iq
+  title: Шта је ИК?
+  description1: Како се мери ИК?
+  description2: Урадите онлајн тест
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/iq/lp/am-i-gifted
+  title: Är jag begåvad?
+  description1: Se om din IQ räknas som hög
+  description2: Gör testet och se resultat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/iq/lp/can-you-improve-iq
+  title: Kan du höja din IQ?
+  description1: Lär dig stärka din hjärna
+  description2: Gör vårt IQ-test nu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/iq/lp/iq-test
+  title: IQ-test
+  description1: Gör IQ-testet online nu
+  description2: Se ditt IQ-resultat idag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/iq/lp/iq-test-for-students
+  title: IQ-test för studenter
+  description1: Utmana hjärnan i studier
+  description2: Smart förberedelse framåt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/iq/lp/what-is-iq
+  title: Vad är IQ?
+  description1: Förstå hur IQ mäts
+  description2: Gör IQ-testet online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_iq__am_i_gifted
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/iq/lp/am-i-gifted
+  title: Üstün Zekalı mıyım?
+  description1: Zeka seviyeni hemen ölç
+  description2: Testi çöz, puanını gör
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_iq__can_you_improve
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/iq/lp/can-you-improve-iq
+  title: IQ Geliştirilebilir mi?
+  description1: Beyin gücünü artır
+  description2: Şimdi IQ Testini çöz
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_iq__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/iq/lp/iq-test
+  title: IQ Testi
+  description1: Online IQ Testini çöz
+  description2: IQ puanını bugün öğren
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_iq__students
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/iq/lp/iq-test-for-students
+  title: Öğrenciler İçin IQ Testi
+  description1: Zihnini zorla ve geliştir
+  description2: Okul başarısı için hazırla
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_iq__what_is_iq
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/iq/lp/what-is-iq
+  title: IQ Nedir?
+  description1: IQ nasıl ölçülür öğren
+  description2: Online Testimizi Çöz

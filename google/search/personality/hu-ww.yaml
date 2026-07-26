@@ -1,0 +1,217 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: hu_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_hu_personality__experts
+  - callout_hu_personality__instant
+  - callout_hu_personality__minutes
+  - callout_hu_personality__mobile_friendly
+  - callout_hu_personality__secure
+  - callout_hu_personality__sixteen
+  - efaq_business_name
+  - sitelink_hu_personality__generic
+  - sitelink_hu_personality__introverts_extroverts
+  - sitelink_hu_personality__rare
+  - sitelink_hu_personality__science
+  - sitelink_hu_personality__sixteen_types
+  - sitelink_hu_personality__traits
+  - sitelink_hu_personality__what_is
+  - snip_hu_personality__types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 12.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/hu/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Hivatalos oldal
+      - Ne pazarolja a pénzét
+      - Személyiségtípus teszt
+      - Milyen a személyisége?
+      - Gyors 16 típusú kvíz
+      - ENTJ vagy ENFP? Tesztelje!
+      - Ön INTJ vagy INFP?
+      - Logika vagy érzelem?
+      - 5 perces személyiségkvíz
+      - '#1 Személyiségteszt'
+      descriptions:
+      - Válaszoljon a kérdésekre, és fedezze fel személyiségtípusát és fő erősségeit.
+      - Ön introvertált vagy extrovertált? Tudjon meg többet személyiségtesztünkkel.
+      - Tudja meg, hogyan befolyásolja személyiségtípusa viselkedését és kapcsolatait.
+      - Fedezze fel személyiségtípusát, és nyerjen betekintést erősségeibe és gyengeségeibe.
+    keywords:
+    - text: personality test
+      match_type: BROAD
+    - text: personality type test
+      match_type: BROAD
+    - text: free personality test
+      match_type: BROAD
+    - text: free personality type test
+      match_type: BROAD
+    - text: personality test free
+      match_type: BROAD
+    - text: personality type test free
+      match_type: BROAD
+    - text: mbti test
+      match_type: BROAD
+    - text: mbti test free
+      match_type: BROAD
+    - text: free mbti test
+      match_type: BROAD
+    - text: myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs personality test free
+      match_type: BROAD
+    - text: free myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs test
+      match_type: BROAD
+    - text: myers briggs test free
+      match_type: BROAD
+    - text: free myers briggs test
+      match_type: BROAD
+    - text: psychological test
+      match_type: BROAD
+    - text: psychological test free
+      match_type: BROAD
+    - text: free psychological test
+      match_type: BROAD
+    - text: psychological test online
+      match_type: BROAD
+    - text: enneagram test
+      match_type: BROAD
+    - text: enneagram test free
+      match_type: BROAD
+    - text: free enneagram test
+      match_type: BROAD
+    - text: online personality test
+      match_type: BROAD
+    - text: 16 personalities test
+      match_type: BROAD
+    - text: personality quiz
+      match_type: BROAD
+    - text: personality type quiz
+      match_type: BROAD
+    - text: free personality quiz
+      match_type: BROAD
+    - text: free personality type quiz
+      match_type: BROAD
+    - text: personality quiz free
+      match_type: BROAD
+    - text: personality type quiz free
+      match_type: BROAD
+    - text: mbti quiz
+      match_type: BROAD
+    - text: mbti quiz free
+      match_type: BROAD
+    - text: free mbti quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz free
+      match_type: BROAD
+    - text: free myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs quiz
+      match_type: BROAD
+    - text: myers briggs quiz free
+      match_type: BROAD
+    - text: free myers briggs quiz
+      match_type: BROAD
+    - text: psychological quiz
+      match_type: BROAD
+    - text: psychological quiz free
+      match_type: BROAD
+    - text: free psychological quiz
+      match_type: BROAD
+    - text: psychological quiz online
+      match_type: BROAD
+    - text: enneagram quiz
+      match_type: BROAD
+    - text: enneagram quiz free
+      match_type: BROAD
+    - text: free enneagram quiz
+      match_type: BROAD
+    - text: online personality quiz
+      match_type: BROAD
+    - text: 16 personalities quiz
+      match_type: BROAD
+    - text: 16 personality types
+      match_type: BROAD
+    - text: personality type
+      match_type: BROAD
+    - text: personality types
+      match_type: BROAD
+    - text: mbti
+      match_type: BROAD
+    - text: mbti free
+      match_type: BROAD
+    - text: free mbti
+      match_type: BROAD
+    - text: istj
+      match_type: BROAD
+    - text: isfj
+      match_type: BROAD
+    - text: infj
+      match_type: BROAD
+    - text: intj
+      match_type: BROAD
+    - text: istp
+      match_type: BROAD
+    - text: isfp
+      match_type: BROAD
+    - text: infp
+      match_type: BROAD
+    - text: intp
+      match_type: BROAD
+    - text: estp
+      match_type: BROAD
+    - text: esfp
+      match_type: BROAD
+    - text: enfp
+      match_type: BROAD
+    - text: entp
+      match_type: BROAD
+    - text: estj
+      match_type: BROAD
+    - text: esfj
+      match_type: BROAD
+    - text: enfj
+      match_type: BROAD
+    - text: entj
+      match_type: BROAD
+    - text: személyiségteszt
+      match_type: BROAD
+    - text: személyiségtípus teszt
+      match_type: BROAD
+    - text: ingyenes személyiségteszt
+      match_type: BROAD
+    - text: személyiségteszt ingyen
+      match_type: BROAD
+    - text: mbti teszt magyar
+      match_type: BROAD
+    - text: mbti teszt ingyen
+      match_type: BROAD
+    - text: enneagram teszt magyar
+      match_type: BROAD
+    - text: online személyiségteszt
+      match_type: BROAD
+    - text: 16 személyiségtípus
+      match_type: BROAD
+    - text: személyiség kvíz
+      match_type: BROAD
+    - text: önismereti teszt
+      match_type: BROAD
+    - text: milyen személyiség vagyok
+      match_type: BROAD
+    - text: személyiségtípusok
+      match_type: BROAD
+    - text: személyiség teszt
+      match_type: BROAD

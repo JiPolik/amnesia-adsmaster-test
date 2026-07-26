@@ -1,0 +1,431 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_exback__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Създадено от експерти
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_exback__fix
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Оправете връзката си
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_exback__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Незабавни резултати
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_exback__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Удобен за мобилни у-ва
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_exback__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Защитен уебсайт
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_exback__win_back
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Спечелете ги обратно
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_exback__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dissenyat per experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_exback__fix
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Arregla la teva relació
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_exback__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultats instantanis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_exback__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web adaptada a mòbils
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_exback__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Lloc web segur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_exback__win_back
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Recupera la teva ex
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_exback__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Von Experten entwickelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_exback__fix
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Beziehung retten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_exback__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sofortige Ergebnisse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_exback__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilfreundliche Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_exback__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sichere Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_exback__win_back
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ex zurückgewinnen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_exback__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_exback__fix
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Fix Your Relationship
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_exback__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_exback__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_exback__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_exback__win_back
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Win Them Back
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_exback__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Creato Dagli Esperti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_exback__fix
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Salva La Tua Relazione
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_exback__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Risultati Immediati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_exback__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Ottimizzato Mobile
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_exback__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Web Sicuro 100%
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_exback__win_back
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Riconquista L'Ex
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_exback__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ontworpen door experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_exback__fix
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Herstel je relatie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_exback__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Directe resultaten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_exback__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobielvriendelijke site
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_exback__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Veilige website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_exback__win_back
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Win je ex snel terug
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_exback__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designet av eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_exback__fix
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Fiks forholdet ditt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_exback__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Umiddelbare resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_exback__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvennlig nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_exback__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_exback__win_back
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Vinn dem tilbake
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_exback__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Stworzone przez ekspertów
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_exback__fix
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Napraw swój związek
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_exback__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Natychmiastowe rezultaty
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_exback__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Strona przyjazna mobilnie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_exback__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bezpieczna strona
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_exback__win_back
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Odzyskaj ukochaną osobę

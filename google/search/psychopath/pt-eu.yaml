@@ -1,0 +1,132 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: pt_eu_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: europe
+  ad_extension_refs:
+  - callout_ptpt_psychopath__assessment
+  - callout_ptpt_psychopath__experts
+  - callout_ptpt_psychopath__instant
+  - callout_ptpt_psychopath__minutes
+  - callout_ptpt_psychopath__mobile_friendly
+  - callout_ptpt_psychopath__secure
+  - efaq_business_name
+  - sitelink_ptpt_psychopath__callous_unemotional
+  - sitelink_ptpt_psychopath__dark_triad
+  - sitelink_ptpt_psychopath__emotional_detachment
+  - sitelink_ptpt_psychopath__generic
+  - sitelink_ptpt_psychopath__lack_of_empathy
+  - sitelink_ptpt_psychopath__manipulation_deceit
+  - sitelink_ptpt_psychopath__superficial_charm
+  - sitelink_ptpt_psychopath__what_is_psychopathy
+  - snip_ptpt_psychopath__types
+spec:
+  budget_daily_usd: 1000.0
+  ad_sets:
+  - name: psychopath
+    ad_templates:
+    - name: psychopath__rsa
+      destination_url: https://efaq.com/pt/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Site Oficial
+      - Faça o Teste de Psicopatia
+      - Sou Psicopata? Descubra Aqui
+      - Quiz Grátis de Psicopatia
+      - Autoavaliação de Psicopatia
+      - Será Que É Um Sociopata?
+      - Teste da Tríade Negra
+      - Obtenha Resultados na Hora
+      - Avaliação de Especialistas
+      - Quiz Rápido e Confidencial
+      - Descubra os Seus Traços Hoje
+      descriptions:
+      - Faça a nossa autoavaliação gratuita de psicopatia. Responda e obtenha resultados na hora.
+      - Quiz criado por especialistas com base em pesquisa clínica. Avalie traços psicopáticos.
+      - Descubra a sua posição no espetro da psicopatia. Resultados privados em poucos minutos.
+      - Explore os traços psicopáticos, a tríade negra e muito mais. Faça o nosso quiz online.
+    keywords:
+    - text: psychopath test
+      match_type: BROAD
+    - text: am i a psychopath
+      match_type: BROAD
+    - text: am i a sociopath
+      match_type: BROAD
+    - text: psychopath
+      match_type: BROAD
+    - text: sociopath
+      match_type: BROAD
+    - text: psychopath quiz
+      match_type: BROAD
+    - text: psychopathy test
+      match_type: BROAD
+    - text: sociopath test
+      match_type: BROAD
+    - text: what is psychopathy
+      match_type: BROAD
+    - text: signs of a psychopath
+      match_type: BROAD
+    - text: psychopath traits
+      match_type: BROAD
+    - text: dark triad test
+      match_type: BROAD
+    - text: dark triad
+      match_type: BROAD
+    - text: callous unemotional traits
+      match_type: BROAD
+    - text: lack of empathy test
+      match_type: BROAD
+    - text: lack of empathy
+      match_type: BROAD
+    - text: emotional detachment test
+      match_type: BROAD
+    - text: superficial charm
+      match_type: BROAD
+    - text: manipulation and deceit
+      match_type: BROAD
+    - text: antisocial personality test
+      match_type: BROAD
+    - text: sociopath traits
+      match_type: BROAD
+    - text: teste de psicopatia
+      match_type: BROAD
+    - text: sou um psicopata
+      match_type: BROAD
+    - text: sou um sociopata
+      match_type: BROAD
+    - text: psicopata
+      match_type: BROAD
+    - text: sociopata
+      match_type: BROAD
+    - text: quiz de psicopatia
+      match_type: BROAD
+    - text: teste de sociopatia
+      match_type: BROAD
+    - text: o que é psicopatia
+      match_type: BROAD
+    - text: sinais de um psicopata
+      match_type: BROAD
+    - text: traços de psicopata
+      match_type: BROAD
+    - text: teste da tríade negra
+      match_type: BROAD
+    - text: tríade negra
+      match_type: BROAD
+    - text: traços de insensibilidade
+      match_type: BROAD
+    - text: teste de falta de empatia
+      match_type: BROAD
+    - text: falta de empatia
+      match_type: BROAD
+    - text: teste de desapego emocional
+      match_type: BROAD
+    - text: charme superficial
+      match_type: BROAD
+    - text: manipulação e engano
+      match_type: BROAD
+    - text: teste de personalidade antissocial
+      match_type: BROAD
+    - text: traços de sociopata
+      match_type: BROAD

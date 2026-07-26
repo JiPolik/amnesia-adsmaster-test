@@ -1,0 +1,157 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: hu_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_hu_career__experts
+  - callout_hu_career__instant
+  - callout_hu_career__minutes
+  - callout_hu_career__mobile_friendly
+  - callout_hu_career__plan_future
+  - callout_hu_career__secure
+  - callout_hu_career__strengths
+  - efaq_business_name
+  - sitelink_hu_career__ai
+  - sitelink_hu_career__career_change
+  - sitelink_hu_career__fit
+  - sitelink_hu_career__generic
+  - sitelink_hu_career__graduates
+  - sitelink_hu_career__how_it_works
+  - sitelink_hu_career__plan_future
+  - sitelink_hu_career__science
+  - sitelink_hu_career__strengths
+  - sitelink_hu_career__students
+  - sitelink_hu_career__what_is
+  - snip_hu_career__services
+  - snip_hu_career__styles
+  - snip_hu_career__types
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 10.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/hu/career/lp/quiz
+      headlines:
+      - EFAQ.com - Hivatalos oldal
+      - Ne pazarold a pénzed
+      - Pályaalkalmassági teszt
+      - Ideális karrier felfedezése
+      - Melyik munka illik hozzád?
+      - Ismerd meg erősségeidet
+      - Karrier kvíz mindenkinek
+      - Szakmai erősségek tesztje
+      - Rossz pályán vagy?
+      - Ismerd meg munkastílusod
+      - Találd meg álmaid munkáját
+      - Megjósolható a karriered?
+      - 5 perces karrier kvíz
+      - '#1 értékelt karriertuszt'
+      - Válts karriert bátran
+      descriptions:
+      - Fedezd fel, melyik karrier illik erősségeidhez és érdeklődésedhez tesztünkkel.
+      - Személyre szabott karrierötletek a stílusod és erősségeid alapján.
+      - Karrierváltáson gondolkodsz? Fedezz fel új, hozzád jobban illő utakat.
+      - Töltsd ki kutatásokon alapuló tesztünket, és kapj személyre szabott tanácsokat.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: pályaalkalmassági teszt
+      match_type: BROAD
+    - text: pályaválasztási teszt
+      match_type: BROAD
+    - text: karrier teszt
+      match_type: BROAD
+    - text: milyen munka illik hozzám
+      match_type: BROAD
+    - text: milyen szakmát válasszak
+      match_type: BROAD
+    - text: ingyenes pályaalkalmassági teszt
+      match_type: BROAD
+    - text: pályaorientációs teszt
+      match_type: BROAD
+    - text: hivatás teszt
+      match_type: BROAD
+    - text: álommunka teszt
+      match_type: BROAD
+    - text: karrierváltás teszt
+      match_type: BROAD
+    - text: kompetencia teszt
+      match_type: BROAD
+    - text: munkaköri alkalmasság
+      match_type: BROAD
+    - text: pályaválasztási tanácsadás teszt
+      match_type: BROAD
+    - text: karrier kvíz
+      match_type: BROAD
+    - text: pályaalkalmassági vizsgálat
+      match_type: BROAD

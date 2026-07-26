@@ -1,0 +1,127 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_bg_exback__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Анализ на връзката
+  - Инструменти за яснота
+  - Стратегии за свързване
+  - Оценка на раздялата
+  - Личен план за действие
+  language: BULGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ca_exback__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Anàlisi de relacions
+  - Eines de claredat
+  - Estratègies de connexió
+  - Avaluació de ruptura
+  - Pla d'acció personal
+  language: CATALAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_exback__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Beziehungsanalyse
+  - Emotionale Klarheit
+  - Neustart-Strategien
+  - Trennungsanalyse
+  - Persönlicher Aktionsplan
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_exback__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Relationship Analysis
+  - Emotional Clarity Tools
+  - Reconnection Strategies
+  - Breakup Assessment
+  - Personal Action Plan
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_it_exback__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Analisi Relazione
+  - Strumenti Emotivi
+  - Strategie Riconquista
+  - Valutazione Rottura
+  - Piano D'Azione Personale
+  language: ITALIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_exback__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Relatieanalyse
+  - Emotionele helderheid
+  - Herstelstrategieën
+  - Relatiebreuk analyse
+  - Persoonlijk actieplan
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_exback__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Relasjonsanalyse
+  - Verktøy for klarhet
+  - Gjenforeningsstrategi
+  - Bruddvurdering
+  - Personlig handlingsplan
+  language: NORWEGIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_pl_exback__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Analiza związku
+  - Narzędzia emocjonalne
+  - Strategie powrotu
+  - Ocena rozstania
+  - Osobisty plan działania
+  language: POLISH

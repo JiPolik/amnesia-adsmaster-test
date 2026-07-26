@@ -1,5 +1,0 @@
-apiVersion: amnesia/v1
-kind: GeoExcludeList
-metadata: {name: demo_no_nordics}
-spec:
-  countries: [SE, 'NO', FI, DK, IS]

@@ -1,0 +1,179 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ca_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Democràtic
+  - Autocràtic
+  - Transformador
+  - Líder Servidor
+  - Carismàtic
+  - Burocràtic
+  - Visionari
+  language: CATALAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_da_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Demokratisk
+  - Autokratisk
+  - Transformerende
+  - Tjenende leder
+  - Karismatisk
+  - Bureaukratisk
+  - Visionær
+  language: DANISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Demokratisch
+  - Autokratisch
+  - Transformational
+  - Dienende Führung
+  - Charismatisch
+  - Bürokratisch
+  - Visionär
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Democratic
+  - Autocratic
+  - Transformer
+  - Servant Leader
+  - Charismatic
+  - Bureaucratic
+  - Visionary
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fi_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Demokraattinen
+  - Autokraattinen
+  - Uudistava
+  - Palveleva johtaja
+  - Karismaattinen
+  - Byrokraattinen
+  - Visionäärinen
+  language: FINNISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_it_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Democratico
+  - Autocratico
+  - Trasformativo
+  - Servant Leader
+  - Carismatico
+  - Burocratico
+  - Visionario
+  language: ITALIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Democratisch
+  - Autocratisch
+  - Transformationeel
+  - Dienend Leider
+  - Charismatisch
+  - Bureaucratisch
+  - Visionair
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Demokratisk
+  - Autokratisk
+  - Transformerende
+  - Tjenende leder
+  - Karismatisk
+  - Byråkratisk
+  - Visjonær
+  language: NORWEGIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_pl_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Demokratyczny
+  - Autokratyczny
+  - Transformacyjny
+  - Służebny
+  - Charyzmatyczny
+  - Biurokratyczny
+  - Wizjonerski
+  language: POLISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sv_leadership__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Demokratisk
+  - Autokratisk
+  - Transformativ
+  - Tjänande ledare
+  - Karismatisk
+  - Byråkratisk
+  - Visionär
+  language: SWEDISH

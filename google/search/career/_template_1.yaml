@@ -1,0 +1,41 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: career_search_tmpl_1
+  platform: google_search
+  vertical: career
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  ad_set_defaults:
+    status: PAUSED
+    bid_strategy: TARGET_CPA
+  ad_template_defaults:
+    status: ENABLED
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      creative_feed_ref: career_search_feed
+      destination_url: https://efaq.com/es-latam/career/lp/quiz
+      headlines:
+      - EFAQ.com - Sitio Oficial
+      - No Malgastes Tu Dinero
+      - Test de Aptitud Laboral
+      - Descubre Tu Carrera Ideal
+      - ¿Cuál es Tu Trabajo Ideal?
+      - Halla Tus Fortalezas
+      - Cuestionario Vocacional
+      - Test de Puntos Fuertes
+      - ¿Carrera Equivocada?
+      - Descubre Tu Estilo Laboral
+      - Encuentra Tu Trabajo Soñado
+      - ¿Predecimos Tu Carrera?
+      - Test Laboral de 5 Minutos
+      - 'Test Laboral #1'
+      - Cambia de Carrera Seguro
+      descriptions:
+      - Descubre qué carrera se adapta a tus fortalezas y habilidades con nuestro test de aptitud.
+      - Obtén ideas de carrera basadas en tu perfil, fortalezas y estilo de trabajo.
+      - ¿Piensas cambiar de carrera? Explora nuevos caminos que se adapten mejor a ti.
+      - Haz nuestro test de aptitud laboral basado en datos y recibe consejos personalizados.

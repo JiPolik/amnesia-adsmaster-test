@@ -1,0 +1,142 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sk_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_sk_lovestyle__experts
+  - callout_sk_lovestyle__find_your
+  - callout_sk_lovestyle__improve
+  - callout_sk_lovestyle__instant
+  - callout_sk_lovestyle__mobile_friendly
+  - callout_sk_lovestyle__secure
+  - efaq_business_name
+  - sitelink_sk_lovestyle__generic
+  - sitelink_sk_lovestyle__heartbreak
+  - sitelink_sk_lovestyle__improve_relationship
+  - sitelink_sk_lovestyle__what_are
+  - sitelink_sk_lovestyle__what_is
+  - snip_sk_lovestyle__types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 12.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/sk/love-style/lp/quiz
+      headlines:
+      - EFAQ.com – Oficiálny web
+      - Nevyhadzujte peniaze
+      - Aký je váš jazyk lásky?
+      - Top kvíz o láske 2026
+      - Spravte si test lásky
+      - Objavte svoj jazyk lásky
+      - Ako prejavujete lásku?
+      - Test lásky pre páry
+      - Zlepšite svoj vzťah
+      - Milujte lepšie, žite šťastne
+      - Pochopte potreby druhého
+      - Čo potrebuje vaše srdce?
+      - Buďte lepším partnerom
+      - 5-minútový kvíz lásky
+      - '#1 hodnotený test lásky'
+      descriptions:
+      - 'Odhaľte svoj jazyk lásky: Spravte si kvíz a zistite, ako prejavujete lásku.'
+      - Zistite svoj jazyk lásky pomocou nášho krátkeho kvízu a zlepšite svoj vzťah.
+      - Naučte sa lepšie milovať svojho partnerja pochopením svojho jazyka lásky.
+      - Zmeňte svoj vzťah pomocou nášho vedecky navrhnutého kvízu o jazykoch lásky.
+    keywords:
+    - text: love language test
+      match_type: BROAD
+    - text: love language quiz
+      match_type: BROAD
+    - text: love language test online
+      match_type: BROAD
+    - text: love language quiz online
+      match_type: BROAD
+    - text: love language test free
+      match_type: BROAD
+    - text: love language quiz free
+      match_type: BROAD
+    - text: free love language test
+      match_type: BROAD
+    - text: free love language quiz
+      match_type: BROAD
+    - text: 5 love languages
+      match_type: BROAD
+    - text: five love languages
+      match_type: BROAD
+    - text: love languages test
+      match_type: BROAD
+    - text: love languages quiz
+      match_type: BROAD
+    - text: what's my love language
+      match_type: BROAD
+    - text: whats my love language
+      match_type: BROAD
+    - text: what is my love language
+      match_type: BROAD
+    - text: love language
+      match_type: BROAD
+    - text: love languages
+      match_type: BROAD
+    - text: relationship quiz
+      match_type: BROAD
+    - text: love style test
+      match_type: BROAD
+    - text: love style quiz
+      match_type: BROAD
+    - text: love style test online
+      match_type: BROAD
+    - text: love style quiz online
+      match_type: BROAD
+    - text: love style test free
+      match_type: BROAD
+    - text: love style quiz free
+      match_type: BROAD
+    - text: free love style test
+      match_type: BROAD
+    - text: free love style quiz
+      match_type: BROAD
+    - text: 5 love styles
+      match_type: BROAD
+    - text: five love styles
+      match_type: BROAD
+    - text: love styles test
+      match_type: BROAD
+    - text: love styles quiz
+      match_type: BROAD
+    - text: what's my love style
+      match_type: BROAD
+    - text: whats my love style
+      match_type: BROAD
+    - text: what is my love style
+      match_type: BROAD
+    - text: love style
+      match_type: BROAD
+    - text: love styles
+      match_type: BROAD
+    - text: jazyky lásky test
+      match_type: BROAD
+    - text: 5 jazykov lásky
+      match_type: BROAD
+    - text: test lásky
+      match_type: BROAD
+    - text: kvíz pre páry
+      match_type: BROAD
+    - text: aký je môj jazyk lásky
+      match_type: BROAD
+    - text: test partnerskej zhody
+      match_type: BROAD
+    - text: zlepšenie vzťahu
+      match_type: BROAD
+    - text: test jazykov lásky zadarmo
+      match_type: BROAD
+    - text: ľúbostný jazyk
+      match_type: BROAD
+    - text: partnerský test
+      match_type: BROAD

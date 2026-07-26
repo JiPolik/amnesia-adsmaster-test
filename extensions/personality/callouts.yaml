@@ -1,0 +1,1295 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dissenyat per Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultats Instantanis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Només Uns Minuts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web Adaptat a Mòbils
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Lloc Web Segur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test de 16 Tipus
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Navrženo experty
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Okamžité výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zabere jen pár minut
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web pro mobily
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bezpečný web
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test 16 typů osobnosti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designet af eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Øjeblikkelige resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tager kun få minutter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvenlig hjemmeside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker hjemmeside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16-type personlighedstest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Von Experten entwickelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sofortige Ergebnisse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dauert nur Minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilfreundliche Seite
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sichere Webseite
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16-Typen-Test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Σχεδιασμένο από Ειδικούς
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Άμεσα Αποτελέσματα
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Μόνο Λίγα Λεπτά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Φιλικό για Κινητά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ασφαλής Ιστότοπος
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Τεστ 16 Τύπων
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takes Only Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16-Type Personality Test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Diseñado por Expertos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados Instantáneos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Solo Toma Unos Minutos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Optimizado Móvil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Web Seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test de 16 Personalidades
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertide loodud
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Kohesed tulemused
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Võtab vaid minuteid
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobiilisõbralik leht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvaline veebileht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16 tüübi isiksusetest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Asiantuntijoiden luoma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tulokset heti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Vain muutama minuutti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobiiliystävällinen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvallinen sivusto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16 tyypin testi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Conçu par des Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Résultats Instantanés
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Prend Quelques Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Optimisé pour Mobile
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Sécurisé
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test 16 Personnalités
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dizajnirali stručnjaci
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Trenutni rezultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Traje samo par minuta
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web prilagođen mobitelu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sigurna web stranica
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test 16 tipova osobnosti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Szakértők tervezték
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Azonnali eredmények
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Csak pár perc
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilbarát weboldal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Biztonságos weboldal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16 típusú teszt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Hannað af sérfræðingum
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Niðurstöður strax
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tekur aðeins nokkrar mín
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Virkar í farsíma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Örugg vefsíða
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16 gerða persónuleikapróf
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Creato da Esperti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Risultati Istantanei
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Richiede Pochi Minuti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Mobile-Friendly
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Web Sicuro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test sui 16 Tipi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sukurta ekspertų
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Rezultatai iškart
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Užtrunka tik kelias min.
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Pritaikyta mobiliesiems
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Saugi svetainė
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16 tipų asmenybės testas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertu izstrādāts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tūlītēji rezultāti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Aizņem dažas minūtes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Pielāgots mobilajiem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Droša mājaslapa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16 tipu personības tests
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ontworpen door Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Direct Resultaat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Duurt Slechts Minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobielvriendelijke Site
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Veilige Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16-Type Karaktertest
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Laget av eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Umiddelbare resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tar bare noen minutter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvennlig nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test med 16 typer
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Criado por Especialistas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados Imediatos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Demora Poucos Minutos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Mobile-Friendly
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Website Seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Teste de 16 Tipos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Creat de Experți
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Rezultate Instantanee
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Durează Câteva Minute
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Mobile-Friendly
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Securizat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test cu 16 Tipuri
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Oblikovali strokovnjaki
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takojšnji rezultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Vzame le nekaj minut
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Prilagojeno za mobitel
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Varna spletna stran
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test 16 tipov osebnosti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Дизајнирали стручњаци
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Тренутни резултати
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Траје само пар минута
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Сајт за мобилне уређаје
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Сигуран веб-сајт
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Тест 16 типова личности
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designad av experter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Omedelbara resultat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tar bara några minuter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvänlig webbplats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Säker webbplats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test med 16 typer
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_personality__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Uzmanlarca Tasarlandı
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_personality__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Anında Sonuçlar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_personality__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sadece Dakikalar Sürer
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_personality__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobil Uyumlu Web Sitesi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_personality__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Güvenli Web Sitesi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_personality__sixteen
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 16 Tipli Kişilik Testi

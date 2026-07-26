@@ -1,0 +1,1619 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/love-style/lp/quiz
+  title: 'Тест: Език на любовта'
+  description1: Открий своя стил
+  description2: Бъди по-добър партньор
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/love-style/lp/heartbreak-science
+  title: Наука за разбито сърце
+  description1: Разбито сърце? Защо?
+  description2: Научи как да продължиш
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/love-style/lp/improve-relationship
+  title: Подобри връзката си
+  description1: Научи се да обичаш
+  description2: Направете теста заедно
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/love-style/lp/what-are-love-styles
+  title: Какви са стиловете?
+  description1: Научи за всеки език
+  description2: Укрепи връзката си
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_bg_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/bg/love-style/lp/what-is-a-love-style
+  title: Що е език на любовта?
+  description1: Как работи твоят стил
+  description2: Тест сам или с партньор
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/love-style/lp/quiz
+  title: Test d'Estils d'Amor
+  description1: Descobreix el teu estil
+  description2: Sigues millor parella
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/love-style/lp/heartbreak-science
+  title: Ciència del Desamor
+  description1: Cor trencat? Mira per què
+  description2: Aprèn a superar-ho
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/love-style/lp/improve-relationship
+  title: Millora la Teva Relació
+  description1: Aprèn a estimar millor
+  description2: Feu el test junts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/love-style/lp/what-are-love-styles
+  title: Què són Estils d'Amor?
+  description1: Aprèn tots els estils
+  description2: Millora la relació
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/love-style/lp/what-is-a-love-style
+  title: Què és un Estil d'Amor?
+  description1: Com funciona el teu estil
+  description2: Fes el test sol o en parella
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/love-style/lp/quiz
+  title: Test jazyků lásky
+  description1: Zjistěte svůj jazyk lásky
+  description2: Staňte se lepším partnerem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/love-style/lp/heartbreak-science
+  title: Věda o zlomeném srdci
+  description1: Zlomené srdce? Zjistěte proč
+  description2: Naučte se jít dál
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/love-style/lp/improve-relationship
+  title: Zlepšete svůj vztah
+  description1: Naučte se milovat partnera
+  description2: Spusťte kvíz společně
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/love-style/lp/what-are-love-styles
+  title: Co jsou jazyky lásky?
+  description1: Poznejte všechny styly
+  description2: Posilte svůj vztah
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/love-style/lp/what-is-a-love-style
+  title: Co je jazyk lásky?
+  description1: Jak funguje váš styl
+  description2: Kvíz pro páry i jednotlivce
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/love-style/lp/quiz
+  title: Test din kærlighedsstil
+  description1: Find din kærlighedsstil
+  description2: Bliv en bedre partner i dag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/love-style/lp/heartbreak-science
+  title: Videnskaben om hjertesorg
+  description1: Knust hjerte? Se hvorfor
+  description2: Lær at komme videre
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/love-style/lp/improve-relationship
+  title: Forbedr dit forhold
+  description1: Lær at elske din partner
+  description2: Tag testen sammen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/love-style/lp/what-are-love-styles
+  title: Om Kærlighedssprog
+  description1: Lær om alle stilarter
+  description2: Styrk dit forhold
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/love-style/lp/what-is-a-love-style
+  title: Hvad er kærlighedsstil?
+  description1: Hvordan din stil virker
+  description2: Test alene eller sammen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/love-style/lp/quiz
+  title: Liebessprachen-Test
+  description1: Finde deinen Liebestyp
+  description2: Werde ein besserer Partner
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/love-style/lp/heartbreak-science
+  title: Wissenschaft Liebeskummer
+  description1: Herz gebrochen? Warum?
+  description2: Lerne loszulassen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/love-style/lp/improve-relationship
+  title: Beziehung verbessern
+  description1: Lerne Partner zu lieben
+  description2: Macht den Test zusammen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/love-style/lp/what-are-love-styles
+  title: Was sind Liebessprachen?
+  description1: Lerne alle Stile kennen
+  description2: Stärke deine Beziehung
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/love-style/lp/what-is-a-love-style
+  title: Was ist ein Liebestyp?
+  description1: Wie dein Stil funktioniert
+  description2: Test allein oder zu zweit
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/love-style/lp/quiz
+  title: Κουίζ Στυλ Αγάπης
+  description1: Βρες το στυλ αγάπης σου
+  description2: Γίνε καλύτερος σύντροφος
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/love-style/lp/heartbreak-science
+  title: Επιστήμη του Χωρισμού
+  description1: Ραγισμένη καρδιά; Μάθε γιατί
+  description2: Μάθε πώς να προχωρήσεις
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/love-style/lp/improve-relationship
+  title: Βελτίωσε τη Σχέση Σου
+  description1: Μάθε να αγαπάς τον σύντροφο
+  description2: Κάντε το κουίζ μαζί
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/love-style/lp/what-are-love-styles
+  title: Τι Είναι τα Στυλ Αγάπης;
+  description1: Μάθε για κάθε στυλ αγάπης
+  description2: Ενίσχυσε τη σχέση σου
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/love-style/lp/what-is-a-love-style
+  title: Τι Είναι το Στυλ Αγάπης;
+  description1: Πώς λειτουργεί το στυλ σου
+  description2: Κουίζ μόνος ή με παρέα
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/love-style/lp/quiz
+  title: Love Style Quiz
+  description1: Find out your love style
+  description2: Become a better partner today
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/love-style/lp/heartbreak-science
+  title: The Science of Heartbreak
+  description1: Broken hearted? Find out why
+  description2: Learn how to move on
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/love-style/lp/improve-relationship
+  title: Improve Your Relationship
+  description1: Learn how to love your partner
+  description2: Take our love style quiz together
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/love-style/lp/what-are-love-styles
+  title: What are Love Styles?
+  description1: Learn about the every love style
+  description2: Boost your relationship
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/love-style/lp/what-is-a-love-style
+  title: What is a Love Style?
+  description1: Learn how your love style works
+  description2: Take the quiz together or alone
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/love-style/lp/quiz
+  title: Test Estilos de Amor
+  description1: Descubre tu estilo de amor
+  description2: Sé una mejor pareja hoy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/love-style/lp/heartbreak-science
+  title: Ciencia del Desamor
+  description1: ¿Corazón roto? Mira por qué
+  description2: Aprende a superarlo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/love-style/lp/improve-relationship
+  title: Mejora tu Relación
+  description1: Aprende a amar a tu pareja
+  description2: Haced el test juntos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/love-style/lp/what-are-love-styles
+  title: Los Estilos de Amor
+  description1: Conoce todos los estilos
+  description2: Impulsa tu relación
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eses_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es/love-style/lp/what-is-a-love-style
+  title: ¿Qué es Estilo Amor?
+  description1: Cómo funciona tu estilo
+  description2: Haz el test solo o en pareja
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/love-style/lp/quiz
+  title: Armastuse stiili test
+  description1: Leia oma armastuse stiil
+  description2: Ole täna parem partner
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/love-style/lp/heartbreak-science
+  title: Murtud südame teadus
+  description1: Süda murtud? Vaata miks
+  description2: Õpi edasi liikuma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/love-style/lp/improve-relationship
+  title: Paranda oma suhet
+  description1: Õpi partnerit armastama
+  description2: Tee meie test koos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/love-style/lp/what-are-love-styles
+  title: Mis on armastuse stiilid?
+  description1: Õpi tundma iga stiili
+  description2: Tugevda oma suhet
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/love-style/lp/what-is-a-love-style
+  title: Mis on armastuse stiil?
+  description1: Kuidas su stiil töötab
+  description2: Tee test üksi või koos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/love-style/lp/quiz
+  title: Rakkaustyylitesti
+  description1: Mikä on rakkaustyylisi?
+  description2: Ole parempi kumppani
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/love-style/lp/heartbreak-science
+  title: Tiede sydänsuruista
+  description1: Sydän särkyi? Lue miksi
+  description2: Opi pääsemään yli
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/love-style/lp/improve-relationship
+  title: Paranna parisuhdettasi
+  description1: Opi rakastamaan oikein
+  description2: Tee testi yhdessä
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/love-style/lp/what-are-love-styles
+  title: Mitä rakkaustyylit ovat?
+  description1: Opi eri tyyleistä
+  description2: Vahvista suhdetta
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/love-style/lp/what-is-a-love-style
+  title: Mikä on rakkaustyyli?
+  description1: Miten tyylisi toimii?
+  description2: Testi yksin tai yhdessä
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/love-style/lp/quiz
+  title: Quiz Langage de l'Amour
+  description1: Découvrez votre style
+  description2: Devenez un meilleur partenaire
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/love-style/lp/heartbreak-science
+  title: La Science du Chagrin
+  description1: Cœur brisé ? Comprenez pourquoi
+  description2: Apprenez à avancer
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/love-style/lp/improve-relationship
+  title: Améliorez votre relation
+  description1: Apprenez à mieux aimer
+  description2: Faites le quiz ensemble
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/love-style/lp/what-are-love-styles
+  title: Les Langages de l'Amour ?
+  description1: Découvrez tous les styles
+  description2: Boostez votre relation
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/love-style/lp/what-is-a-love-style
+  title: C'est quoi un Langage ?
+  description1: Comment ça marche ?
+  description2: Quiz solo ou en couple
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/love-style/lp/quiz
+  title: Kviz ljubavnog stila
+  description1: Otkrijte svoj stil
+  description2: Postanite bolji partner
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/love-style/lp/heartbreak-science
+  title: Znanost o slomu srca
+  description1: Slomljeno srce? Saznajte
+  description2: Naučite kako dalje
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/love-style/lp/improve-relationship
+  title: Poboljšajte vezu
+  description1: Naučite kako voljeti
+  description2: Riješite kviz zajedno
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/love-style/lp/what-are-love-styles
+  title: Što su stilovi ljubavi?
+  description1: Saznajte o svakom stilu
+  description2: Ojačajte svoju vezu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/love-style/lp/what-is-a-love-style
+  title: Što je stil ljubavi?
+  description1: Kako funkcionira vaš stil
+  description2: Kviz za parove ili samce
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/love-style/lp/quiz
+  title: Szeretetnyelv teszt
+  description1: Ismerd meg a stílusod
+  description2: Legyél jobb társ ma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/love-style/lp/heartbreak-science
+  title: A szakítás tudománya
+  description1: Összetört szív? Miért?
+  description2: Tanulj meg továbblépni
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/love-style/lp/improve-relationship
+  title: Javíts a kapcsolatodon
+  description1: Tanuld meg szeretni párod
+  description2: Töltsétek ki a tesztet
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/love-style/lp/what-are-love-styles
+  title: Mik a szeretetnyelvek?
+  description1: Ismerd meg az összeset
+  description2: Erősítsd meg a kapcsolatod
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/love-style/lp/what-is-a-love-style
+  title: Mi a szeretetnyelv?
+  description1: Hogyan működik a stílusod?
+  description2: Teszt egyedül vagy párban
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/love-style/lp/quiz
+  title: Ástarstílspróf
+  description1: Finndu þinn ástarstíl
+  description2: Vertu betri maki í dag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/love-style/lp/heartbreak-science
+  title: Vísindin um ástarsorg
+  description1: Í ástarsorg? Sjáðu af hverju
+  description2: Lærðu að halda áfram
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/love-style/lp/improve-relationship
+  title: Bættu sambandið
+  description1: Lærðu að elska makann
+  description2: Takið prófið saman
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/love-style/lp/what-are-love-styles
+  title: Hvað eru ástarstílar?
+  description1: Lærðu um alla ástarstíla
+  description2: Styrktu sambandið
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/love-style/lp/what-is-a-love-style
+  title: Hvað er ástarstíll?
+  description1: Hvernig virkar þinn stíll
+  description2: Taktu prófið ein(n) eða saman
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/love-style/lp/quiz
+  title: Quiz Stile d'Amore
+  description1: Scopri il tuo stile
+  description2: Diventa un partner migliore
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/love-style/lp/heartbreak-science
+  title: Scienza Cuore Spezzato
+  description1: Cuore spezzato? Perché?
+  description2: Impara ad andare avanti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/love-style/lp/improve-relationship
+  title: Migliora la Relazione
+  description1: Impara ad amare meglio
+  description2: Fate il quiz insieme
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/love-style/lp/what-are-love-styles
+  title: Cosa sono gli Stili?
+  description1: Scopri ogni linguaggio
+  description2: Rafforza la relazione
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/love-style/lp/what-is-a-love-style
+  title: Cos'è lo Stile Amore?
+  description1: Come funziona il tuo stile
+  description2: Quiz per coppie o single
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/love-style/lp/quiz
+  title: Meilės stiliaus testas
+  description1: Sužinok savo meilės stilių
+  description2: Tapk geresniu partneriu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/love-style/lp/heartbreak-science
+  title: Mokslas apie širdgėlą
+  description1: Sudaužyta širdis? Kodėl?
+  description2: Sužinok, kaip gyventi toliau
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/love-style/lp/improve-relationship
+  title: Pagerinkite santykius
+  description1: Išmok mylėti partnerį
+  description2: Atlikite testą kartu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/love-style/lp/what-are-love-styles
+  title: Kas yra meilės stiliai?
+  description1: Sužinok apie visus stilius
+  description2: Sustiprinkite santykius
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/love-style/lp/what-is-a-love-style
+  title: Kas yra meilės stilius?
+  description1: Kaip veikia tavo stilius
+  description2: Testas poroms ir vienišiams
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/love-style/lp/quiz
+  title: Mīlestības valodu tests
+  description1: Uzzini savu mīlas stilu
+  description2: Kļūsti par labāku partneri
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/love-style/lp/heartbreak-science
+  title: Salauztas sirds zinātne
+  description1: Salauzta sirds? Kāpēc?
+  description2: Uzzini, kā tikt tālāk
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/love-style/lp/improve-relationship
+  title: Uzlabo savas attiecības
+  description1: Iemācies mīlēt partneri
+  description2: Pildiet testu kopā
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/love-style/lp/what-are-love-styles
+  title: Kas ir mīlestības stili?
+  description1: Uzzini par visiem stiliem
+  description2: Uzlabo attiecības
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/love-style/lp/what-is-a-love-style
+  title: Kas ir mīlestības stils?
+  description1: Kā darbojas tavs stils
+  description2: Pildi testu viens vai kopā
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/love-style/lp/quiz
+  title: Liefdestijl Quiz
+  description1: Ontdek jouw liefdestijl
+  description2: Word een betere partner
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/love-style/lp/heartbreak-science
+  title: Wetenschap van Hartzeer
+  description1: Hart gebroken? Waarom?
+  description2: Leer hoe je verder gaat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/love-style/lp/improve-relationship
+  title: Verbeter je relatie
+  description1: Leer je partner liefhebben
+  description2: Doe samen de liefdesquiz
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/love-style/lp/what-are-love-styles
+  title: Wat zijn liefdestijlen?
+  description1: Leer over elke stijl
+  description2: Versterk je relatie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/love-style/lp/what-is-a-love-style
+  title: Wat is een liefdestijl?
+  description1: Hoe werkt jouw stijl?
+  description2: Doe de quiz alleen of samen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/love-style/lp/quiz
+  title: Kjærlighetstest
+  description1: Finn din kjærlighetsstil
+  description2: Bli en bedre partner i dag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/love-style/lp/heartbreak-science
+  title: Vitenskapen om hjertesorg
+  description1: Knust hjerte? Finn ut hvorfor
+  description2: Lær hvordan du går videre
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/love-style/lp/improve-relationship
+  title: Forbedre forholdet ditt
+  description1: Lær å elske din partner
+  description2: Ta vår test sammen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/love-style/lp/what-are-love-styles
+  title: Hva er kjærlighetsstiler?
+  description1: Lær om hver stil
+  description2: Styrk forholdet ditt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/love-style/lp/what-is-a-love-style
+  title: Finn din kjærlighetsstil
+  description1: Hvordan fungerer din stil
+  description2: Ta quizen sammen eller alene
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/love-style/lp/quiz
+  title: Quiz o Stylach Miłości
+  description1: Poznaj swój styl miłości
+  description2: Bądź lepszym partnerem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/love-style/lp/heartbreak-science
+  title: Nauka o Złamanym Sercu
+  description1: Złamane serce? Sprawdź
+  description2: Dowiedz się jak żyć dalej
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/love-style/lp/improve-relationship
+  title: Popraw swoją relację
+  description1: Naucz się lepiej kochać
+  description2: Zróbcie razem nasz quiz
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/love-style/lp/what-are-love-styles
+  title: Czym są Style Miłości?
+  description1: Poznaj każdy styl
+  description2: Wzmocnij swój związek
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/love-style/lp/what-is-a-love-style
+  title: Co to jest Styl Miłości?
+  description1: Jak działa Twój styl?
+  description2: Quiz dla par i singli
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/love-style/lp/quiz
+  title: Quiz Estilo de Amor
+  description1: Descobre o teu estilo
+  description2: Sê um parceiro melhor
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/love-style/lp/heartbreak-science
+  title: Ciência Coração Partido
+  description1: Coração partido? Vê porquê
+  description2: Aprende a seguir em frente
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/love-style/lp/improve-relationship
+  title: Melhora a Tua Relação
+  description1: Aprende a amar melhor
+  description2: Façam o quiz juntos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/love-style/lp/what-are-love-styles
+  title: Os 5 Estilos de Amor
+  description1: Conhece todos os estilos
+  description2: Melhora a tua relação
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/love-style/lp/what-is-a-love-style
+  title: O Que é Estilo de Amor?
+  description1: Como funciona o teu estilo
+  description2: Faz o quiz sozinho ou a 2
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/love-style/lp/quiz
+  title: Quiz Stil de Iubire
+  description1: Află stilul tău de iubire
+  description2: Fii un partener mai bun
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/love-style/lp/heartbreak-science
+  title: Știința Inimii Frânte
+  description1: Inimă frântă? Află de ce
+  description2: Învață cum să treci peste
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/love-style/lp/improve-relationship
+  title: Îmbunătățește relația
+  description1: Învață să iubești mai bine
+  description2: Faceți quiz-ul împreună
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/love-style/lp/what-are-love-styles
+  title: Ce sunt Stilurile?
+  description1: Află totul despre iubire
+  description2: Consolidează relația
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/love-style/lp/what-is-a-love-style
+  title: Ce e un Stil de Iubire?
+  description1: Cum funcționează stilul tău
+  description2: Quiz pentru cupluri/singuri
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/love-style/lp/quiz
+  title: Kvíz jazykov lásky
+  description1: Zistite svoj jazyk lásky
+  description2: Buďte lepším partnerom
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/love-style/lp/heartbreak-science
+  title: Veda o zlomenom srdci
+  description1: Máte zlomené srdce?
+  description2: Zistite, ako ísť ďalej
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/love-style/lp/improve-relationship
+  title: Zlepšite svoj vzťah
+  description1: Naučte sa lepšie milovať
+  description2: Spravte si kvíz spolu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/love-style/lp/what-are-love-styles
+  title: Čo sú jazyky lásky?
+  description1: Spoznajte všetky štýly
+  description2: Posilnite svoj vzťah
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sk_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sk/love-style/lp/what-is-a-love-style
+  title: Čo je jazyk lásky?
+  description1: Ako funguje váš štýl?
+  description2: Kvíz pre páry i single
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/love-style/lp/quiz
+  title: Kviz ljubezenskega sloga
+  description1: Spoznajte svoj slog
+  description2: Bodite boljši partner
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/love-style/lp/heartbreak-science
+  title: Znanost o zlomljenem srcu
+  description1: Zlomljeno srce? Zakaj?
+  description2: Kako naprej v življenju
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/love-style/lp/improve-relationship
+  title: Izboljšajte odnos
+  description1: Naučite se ljubiti
+  description2: Rešita kviz skupaj
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/love-style/lp/what-are-love-styles
+  title: Kaj so slogi ljubezni?
+  description1: Spoznajte vse sloge
+  description2: Okrepite vajin odnos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/love-style/lp/what-is-a-love-style
+  title: Kaj je slog ljubezni?
+  description1: Kako deluje vaš slog
+  description2: Rešite kviz sami ali v dvoje
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/love-style/lp/quiz
+  title: Квиз љубавних стилова
+  description1: Сазнај свој љубавни стил
+  description2: Постани бољи партнер данас
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/love-style/lp/heartbreak-science
+  title: Наука сломљеног срца
+  description1: Сломљено срце? Види зашто
+  description2: Сазнај како даље
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/love-style/lp/improve-relationship
+  title: Побољшајте везу
+  description1: Научите како да волите
+  description2: Урадите квиз заједно
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/love-style/lp/what-are-love-styles
+  title: Шта су љубавни стилови?
+  description1: Упознај сваки стил
+  description2: Унапредите своју везу
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/love-style/lp/what-is-a-love-style
+  title: Шта је љубавни стил?
+  description1: Како ради твој стил?
+  description2: Уради квиз сам или у пару
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/love-style/lp/quiz
+  title: Testa din kärleksstil
+  description1: Hitta din kärleksstil
+  description2: Bli en bättre partner idag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/love-style/lp/heartbreak-science
+  title: Vetenskapen om hjärtesorg
+  description1: Krossat hjärta? Se varför
+  description2: Lär dig gå vidare
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/love-style/lp/improve-relationship
+  title: Förbättra relationen
+  description1: Lär dig älska din partner
+  description2: Gör vårt test tillsammans
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/love-style/lp/what-are-love-styles
+  title: Vad är kärleksstilar?
+  description1: Lär dig om alla stilar
+  description2: Stärk din relation
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/love-style/lp/what-is-a-love-style
+  title: Vad är en kärleksstil?
+  description1: Hur funkar din stil?
+  description2: Gör testet ihop eller själv
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_lovestyle__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/love-style/lp/quiz
+  title: Aşk Dili Testi
+  description1: Aşk dilinizi öğrenin
+  description2: Daha iyi bir partner olun
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_lovestyle__heartbreak
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/love-style/lp/heartbreak-science
+  title: Aşk Acısının Bilimi
+  description1: Kalbiniz mi kırık?
+  description2: Nasıl devam edeceğini gör
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_lovestyle__improve_relationship
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/love-style/lp/improve-relationship
+  title: İlişkinizi Geliştirin
+  description1: Partnerinizi sevmeyi öğren
+  description2: Testi birlikte çözün
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_lovestyle__what_are
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/love-style/lp/what-are-love-styles
+  title: Aşk Dilleri Nedir?
+  description1: Tüm aşk dillerini öğrenin
+  description2: İlişkinizi güçlendirin
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_lovestyle__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/love-style/lp/what-is-a-love-style
+  title: Aşk Dili Nedir?
+  description1: Aşk diliniz nasıl çalışır?
+  description2: Testi tek veya birlikte çöz

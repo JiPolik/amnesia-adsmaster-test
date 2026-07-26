@@ -1,0 +1,431 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_bg_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Утвърдителни думи
+  - Качествено време
+  - Получаване на подаръци
+  - Грижовни действия
+  - Физически допир
+  language: BULGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ca_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Paraules d'afirmació
+  - Temps de qualitat
+  - Regals
+  - Actes de servei
+  - Contacte físic
+  language: CATALAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_cs_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Slova ujištění
+  - Pozornost
+  - Dárky
+  - Skutky služby
+  - Fyzický kontakt
+  language: CZECH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_da_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Anerkendende ord
+  - Kvalitetstid
+  - Gaver
+  - Tjenester
+  - Fysisk berøring
+  language: DANISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Lob und Anerkennung
+  - Zweisamkeit
+  - Geschenke
+  - Hilfsbereitschaft
+  - Zärtlichkeit
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_el_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Επιβεβαιωτικά Λόγια
+  - Ποιοτικός Χρόνος
+  - Λήψη Δώρων
+  - Πράξεις Φροντίδας
+  - Σωματική Επαφή
+  language: GREEK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Words of Affirmation
+  - Quality Time
+  - Receiving Gifts
+  - Acts of Service
+  - Physical Touch
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eses_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Palabras de afirmación
+  - Tiempo de calidad
+  - Regalos
+  - Actos de servicio
+  - Contacto físico
+  language: SPANISH_EUROPE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_et_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Tunnustussõnad
+  - Kvaliteetaeg
+  - Kingitused
+  - Teened
+  - Füüsiline puudutus
+  language: ESTONIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fi_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Vahvistavat sanat
+  - Laatuaika
+  - Lahjat
+  - Palvelukset
+  - Fyysinen kosketus
+  language: FINNISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fr_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Paroles valorisantes
+  - Moments de qualité
+  - Cadeaux
+  - Services rendus
+  - Toucher physique
+  language: FRENCH_FRANCE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hr_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Riječi potvrde
+  - Kvalitetno vrijeme
+  - Primanje poklona
+  - Djela služenja
+  - Fizički dodir
+  language: CROATIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hu_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Elismerő szavak
+  - Minőségi idő
+  - Ajándékozás
+  - Szívességek
+  - Testi érintés
+  language: HUNGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_is_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Viðurkenningarorð
+  - Gæðastundir
+  - Gjafir
+  - Greiðvikni
+  - Líkamleg snerting
+  language: ICELANDIC
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_it_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Parole di affermazione
+  - Tempo di qualità
+  - Ricevere regali
+  - Atti di servizio
+  - Contatto fisico
+  language: ITALIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lt_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Palaikymo žodžiai
+  - Kokybiškas laikas
+  - Dovanos
+  - Paslaugumas
+  - Fizinis prisilietimas
+  language: LITHUANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lv_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Apliecinājuma vārdi
+  - Kvalitatīvs laiks
+  - Dāvanu saņemšana
+  - Pakalpošana
+  - Fizisks pieskāriens
+  language: LATVIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Positieve woorden
+  - Quality time
+  - Cadeaus ontvangen
+  - Dienstbaarheid
+  - Fysieke aanraking
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Anerkjennende ord
+  - Tid sammen
+  - Gaver
+  - Tjenester
+  - Fysisk berøring
+  language: NORWEGIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_pl_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Słowa afirmacji
+  - Wspólny czas
+  - Otrzymywanie prezentów
+  - Drobne przysługi
+  - Dotyk fizyczny
+  language: POLISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ptpt_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Palavras de Afirmação
+  - Tempo de Qualidade
+  - Receber Presentes
+  - Atos de Serviço
+  - Toque Físico
+  language: PORTUGUESE_PORTUGAL
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ro_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Cuvinte de încurajare
+  - Timp de calitate
+  - Cadouri
+  - Servicii
+  - Contact fizic
+  language: ROMANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sk_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Slová uistenia
+  - Pozornosť
+  - Prijímanie darov
+  - Skutky služby
+  - Fyzický dotyk
+  language: SLOVAK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sl_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Besede potrditve
+  - Kakovosten čas
+  - Prejemanje daril
+  - Dejanja služenja
+  - Fizični dotik
+  language: SLOVENIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sr_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Речи потврде
+  - Квалитетно време
+  - Примање поклона
+  - Дела служења
+  - Физички додир
+  language: SERBIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sv_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Bekräftande ord
+  - Tid tillsammans
+  - Gåvor
+  - Tjänster
+  - Fysisk beröring
+  language: SWEDISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_tr_lovestyle__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Onay Sözleri
+  - Kaliteli Zaman
+  - Hediye Alma
+  - Hizmet Eylemleri
+  - Fiziksel Temas
+  language: TURKISH

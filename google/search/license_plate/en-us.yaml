@@ -1,0 +1,92 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_us_goog_s_efaq_licenseplate
+  platform: google_search
+  vertical: license_plate
+  extends: license_plate_search_tmpl
+  geo_preset_ref: us
+  ad_extension_refs:
+  - callout_en_licenseplate__history
+  - callout_en_licenseplate__instant
+  - callout_en_licenseplate__lookup
+  - callout_en_licenseplate__mobile_friendly
+  - callout_en_licenseplate__secure
+  - efaq_business_name
+  - sitelink_en_licenseplate__accidents
+  - sitelink_en_licenseplate__auction
+  - sitelink_en_licenseplate__car_history
+  - sitelink_en_licenseplate__generic
+  - sitelink_en_licenseplate__theft
+  - sitelink_en_licenseplate__vehicle_history
+  - snip_en_licenseplate__services
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: license_plate
+    keywords:
+    - text: license plate lookup
+      match_type: BROAD
+    - text: license plate lookup free
+      match_type: BROAD
+    - text: free license plate lookup
+      match_type: BROAD
+    - text: lookup license plate
+      match_type: BROAD
+    - text: lookup license plate free
+      match_type: BROAD
+    - text: free lookup license plate
+      match_type: BROAD
+    - text: license plate look up
+      match_type: BROAD
+    - text: license plate look up free
+      match_type: BROAD
+    - text: free license plate look up
+      match_type: BROAD
+    - text: look up license plate
+      match_type: BROAD
+    - text: look up license plate free
+      match_type: BROAD
+    - text: free look up license plate
+      match_type: BROAD
+    - text: license plate search
+      match_type: BROAD
+    - text: license plate search free
+      match_type: BROAD
+    - text: free license plate search
+      match_type: BROAD
+    - text: search license plate
+      match_type: BROAD
+    - text: search license plate free
+      match_type: BROAD
+    - text: free search license plate
+      match_type: BROAD
+    - text: check license plate
+      match_type: BROAD
+    - text: check license plate free
+      match_type: BROAD
+    - text: license plate check
+      match_type: BROAD
+    - text: license plate check free
+      match_type: BROAD
+    - text: plate lookup
+      match_type: BROAD
+    - text: license plate finder
+      match_type: BROAD
+    - text: car tag lookup
+      match_type: BROAD
+    - text: car tag search
+      match_type: BROAD
+    - text: vehicle tag lookup
+      match_type: BROAD
+    - text: vehicle tag search
+      match_type: BROAD
+    - text: vehicle plate lookup
+      match_type: BROAD
+    - text: vehicle plate search
+      match_type: BROAD
+    - text: car plate lookup
+      match_type: BROAD
+    - text: car plate search
+      match_type: BROAD

@@ -1,0 +1,1342 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_bg_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Кариерно съвпадение
+  - Откриване на сили
+  - Оценка на умения
+  - Бъдещо планиране
+  - Кариерни насоки
+  language: BULGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_bg_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Аналитичен
+  - Творчески
+  - Практичен
+  - Социален
+  - Стратегически
+  language: BULGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_bg_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Кариерна пригодност
+  - Оценка на уменията
+  - Анализ на силите
+  - Личностно съвпадение
+  - Карта на интересите
+  language: BULGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ca_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Orientació Laboral
+  - Descobriment Talents
+  - Avaluació Competències
+  - Planificació Futur
+  - Guia Professional
+  language: CATALAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ca_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analític
+  - Creatiu
+  - Pràctic
+  - Social
+  - Estratègic
+  language: CATALAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ca_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Aptitud Professional
+  - Avaluació Habilitats
+  - Anàlisi de Punts Forts
+  - Perfil Laboral
+  - Mapa d'Interessos
+  language: CATALAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_cs_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Hledání kariéry
+  - Objevte své silné stránky
+  - Hodnocení dovedností
+  - Plánování budoucnosti
+  - Kariérní poradenství
+  language: CZECH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_cs_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analytický
+  - Kreativní
+  - Praktický
+  - Sociální
+  - Strategický
+  language: CZECH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_cs_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Kariérní vlohy
+  - Hodnocení dovedností
+  - Analýza silných stránek
+  - Shoda osobnosti
+  - Mapování zájmů
+  language: CZECH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_da_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Karrierematch
+  - Styrkeopdagelse
+  - Kompetenceevaluering
+  - Fremtidsplanlægning
+  - Karrierevejledning
+  language: DANISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_da_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analytisk
+  - Kreativ
+  - Praktisk
+  - Social
+  - Strategisk
+  language: DANISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_da_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Karriereegnethed
+  - Færdighedsvurdering
+  - Styrkeanalyse
+  - Personlighedsmatch
+  - Interessekortlægning
+  language: DANISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Karriere-Matching
+  - Stärkenfindung
+  - Kompetenzbewertung
+  - Zukunftsplanung
+  - Berufsberatung
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analytisch
+  - Kreativ
+  - Praktisch
+  - Sozial
+  - Strategisch
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Berufseignung
+  - Kompetenzcheck
+  - Stärkenanalyse
+  - Persönlichkeitstest
+  - Interessencheck
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_el_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Ταίριασμα Καριέρας
+  - Ανακάλυψη Δυνάμεων
+  - Αξιολόγηση Ικανοτήτων
+  - Σχεδιασμός Μέλλοντος
+  - Επαγγελματική Καθοδήγηση
+  language: GREEK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_el_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Αναλυτικό
+  - Δημιουργικό
+  - Πρακτικό
+  - Κοινωνικό
+  - Στρατηγικό
+  language: GREEK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_el_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Επαγγελματική Κλίση
+  - Αξιολόγηση Δεξιοτήτων
+  - Ανάλυση Δυνάμεων
+  - Ταίριασμα Προσωπικότητας
+  - Χάρτης Ενδιαφερόντων
+  language: GREEK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Career Matching
+  - Strength Discovery
+  - Skill Evaluation
+  - Future Planning
+  - Career Guidance
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analytical
+  - Creative
+  - Practical
+  - Social
+  - Strategic
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Career Aptitude
+  - Skills Assessment
+  - Strength Analysis
+  - Personality Match
+  - Interest Mapping
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eses_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Emparejamiento Laboral
+  - Descubrir Fortalezas
+  - Evaluación Competencias
+  - Planificación Futura
+  - Orientación Laboral
+  language: SPANISH_EUROPE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eses_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analítico
+  - Creativo
+  - Práctico
+  - Social
+  - Estratégico
+  language: SPANISH_EUROPE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eses_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Aptitud Profesional
+  - Evaluación Habilidades
+  - Análisis de Fortalezas
+  - Ajuste de Perfil
+  - Mapa de Intereses
+  language: SPANISH_EUROPE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eslatam_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Búsqueda de Carrera
+  - Descubrir Fortalezas
+  - Evaluar Habilidades
+  - Planificación Futura
+  - Orientación Laboral
+  language: SPANISH_LATAM
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eslatam_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analítico
+  - Creativo
+  - Práctico
+  - Social
+  - Estratégico
+  language: SPANISH_LATAM
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eslatam_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Aptitud Profesional
+  - Evaluación Habilidades
+  - Análisis de Fortalezas
+  - Perfil Profesional
+  - Mapa de Intereses
+  language: SPANISH_LATAM
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_et_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Karjääri sobitamine
+  - Tugevuste leidmine
+  - Oskuste hindamine
+  - Tuleviku planeerimine
+  - Karjäärinõustamine
+  language: ESTONIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_et_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analüütiline
+  - Loov
+  - Praktiline
+  - Sotsiaalne
+  - Strateegiline
+  language: ESTONIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_et_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Karjäärisobivus
+  - Oskuste hindamine
+  - Tugevuste analüüs
+  - Huvide kaardistamine
+  language: ESTONIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fi_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Uran valinta
+  - Vahvuuksien haku
+  - Taitojen arviointi
+  - Tulevaisuuden suunnittelu
+  - Uraohjaus
+  language: FINNISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fi_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analyyttinen
+  - Luova
+  - Käytännöllinen
+  - Sosiaalinen
+  - Strateginen
+  language: FINNISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fi_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Urasoveltuvuus
+  - Taitojen arviointi
+  - Vahvuusanalyysi
+  - Sopivuusarviointi
+  - Kiinnostuskartoitus
+  language: FINNISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fr_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Orientation Carrière
+  - Découverte des Forces
+  - Évaluation Compétences
+  - Planification Avenir
+  - Conseil Carrière
+  language: FRENCH_FRANCE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fr_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analytique
+  - Créatif
+  - Pratique
+  - Social
+  - Stratégique
+  language: FRENCH_FRANCE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fr_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Aptitude Professionnelle
+  - Bilan de Compétences
+  - Analyse des Forces
+  - Profil Professionnel
+  - Carte des Intérêts
+  language: FRENCH_FRANCE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hr_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Usklađivanje karijere
+  - Otkrivanje snaga
+  - Evaluacija vještina
+  - Planiranje budućnosti
+  - Savjetovanje o karijeri
+  language: CROATIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hr_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analitički
+  - Kreativni
+  - Praktični
+  - Društveni
+  - Strateški
+  language: CROATIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hr_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Sklonost karijeri
+  - Procjena vještina
+  - Analiza snaga
+  - Usklađivanje osobnosti
+  - Mapiranje interesa
+  language: CROATIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hu_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Karrierillesztés
+  - Erősségek feltárása
+  - Készségértékelés
+  - Jövőtervezés
+  - Karrier-tanácsadás
+  language: HUNGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hu_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Elemző
+  - Kreatív
+  - Gyakorlatias
+  - Szociális
+  - Stratégiai
+  language: HUNGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hu_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Pályaalkalmasság
+  - Készségfelmérés
+  - Erősségelemzés
+  - Személyiségprofil
+  - Érdeklődési körök
+  language: HUNGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_is_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Starfssamsvörun
+  - Uppgötva styrkleika
+  - Færnimat
+  - Framtíðarskipulag
+  - Starfsráðgjöf
+  language: ICELANDIC
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_is_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Greinandi
+  - Skapandi
+  - Hagnýtur
+  - Félagslegur
+  - Stefnumótandi
+  language: ICELANDIC
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_is_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Starfshæfni
+  - Færnimat
+  - Styrkleikagreining
+  - Persónuleikasamsvörun
+  - Áhugasviðsgreining
+  language: ICELANDIC
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_it_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Matching di Carriera
+  - Scoperta Talenti
+  - Valutazione Skill
+  - Pianificazione Futura
+  - Orientamento Lavoro
+  language: ITALIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_it_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analitico
+  - Creativo
+  - Pratico
+  - Sociale
+  - Strategico
+  language: ITALIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_it_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Attitudine Professionale
+  - Valutazione Competenze
+  - Analisi dei Punti Forti
+  - Match Personalità
+  - Mappatura Interessi
+  language: ITALIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lt_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Karjeros parinkimas
+  - Stiprybių atradimas
+  - Įgūdžių vertinimas
+  - Ateities planavimas
+  - Karjeros gairės
+  language: LITHUANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lt_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analitinis
+  - Kūrybinis
+  - Praktinis
+  - Socialinis
+  - Strateginis
+  language: LITHUANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lt_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Karjeros tinkamumas
+  - Įgūdžių vertinimas
+  - Stiprybių analizė
+  - Tinkamumo nustatymas
+  - Interesų žemėlapis
+  language: LITHUANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lv_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Karjeras saskaņošana
+  - Stipro pušu atklāšana
+  - Prasmju izvērtēšana
+  - Nākotnes plānošana
+  - Karjeras konsultācijas
+  language: LATVIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lv_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analītisks
+  - Radošs
+  - Praktisks
+  - Sociāls
+  - Stratēģisks
+  language: LATVIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lv_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Karjeras piemērotība
+  - Prasmju novērtēšana
+  - Stipro pušu analīze
+  - Personības atbilstība
+  - Interešu kartēšana
+  language: LATVIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Carrière-matching
+  - Kracht-ontdekking
+  - Vaardigheidsevaluatie
+  - Toekomstplanning
+  - Loopbaanbegeleiding
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analytisch
+  - Creatief
+  - Praktisch
+  - Sociaal
+  - Strategisch
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Beroepskeuze
+  - Vaardigheidstest
+  - Sterkte-analyse
+  - Persoonlijkheidsmatch
+  - Interesse-mapping
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Karrierematching
+  - Styrkeoppdagelse
+  - Ferdighetsevaluering
+  - Fremtidsplanlegging
+  - Karriereveiledning
+  language: NORWEGIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analytisk
+  - Kreativ
+  - Praktisk
+  - Sosial
+  - Strategisk
+  language: NORWEGIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Karriereevner
+  - Ferdighetsvurdering
+  - Styrkeanalyse
+  - Personlighetsmatch
+  - Interessekartlegging
+  language: NORWEGIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_pl_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Dopasowanie kariery
+  - Odkrywanie atutów
+  - Ocena kompetencji
+  - Planowanie przyszłości
+  - Doradztwo zawodowe
+  language: POLISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_pl_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analityczny
+  - Kreatywny
+  - Praktyczny
+  - Społeczny
+  - Strategiczny
+  language: POLISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_pl_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Predyspozycje zawodowe
+  - Ocena umiejętności
+  - Analiza mocnych stron
+  - Dopasowanie osobowości
+  - Mapa zainteresowań
+  language: POLISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ptpt_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Correspondência Carreira
+  - Descoberta de Forças
+  - Avaliação de Perícia
+  - Planeamento Futuro
+  - Orientação Profissional
+  language: PORTUGUESE_PORTUGAL
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ptpt_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analítico
+  - Criativo
+  - Prático
+  - Social
+  - Estratégico
+  language: PORTUGUESE_PORTUGAL
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ptpt_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Aptidão Profissional
+  - Avaliação Competências
+  - Análise Pontos Fortes
+  - Correspondência de Perfil
+  - Mapeamento Interesses
+  language: PORTUGUESE_PORTUGAL
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ro_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Potrivire Carieră
+  - Descoperire Atuuri
+  - Evaluare Competențe
+  - Planificare Viitor
+  - Orientare în Carieră
+  language: ROMANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ro_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analitic
+  - Creativ
+  - Practic
+  - Social
+  - Strategic
+  language: ROMANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ro_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Aptitudini Carieră
+  - Evaluare Abilități
+  - Analiză Puncte Forte
+  - Potrivire Personalitate
+  - Mapare Interese
+  language: ROMANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sk_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Párovanie kariéry
+  - Objavovanie talentu
+  - Hodnotenie zručností
+  - Plánovanie budúcnosti
+  - Kariérne poradenstvo
+  language: SLOVAK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sk_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analytický
+  - Kreatívny
+  - Praktický
+  - Sociálny
+  - Strategický
+  language: SLOVAK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sk_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Kariérne predpoklady
+  - Hodnotenie zručností
+  - Analýza silných stránok
+  - Zhoda osobnosti
+  - Mapovanie záujmov
+  language: SLOVAK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sl_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Karierno ujemanje
+  - Odkrivanje prednosti
+  - Vrednotenje veščin
+  - Načrtovanje prihodnosti
+  - Karierno svetovanje
+  language: SLOVENIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sl_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analitični
+  - Ustvarjalni
+  - Praktični
+  - Družabni
+  - Strateški
+  language: SLOVENIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sl_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Karierna sposobnost
+  - Ocena veščin
+  - Analiza prednosti
+  - Ujemanje osebnosti
+  - Mapiranje interesov
+  language: SLOVENIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sr_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Усклађивање каријере
+  - Откривање снага
+  - Евалуација вештина
+  - Планирање будућности
+  - Каријерно вођење
+  language: SERBIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sr_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Аналитички
+  - Креативни
+  - Практични
+  - Друштвени
+  - Стратешки
+  language: SERBIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sr_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Каријерна способност
+  - Процена вештина
+  - Анализа снага
+  - Уклапање личности
+  - Мапирање интересовања
+  language: SERBIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sv_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Karriärmatchning
+  - Hitta Styrkor
+  - Färdighetsbedömning
+  - Framtidsplanering
+  - Karriärvägledning
+  language: SWEDISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sv_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analytisk
+  - Kreativ
+  - Praktisk
+  - Social
+  - Strategeisk
+  language: SWEDISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sv_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Karriäranlag
+  - Färdighetstest
+  - Styrkeanalys
+  - Personlighetsmatch
+  - Intressekartläggning
+  language: SWEDISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_tr_career__services
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: SERVICES
+  values:
+  - Kariyer Eşleştirme
+  - Güçlü Yan Keşfi
+  - Beceri Ölçümü
+  - Gelecek Planlama
+  - Kariyer Rehberliği
+  language: TURKISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_tr_career__styles
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Analitik
+  - Yaratıcı
+  - Pratik
+  - Sosyal
+  - Stratejik
+  language: TURKISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_tr_career__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Kariyer Uygunluğu
+  - Beceri Değerlendirme
+  - Güç Analizi
+  - Kişilik Eşleşmesi
+  - İlgi Haritalama
+  language: TURKISH

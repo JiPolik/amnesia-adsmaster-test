@@ -1,0 +1,107 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: ca_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
+  extends: leadership_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_ca_leadership__assessment
+  - callout_ca_leadership__better
+  - callout_ca_leadership__experts
+  - callout_ca_leadership__instant
+  - callout_ca_leadership__minutes
+  - callout_ca_leadership__mobile_friendly
+  - callout_ca_leadership__secure
+  - efaq_business_name
+  - sitelink_ca_leadership__generic
+  - sitelink_ca_leadership__in_the_workplace
+  - sitelink_ca_leadership__rare_styles
+  - sitelink_ca_leadership__styles_explained
+  - sitelink_ca_leadership__traits
+  - sitelink_ca_leadership__what_is_style
+  - sitelink_ca_leadership__why_it_matters
+  - snip_ca_leadership__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: leadership
+    keywords:
+    - text: leadership style quiz
+      match_type: BROAD
+    - text: leadership style
+      match_type: BROAD
+    - text: become a better leader
+      match_type: BROAD
+    - text: am i a leader
+      match_type: BROAD
+    - text: how to lead people
+      match_type: BROAD
+    - text: leadership style test
+      match_type: BROAD
+    - text: what type of leader am i
+      match_type: BROAD
+    - text: leadership assessment
+      match_type: BROAD
+    - text: leadership skills test
+      match_type: BROAD
+    - text: what is my leadership style
+      match_type: BROAD
+    - text: leadership qualities quiz
+      match_type: BROAD
+    - text: leadership in the workplace
+      match_type: BROAD
+    - text: leadership styles explained
+      match_type: BROAD
+    - text: leadership traits
+      match_type: BROAD
+    - text: rare leadership styles
+      match_type: BROAD
+    - text: what is leadership style
+      match_type: BROAD
+    - text: why leadership style matters
+      match_type: BROAD
+    - text: types of leadership styles
+      match_type: BROAD
+    - text: leadership style at work
+      match_type: BROAD
+    - text: traits of a good leader
+      match_type: BROAD
+    - text: leadership
+      match_type: BROAD
+    - text: test d'estil de lideratge
+      match_type: BROAD
+    - text: estil de lideratge
+      match_type: BROAD
+    - text: com ser un millor líder
+      match_type: BROAD
+    - text: soc un líder
+      match_type: BROAD
+    - text: com liderar persones
+      match_type: BROAD
+    - text: test d'habilitats de lideratge
+      match_type: BROAD
+    - text: quin tipus de líder soc
+      match_type: BROAD
+    - text: avaluació de lideratge
+      match_type: BROAD
+    - text: quin és el meu estil de lideratge
+      match_type: BROAD
+    - text: lideratge a la feina
+      match_type: BROAD
+    - text: estils de lideratge
+      match_type: BROAD
+    - text: trets de lideratge
+      match_type: BROAD
+    - text: què és l'estil de lideratge
+      match_type: BROAD
+    - text: tipus d'estils de lideratge
+      match_type: BROAD
+    - text: estil de lideratge a la feina
+      match_type: BROAD
+    - text: trets d'un bon líder
+      match_type: BROAD
+    - text: lideratge
+      match_type: BROAD

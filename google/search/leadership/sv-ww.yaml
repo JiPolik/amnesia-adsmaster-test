@@ -1,0 +1,131 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sv_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
+  extends: leadership_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_sv_leadership__assessment
+  - callout_sv_leadership__better
+  - callout_sv_leadership__experts
+  - callout_sv_leadership__instant
+  - callout_sv_leadership__minutes
+  - callout_sv_leadership__mobile_friendly
+  - callout_sv_leadership__secure
+  - efaq_business_name
+  - sitelink_sv_leadership__generic
+  - sitelink_sv_leadership__in_the_workplace
+  - sitelink_sv_leadership__rare_styles
+  - sitelink_sv_leadership__styles_explained
+  - sitelink_sv_leadership__traits
+  - sitelink_sv_leadership__what_is_style
+  - sitelink_sv_leadership__why_it_matters
+  - snip_sv_leadership__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: leadership
+    ad_templates:
+    - name: leadership__rsa
+      destination_url: https://efaq.com/sv/leadership-style/lp/quiz
+      headlines:
+      - EFAQ.com - Officiell sajt
+      - Testa din ledarstil
+      - Vad är din ledarstil?
+      - Gör självutvärderingen
+      - Upptäck din ledartyp
+      - Hitta din ledarstil
+      - Är du en naturlig ledare?
+      - Snabb ledarskapsbedömning
+      - Bli en bättre ledare idag
+      descriptions:
+      - Gör vårt test om ledarstil. Upptäck vilken typ av ledare du är på bara några minuter!
+      - Hitta din unika ledarstil på några minuter. Designad av experter för att hjälpa dig leda.
+      - Är du en visionär, demokratisk eller tjänande ledare? Gör vår självutvärdering idag.
+      - Frigör din ledarpotential. Lär dig dina styrkor och utvecklas till en starkare ledare.
+    keywords:
+    - text: leadership style quiz
+      match_type: BROAD
+    - text: leadership style
+      match_type: BROAD
+    - text: become a better leader
+      match_type: BROAD
+    - text: am i a leader
+      match_type: BROAD
+    - text: how to lead people
+      match_type: BROAD
+    - text: leadership style test
+      match_type: BROAD
+    - text: what type of leader am i
+      match_type: BROAD
+    - text: leadership assessment
+      match_type: BROAD
+    - text: leadership skills test
+      match_type: BROAD
+    - text: what is my leadership style
+      match_type: BROAD
+    - text: leadership qualities quiz
+      match_type: BROAD
+    - text: leadership in the workplace
+      match_type: BROAD
+    - text: leadership styles explained
+      match_type: BROAD
+    - text: leadership traits
+      match_type: BROAD
+    - text: rare leadership styles
+      match_type: BROAD
+    - text: what is leadership style
+      match_type: BROAD
+    - text: why leadership style matters
+      match_type: BROAD
+    - text: types of leadership styles
+      match_type: BROAD
+    - text: leadership style at work
+      match_type: BROAD
+    - text: traits of a good leader
+      match_type: BROAD
+    - text: leadership
+      match_type: BROAD
+    - text: ledarstil test
+      match_type: BROAD
+    - text: ledarstil
+      match_type: BROAD
+    - text: bli en bättre ledare
+      match_type: BROAD
+    - text: är jag en ledare
+      match_type: BROAD
+    - text: hur man leder människor
+      match_type: BROAD
+    - text: vilken typ av ledare är jag
+      match_type: BROAD
+    - text: ledarskapsbedömning
+      match_type: BROAD
+    - text: test av ledarskapsförmåga
+      match_type: BROAD
+    - text: vad är min ledarstil
+      match_type: BROAD
+    - text: ledaregenskaper test
+      match_type: BROAD
+    - text: ledarskap på arbetsplatsen
+      match_type: BROAD
+    - text: ledarstilar förklarade
+      match_type: BROAD
+    - text: ledarskapsdrag
+      match_type: BROAD
+    - text: ovanliga ledarstilar
+      match_type: BROAD
+    - text: vad är ledarstil
+      match_type: BROAD
+    - text: varför ledarstil är viktigt
+      match_type: BROAD
+    - text: typer av ledarstilar
+      match_type: BROAD
+    - text: ledarstil på jobbet
+      match_type: BROAD
+    - text: egenskaper hos en bra ledare
+      match_type: BROAD
+    - text: ledarskap
+      match_type: BROAD

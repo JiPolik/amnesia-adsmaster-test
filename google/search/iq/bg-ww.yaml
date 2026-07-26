@@ -1,0 +1,135 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: bg_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_bg_iq__breakdown
+  - callout_bg_iq__experts
+  - callout_bg_iq__fun_challenging
+  - callout_bg_iq__instant
+  - callout_bg_iq__mobile_friendly
+  - callout_bg_iq__secure
+  - efaq_business_name
+  - sitelink_bg_iq__am_i_gifted
+  - sitelink_bg_iq__can_you_improve
+  - sitelink_bg_iq__generic
+  - sitelink_bg_iq__students
+  - sitelink_bg_iq__what_is_iq
+  - snip_bg_iq__test_types
+spec:
+  budget_daily_usd: 800.0
+  target_cpa_usd: 14.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/bg/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Официален сайт
+      - Проверете IQ за 20 мин.
+      - Официален IQ Тест 2026
+      - Най-точният IQ Тест
+      - Не си губете парите
+      - Започнете IQ Теста
+      - Колко сте умни?
+      - Бързи и точни резултати
+      - Научно разработен тест
+      - Истински тест и резултати
+      - По-умни ли сте от другите?
+      descriptions:
+      - Мислите, че сте по-умни от средното? Направете теста и вижте къде се намирате.
+      - Получете бързи и точни IQ резултати за под 10 минути, директно на телефона си.
+      - Научно разработен IQ тест, използван от експерти за точни резултати.
+      - Присъединете се към хилядите, които тестваха своето IQ днес и разберете резултата си.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq тест
+      match_type: BROAD
+    - text: онлайн iq тест
+      match_type: BROAD
+    - text: безплатен iq тест
+      match_type: BROAD
+    - text: iq викторина
+      match_type: BROAD
+    - text: тест за интелигентност
+      match_type: BROAD
+    - text: безплатен тест за интелигентност
+      match_type: BROAD
+    - text: тест за интелигентност онлайн
+      match_type: BROAD
+    - text: тест за iq
+      match_type: BROAD
+    - text: проверка на iq
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/bg/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Официален сайт
+      - Проверете IQ за 20 мин.
+      - Официален IQ Тест 2026
+      - Най-точният IQ Тест
+      - Колко съм умен?
+      - Колко сте умни?
+      - Не си губете парите
+      - Онлайн тест за интелект
+      descriptions:
+      - Чудили ли сте се колко сте умни? Направете теста и получете ясни отговори.
+      - Разберете дали сте гений или над средното ниво. Бързи и точни IQ резултати.
+      - Спрете да гадаете. Измерете интелигентността си с истински IQ тест днес.
+      - Присъединете се към хилядите, които си зададоха същия въпрос и получиха отговори.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: умен ли съм
+      match_type: BROAD
+    - text: колко съм умен
+      match_type: BROAD
+    - text: интелигентен ли съм
+      match_type: BROAD
+    - text: колко съм интелигентен
+      match_type: BROAD
+    - text: надарен ли съм
+      match_type: BROAD
+    - text: глупав ли съм
+      match_type: BROAD
+    - text: проверка на интелекта
+      match_type: BROAD
+    - text: тест за гениалност
+      match_type: BROAD

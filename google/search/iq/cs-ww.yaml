@@ -6,6 +6,20 @@ metadata:
   vertical: iq
   extends: iq_search_tmpl_1
   geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_cs_iq__breakdown
+  - callout_cs_iq__experts
+  - callout_cs_iq__fun_challenging
+  - callout_cs_iq__instant
+  - callout_cs_iq__mobile_friendly
+  - callout_cs_iq__secure
+  - efaq_business_name
+  - sitelink_cs_iq__am_i_gifted
+  - sitelink_cs_iq__can_you_improve
+  - sitelink_cs_iq__generic
+  - sitelink_cs_iq__students
+  - sitelink_cs_iq__what_is_iq
+  - snip_cs_iq__test_types
 spec:
   budget_daily_usd: 1500.0
   target_cpa_usd: 15.0
@@ -31,6 +45,49 @@ spec:
       - Rychlé a přesné IQ výsledky do 10 minut, kdykoli, přímo ve vašem telefonu.
       - Vědecky navržený IQ test, kterému důvěřují odborníci pro přesné výsledky.
       - Přidejte se k tisícům lidí, kteří si dnes otestovali IQ a zjistili svou úroveň.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq test cz
+      match_type: BROAD
+    - text: test inteligence
+      match_type: BROAD
+    - text: inteligenční test
+      match_type: BROAD
+    - text: test iq online
+      match_type: BROAD
+    - text: test inteligence online
+      match_type: BROAD
+    - text: iq test zdarma
+      match_type: BROAD
+    - text: kvocient inteligence test
+      match_type: BROAD
+    - text: jaké mám iq
+      match_type: BROAD
+    - text: kolik mám iq
+      match_type: BROAD
+    - text: test inteligence zdarma
+      match_type: BROAD
+    - text: inteligence test online
+      match_type: BROAD
   - name: am_i_smart
     ad_templates:
     - name: am_i_smart__rsa
@@ -49,3 +106,32 @@ spec:
       - Zjistěte, zda jste průměrní, nadaní či podprůměrní. Rychlé a přesné IQ výsledky.
       - Přestaňte hádat. Změřte svou inteligenci skutečným IQ testem. Zjistěte skóre.
       - Přidejte se k tisícům lidí, kteří se ptali stejně a konečně znají odpovědi.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: jak jsem chytry
+      match_type: BROAD
+    - text: jak chytry jsem
+      match_type: BROAD
+    - text: jsem inteligentni
+      match_type: BROAD
+    - text: jak inteligentni jsem
+      match_type: BROAD
+    - text: jsem nadany
+      match_type: BROAD
+    - text: jsem hloupy
+      match_type: BROAD
+    - text: jsem blby
+      match_type: BROAD

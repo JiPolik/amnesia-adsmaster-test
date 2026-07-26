@@ -1,0 +1,133 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fi_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
+  extends: leadership_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_fi_leadership__assessment
+  - callout_fi_leadership__better
+  - callout_fi_leadership__experts
+  - callout_fi_leadership__instant
+  - callout_fi_leadership__minutes
+  - callout_fi_leadership__mobile_friendly
+  - callout_fi_leadership__secure
+  - efaq_business_name
+  - sitelink_fi_leadership__generic
+  - sitelink_fi_leadership__in_the_workplace
+  - sitelink_fi_leadership__rare_styles
+  - sitelink_fi_leadership__styles_explained
+  - sitelink_fi_leadership__traits
+  - sitelink_fi_leadership__what_is_style
+  - sitelink_fi_leadership__why_it_matters
+  - snip_fi_leadership__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: leadership
+    ad_templates:
+    - name: leadership__rsa
+      destination_url: https://efaq.com/fi/leadership-style/lp/quiz
+      headlines:
+      - EFAQ.com - Virallinen sivu
+      - Johtamistyylitesti
+      - Mikä on johtamistyylisi?
+      - Tee itsearviointi heti
+      - Löydä oma johtajatyyppisi
+      - Selvitä johtamistyylisi
+      - Oletko luontainen johtaja?
+      - Nopea johtajuusarviointi
+      - Tule paremmaksi johtajaksi
+      descriptions:
+      - Tee johtamistyylitestimme. Selvitä minuuteissa, minkälainen johtaja olet!
+      - Löydä ainutlaatuinen johtamistyylisi minuuteissa. Asiantuntijoiden suunnittelema testi.
+      - Oletko visionäärinen, demokraattinen vai palveleva johtaja? Tee itsearviointi tänään.
+      - Vapauta johtamispotentiaalisi. Opi vahvuutesi ja kasva vahvemmaksi johtajaksi.
+    keywords:
+    - text: leadership style quiz
+      match_type: BROAD
+    - text: leadership style
+      match_type: BROAD
+    - text: become a better leader
+      match_type: BROAD
+    - text: am i a leader
+      match_type: BROAD
+    - text: how to lead people
+      match_type: BROAD
+    - text: leadership style test
+      match_type: BROAD
+    - text: what type of leader am i
+      match_type: BROAD
+    - text: leadership assessment
+      match_type: BROAD
+    - text: leadership skills test
+      match_type: BROAD
+    - text: what is my leadership style
+      match_type: BROAD
+    - text: leadership qualities quiz
+      match_type: BROAD
+    - text: leadership in the workplace
+      match_type: BROAD
+    - text: leadership styles explained
+      match_type: BROAD
+    - text: leadership traits
+      match_type: BROAD
+    - text: rare leadership styles
+      match_type: BROAD
+    - text: what is leadership style
+      match_type: BROAD
+    - text: why leadership style matters
+      match_type: BROAD
+    - text: types of leadership styles
+      match_type: BROAD
+    - text: leadership style at work
+      match_type: BROAD
+    - text: traits of a good leader
+      match_type: BROAD
+    - text: leadership
+      match_type: BROAD
+    - text: johtamistyylitesti
+      match_type: BROAD
+    - text: johtamistyyli
+      match_type: BROAD
+    - text: tule paremmaksi johtajaksi
+      match_type: BROAD
+    - text: olenko johtaja
+      match_type: BROAD
+    - text: miten johtaa ihmisiä
+      match_type: BROAD
+    - text: johtamistyylin testi
+      match_type: BROAD
+    - text: minkälainen johtaja olen
+      match_type: BROAD
+    - text: johtajuuden arviointi
+      match_type: BROAD
+    - text: johtamistaitojen testi
+      match_type: BROAD
+    - text: mikä on johtamistyylini
+      match_type: BROAD
+    - text: johtajan ominaisuudet testi
+      match_type: BROAD
+    - text: johtaminen työpaikalla
+      match_type: BROAD
+    - text: johtamistyylit selitettynä
+      match_type: BROAD
+    - text: johtajan piirteet
+      match_type: BROAD
+    - text: harvinaiset johtamistyylit
+      match_type: BROAD
+    - text: mikä on johtamistyyli
+      match_type: BROAD
+    - text: miksi johtamistyylillä on väliä
+      match_type: BROAD
+    - text: johtamistyylien tyypit
+      match_type: BROAD
+    - text: johtamistyyli töissä
+      match_type: BROAD
+    - text: hyvän johtajan piirteet
+      match_type: BROAD
+    - text: johtajuus
+      match_type: BROAD

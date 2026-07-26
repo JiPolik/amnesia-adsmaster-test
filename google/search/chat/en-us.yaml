@@ -1,0 +1,111 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_us_goog_s_efaq_chat
+  platform: google_search
+  vertical: chat
+  extends: chat_search_tmpl
+  geo_preset_ref: us
+  ad_extension_refs:
+  - callout_en_chat__advanced
+  - callout_en_chat__brainstorm
+  - callout_en_chat__experts
+  - callout_en_chat__mobile_friendly
+  - callout_en_chat__secure
+  - callout_en_chat__tenx
+  - efaq_business_name
+  - sitelink_en_chat__chatgpt
+  - sitelink_en_chat__claude_opus
+  - sitelink_en_chat__deepseek
+  - sitelink_en_chat__gemini
+  - sitelink_en_chat__generic
+  - sitelink_en_chat__grok
+  - sitelink_en_chat__llama
+  - snip_en_chat__models
+  - snip_en_chat__types
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: generic
+    keywords:
+    - text: ai chat
+      match_type: BROAD
+    - text: ai chatbot
+      match_type: BROAD
+    - text: chat ai
+      match_type: BROAD
+    - text: chat with ai
+      match_type: BROAD
+    - text: online ai chat
+      match_type: BROAD
+    - text: ai assistant
+      match_type: BROAD
+    - text: ai chat online
+      match_type: BROAD
+    - text: best ai chat
+      match_type: BROAD
+    - text: smart ai chat
+      match_type: BROAD
+    - text: what is the best ai
+      match_type: BROAD
+    - text: which ai is best
+      match_type: BROAD
+    - text: try ai chat
+      match_type: BROAD
+    - text: use ai online
+      match_type: BROAD
+    - text: ai chat demo
+      match_type: BROAD
+    - text: cheap ai chat
+      match_type: BROAD
+    - text: affordable ai tools
+      match_type: BROAD
+    - text: ai chat subscription
+      match_type: BROAD
+    - text: unlimited ai chat
+      match_type: BROAD
+    - text: ai chat unlimited
+      match_type: BROAD
+    - text: best value ai chat
+      match_type: BROAD
+    - text: ai chat free
+      match_type: BROAD
+    - text: free ai chat
+      match_type: BROAD
+    - text: ai productivity tool
+      match_type: BROAD
+    - text: ai tools online
+      match_type: BROAD
+    - text: ai tools for daily tasks
+      match_type: BROAD
+    - text: ai for business
+      match_type: BROAD
+    - text: ai for learning
+      match_type: BROAD
+    - text: ai chat for students
+      match_type: BROAD
+    - text: compare ai models
+      match_type: BROAD
+    - text: best ai model
+      match_type: BROAD
+  - name: chatgpt
+    keywords:
+    - text: chatgpt
+      match_type: BROAD
+    - text: chatgpt free
+      match_type: BROAD
+    - text: free chatgpt
+      match_type: BROAD
+    - text: chat gpt
+      match_type: BROAD
+    - text: chat gpt free
+      match_type: BROAD
+    - text: free chat gpt
+      match_type: BROAD
+    - text: chatgpt images
+      match_type: BROAD
+    - text: chatgpt
+      match_type: EXACT
+    - text: chat gpt
+      match_type: EXACT

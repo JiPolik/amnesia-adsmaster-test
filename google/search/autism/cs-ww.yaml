@@ -1,0 +1,119 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: cs_ww_goog_s_efaq_autism
+  platform: google_search
+  vertical: autism
+  extends: autism_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_cs_autism__assessment
+  - callout_cs_autism__experts
+  - callout_cs_autism__instant
+  - callout_cs_autism__minutes
+  - callout_cs_autism__mobile_friendly
+  - callout_cs_autism__secure
+  - efaq_business_name
+  - sitelink_cs_autism__aspergers
+  - sitelink_cs_autism__behavioral
+  - sitelink_cs_autism__generic
+  - sitelink_cs_autism__indicators
+  - sitelink_cs_autism__interests
+  - sitelink_cs_autism__savant
+  - sitelink_cs_autism__spectrum
+  - sitelink_cs_autism__whatis
+  - snip_cs_autism__types
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/cs/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Oficiální web
+      - Test autismu online
+      - Sebehodnocení autismu
+      - Spusťte screening autismu
+      - Co je autismus (PAS)?
+      - Zjistěte, zda máte autismus
+      - Rychlý test na autismus
+      descriptions:
+      - Udělejte si rychlý online screening autismu a prozkoumejte běžné rysy spojené s PAS.
+      - Zjistěte pomocí tohoto sebehodnocení, kde na autistickém spektru se můžete nacházet.
+      - Zajímá vás, zda můžete být autista? Udělejte si tento rychlý online screening.
+      - Rychlý online screening autismu vytvořený pro jasnost a lepší porozumění.
+    keywords:
+    - text: autism test
+      match_type: BROAD
+    - text: what is autism
+      match_type: BROAD
+    - text: autism test for adults
+      match_type: BROAD
+    - text: am i autistic
+      match_type: BROAD
+    - text: autism spectrum test
+      match_type: BROAD
+    - text: autism test free
+      match_type: BROAD
+    - text: do i have autism
+      match_type: BROAD
+    - text: autism quiz
+      match_type: BROAD
+    - text: adult autism test
+      match_type: BROAD
+    - text: autism test online
+      match_type: BROAD
+    - text: signs of autism
+      match_type: BROAD
+    - text: signs of autism in adults
+      match_type: BROAD
+    - text: autism screening test
+      match_type: BROAD
+    - text: adult autism symptoms
+      match_type: BROAD
+    - text: autism symptoms
+      match_type: BROAD
+    - text: online autism assessment
+      match_type: BROAD
+    - text: asperger test
+      match_type: BROAD
+    - text: aspergers test
+      match_type: BROAD
+    - text: free autism test
+      match_type: BROAD
+    - text: test autismu
+      match_type: BROAD
+    - text: co je autismus
+      match_type: BROAD
+    - text: test autismu pro dospělé
+      match_type: BROAD
+    - text: jsem autista
+      match_type: BROAD
+    - text: test autistického spektra
+      match_type: BROAD
+    - text: test autismu zdarma
+      match_type: BROAD
+    - text: mám autismus
+      match_type: BROAD
+    - text: autismus kvíz
+      match_type: BROAD
+    - text: test autismu u dospělých
+      match_type: BROAD
+    - text: test autismu online
+      match_type: BROAD
+    - text: příznaky autismu
+      match_type: BROAD
+    - text: příznaky autismu u dospělých
+      match_type: BROAD
+    - text: screening autismu
+      match_type: BROAD
+    - text: symptomy autismu
+      match_type: BROAD
+    - text: online hodnocení autismu
+      match_type: BROAD
+    - text: aspergerův syndrom test
+      match_type: BROAD
+    - text: test na aspergera
+      match_type: BROAD

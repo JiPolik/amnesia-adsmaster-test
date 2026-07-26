@@ -1,0 +1,839 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/leadership-style/lp/quiz
+  title: Test d'Estil de Lideratge
+  description1: Fes l'autoavaluació
+  description2: Converteix-te en millor líder
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/leadership-style/lp/in-the-workplace
+  title: Lideratge a la Feina
+  description1: Aplica el teu estil de lideratge
+  description2: Sigues un líder d'equip eficaç
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/leadership-style/lp/rare-leadership-styles
+  title: Estils de Lideratge Rars
+  description1: Explora estils de lideratge únics
+  description2: Descobreix si tens un estil rar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/leadership-style/lp/leadership-styles-explained
+  title: Explora Estils Lideratge
+  description1: Aprèn sobre els tipus de líder
+  description2: Troba l'estil que més et convingui
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/leadership-style/lp/leadership-traits
+  title: Trets de Lideratge
+  description1: Descobreix els trets dels líders
+  description2: Mira quins trets ja tens tu ara
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/leadership-style/lp/what-is-leadership-style
+  title: Què és l'Estil Lideratge
+  description1: Entén què defineix el teu estil
+  description2: Fes el test i troba el teu estil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/leadership-style/lp/why-leadership-style-matters
+  title: Per Què Importa l'Estil
+  description1: Mira com l'estil dóna resultats
+  description2: Els bons líders saben el seu estil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/leadership-style/lp/quiz
+  title: Test din ledelsesstil
+  description1: Tag vores selvevaluering
+  description2: Bliv en bedre leder i dag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/leadership-style/lp/in-the-workplace
+  title: Ledelse på arbejdspladsen
+  description1: Brug din ledelsesstil i dag
+  description2: Bliv en mere effektiv leder
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/leadership-style/lp/rare-leadership-styles
+  title: Sjældne ledelsesstile
+  description1: Udforsk unikke ledelsesstile
+  description2: Har du en sjælden stil?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/leadership-style/lp/leadership-styles-explained
+  title: Udforsk ledelsesstile
+  description1: Lær om alle ledelsestyper
+  description2: Find stilen der passer dig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/leadership-style/lp/leadership-traits
+  title: Vigtige lederegenskaber
+  description1: Opdag hvad der skaber ledere
+  description2: Se hvilke egenskaber du har
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/leadership-style/lp/what-is-leadership-style
+  title: Hvad er ledelsesstil?
+  description1: Forstå hvad der definerer dig
+  description2: Tag testen og find din stil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/leadership-style/lp/why-leadership-style-matters
+  title: Hvorfor stilen er vigtig
+  description1: Se hvordan din stil påvirker
+  description2: Gode ledere kender deres stil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/leadership-style/lp/quiz
+  title: Führungsstil-Quiz
+  description1: Machen Sie die Selbsteinschätzung
+  description2: Bessere Führungskraft werden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/leadership-style/lp/in-the-workplace
+  title: Führung am Arbeitsplatz
+  description1: Führungsstil heute anwenden
+  description2: Effektiverer Teamleiter werden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/leadership-style/lp/rare-leadership-styles
+  title: Seltene Führungsstile
+  description1: Einzigartige Stile entdecken
+  description2: Haben Sie einen seltenen Stil?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/leadership-style/lp/leadership-styles-explained
+  title: Führungsstile entdecken
+  description1: Alle Führungstypen kennenlernen
+  description2: Finden Sie den passenden Stil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/leadership-style/lp/leadership-traits
+  title: Wichtige Führungsmerkmale
+  description1: Eigenschaften guter Leader
+  description2: Welche Eigenschaften haben Sie?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/leadership-style/lp/what-is-leadership-style
+  title: Was ist ein Führungsstil?
+  description1: Was Ihren Stil ausmacht
+  description2: Quiz machen & Stil finden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/leadership-style/lp/why-leadership-style-matters
+  title: Warum Ihr Stil zählt
+  description1: Wie Ihr Stil Ergebnisse prägt
+  description2: Gute Leader kennen ihren Stil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/leadership-style/lp/quiz
+  title: Leadership Style Quiz
+  description1: Take the self-assessment
+  description2: Become a better leader
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/leadership-style/lp/in-the-workplace
+  title: Leading in the Workplace
+  description1: Apply your leadership style today
+  description2: Become a more effective team leader
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/leadership-style/lp/rare-leadership-styles
+  title: Rare Styles of Leadership
+  description1: Explore unique leadership styles
+  description2: Find out if you have a rare style
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/leadership-style/lp/leadership-styles-explained
+  title: Explore Leadership Styles
+  description1: Learn about all leadership types
+  description2: Find the style that fits you best
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/leadership-style/lp/leadership-traits
+  title: Leadership Traits to Know
+  description1: Discover traits that define leaders
+  description2: See which traits you already have
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/leadership-style/lp/what-is-leadership-style
+  title: What Is Leadership Style?
+  description1: Understand what defines your style
+  description2: Take the quiz and find your style
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/leadership-style/lp/why-leadership-style-matters
+  title: Why Your Style Matters
+  description1: See how your style shapes results
+  description2: Great leaders know their own style
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/leadership-style/lp/quiz
+  title: Johtamistyylitesti
+  description1: Tee itsearviointi heti
+  description2: Tule paremmaksi johtajaksi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/leadership-style/lp/in-the-workplace
+  title: Johtaminen työpaikalla
+  description1: Hyödynnä johtamistyyliäsi
+  description2: Tule tehokkaaksi tiiminvetäjäksi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/leadership-style/lp/rare-leadership-styles
+  title: Erilaiset johtamistyylit
+  description1: Tutustu ainutlaatuisiin tyyleihin
+  description2: Ota selvää onko tyylisi harvinainen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/leadership-style/lp/leadership-styles-explained
+  title: Tutki johtamistyylejä
+  description1: Opi kaikista johtajatyypeistä
+  description2: Löydä sinulle sopivin tyyli
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/leadership-style/lp/leadership-traits
+  title: Tärkeät johtajan piirteet
+  description1: Löydä johtajien ominaisuudet
+  description2: Katso mitkä piirteet omaat jo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/leadership-style/lp/what-is-leadership-style
+  title: Mikä on johtamistyyli?
+  description1: Ymmärrä mikä määrittää tyylisi
+  description2: Tee testi ja löydä oma tyylisi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/leadership-style/lp/why-leadership-style-matters
+  title: Miksi tyylillä on väliä
+  description1: Katso miten tyylisi muokkaa tulosta
+  description2: Hyvät johtajat tuntevat tyylinsä
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/leadership-style/lp/quiz
+  title: Test Stile di Leadership
+  description1: Fai l'autovalutazione ora
+  description2: Diventa un leader migliore
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/leadership-style/lp/in-the-workplace
+  title: Leadership sul Lavoro
+  description1: Applica il tuo stile oggi
+  description2: Guida il team efficacemente
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/leadership-style/lp/rare-leadership-styles
+  title: Stili di Leadership Rari
+  description1: Esplora stili di guida unici
+  description2: Scopri se hai uno stile raro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/leadership-style/lp/leadership-styles-explained
+  title: Esplora gli Stili
+  description1: Scopri tutti i tipi di leader
+  description2: Trova lo stile più adatto a te
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/leadership-style/lp/leadership-traits
+  title: Tratti della Leadership
+  description1: Scopri i tratti dei veri leader
+  description2: Vedi quali tratti possiedi già
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/leadership-style/lp/what-is-leadership-style
+  title: Cos'è lo Stile di Guida?
+  description1: Capisci cosa definisce il tuo
+  description2: Fai il test e trova il tuo stile
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/leadership-style/lp/why-leadership-style-matters
+  title: Perché lo Stile Conta
+  description1: Vedi come influenza i risultati
+  description2: I veri leader conoscono il loro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/leadership-style/lp/quiz
+  title: Leiderschapsstijl Quiz
+  description1: Doe de online zelfevaluatie
+  description2: Word een betere leider
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/leadership-style/lp/in-the-workplace
+  title: Leiden op de Werkplek
+  description1: Pas je leiderschapsstijl toe
+  description2: Word een effectievere teamleider
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/leadership-style/lp/rare-leadership-styles
+  title: Unieke Leiderschapsstijl
+  description1: Ontdek unieke leiderschapsstijlen
+  description2: Heb jij een zeldzame stijl?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/leadership-style/lp/leadership-styles-explained
+  title: Alle Leiderschapsstijlen
+  description1: Leer over alle soorten leiders
+  description2: Vind de stijl die bij jou past
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/leadership-style/lp/leadership-traits
+  title: Leiderschapskenmerken
+  description1: Ontdek kenmerken van leiders
+  description2: Kijk welke eigenschappen je hebt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/leadership-style/lp/what-is-leadership-style
+  title: Wat is Leiderschapsstijl?
+  description1: Begrijp wat jouw stijl definieert
+  description2: Doe de quiz en vind jouw stijl
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/leadership-style/lp/why-leadership-style-matters
+  title: Waarom Jouw Stijl Telt
+  description1: Zie hoe jouw stijl resultaat vormt
+  description2: Goede leiders kennen hun stijl
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/leadership-style/lp/quiz
+  title: Test din lederstil
+  description1: Ta vår egenevaluering
+  description2: Bli en enda bedre leder
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/leadership-style/lp/in-the-workplace
+  title: Ledelse på arbeidsplassen
+  description1: Bruk din lederstil i dag
+  description2: Bli en mer effektiv leder
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/leadership-style/lp/rare-leadership-styles
+  title: Sjeldne lederstiler
+  description1: Utforsk unike lederstiler
+  description2: Finn ut om din stil er sjelden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/leadership-style/lp/leadership-styles-explained
+  title: Utforsk ulike lederstiler
+  description1: Lær om alle ledertyper
+  description2: Finn stilen som passer deg
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/leadership-style/lp/leadership-traits
+  title: Viktige lederegenskaper
+  description1: Oppdag hva som kjennetegner ledere
+  description2: Se hvilke egenskaper du har
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/leadership-style/lp/what-is-leadership-style
+  title: Hva er en lederstil?
+  description1: Forstå hva som definerer din stil
+  description2: Ta quizen og finn din stil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/leadership-style/lp/why-leadership-style-matters
+  title: Hvorfor stilen din teller
+  description1: Se hvordan stilen din gir utslag
+  description2: Gode ledere kjenner stilen sin
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/leadership-style/lp/quiz
+  title: Quiz stylu przywództwa
+  description1: Wykonaj samoocenę online
+  description2: Zostań lepszym liderem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/leadership-style/lp/in-the-workplace
+  title: Przywództwo w pracy
+  description1: Zastosuj swój styl już dziś
+  description2: Bądź skuteczniejszym liderem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/leadership-style/lp/rare-leadership-styles
+  title: Rzadkie style przywództwa
+  description1: Poznaj unikalne style kierowania
+  description2: Sprawdź, czy masz rzadki styl
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/leadership-style/lp/leadership-styles-explained
+  title: Poznaj style przywództwa
+  description1: Poznaj wszystkie typy liderów
+  description2: Znajdź styl najlepszy dla Ciebie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/leadership-style/lp/leadership-traits
+  title: Cechy dobrego lidera
+  description1: Odkryj cechy, które tworzą lidera
+  description2: Sprawdź, które cechy już masz
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/leadership-style/lp/what-is-leadership-style
+  title: Czym jest styl lidera?
+  description1: Zrozum, co określa Twój styl
+  description2: Rozwiąż quiz i znajdź swój styl
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_pl_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pl/leadership-style/lp/why-leadership-style-matters
+  title: Znaczenie stylu lidera
+  description1: Zobacz, jak styl wpływa na wyniki
+  description2: Wielcy liderzy znają swój styl
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_leadership__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/leadership-style/lp/quiz
+  title: Testa din ledarstil
+  description1: Gör självutvärderingen
+  description2: Bli en bättre ledare
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_leadership__in_the_workplace
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/leadership-style/lp/in-the-workplace
+  title: Leda på arbetsplatsen
+  description1: Tillämpa din ledarstil idag
+  description2: Bli en effektivare gruppledare
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_leadership__rare_styles
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/leadership-style/lp/rare-leadership-styles
+  title: Ovanliga ledarstilar
+  description1: Utforska unika ledarstilar
+  description2: Har du en ovanlig stil?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_leadership__styles_explained
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/leadership-style/lp/leadership-styles-explained
+  title: Utforska ledarstilar
+  description1: Lär dig om alla ledartyper
+  description2: Hitta stilen som passar dig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_leadership__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/leadership-style/lp/leadership-traits
+  title: Viktiga ledaregenskaper
+  description1: Upptäck ledarens egenskaper
+  description2: Se vilka egenskaper du har
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_leadership__what_is_style
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/leadership-style/lp/what-is-leadership-style
+  title: Vad är en ledarstil?
+  description1: Förstå vad som definierar dig
+  description2: Gör testet och hitta din stil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_leadership__why_it_matters
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/leadership-style/lp/why-leadership-style-matters
+  title: Varför stilen är viktig
+  description1: Se hur din stil formar resultat
+  description2: Bra ledare kan sin egen stil

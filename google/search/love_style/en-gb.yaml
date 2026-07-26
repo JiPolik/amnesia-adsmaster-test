@@ -1,0 +1,122 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_gb_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: gb
+  ad_extension_refs:
+  - callout_en_lovestyle__experts
+  - callout_en_lovestyle__find_your
+  - callout_en_lovestyle__improve
+  - callout_en_lovestyle__instant
+  - callout_en_lovestyle__mobile_friendly
+  - callout_en_lovestyle__secure
+  - efaq_business_name
+  - sitelink_en_lovestyle__generic
+  - sitelink_en_lovestyle__heartbreak
+  - sitelink_en_lovestyle__improve_relationship
+  - sitelink_en_lovestyle__what_are
+  - sitelink_en_lovestyle__what_is
+  - snip_en_lovestyle__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 18.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Official Site
+      - Don't Waste Your Money
+      - What’s Your Love Style?
+      - Best Love Style Quiz of 2026
+      - Take the Love Style Test
+      - Discover Your Love Style
+      - How Do You Show Love?
+      - Love Style Test for Couples
+      - Improve Your Relationship
+      - Love Better, Live Happier
+      - Understand Each Other’s Needs
+      - Discover What Your Heart Needs
+      - Be a Better Partner Today
+      - 5 Minute Love Style Quiz
+      - '#1 Rated Love Style Test'
+      descriptions:
+      - 'Unlock Your Love Style: Take the quiz and discover how you show love today.'
+      - Use our short quiz to find out your love style and improve your relationship.
+      - Learn how to love your partner better by understanding your love style.
+      - Transform your relationship with our scientifically designed love style quiz.
+    keywords:
+    - text: love language test
+      match_type: BROAD
+    - text: love language quiz
+      match_type: BROAD
+    - text: love language test online
+      match_type: BROAD
+    - text: love language quiz online
+      match_type: BROAD
+    - text: love language test free
+      match_type: BROAD
+    - text: love language quiz free
+      match_type: BROAD
+    - text: free love language test
+      match_type: BROAD
+    - text: free love language quiz
+      match_type: BROAD
+    - text: 5 love languages
+      match_type: BROAD
+    - text: five love languages
+      match_type: BROAD
+    - text: love languages test
+      match_type: BROAD
+    - text: love languages quiz
+      match_type: BROAD
+    - text: what's my love language
+      match_type: BROAD
+    - text: whats my love language
+      match_type: BROAD
+    - text: what is my love language
+      match_type: BROAD
+    - text: love language
+      match_type: BROAD
+    - text: love languages
+      match_type: BROAD
+    - text: relationship quiz
+      match_type: BROAD
+    - text: love style test
+      match_type: BROAD
+    - text: love style quiz
+      match_type: BROAD
+    - text: love style test online
+      match_type: BROAD
+    - text: love style quiz online
+      match_type: BROAD
+    - text: love style test free
+      match_type: BROAD
+    - text: love style quiz free
+      match_type: BROAD
+    - text: free love style test
+      match_type: BROAD
+    - text: free love style quiz
+      match_type: BROAD
+    - text: 5 love styles
+      match_type: BROAD
+    - text: five love styles
+      match_type: BROAD
+    - text: love styles test
+      match_type: BROAD
+    - text: love styles quiz
+      match_type: BROAD
+    - text: what's my love style
+      match_type: BROAD
+    - text: whats my love style
+      match_type: BROAD
+    - text: what is my love style
+      match_type: BROAD
+    - text: love style
+      match_type: BROAD
+    - text: love styles
+      match_type: BROAD

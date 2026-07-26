@@ -1,0 +1,142 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: ca_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_ca_lovestyle__experts
+  - callout_ca_lovestyle__find_your
+  - callout_ca_lovestyle__improve
+  - callout_ca_lovestyle__instant
+  - callout_ca_lovestyle__mobile_friendly
+  - callout_ca_lovestyle__secure
+  - efaq_business_name
+  - sitelink_ca_lovestyle__generic
+  - sitelink_ca_lovestyle__heartbreak
+  - sitelink_ca_lovestyle__improve_relationship
+  - sitelink_ca_lovestyle__what_are
+  - sitelink_ca_lovestyle__what_is
+  - snip_ca_lovestyle__types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/ca/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Lloc Oficial
+      - No Malgastis Diners
+      - Quin és el teu Estil?
+      - Millor Test d'Amor 2026
+      - Fes el Test d'Amor
+      - Descobreix el teu Estil
+      - Com Demostres Amor?
+      - Test d'Amor per Parelles
+      - Millora la Teva Relació
+      - Estima Millor, Viu Feliç
+      - Entén les Seves Necessitats
+      - Què Necessita el teu Cor
+      - Sigues Millor Parella Avui
+      - Quiz d'Amor en 5 Min
+      - Test d'Amor Núm. 1
+      descriptions:
+      - 'Descobreix el teu estil d''amor: Fes el test i veus com mostres afecte avui.'
+      - Usa el nostre test ràpid per trobar el teu estil i millorar la teva relació.
+      - Aprèn a estimar millor la teva parella entenent el teu propi estil d'amor.
+      - Transforma la teva relació amb el nostre test d'estils d'amor dissenyat per experts.
+    keywords:
+    - text: love language test
+      match_type: BROAD
+    - text: love language quiz
+      match_type: BROAD
+    - text: love language test online
+      match_type: BROAD
+    - text: love language quiz online
+      match_type: BROAD
+    - text: love language test free
+      match_type: BROAD
+    - text: love language quiz free
+      match_type: BROAD
+    - text: free love language test
+      match_type: BROAD
+    - text: free love language quiz
+      match_type: BROAD
+    - text: 5 love languages
+      match_type: BROAD
+    - text: five love languages
+      match_type: BROAD
+    - text: love languages test
+      match_type: BROAD
+    - text: love languages quiz
+      match_type: BROAD
+    - text: what's my love language
+      match_type: BROAD
+    - text: whats my love language
+      match_type: BROAD
+    - text: what is my love language
+      match_type: BROAD
+    - text: love language
+      match_type: BROAD
+    - text: love languages
+      match_type: BROAD
+    - text: relationship quiz
+      match_type: BROAD
+    - text: love style test
+      match_type: BROAD
+    - text: love style quiz
+      match_type: BROAD
+    - text: love style test online
+      match_type: BROAD
+    - text: love style quiz online
+      match_type: BROAD
+    - text: love style test free
+      match_type: BROAD
+    - text: love style quiz free
+      match_type: BROAD
+    - text: free love style test
+      match_type: BROAD
+    - text: free love style quiz
+      match_type: BROAD
+    - text: 5 love styles
+      match_type: BROAD
+    - text: five love styles
+      match_type: BROAD
+    - text: love styles test
+      match_type: BROAD
+    - text: love styles quiz
+      match_type: BROAD
+    - text: what's my love style
+      match_type: BROAD
+    - text: whats my love style
+      match_type: BROAD
+    - text: what is my love style
+      match_type: BROAD
+    - text: love style
+      match_type: BROAD
+    - text: love styles
+      match_type: BROAD
+    - text: test llenguatges amor
+      match_type: BROAD
+    - text: els 5 llenguatges de l'amor
+      match_type: BROAD
+    - text: quiz parella
+      match_type: BROAD
+    - text: test de parella
+      match_type: BROAD
+    - text: test amor
+      match_type: BROAD
+    - text: com demostrar amor
+      match_type: BROAD
+    - text: millorar relació parella
+      match_type: BROAD
+    - text: estils d'amor
+      match_type: BROAD
+    - text: compatibilitat parella
+      match_type: BROAD
+    - text: test amor gratis
+      match_type: BROAD

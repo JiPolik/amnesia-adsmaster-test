@@ -1,0 +1,145 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: es_us_goog_s_efaq_licenseplate
+  platform: google_search
+  vertical: license_plate
+  extends: license_plate_search_tmpl
+  geo_preset_ref: us
+  ad_extension_refs:
+  - callout_esus_licenseplate__history
+  - callout_esus_licenseplate__instant
+  - callout_esus_licenseplate__lookup
+  - callout_esus_licenseplate__mobile_friendly
+  - callout_esus_licenseplate__secure
+  - efaq_business_name
+  - sitelink_esus_licenseplate__accidents
+  - sitelink_esus_licenseplate__auction
+  - sitelink_esus_licenseplate__car_history
+  - sitelink_esus_licenseplate__generic
+  - sitelink_esus_licenseplate__theft
+  - sitelink_esus_licenseplate__vehicle_history
+  - snip_esus_licenseplate__services
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 10.0
+  ad_sets:
+  - name: license_plate
+    ad_templates:
+    - name: license_plate__rsa
+      destination_url: https://efaq.com/es-us/license-plate/lp/license-plate-lookup
+      headlines:
+      - EFAQ.com - Sitio Oficial
+      - No Malgaste Su Dinero
+      - Búsqueda de Placa
+      - Revise Placas al Instante
+      - Ingrese la Placa y Busque
+      - Busque Récords de Autos
+      - Búsqueda Rápida de Placa
+      - Vea Accidentes y Ventas
+      - Reportes Confiables
+      - Su Búsqueda es Privada
+      descriptions:
+      - Ingrese cualquier placa para ver el historial del vehículo, accidentes, ventas y más.
+      - Evite sorpresas costosas. Revise accidentes, reportes de robo y datos del título.
+      - Búsqueda de placa instantánea con registros detallados del vehículo en un reporte.
+      - Datos confiables de fuentes seguras. Búsqueda rápida, simple y privada.
+    keywords:
+    - text: license plate lookup
+      match_type: BROAD
+    - text: license plate lookup free
+      match_type: BROAD
+    - text: free license plate lookup
+      match_type: BROAD
+    - text: lookup license plate
+      match_type: BROAD
+    - text: lookup license plate free
+      match_type: BROAD
+    - text: free lookup license plate
+      match_type: BROAD
+    - text: license plate look up
+      match_type: BROAD
+    - text: license plate look up free
+      match_type: BROAD
+    - text: free license plate look up
+      match_type: BROAD
+    - text: look up license plate
+      match_type: BROAD
+    - text: look up license plate free
+      match_type: BROAD
+    - text: free look up license plate
+      match_type: BROAD
+    - text: license plate search
+      match_type: BROAD
+    - text: license plate search free
+      match_type: BROAD
+    - text: free license plate search
+      match_type: BROAD
+    - text: search license plate
+      match_type: BROAD
+    - text: search license plate free
+      match_type: BROAD
+    - text: free search license plate
+      match_type: BROAD
+    - text: check license plate
+      match_type: BROAD
+    - text: check license plate free
+      match_type: BROAD
+    - text: license plate check
+      match_type: BROAD
+    - text: license plate check free
+      match_type: BROAD
+    - text: plate lookup
+      match_type: BROAD
+    - text: license plate finder
+      match_type: BROAD
+    - text: car tag lookup
+      match_type: BROAD
+    - text: car tag search
+      match_type: BROAD
+    - text: vehicle tag lookup
+      match_type: BROAD
+    - text: vehicle tag search
+      match_type: BROAD
+    - text: vehicle plate lookup
+      match_type: BROAD
+    - text: vehicle plate search
+      match_type: BROAD
+    - text: car plate lookup
+      match_type: BROAD
+    - text: car plate search
+      match_type: BROAD
+    - text: buscar placa
+      match_type: BROAD
+    - text: buscar placa gratis
+      match_type: BROAD
+    - text: chequear placa
+      match_type: BROAD
+    - text: verificar placa
+      match_type: BROAD
+    - text: busqueda de placa
+      match_type: BROAD
+    - text: historial de vehiculo gratis
+      match_type: BROAD
+    - text: numero de placa
+      match_type: BROAD
+    - text: buscar dueño por placa
+      match_type: BROAD
+    - text: revisar placa de carro
+      match_type: BROAD
+    - text: placa de auto
+      match_type: BROAD
+    - text: matricula de carro
+      match_type: BROAD
+    - text: buscar chapa
+      match_type: BROAD
+    - text: chequeo de placa
+      match_type: BROAD
+    - text: reporte de vehiculo
+      match_type: BROAD
+    - text: buscar placa de carro
+      match_type: BROAD
+    - text: historial de carro
+      match_type: BROAD
+    - text: revisar placa
+      match_type: BROAD

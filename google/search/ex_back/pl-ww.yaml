@@ -1,0 +1,88 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: pl_ww_goog_s_efaq_exback
+  platform: google_search
+  vertical: ex_back
+  extends: ex_back_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_pl_exback__experts
+  - callout_pl_exback__fix
+  - callout_pl_exback__instant
+  - callout_pl_exback__mobile_friendly
+  - callout_pl_exback__secure
+  - callout_pl_exback__win_back
+  - efaq_business_name
+  - sitelink_pl_exback__build_plan
+  - sitelink_pl_exback__generic
+  - sitelink_pl_exback__grow
+  - sitelink_pl_exback__missing
+  - sitelink_pl_exback__move
+  - sitelink_pl_exback__pattern
+  - sitelink_pl_exback__worth
+  - snip_pl_exback__services
+spec:
+  budget_daily_usd: 400.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: ex_back
+    ad_templates:
+    - name: ex_back__rsa
+      destination_url: https://efaq.com/pl/ex-back/lp/plan
+      headlines:
+      - EFAQ.com - Oficjalna strona
+      - Nie marnuj swoich pieniędzy
+      - Skuteczna metoda na powrót
+      - Twój osobisty plan powrotu
+      - 2-minutowy quiz o powrocie
+      - Kreator planu powrotu AI
+      - Sprawdzone strategie powrotu
+      - Użyj AI, aby ich odzyskać
+      - Zyskaj jasność i strategię
+      descriptions:
+      - Zdobądź spersonalizowany plan powrotu oparty na Twoim rozstaniu i emocjach.
+      - Przestań zgadywać. Użyj AI, aby zbudować jasną strategię, która naprawdę działa.
+      - Odpowiedz na kilka pytań i otrzymaj inteligentny plan, aby odbudować zaufanie.
+      - Zaprojektowane, aby pomóc Ci się poprawić, lepiej komunikować i unikać błędów.
+    keywords:
+    - text: relationship advice
+      match_type: BROAD
+    - text: win back ex
+      match_type: BROAD
+    - text: win ex back
+      match_type: BROAD
+    - text: get back ex
+      match_type: BROAD
+    - text: get ex back
+      match_type: BROAD
+    - text: how to get your ex back
+      match_type: BROAD
+    - text: how to get my ex back
+      match_type: BROAD
+    - text: will my ex come back
+      match_type: BROAD
+    - text: how to get your ex girlfriend back
+      match_type: BROAD
+    - text: how to get your ex boyfriend back
+      match_type: BROAD
+    - text: porady dla związków
+      match_type: BROAD
+    - text: jak odzyskać byłego
+      match_type: BROAD
+    - text: jak odzyskać byłą
+      match_type: BROAD
+    - text: jak odzyskać chłopaka
+      match_type: BROAD
+    - text: jak odzyskać dziewczynę
+      match_type: BROAD
+    - text: czy były chłopak wróci
+      match_type: BROAD
+    - text: czy była dziewczyna wróci
+      match_type: BROAD
+    - text: jak naprawić związek
+      match_type: BROAD
+    - text: powrót do byłego
+      match_type: BROAD
+    - text: jak odzyskać ex
+      match_type: BROAD

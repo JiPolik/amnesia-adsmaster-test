@@ -1,0 +1,121 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: hr_ww_goog_s_efaq_autism
+  platform: google_search
+  vertical: autism
+  extends: autism_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_hr_autism__assessment
+  - callout_hr_autism__experts
+  - callout_hr_autism__instant
+  - callout_hr_autism__minutes
+  - callout_hr_autism__mobile_friendly
+  - callout_hr_autism__secure
+  - efaq_business_name
+  - sitelink_hr_autism__aspergers
+  - sitelink_hr_autism__behavioral
+  - sitelink_hr_autism__generic
+  - sitelink_hr_autism__indicators
+  - sitelink_hr_autism__interests
+  - sitelink_hr_autism__savant
+  - sitelink_hr_autism__spectrum
+  - sitelink_hr_autism__whatis
+  - snip_hr_autism__types
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/hr/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Službena stranica
+      - Online test za autizam
+      - Samoprocjena autizma
+      - Započnite test za autizam
+      - Što je autizam (PSA)?
+      - Besplatni test za autizam
+      - Prepoznajte znakove autizma
+      descriptions:
+      - Ispunite brzi online test za autizam i istražite uobičajene osobine povezane s PSA.
+      - Istražite gdje se možda nalazite u spektru autizma pomoću ove samoprocjene.
+      - Pitate se jeste li možda autistični? Riješite ovaj brzi online test za autizam.
+      - Brzi online test za autizam osmišljen za lakše razumijevanje i jasnoću.
+    keywords:
+    - text: autism test
+      match_type: BROAD
+    - text: what is autism
+      match_type: BROAD
+    - text: autism test for adults
+      match_type: BROAD
+    - text: am i autistic
+      match_type: BROAD
+    - text: autism spectrum test
+      match_type: BROAD
+    - text: autism test free
+      match_type: BROAD
+    - text: do i have autism
+      match_type: BROAD
+    - text: autism quiz
+      match_type: BROAD
+    - text: adult autism test
+      match_type: BROAD
+    - text: autism test online
+      match_type: BROAD
+    - text: signs of autism
+      match_type: BROAD
+    - text: signs of autism in adults
+      match_type: BROAD
+    - text: autism screening test
+      match_type: BROAD
+    - text: adult autism symptoms
+      match_type: BROAD
+    - text: autism symptoms
+      match_type: BROAD
+    - text: online autism assessment
+      match_type: BROAD
+    - text: asperger test
+      match_type: BROAD
+    - text: aspergers test
+      match_type: BROAD
+    - text: free autism test
+      match_type: BROAD
+    - text: test za autizam
+      match_type: BROAD
+    - text: što je autizam
+      match_type: BROAD
+    - text: test za autizam za odrasle
+      match_type: BROAD
+    - text: jesam li autističan
+      match_type: BROAD
+    - text: test za spektar autizma
+      match_type: BROAD
+    - text: besplatni test za autizam
+      match_type: BROAD
+    - text: imam li autizam
+      match_type: BROAD
+    - text: kviz o autizmu
+      match_type: BROAD
+    - text: test za autizam odraslih
+      match_type: BROAD
+    - text: online test za autizam
+      match_type: BROAD
+    - text: znakovi autizma
+      match_type: BROAD
+    - text: znakovi autizma kod odraslih
+      match_type: BROAD
+    - text: probirni test za autizam
+      match_type: BROAD
+    - text: simptomi autizma kod odraslih
+      match_type: BROAD
+    - text: simptomi autizma
+      match_type: BROAD
+    - text: online procjena autizma
+      match_type: BROAD
+    - text: aspergerov test
+      match_type: BROAD
+    - text: test za aspergera
+      match_type: BROAD

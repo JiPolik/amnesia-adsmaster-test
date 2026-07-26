@@ -1,0 +1,863 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_autism__aspergers
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/autism/lp/aspergers-syndrome
+  title: Rysy Aspergerova syndromu
+  description1: Běžné znaky Aspergerova syndromu
+  description2: Pochopte vzorce chování
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_autism__behavioral
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/autism/lp/behavioral-patterns
+  title: Vzorce chování
+  description1: Běžné chování u autismu
+  description2: Prozkoumejte sociální rutiny
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_autism__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/autism/lp/quiz
+  title: Test autismu online
+  description1: Prozkoumejte rysy autismu
+  description2: Získejte rychlé výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_autism__indicators
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/autism/lp/autism-indicators
+  title: Indikátory autismu
+  description1: Poznejte klíčové ukazatele
+  description2: Rychle rozpoznejte běžné rysy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_autism__interests
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/autism/lp/special-interests
+  title: Speciální zájmy
+  description1: Prozkoumejte úzce zaměřené zájmy
+  description2: Pochopte hluboké vášně
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_autism__savant
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/autism/lp/savant-syndrome
+  title: Savant syndrom
+  description1: Objevte vlastnosti savantů
+  description2: Zjistěte více o schopnostech
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_autism__spectrum
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/autism/lp/what-is-the-spectrum
+  title: Autistické spektrum
+  description1: Pochopte autistické spektrum
+  description2: Prozkoumejte různé zkušenosti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_autism__whatis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/autism/lp/what-is-autism
+  title: Co je to autismus?
+  description1: Poznejte základy autismu
+  description2: Jednoduchý a jasný přehled
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_autism__aspergers
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/autism/lp/aspergers-syndrome
+  title: Asperger-Eigenschaften
+  description1: Erkunden Sie Asperger-Anzeichen
+  description2: Verstehen Sie Verhaltensmuster
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_autism__behavioral
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/autism/lp/behavioral-patterns
+  title: Verhaltensmuster
+  description1: Typisches Autismus-Verhalten
+  description2: Soziales & Routinen entdecken
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_autism__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/autism/lp/quiz
+  title: Autismus-Selbsttest
+  description1: Erkunden Sie Autismus-Merkmale
+  description2: Erhalten Sie schnelle Ergebnisse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_autism__indicators
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/autism/lp/autism-indicators
+  title: Autismus-Indikatoren
+  description1: Wichtige Autismus-Indikatoren
+  description2: Häufige Merkmale erkennen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_autism__interests
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/autism/lp/special-interests
+  title: Spezialinteressen
+  description1: Fokussierte Interessen erkunden
+  description2: Tiefe Leidenschaften verstehen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_autism__savant
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/autism/lp/savant-syndrome
+  title: Savant-Syndrom
+  description1: Savant-Eigenschaften entdecken
+  description2: Einzigartige Gaben entdecken
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_autism__spectrum
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/autism/lp/what-is-the-spectrum
+  title: Das Autismus-Spektrum
+  description1: Verstehen Sie das Spektrum
+  description2: Erfahrungen kennenlernen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_autism__whatis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/autism/lp/what-is-autism
+  title: Was ist Autismus?
+  description1: Autismus-Grundlagen lernen
+  description2: Einfache und klare Übersicht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_autism__aspergers
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/autism/lp/aspergers-syndrome
+  title: Συμπτώματα Asperger
+  description1: Δείτε τα κοινά σημάδια Asperger
+  description2: Κατανοήστε τη συμπεριφορά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_autism__behavioral
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/autism/lp/behavioral-patterns
+  title: Μοτίβα Συμπεριφοράς
+  description1: Δείτε κοινές συμπεριφορές
+  description2: Εξερευνήστε τις ρουτίνες
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_autism__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/autism/lp/quiz
+  title: Τεστ Αυτισμού
+  description1: Δείτε τα χαρακτηριστικά αυτισμού
+  description2: Λάβετε γρήγορα αποτελέσματα
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_autism__indicators
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/autism/lp/autism-indicators
+  title: Ενδείξεις Αυτισμού
+  description1: Μάθετε τις βασικές ενδείξεις
+  description2: Αναγνωρίστε τα κοινά σημάδια
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_autism__interests
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/autism/lp/special-interests
+  title: Ειδικά Ενδιαφέροντα
+  description1: Δείτε τα ειδικά ενδιαφέροντα
+  description2: Κατανοήστε τα βαθιά πάθη
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_autism__savant
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/autism/lp/savant-syndrome
+  title: Σύνδρομο Savant
+  description1: Ανακαλύψτε τα χαρακτηριστικά
+  description2: Μάθετε για μοναδικές ικανότητες
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_autism__spectrum
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/autism/lp/what-is-the-spectrum
+  title: Το Φάσμα Του Αυτισμού
+  description1: Κατανοήστε το φάσμα αυτισμού
+  description2: Δείτε διαφορετικές εμπειρίες
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_autism__whatis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/autism/lp/what-is-autism
+  title: Τι Είναι Ο Αυτισμός;
+  description1: Μάθετε τα βασικά του αυτισμού
+  description2: Απλή και ξεκάθαρη επισκόπηση
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_autism__aspergers
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/autism/lp/aspergers-syndrome
+  title: Asperger's Traits
+  description1: Explore common Asperger's signs
+  description2: Understand behavioral patterns
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_autism__behavioral
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/autism/lp/behavioral-patterns
+  title: Behavioral Patterns
+  description1: See common autism behaviors
+  description2: Explore social and routines
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_autism__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/autism/lp/quiz
+  title: Autism Self Test
+  description1: Explore autism-related traits
+  description2: Get fast online results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_autism__indicators
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/autism/lp/autism-indicators
+  title: Autism Indicators
+  description1: Learn key autism indicators
+  description2: Recognize common traits fast
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_autism__interests
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/autism/lp/special-interests
+  title: Special Interests
+  description1: Explore focused interests
+  description2: Understand deep passions
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_autism__savant
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/autism/lp/savant-syndrome
+  title: Savant Syndrome
+  description1: Discover savant characteristics
+  description2: Learn about unique abilities
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_autism__spectrum
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/autism/lp/what-is-the-spectrum
+  title: The Autism Spectrum
+  description1: Understand the spectrum
+  description2: Explore different experiences
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_autism__whatis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/autism/lp/what-is-autism
+  title: What Is Autism?
+  description1: Learn the basics of autism
+  description2: Simple and clear overview
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_autism__aspergers
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/autism/lp/aspergers-syndrome
+  title: Aspergeri tunnused
+  description1: Uuri levinud Aspergeri märke
+  description2: Mõista käitumismustreid
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_autism__behavioral
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/autism/lp/behavioral-patterns
+  title: Käitumismustrid
+  description1: Vaata levinud autismi käitumist
+  description2: Uuri sotsiaalsust ja rutiine
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_autism__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/autism/lp/quiz
+  title: Autismi enesetest
+  description1: Uuri autismiga seotud jooni
+  description2: Saa kiired tulemused veebis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_autism__indicators
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/autism/lp/autism-indicators
+  title: Autismi indikaatorid
+  description1: Õpi tundma autismi märke
+  description2: Tuvasta levinud jooni kiirelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_autism__interests
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/autism/lp/special-interests
+  title: Erilised huvid
+  description1: Uuri fookustatud huvisid
+  description2: Mõista sügavaid kirgi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_autism__savant
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/autism/lp/savant-syndrome
+  title: Savandi sündroom
+  description1: Avasta savandi omadusi
+  description2: Õpi unikaalsete võimete kohta
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_autism__spectrum
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/autism/lp/what-is-the-spectrum
+  title: Autismispekter
+  description1: Mõista autismispektrit
+  description2: Uuri erinevaid kogemusi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_autism__whatis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/autism/lp/what-is-autism
+  title: Mis on autism?
+  description1: Õpi autismi põhitõdesid
+  description2: Lihtne ja selge ülevaade
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_autism__aspergers
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/autism/lp/aspergers-syndrome
+  title: Traits d'Asperger
+  description1: Découvrez les signes d'Asperger
+  description2: Comprenez les comportements
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_autism__behavioral
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/autism/lp/behavioral-patterns
+  title: Schémas Comportementaux
+  description1: Voir les comportements autistiques
+  description2: Explorez routines et social
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_autism__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/autism/lp/quiz
+  title: Test Autisme en Ligne
+  description1: Explorez les traits de l'autisme
+  description2: Obtenez des résultats rapides
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_autism__indicators
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/autism/lp/autism-indicators
+  title: Indicateurs d'Autisme
+  description1: Découvrez les signes de l'autisme
+  description2: Reconnaissez vite les traits
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_autism__interests
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/autism/lp/special-interests
+  title: Intérêts Spécifiques
+  description1: Explorez les intérêts ciblés
+  description2: Comprenez les passions intenses
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_autism__savant
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/autism/lp/savant-syndrome
+  title: Syndrome du Savant
+  description1: Découvrez les caractéristiques
+  description2: Découvrez des capacités uniques
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_autism__spectrum
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/autism/lp/what-is-the-spectrum
+  title: Le Spectre Autistique
+  description1: Comprenez le spectre autistique
+  description2: Explorez diverses expériences
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_autism__whatis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/autism/lp/what-is-autism
+  title: Qu'est-ce que l'autisme
+  description1: Apprenez les bases de l'autisme
+  description2: Un aperçu simple et très clair
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_autism__aspergers
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/autism/lp/aspergers-syndrome
+  title: Osobine Aspergera
+  description1: Istražite znakove Aspergera
+  description2: Shvatite obrasce ponašanja
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_autism__behavioral
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/autism/lp/behavioral-patterns
+  title: Obrasci ponašanja
+  description1: Česta ponašanja kod autizma
+  description2: Istražite društvo i rutine
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_autism__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/autism/lp/quiz
+  title: Samoprocjena autizma
+  description1: Istražite osobine autizma
+  description2: Dobijte brze rezultate
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_autism__indicators
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/autism/lp/autism-indicators
+  title: Pokazatelji autizma
+  description1: Ključni pokazatelji autizma
+  description2: Brzo prepoznajte osobine
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_autism__interests
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/autism/lp/special-interests
+  title: Posebni interesi
+  description1: Istražite usmjerene interese
+  description2: Shvatite duboke strasti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_autism__savant
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/autism/lp/savant-syndrome
+  title: Savant sindrom
+  description1: Otkrijte osobine savanta
+  description2: Saznajte o sposobnostima
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_autism__spectrum
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/autism/lp/what-is-the-spectrum
+  title: Spektar autizma
+  description1: Razumijevanje spektra
+  description2: Istražite razna iskustva
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_autism__whatis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/autism/lp/what-is-autism
+  title: Što je autizam?
+  description1: Naučite osnove o autizmu
+  description2: Jednostavan i jasan pregled
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_autism__aspergers
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/autism/lp/aspergers-syndrome
+  title: Kenmerken van Asperger
+  description1: Ontdek veelvoorkomende tekens
+  description2: Begrijp gedragspatronen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_autism__behavioral
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/autism/lp/behavioral-patterns
+  title: Gedragspatronen
+  description1: Bekijk veelvoorkomend gedrag
+  description2: Ontdek sociale routines
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_autism__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/autism/lp/quiz
+  title: Autisme Zelftest
+  description1: Ontdek kenmerken van autisme
+  description2: Krijg snel online resultaten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_autism__indicators
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/autism/lp/autism-indicators
+  title: Autisme Indicatoren
+  description1: Leer de belangrijkste signalen
+  description2: Herken snel de kenmerken
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_autism__interests
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/autism/lp/special-interests
+  title: Speciale Interesses
+  description1: Ontdek gerichte interesses
+  description2: Begrijp diepe passies
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_autism__savant
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/autism/lp/savant-syndrome
+  title: Savantsyndroom
+  description1: Ontdek savant eigenschappen
+  description2: Leer over unieke vaardigheden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_autism__spectrum
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/autism/lp/what-is-the-spectrum
+  title: Het Autismespectrum
+  description1: Begrijp het spectrum
+  description2: Ontdek diverse ervaringen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_autism__whatis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/autism/lp/what-is-autism
+  title: Wat is Autisme?
+  description1: Leer de basis van autisme
+  description2: Eenvoudig en helder overzicht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_autism__aspergers
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/autism/lp/aspergers-syndrome
+  title: Aspergers-trekk
+  description1: Utforsk vanlige Aspergers-tegn
+  description2: Forstå atferdsmønstre
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_autism__behavioral
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/autism/lp/behavioral-patterns
+  title: Atferdsmønstre
+  description1: Se vanlig autismeatferd
+  description2: Utforsk det sosiale og rutiner
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_autism__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/autism/lp/quiz
+  title: Autisme Selvtest
+  description1: Utforsk autismerelaterte trekk
+  description2: Få raske resultater på nett
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_autism__indicators
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/autism/lp/autism-indicators
+  title: Autismeindikatorer
+  description1: Lær om viktige indikatorer
+  description2: Gjenkjenn vanlige trekk raskt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_autism__interests
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/autism/lp/special-interests
+  title: Spesialinteresser
+  description1: Utforsk fokuserte interesser
+  description2: Forstå dype lidenskaper
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_autism__savant
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/autism/lp/savant-syndrome
+  title: Savantsyndrom
+  description1: Oppdag savant-kjennetegn
+  description2: Lær om unike evner
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_autism__spectrum
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/autism/lp/what-is-the-spectrum
+  title: Autismespekteret
+  description1: Forstå autismespekteret
+  description2: Utforsk ulike opplevelser
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_autism__whatis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/autism/lp/what-is-autism
+  title: Hva er autisme?
+  description1: Lær det grunnleggende
+  description2: Enkel og tydelig oversikt

@@ -1,0 +1,142 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sr_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_sr_lovestyle__experts
+  - callout_sr_lovestyle__find_your
+  - callout_sr_lovestyle__improve
+  - callout_sr_lovestyle__instant
+  - callout_sr_lovestyle__mobile_friendly
+  - callout_sr_lovestyle__secure
+  - efaq_business_name
+  - sitelink_sr_lovestyle__generic
+  - sitelink_sr_lovestyle__heartbreak
+  - sitelink_sr_lovestyle__improve_relationship
+  - sitelink_sr_lovestyle__what_are
+  - sitelink_sr_lovestyle__what_is
+  - snip_sr_lovestyle__types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/sr/love-style/lp/quiz
+      headlines:
+      - EFAQ.com – Званичан сајт
+      - Не бацајте новац
+      - Који је ваш љубавни стил?
+      - Најбољи љубавни квиз 2026
+      - Уради тест љубавног стила
+      - Откриј свој љубавни стил
+      - Како показујеш љубав?
+      - Љубавни тест за парове
+      - Побољшајте своју везу
+      - Воли боље, живи срећније
+      - Разуми потребе партнера
+      - Откриј шта срцу треба
+      - Буди бољи партнер данас
+      - 5-минутни љубавни квиз
+      - Најбоље оцењен тест
+      descriptions:
+      - 'Откријте свој љубавни стил: Урадите квиз и сазнајте како данас показујете љубав.'
+      - Користите наш кратки квиз да нађете свој љубавни стил и побољшате своју везу.
+      - Научите како да боље волите свог партнера разумевањем свог љубавног стила.
+      - Трансформишите своју везу помоћу нашег научно дизајнираног квиза љубавног стила.
+    keywords:
+    - text: love language test
+      match_type: BROAD
+    - text: love language quiz
+      match_type: BROAD
+    - text: love language test online
+      match_type: BROAD
+    - text: love language quiz online
+      match_type: BROAD
+    - text: love language test free
+      match_type: BROAD
+    - text: love language quiz free
+      match_type: BROAD
+    - text: free love language test
+      match_type: BROAD
+    - text: free love language quiz
+      match_type: BROAD
+    - text: 5 love languages
+      match_type: BROAD
+    - text: five love languages
+      match_type: BROAD
+    - text: love languages test
+      match_type: BROAD
+    - text: love languages quiz
+      match_type: BROAD
+    - text: what's my love language
+      match_type: BROAD
+    - text: whats my love language
+      match_type: BROAD
+    - text: what is my love language
+      match_type: BROAD
+    - text: love language
+      match_type: BROAD
+    - text: love languages
+      match_type: BROAD
+    - text: relationship quiz
+      match_type: BROAD
+    - text: love style test
+      match_type: BROAD
+    - text: love style quiz
+      match_type: BROAD
+    - text: love style test online
+      match_type: BROAD
+    - text: love style quiz online
+      match_type: BROAD
+    - text: love style test free
+      match_type: BROAD
+    - text: love style quiz free
+      match_type: BROAD
+    - text: free love style test
+      match_type: BROAD
+    - text: free love style quiz
+      match_type: BROAD
+    - text: 5 love styles
+      match_type: BROAD
+    - text: five love styles
+      match_type: BROAD
+    - text: love styles test
+      match_type: BROAD
+    - text: love styles quiz
+      match_type: BROAD
+    - text: what's my love style
+      match_type: BROAD
+    - text: whats my love style
+      match_type: BROAD
+    - text: what is my love style
+      match_type: BROAD
+    - text: love style
+      match_type: BROAD
+    - text: love styles
+      match_type: BROAD
+    - text: квиз љубавног језика
+      match_type: BROAD
+    - text: 5 језика љубави
+      match_type: BROAD
+    - text: тест љубавног језика
+      match_type: BROAD
+    - text: који је мој љубавни језик
+      match_type: BROAD
+    - text: тест за парове
+      match_type: BROAD
+    - text: језици љубави тест
+      match_type: BROAD
+    - text: како побољшати везу
+      match_type: BROAD
+    - text: бесплатан љубавни квиз
+      match_type: BROAD
+    - text: љубавни стил квиз
+      match_type: BROAD
+    - text: онлајн тест љубави
+      match_type: BROAD

@@ -1,0 +1,34 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: spirit_animal_dg_tmpl_1
+  platform: google_demand_gen
+  vertical: spirit_animal
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  ad_set_defaults:
+    status: PAUSED
+    bid_strategy: TARGET_CPA
+  ad_template_defaults:
+    status: ENABLED
+  ad_sets:
+  - name: multiasset
+    demand_gen: {}
+    ad_templates:
+    - name: brunette_wolf
+      creative_feed_ref: spirit_animal_dg_feed
+      logo_asset_ref: image__dg__128x128_logo
+      business_name: eFAQ.com
+      destination_url: https://efaq.com/bg/spirit-animal/lp/quiz
+      headlines:
+      - Открий своето духовно животно
+      - Разкрий истинската си същност
+      - Срещни своето вътрешно животно
+      - Кое животно си ти?
+      - Твоето духовно животно те чака
+      descriptions:
+      - В теб има дива страна. Открий духовното си животно сега.
+      - Инстинктите ти казват повече, отколкото мислиш. Намери животното си.
+      - Спокоен, силен или див? Разкрий истинската си същност.
+      - Бърз и мощен тест, който разкрива вътрешното ти животно.

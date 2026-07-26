@@ -1,0 +1,131 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: is_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_is_iq__breakdown
+  - callout_is_iq__experts
+  - callout_is_iq__fun_challenging
+  - callout_is_iq__instant
+  - callout_is_iq__mobile_friendly
+  - callout_is_iq__secure
+  - efaq_business_name
+  - sitelink_is_iq__am_i_gifted
+  - sitelink_is_iq__can_you_improve
+  - sitelink_is_iq__generic
+  - sitelink_is_iq__students
+  - sitelink_is_iq__what_is_iq
+  - snip_is_iq__test_types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 18.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/is/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Opinber síða
+      - Mældu greind á 20 mín
+      - Opinbert greindarpróf 2026
+      - Nákvæmasta greindarprófið
+      - Ekki sóa peningunum þínum
+      - Byrjaðu greindarprófið
+      - Hversu klár ertu?
+      - Fljótar og nákvæmar tölur
+      - Vísindalegt próf
+      - Raunverulegt próf og tölur
+      - Klárari en vinirnir?
+      descriptions:
+      - Heldurðu að þú sért klárari en meðalmaðurinn? Taktu prófið og sjáðu hvar þú stendur.
+      - Fáðu fljótar og nákvæmar niðurstöður á innan við 10 mínútum, beint í símann þinn.
+      - Vísindalega hannað greindarpróf sem sérfræðingar treysta fyrir nákvæmar niðurstöður.
+      - Slástu í hóp þúsunda sem mældu greind sína í dag og sjáðu nákvæmlega hvar þú stendur.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: greindarpróf
+      match_type: BROAD
+    - text: greindarvísitala
+      match_type: BROAD
+    - text: iq próf
+      match_type: BROAD
+    - text: iq prof
+      match_type: BROAD
+    - text: greindarpróf á netinu
+      match_type: BROAD
+    - text: ókeypis greindarpróf
+      match_type: BROAD
+    - text: mæla greind
+      match_type: BROAD
+    - text: greindarpróf ísland
+      match_type: BROAD
+    - text: greindavísitölu próf
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/is/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Opinber síða
+      - Mældu greind á 20 mín
+      - Opinbert greindarpróf 2026
+      - Nákvæmasta greindarprófið
+      - Hversu klár er ég?
+      - Hversu klár ertu?
+      - Ekki sóa peningunum þínum
+      - Greindarpróf á netinu
+      descriptions:
+      - Hefurðu velt því fyrir þér hversu klár þú ert í raun? Taktu prófið og fáðu skýr svör.
+      - Komdu að því hvort þú ert í meðallagi eða afburða. Fljótlegar og nákvæmar niðurstöður.
+      - Hættu að giska. Mældu greind þína með alvöru greindarprófi. Fáðu niðurstöðuna núna.
+      - Slástu í hóp þúsunda sem spurðu sömu spurningar og fengu loksins svör.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: er ég klár
+      match_type: BROAD
+    - text: hversu klár er ég
+      match_type: BROAD
+    - text: er ég gáfaður
+      match_type: BROAD
+    - text: hversu gáfaður er ég
+      match_type: BROAD
+    - text: er ég heimskur
+      match_type: BROAD
+    - text: mæla greindarvísitölu
+      match_type: BROAD

@@ -1,6 +1,69 @@
 apiVersion: amnesia/v1
 kind: GeoPreset
 metadata:
+  name: ar
+spec:
+  include:
+  - type: COUNTRY
+    value: AR
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: ca
+spec:
+  include:
+  - type: COUNTRY
+    value: CA
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: cl
+spec:
+  include:
+  - type: COUNTRY
+    value: CL
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: co
+spec:
+  include:
+  - type: COUNTRY
+    value: CO
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: gb
+spec:
+  include:
+  - type: COUNTRY
+    value: GB
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: ie
+spec:
+  include:
+  - type: COUNTRY
+    value: IE
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: mx
+spec:
+  include:
+  - type: COUNTRY
+    value: MX
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
   name: us
 spec:
   include:
@@ -117,3 +180,165 @@ spec:
     value: SM
   - type: COUNTRY
     value: SK
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: anglosphere
+spec:
+  include:
+  - type: COUNTRY
+    value: US
+  - type: COUNTRY
+    value: CA
+  - type: COUNTRY
+    value: GB
+  - type: COUNTRY
+    value: IE
+  - type: COUNTRY
+    value: AU
+  - type: COUNTRY
+    value: NZ
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: oceania
+spec:
+  include:
+  - type: COUNTRY
+    value: AU
+  - type: COUNTRY
+    value: NZ
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: main_markets
+spec:
+  include:
+  - type: COUNTRY
+    value: US
+  - type: COUNTRY
+    value: CA
+  - type: COUNTRY
+    value: GB
+  - type: COUNTRY
+    value: AU
+  - type: COUNTRY
+    value: NZ
+  - type: COUNTRY
+    value: AD
+  - type: COUNTRY
+    value: AL
+  - type: COUNTRY
+    value: AT
+  - type: COUNTRY
+    value: BA
+  - type: COUNTRY
+    value: BE
+  - type: COUNTRY
+    value: BG
+  - type: COUNTRY
+    value: CH
+  - type: COUNTRY
+    value: CY
+  - type: COUNTRY
+    value: CZ
+  - type: COUNTRY
+    value: DE
+  - type: COUNTRY
+    value: DK
+  - type: COUNTRY
+    value: EE
+  - type: COUNTRY
+    value: ES
+  - type: COUNTRY
+    value: FI
+  - type: COUNTRY
+    value: FR
+  - type: COUNTRY
+    value: GR
+  - type: COUNTRY
+    value: HR
+  - type: COUNTRY
+    value: HU
+  - type: COUNTRY
+    value: IE
+  - type: COUNTRY
+    value: IS
+  - type: COUNTRY
+    value: IT
+  - type: COUNTRY
+    value: LI
+  - type: COUNTRY
+    value: LT
+  - type: COUNTRY
+    value: LU
+  - type: COUNTRY
+    value: LV
+  - type: COUNTRY
+    value: MC
+  - type: COUNTRY
+    value: MD
+  - type: COUNTRY
+    value: ME
+  - type: COUNTRY
+    value: MK
+  - type: COUNTRY
+    value: MT
+  - type: COUNTRY
+    value: NL
+  - type: COUNTRY
+    value: 'NO'
+  - type: COUNTRY
+    value: PL
+  - type: COUNTRY
+    value: PT
+  - type: COUNTRY
+    value: RO
+  - type: COUNTRY
+    value: RS
+  - type: COUNTRY
+    value: SE
+  - type: COUNTRY
+    value: SI
+  - type: COUNTRY
+    value: SM
+  - type: COUNTRY
+    value: SK
+  - type: COUNTRY
+    value: JP
+  - type: COUNTRY
+    value: KR
+  - type: COUNTRY
+    value: SG
+  - type: COUNTRY
+    value: HK
+---
+apiVersion: amnesia/v1
+kind: GeoPreset
+metadata:
+  name: caribbean
+spec:
+  include:
+  - type: COUNTRY
+    value: AG
+  - type: COUNTRY
+    value: BS
+  - type: COUNTRY
+    value: BB
+  - type: COUNTRY
+    value: DM
+  - type: COUNTRY
+    value: GD
+  - type: COUNTRY
+    value: JM
+  - type: COUNTRY
+    value: LC
+  - type: COUNTRY
+    value: VC
+  - type: COUNTRY
+    value: TT
+  - type: COUNTRY
+    value: CW

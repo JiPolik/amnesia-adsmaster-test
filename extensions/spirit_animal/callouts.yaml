@@ -1,0 +1,314 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_spiritanimal__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Navrženo odborníky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_spiritanimal__find
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Najdi své duchovní zvíře
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_spiritanimal__guide
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zvířecí průvodci
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_spiritanimal__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Okamžité výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_spiritanimal__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zabere to jen pár minut
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_spiritanimal__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web pro mobilní zařízení
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_spiritanimal__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zabezpečený web
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_spiritanimal__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Von Experten entwickelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_spiritanimal__find
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Finde dein Krafttier
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_spiritanimal__guide
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Krafttier-Ratgeber
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_spiritanimal__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sofortige Ergebnisse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_spiritanimal__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dauert nur Minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_spiritanimal__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilfreundliche Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_spiritanimal__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sichere Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_spiritanimal__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_spiritanimal__find
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Find Your Spirit Animal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_spiritanimal__guide
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Guide to Spirit Animals
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_spiritanimal__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_spiritanimal__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takes Only Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_spiritanimal__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_spiritanimal__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_spiritanimal__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ontworpen door Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_spiritanimal__find
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Vind Jouw Spirit Animal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_spiritanimal__guide
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Gids voor Totemdieren
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_spiritanimal__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Direct Resultaat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_spiritanimal__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Duurt Slechts Minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_spiritanimal__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobielvriendelijke Site
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_spiritanimal__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Veilige Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_spiritanimal__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designet av eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_spiritanimal__find
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Finn ditt åndedyr
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_spiritanimal__guide
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Guide til åndedyr
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_spiritanimal__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Umiddelbare resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_spiritanimal__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tar bare noen minutter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_spiritanimal__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvennlig nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_spiritanimal__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker nettside

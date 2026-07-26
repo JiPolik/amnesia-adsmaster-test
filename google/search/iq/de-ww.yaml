@@ -1,0 +1,137 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: de_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_de_iq__breakdown
+  - callout_de_iq__experts
+  - callout_de_iq__fun_challenging
+  - callout_de_iq__instant
+  - callout_de_iq__mobile_friendly
+  - callout_de_iq__secure
+  - efaq_business_name
+  - sitelink_de_iq__am_i_gifted
+  - sitelink_de_iq__can_you_improve
+  - sitelink_de_iq__generic
+  - sitelink_de_iq__students
+  - sitelink_de_iq__what_is_iq
+  - snip_de_iq__test_types
+spec:
+  budget_daily_usd: 3000.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/de/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Offizielle Seite
+      - Ihr IQ in 20 Minuten
+      - Offizieller IQ-Test 2026
+      - Der genaue IQ-Test
+      - Sparen Sie Ihr Geld
+      - Starten Sie Ihren IQ-Test
+      - Wie schlau sind Sie?
+      - Schnelle & genaue Ergebnisse
+      - Wissenschaftlicher Test
+      - Echter Test, echte Ergebnisse
+      - Schlauer als Ihre Freunde?
+      descriptions:
+      - Sind Sie schlauer als der Durchschnitt? Machen Sie den Test und sehen Sie Ihr Ranking.
+      - Erhalten Sie schnelle, genaue IQ-Ergebnisse in unter 10 Minuten, direkt auf dem Handy.
+      - Wissenschaftlich entwickelter IQ-Test von Experten für präzise Ergebnisse.
+      - Tausende haben heute ihren IQ getestet. Finden Sie heraus, wo Sie genau stehen.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq test deutsch
+      match_type: BROAD
+    - text: intelligenztest
+      match_type: BROAD
+    - text: online intelligenztest
+      match_type: BROAD
+    - text: iq test kostenlos
+      match_type: BROAD
+    - text: kostenloser iq test
+      match_type: BROAD
+    - text: iq test online machen
+      match_type: BROAD
+    - text: iq score testen
+      match_type: BROAD
+    - text: begabungstest
+      match_type: BROAD
+    - text: intelligenztest kostenlos
+      match_type: BROAD
+    - text: intelligenz testen
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/de/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Offizielle Seite
+      - Ihr IQ in 20 Minuten
+      - Offizieller IQ-Test 2026
+      - Der genaue IQ-Test
+      - Wie schlau bin ich?
+      - Wie schlau sind Sie?
+      - Sparen Sie Ihr Geld
+      - Online Intelligenztest
+      descriptions:
+      - Haben Sie sich je gefragt, wie schlau Sie wirklich sind? Der Test liefert klare Antworten.
+      - Finden Sie heraus, ob Sie durchschnittlich oder hochbegabt sind. Schneller IQ-Test.
+      - Hören Sie auf zu raten. Messen Sie Ihre Intelligenz noch heute mit einem echten IQ-Test.
+      - Schließen Sie sich Tausenden an und erhalten Sie endlich Antworten auf Ihre Fragen.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: bin ich schlau
+      match_type: BROAD
+    - text: wie schlau bin ich
+      match_type: BROAD
+    - text: bin ich intelligent
+      match_type: BROAD
+    - text: wie intelligent bin ich
+      match_type: BROAD
+    - text: bin ich hochbegabt
+      match_type: BROAD
+    - text: bin ich dumm
+      match_type: BROAD
+    - text: habe ich einen hohen iq
+      match_type: BROAD
+    - text: hochbegabung test
+      match_type: BROAD

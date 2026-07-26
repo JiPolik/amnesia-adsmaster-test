@@ -1,0 +1,100 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_cs_spiritanimal__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: Types
+  values:
+  - Medvěd
+  - Kočka
+  - Delfín
+  - Orel
+  - Lev
+  - Narval
+  - Sova
+  - Had
+  - Jednorožec
+  - Vlk
+  language: CZECH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_spiritanimal__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Bär
+  - Katze
+  - Delfin
+  - Adler
+  - Löwe
+  - Narwal
+  - Eule
+  - Schlange
+  - Einhorn
+  - Wolf
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_spiritanimal__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Bear
+  - Cat
+  - Dolphin
+  - Eagle
+  - Lion
+  - Narwhale
+  - Owl
+  - Snake
+  - Unicorn
+  - Wolf
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_spiritanimal__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Beer
+  - Kat
+  - Dolfijn
+  - Adelaar
+  - Leeuw
+  - Narwal
+  - Uil
+  - Slang
+  - Eenhoorn
+  - Wolf
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_spiritanimal__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Bjørn
+  - Katt
+  - Delfin
+  - Narhval
+  - Slange
+  - Enhjørning
+  language: NORWEGIAN

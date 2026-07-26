@@ -1,0 +1,1349 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Анализ на разузнаването
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Създаден от експерти
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Забавен и труден
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Резултати веднага
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Тест за мобилни
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Защитен уебсайт
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Anàlisi de puntuació
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dissenyat per experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Divertit i desafiant
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultats a l'instant
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test per a mòbils
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Lloc web segur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Přehledné rozdělení skóre
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Navrženo odborníky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zábavné a náročné
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Okamžité výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Optimalizováno pro mobily
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zabezpečený web
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Detaljeret score
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Udviklet af eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sjov og udfordrende
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Øjeblikkelige svar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvenlig test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker hjemmeside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Detaillierte Analyse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Von Experten entwickelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Spaßig und fordernd
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sofortige Ergebnisse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilfreundlicher Test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sichere Webseite
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Smart Score Breakdown
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Fun and Challenging
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Desglose de puntuación
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Diseñado por expertos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Divertido y desafiante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados al instante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test apto para móviles
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio web seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Desglose de Resultados
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Diseñado por Expertos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Divertido y Desafiante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados al Instante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Prueba para Celulares
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Web Seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Desglose de Resultados
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Diseñado por Expertos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Divertido y Desafiante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados al Instante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Prueba para Celulares
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_esus_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Web Seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Detailne analüüs
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertide koostatud
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Lõbus ja arendav
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tulemused kohe
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobiilisõbralik test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvaline veebileht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tarkka pisteytys
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Asiantuntijoiden luoma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Hauska ja haastava
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tulokset heti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Toimii mobiilissa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvallinen sivusto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Détail du score
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Conçu par des experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Amusant et stimulant
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Résultats instantanés
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test compatible mobile
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site web sécurisé
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Analiza rezultata
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dizajnirali stručnjaci
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zabavno i izazovno
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Trenutni rezultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test za mobitele
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sigurna web stranica
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Részletes elemzés
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Szakértők tervezték
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Szórakoztató és nehéz
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Azonnali eredmények
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilbarát teszt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Biztonságos weboldal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ítarleg greining
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Hannað af sérfræðingum
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Gaman og krefjandi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Niðurstöður strax
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Virkar í síma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Örugg vefsíða
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Išsami analizė
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sukurtas ekspertų
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Smagus ir įdomus
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Rezultatai iškart
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Testas mobiliesiems
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Saugi svetainė
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Detalizēts vērtējums
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertu izstrādāts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Jautri un izaicinoši
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tūlītēji rezultāti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Testi mobilajiem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Droša vietne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Slimme score-analyse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Door experts gemaakt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Leuk en uitdagend
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Direct resultaat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobielvriendelijk
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Veilige website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Detaljert poengoversikt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Utviklet av eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Morsom og utfordrende
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Umiddelbare resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvennlig test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Detalhe do resultado
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Criado por especialistas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Divertido e desafiante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados imediatos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Teste compatível móvel
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Analiză detaliată
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Creat de experți
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Distractiv și provocator
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Rezultate instante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test optimizat mobil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Website securizat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Razčlenitev rezultata
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Oblikovali strokovnjaki
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zabavno in zahtevno
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takojšnji rezultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Test za mobilne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Varno spletno mesto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Детаљна анализа
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Дизајнирали стручњаци
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Забавно и изазовно
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Тренутни резултати
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Тест за мобилне
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Сигуран веб-сајт
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tydlig resultatöversikt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Utformat av experter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Roligt och utmanande
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Omedelbara resultat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvänligt test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Säker webbplats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_iq__breakdown
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Detaylı Puan Analizi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_iq__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Uzmanlarca Hazırlandı
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_iq__fun_challenging
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Eğlenceli ve Zorlu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_iq__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Anında Sonuçlar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_iq__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobil Uyumlu Test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_iq__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Güvenli Web Sitesi

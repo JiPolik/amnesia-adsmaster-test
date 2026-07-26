@@ -1,0 +1,72 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_cari_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: caribbean
+  ad_extension_refs:
+  - callout_en_psychopath__assessment
+  - callout_en_psychopath__experts
+  - callout_en_psychopath__instant
+  - callout_en_psychopath__minutes
+  - callout_en_psychopath__mobile_friendly
+  - callout_en_psychopath__secure
+  - efaq_business_name
+  - sitelink_en_psychopath__callous_unemotional
+  - sitelink_en_psychopath__dark_triad
+  - sitelink_en_psychopath__emotional_detachment
+  - sitelink_en_psychopath__generic
+  - sitelink_en_psychopath__lack_of_empathy
+  - sitelink_en_psychopath__manipulation_deceit
+  - sitelink_en_psychopath__superficial_charm
+  - sitelink_en_psychopath__what_is_psychopathy
+  - snip_en_psychopath__types
+spec:
+  budget_daily_usd: 1000.0
+  ad_sets:
+  - name: psychopath
+    keywords:
+    - text: psychopath test
+      match_type: BROAD
+    - text: am i a psychopath
+      match_type: BROAD
+    - text: am i a sociopath
+      match_type: BROAD
+    - text: psychopath
+      match_type: BROAD
+    - text: sociopath
+      match_type: BROAD
+    - text: psychopath quiz
+      match_type: BROAD
+    - text: psychopathy test
+      match_type: BROAD
+    - text: sociopath test
+      match_type: BROAD
+    - text: what is psychopathy
+      match_type: BROAD
+    - text: signs of a psychopath
+      match_type: BROAD
+    - text: psychopath traits
+      match_type: BROAD
+    - text: dark triad test
+      match_type: BROAD
+    - text: dark triad
+      match_type: BROAD
+    - text: callous unemotional traits
+      match_type: BROAD
+    - text: lack of empathy test
+      match_type: BROAD
+    - text: lack of empathy
+      match_type: BROAD
+    - text: emotional detachment test
+      match_type: BROAD
+    - text: superficial charm
+      match_type: BROAD
+    - text: manipulation and deceit
+      match_type: BROAD
+    - text: antisocial personality test
+      match_type: BROAD
+    - text: sociopath traits
+      match_type: BROAD

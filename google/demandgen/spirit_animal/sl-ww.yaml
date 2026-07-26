@@ -1,0 +1,27 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: sl_ww_goog_dg_efaq_spiritanimal
+  platform: google_demand_gen
+  vertical: spirit_animal
+  extends: spirit_animal_dg_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: multiasset
+    ad_templates:
+    - name: brunette_wolf
+      destination_url: https://efaq.com/sl/spirit-animal/lp/quiz
+      headlines:
+      - Odkrij svojo duhovno žival
+      - Odkrij svojo pravo naravo
+      - Spoznaj svojo notranjo žival
+      - Katera žival si ti?
+      - Tvoja duhovna žival te čaka
+      descriptions:
+      - V tebi je divja plat. Odkrij svojo duhovno žival zdaj.
+      - Tvoji instinkti povedo več, kot misliš. Najdi svojo žival.
+      - Si miren, odločen ali divji? Razkrij svojo pravo naravo.
+      - Hiter in močan kviz za odkrivanje tvoje notranje živali.

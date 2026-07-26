@@ -1,0 +1,151 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: is_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_is_career__experts
+  - callout_is_career__instant
+  - callout_is_career__minutes
+  - callout_is_career__mobile_friendly
+  - callout_is_career__plan_future
+  - callout_is_career__secure
+  - callout_is_career__strengths
+  - efaq_business_name
+  - sitelink_is_career__ai
+  - sitelink_is_career__career_change
+  - sitelink_is_career__fit
+  - sitelink_is_career__generic
+  - sitelink_is_career__graduates
+  - sitelink_is_career__how_it_works
+  - sitelink_is_career__plan_future
+  - sitelink_is_career__science
+  - sitelink_is_career__strengths
+  - sitelink_is_career__students
+  - sitelink_is_career__what_is
+  - snip_is_career__services
+  - snip_is_career__styles
+  - snip_is_career__types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/is/career/lp/quiz
+      headlines:
+      - EFAQ.com - Opinber síða
+      - Ekki eyða peningum
+      - Starfsvalspróf
+      - Uppgötvaðu draumastarfið
+      - Hvaða starf hentar þér?
+      - Finndu styrkleika þína
+      - Starfspróf fyrir alla
+      - Próf um faglega styrkleika
+      - Í röngu starfi?
+      - Uppgötvaðu þinn vinnustíl
+      - Finndu draumastarfið
+      - Getum við spáð um feril?
+      - 5 mínútna starfspróf
+      - '#1 Starfsvalspróf'
+      - Skiptu um starf af öryggi
+      descriptions:
+      - Uppgötvaðu hvaða starf hentar þínum styrkleikum, færni og áhugasviði með starfsvalsprófi.
+      - Fáðu persónulegar hugmyndir að starfsferli byggðar á styrkleikum þínum og vinnustíl.
+      - Ertu að hugsa um að skipta um starf? Skoðaðu nýjar leiðir sem henta þér betur.
+      - Taktu rannsóknarmiðað starfsvalspróf okkar og fáðu persónulega starfsráðgjöf.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: starfsvalspróf
+      match_type: BROAD
+    - text: starfspróf
+      match_type: BROAD
+    - text: hvaða starf hentar mér
+      match_type: BROAD
+    - text: starfsráðgjöf
+      match_type: BROAD
+    - text: áhugasviðspróf
+      match_type: BROAD
+    - text: finna draumastarfið
+      match_type: BROAD
+    - text: hvað á ég að verða
+      match_type: BROAD
+    - text: val á námi
+      match_type: BROAD
+    - text: námsval
+      match_type: BROAD
+    - text: starfsferill
+      match_type: BROAD
+    - text: skipta um starf
+      match_type: BROAD
+    - text: hæfnispróf
+      match_type: BROAD

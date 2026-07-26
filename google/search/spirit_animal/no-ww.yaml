@@ -1,0 +1,122 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: no_ww_goog_s_efaq_spiritanimal
+  platform: google_search
+  vertical: spirit_animal
+  extends: spirit_animal_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_no_spiritanimal__experts
+  - callout_no_spiritanimal__find
+  - callout_no_spiritanimal__guide
+  - callout_no_spiritanimal__instant
+  - callout_no_spiritanimal__minutes
+  - callout_no_spiritanimal__mobile_friendly
+  - callout_no_spiritanimal__secure
+  - efaq_business_name
+  - sitelink_no_spiritanimal__bear
+  - sitelink_no_spiritanimal__cat
+  - sitelink_no_spiritanimal__dolphin
+  - sitelink_no_spiritanimal__eagle
+  - sitelink_no_spiritanimal__generic
+  - sitelink_no_spiritanimal__how
+  - sitelink_no_spiritanimal__lion
+  - sitelink_no_spiritanimal__narwhale
+  - sitelink_no_spiritanimal__owl
+  - sitelink_no_spiritanimal__snake
+  - sitelink_no_spiritanimal__unicorn
+  - sitelink_no_spiritanimal__what
+  - sitelink_no_spiritanimal__wolf
+  - snip_no_spiritanimal__types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 12.0
+  ad_sets:
+  - name: spirit_animal
+    ad_templates:
+    - name: spirit_animal__rsa
+      destination_url: https://efaq.com/no/spirit-animal/lp/quiz
+      headlines:
+      - EFAQ.com - Offisiell side
+      - Ikke kast bort pengene
+      - Quizen alle tar
+      - Åndedyr-quiz
+      - Finn ditt åndedyr
+      - Oppdag ditt åndedyr
+      - Hvem er din dyreveileder?
+      - Ditt åndedyr venter
+      - Ta åndedyr-quizen
+      - Oppdag din dyreånd
+      - Møt din åndelige beskytter
+      - Tør du møte din dyriske side?
+      descriptions:
+      - Oppdag åndedyret som reflekterer dine skjulte styrker og din natur.
+      - Avslør dyret i deg – din guide til personlighet og formål. Ditt åndedyr.
+      - Lurer du på hvilket dyr du er på innsiden? Denne quizen avslører din ville side.
+      - Morsom, rask og skremmende nøyaktig – se hvilket åndedyr som matcher din sjel.
+    keywords:
+    - text: spirit animal quiz
+      match_type: BROAD
+    - text: spirit animal quiz free
+      match_type: BROAD
+    - text: free spirit animal quiz
+      match_type: BROAD
+    - text: spirit animal test
+      match_type: BROAD
+    - text: spirit animal test free
+      match_type: BROAD
+    - text: free spirit animal test
+      match_type: BROAD
+    - text: what is my spirit animal
+      match_type: BROAD
+    - text: what's my spirit animal
+      match_type: BROAD
+    - text: whats my spirit animal
+      match_type: BROAD
+    - text: what animal am i
+      match_type: BROAD
+    - text: what animal am i quiz
+      match_type: BROAD
+    - text: my spirit animal
+      match_type: BROAD
+    - text: spirit animal
+      match_type: BROAD
+    - text: how to find your spirit animal
+      match_type: BROAD
+    - text: find your spirit animal
+      match_type: BROAD
+    - text: find spirit animal
+      match_type: BROAD
+    - text: what is my spiritual animal
+      match_type: BROAD
+    - text: what is my spirit animal test
+      match_type: BROAD
+    - text: what animal would i be
+      match_type: BROAD
+    - text: your spirit animal
+      match_type: BROAD
+    - text: spirit animal finder
+      match_type: BROAD
+    - text: åndedyr quiz
+      match_type: BROAD
+    - text: gratis åndedyr quiz
+      match_type: BROAD
+    - text: åndedyr test
+      match_type: BROAD
+    - text: hva er mitt åndedyr
+      match_type: BROAD
+    - text: hvilket dyr er jeg
+      match_type: BROAD
+    - text: mitt åndedyr
+      match_type: BROAD
+    - text: åndedyr
+      match_type: BROAD
+    - text: finn ditt åndedyr
+      match_type: BROAD
+    - text: hvilket dyr er jeg quiz
+      match_type: BROAD
+    - text: kraftdyr
+      match_type: BROAD
+    - text: totemdyr
+      match_type: BROAD

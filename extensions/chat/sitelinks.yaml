@@ -1,0 +1,83 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_chat__chatgpt
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/chat/lp/chatgpt
+  title: Try Chat GPT
+  description1: Ask questions, get clear answers
+  description2: Fast, helpful AI chat anytime
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_chat__claude_opus
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/chat/lp/claude
+  title: Try Claude
+  description1: Thoughtful, safe AI conversations
+  description2: Great for writing and analysis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_chat__deepseek
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/chat/lp/deepseek
+  title: Try DeepSeek
+  description1: Advanced reasoning for tough tasks
+  description2: Explore deeper AI thinking
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_chat__gemini
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/chat/lp/gemini
+  title: Try Gemini
+  description1: Powerful AI assistance
+  description2: Smart answers across topics
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_chat__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/chat/lp/chat
+  title: Try AI Chat
+  description1: See what our AI can do
+  description2: Ask AI anytime
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_chat__grok
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/chat/lp/grok
+  title: Try Grok
+  description1: Real-time insights and answers
+  description2: Stay informed with AI chat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_chat__llama
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/chat/lp/llama
+  title: Try Llama
+  description1: Open AI models you can trust
+  description2: Fast, flexible AI conversations

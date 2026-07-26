@@ -1,0 +1,221 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: cs_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_cs_personality__experts
+  - callout_cs_personality__instant
+  - callout_cs_personality__minutes
+  - callout_cs_personality__mobile_friendly
+  - callout_cs_personality__secure
+  - callout_cs_personality__sixteen
+  - efaq_business_name
+  - sitelink_cs_personality__generic
+  - sitelink_cs_personality__introverts_extroverts
+  - sitelink_cs_personality__rare
+  - sitelink_cs_personality__science
+  - sitelink_cs_personality__sixteen_types
+  - sitelink_cs_personality__traits
+  - sitelink_cs_personality__what_is
+  - snip_cs_personality__types
+spec:
+  budget_daily_usd: 900.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/cs/personality/lp/quiz
+      headlines:
+      - EFAQ.com – Oficiální web
+      - Nevyhazujte peníze
+      - Test osobnostního typu
+      - Jaký je váš typ osobnosti?
+      - Rychlý test 16 osobností
+      - ENTJ nebo ENFP? Zkuste to
+      - Jste INTJ nebo INFP?
+      - Logika nebo emoce?
+      - 5minutový test osobnosti
+      - Nejlépe hodnocený test
+      descriptions:
+      - Odpovězte na otázky a objevte svůj typ osobnosti a své silné stránky.
+      - Jste introvert nebo extrovert? Zjistěte více pomocí našeho osobnostního kvízu.
+      - Zjistěte, jak váš typ osobnosti ovlivňuje vaše chování a vztahy.
+      - Objevte svůj typ osobnosti a získejte přehled o svých silných a slabých stránkách.
+    keywords:
+    - text: personality test
+      match_type: BROAD
+    - text: personality type test
+      match_type: BROAD
+    - text: free personality test
+      match_type: BROAD
+    - text: free personality type test
+      match_type: BROAD
+    - text: personality test free
+      match_type: BROAD
+    - text: personality type test free
+      match_type: BROAD
+    - text: mbti test
+      match_type: BROAD
+    - text: mbti test free
+      match_type: BROAD
+    - text: free mbti test
+      match_type: BROAD
+    - text: myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs personality test free
+      match_type: BROAD
+    - text: free myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs test
+      match_type: BROAD
+    - text: myers briggs test free
+      match_type: BROAD
+    - text: free myers briggs test
+      match_type: BROAD
+    - text: psychological test
+      match_type: BROAD
+    - text: psychological test free
+      match_type: BROAD
+    - text: free psychological test
+      match_type: BROAD
+    - text: psychological test online
+      match_type: BROAD
+    - text: enneagram test
+      match_type: BROAD
+    - text: enneagram test free
+      match_type: BROAD
+    - text: free enneagram test
+      match_type: BROAD
+    - text: online personality test
+      match_type: BROAD
+    - text: 16 personalities test
+      match_type: BROAD
+    - text: personality quiz
+      match_type: BROAD
+    - text: personality type quiz
+      match_type: BROAD
+    - text: free personality quiz
+      match_type: BROAD
+    - text: free personality type quiz
+      match_type: BROAD
+    - text: personality quiz free
+      match_type: BROAD
+    - text: personality type quiz free
+      match_type: BROAD
+    - text: mbti quiz
+      match_type: BROAD
+    - text: mbti quiz free
+      match_type: BROAD
+    - text: free mbti quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz free
+      match_type: BROAD
+    - text: free myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs quiz
+      match_type: BROAD
+    - text: myers briggs quiz free
+      match_type: BROAD
+    - text: free myers briggs quiz
+      match_type: BROAD
+    - text: psychological quiz
+      match_type: BROAD
+    - text: psychological quiz free
+      match_type: BROAD
+    - text: free psychological quiz
+      match_type: BROAD
+    - text: psychological quiz online
+      match_type: BROAD
+    - text: enneagram quiz
+      match_type: BROAD
+    - text: enneagram quiz free
+      match_type: BROAD
+    - text: free enneagram quiz
+      match_type: BROAD
+    - text: online personality quiz
+      match_type: BROAD
+    - text: 16 personalities quiz
+      match_type: BROAD
+    - text: 16 personality types
+      match_type: BROAD
+    - text: personality type
+      match_type: BROAD
+    - text: personality types
+      match_type: BROAD
+    - text: mbti
+      match_type: BROAD
+    - text: mbti free
+      match_type: BROAD
+    - text: free mbti
+      match_type: BROAD
+    - text: istj
+      match_type: BROAD
+    - text: isfj
+      match_type: BROAD
+    - text: infj
+      match_type: BROAD
+    - text: intj
+      match_type: BROAD
+    - text: istp
+      match_type: BROAD
+    - text: isfp
+      match_type: BROAD
+    - text: infp
+      match_type: BROAD
+    - text: intp
+      match_type: BROAD
+    - text: estp
+      match_type: BROAD
+    - text: esfp
+      match_type: BROAD
+    - text: enfp
+      match_type: BROAD
+    - text: entp
+      match_type: BROAD
+    - text: estj
+      match_type: BROAD
+    - text: esfj
+      match_type: BROAD
+    - text: enfj
+      match_type: BROAD
+    - text: entj
+      match_type: BROAD
+    - text: test osobnosti
+      match_type: BROAD
+    - text: test osobnosti zdarma
+      match_type: BROAD
+    - text: osobnostní test
+      match_type: BROAD
+    - text: osobnostní test zdarma
+      match_type: BROAD
+    - text: test osobnosti online
+      match_type: BROAD
+    - text: test 16 osobností
+      match_type: BROAD
+    - text: 16 osobností
+      match_type: BROAD
+    - text: mbti test česky
+      match_type: BROAD
+    - text: mbti test zdarma
+      match_type: BROAD
+    - text: test myers briggs zdarma
+      match_type: BROAD
+    - text: kvíz osobnosti
+      match_type: BROAD
+    - text: osobnostní kvíz
+      match_type: BROAD
+    - text: jaký jsem typ
+      match_type: BROAD
+    - text: typ osobnosti
+      match_type: BROAD
+    - text: typy osobnosti
+      match_type: BROAD
+    - text: enneagram test česky
+      match_type: BROAD

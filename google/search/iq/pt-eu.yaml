@@ -1,0 +1,121 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: pt_eu_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: europe
+  ad_extension_refs:
+  - callout_ptpt_iq__breakdown
+  - callout_ptpt_iq__experts
+  - callout_ptpt_iq__fun_challenging
+  - callout_ptpt_iq__instant
+  - callout_ptpt_iq__mobile_friendly
+  - callout_ptpt_iq__secure
+  - efaq_business_name
+  - sitelink_ptpt_iq__am_i_gifted
+  - sitelink_ptpt_iq__can_you_improve
+  - sitelink_ptpt_iq__generic
+  - sitelink_ptpt_iq__students
+  - sitelink_ptpt_iq__what_is_iq
+  - snip_ptpt_iq__test_types
+spec:
+  budget_daily_usd: 900.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/pt/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Site Oficial
+      - Teste o seu QI em 20 minutos
+      - Teste de QI Oficial 2026
+      - O teste de QI mais preciso
+      - Não desperdice o seu dinheiro
+      - Comece já o teste de QI
+      - Quão inteligente é?
+      - Resultados rápidos e precisos
+      - Teste criado cientificamente
+      - Teste real de QI, resultados
+      - Mais inteligente que amigos?
+      descriptions:
+      - Acha que é mais inteligente que a média? Faça o teste e descubra o seu nível real.
+      - Resultados de QI rápidos e precisos em menos de 10 minutos, em qualquer dispositivo.
+      - Teste de QI cientificamente desenvolvido e utilizado por especialistas em avaliação.
+      - Junte-se a milhares que já testaram o QI e veja exatamente como se posiciona.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: teste de qi
+      match_type: BROAD
+    - text: teste de qi online
+      match_type: BROAD
+    - text: teste de qi gratis
+      match_type: BROAD
+    - text: teste de inteligencia
+      match_type: BROAD
+    - text: qual é o meu qi
+      match_type: BROAD
+    - text: quão inteligente sou
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/pt/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Site Oficial
+      - Teste o seu QI em 20 minutos
+      - Teste de QI Oficial 2026
+      - O teste de QI mais preciso
+      - Sou inteligente?
+      - Quão inteligente é?
+      - Não desperdice o seu dinheiro
+      - Teste de inteligência online
+      descriptions:
+      - Já se perguntou quão inteligente é realmente? Faça o teste e obtenha respostas claras.
+      - Descubra se o seu QI é médio, elevado ou acima da média com resultados rápidos.
+      - Pare de adivinhar e meça a sua inteligência com um teste de QI fiável.
+      - Milhares já fizeram o teste de QI. Veja agora onde se posiciona.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: sou inteligente
+      match_type: BROAD
+    - text: quão inteligente sou
+      match_type: BROAD
+    - text: sou sobredotado
+      match_type: BROAD
+    - text: tenho qi alto
+      match_type: BROAD

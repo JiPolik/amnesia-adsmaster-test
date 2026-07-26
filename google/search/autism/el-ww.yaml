@@ -1,0 +1,118 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: el_ww_goog_s_efaq_autism
+  platform: google_search
+  vertical: autism
+  extends: autism_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_el_autism__assessment
+  - callout_el_autism__experts
+  - callout_el_autism__instant
+  - callout_el_autism__minutes
+  - callout_el_autism__mobile_friendly
+  - callout_el_autism__secure
+  - efaq_business_name
+  - sitelink_el_autism__aspergers
+  - sitelink_el_autism__behavioral
+  - sitelink_el_autism__generic
+  - sitelink_el_autism__indicators
+  - sitelink_el_autism__interests
+  - sitelink_el_autism__savant
+  - sitelink_el_autism__spectrum
+  - sitelink_el_autism__whatis
+  - snip_el_autism__types
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 25.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/el/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Επίσημο Site
+      - Online Τεστ Αυτισμού
+      - Αξιολόγηση Αυτισμού
+      - Ξεκινήστε Το Τεστ Αυτισμού
+      - Τι Είναι Ο Αυτισμός;
+      - Δωρεάν Τεστ Αυτισμού
+      descriptions:
+      - Κάντε ένα γρήγορο online τεστ αυτισμού και δείτε τα κοινά χαρακτηριστικά του φάσματος.
+      - Δείτε πού μπορεί να βρίσκεστε στο φάσμα του αυτισμού με αυτή την online αξιολόγηση.
+      - Αναρωτιέστε αν έχετε αυτισμό; Κάντε αυτό το γρήγορο online τεστ αξιολόγησης τώρα.
+      - Ένα γρήγορο online τεστ αυτισμού σχεδιασμένο για σαφήνεια και καλύτερη κατανόηση.
+    keywords:
+    - text: autism test
+      match_type: BROAD
+    - text: what is autism
+      match_type: BROAD
+    - text: autism test for adults
+      match_type: BROAD
+    - text: am i autistic
+      match_type: BROAD
+    - text: autism spectrum test
+      match_type: BROAD
+    - text: autism test free
+      match_type: BROAD
+    - text: do i have autism
+      match_type: BROAD
+    - text: autism quiz
+      match_type: BROAD
+    - text: adult autism test
+      match_type: BROAD
+    - text: autism test online
+      match_type: BROAD
+    - text: signs of autism
+      match_type: BROAD
+    - text: signs of autism in adults
+      match_type: BROAD
+    - text: autism screening test
+      match_type: BROAD
+    - text: adult autism symptoms
+      match_type: BROAD
+    - text: autism symptoms
+      match_type: BROAD
+    - text: online autism assessment
+      match_type: BROAD
+    - text: asperger test
+      match_type: BROAD
+    - text: aspergers test
+      match_type: BROAD
+    - text: free autism test
+      match_type: BROAD
+    - text: τεστ αυτισμου
+      match_type: BROAD
+    - text: τι ειναι ο αυτισμος
+      match_type: BROAD
+    - text: τεστ αυτισμου για ενηλικες
+      match_type: BROAD
+    - text: εχω αυτισμο
+      match_type: BROAD
+    - text: τεστ φασματος αυτισμου
+      match_type: BROAD
+    - text: δωρεαν τεστ αυτισμου
+      match_type: BROAD
+    - text: μηπως εχω αυτισμο
+      match_type: BROAD
+    - text: κουιζ αυτισμου
+      match_type: BROAD
+    - text: τεστ αυτισμου ενηλικων
+      match_type: BROAD
+    - text: online τεστ αυτισμου
+      match_type: BROAD
+    - text: σημαδια αυτισμου
+      match_type: BROAD
+    - text: σημαδια αυτισμου σε ενηλικες
+      match_type: BROAD
+    - text: συμπτωματα αυτισμου
+      match_type: BROAD
+    - text: συμπτωματα αυτισμου ενηλικων
+      match_type: BROAD
+    - text: τεστ ασπεργκερ
+      match_type: BROAD
+    - text: τεστ asperger
+      match_type: BROAD
+    - text: διαγνωση αυτισμου online
+      match_type: BROAD
