@@ -1,0 +1,215 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: el_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_el_personality__experts
+  - callout_el_personality__instant
+  - callout_el_personality__minutes
+  - callout_el_personality__mobile_friendly
+  - callout_el_personality__secure
+  - callout_el_personality__sixteen
+  - efaq_business_name
+  - sitelink_el_personality__generic
+  - sitelink_el_personality__introverts_extroverts
+  - sitelink_el_personality__rare
+  - sitelink_el_personality__science
+  - sitelink_el_personality__sixteen_types
+  - sitelink_el_personality__traits
+  - sitelink_el_personality__what_is
+  - snip_el_personality__types
+spec:
+  budget_daily_usd: 1200.0
+  target_cpa_usd: 17.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/el/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Επίσημο Site
+      - Μην Ξοδεύετε Χρήματα
+      - Τεστ Προσωπικότητας
+      - Ποιος Είναι ο Τύπος Σου;
+      - Γρήγορο Τεστ 16 Τύπων
+      - ENTJ ή ENFP; Κάνε το Τεστ
+      - Είσαι INTJ ή INFP;
+      - Λογική ή Συναίσθημα;
+      - 5λεπτο Τεστ Προσωπικότητας
+      - 'Το #1 Τεστ Προσωπικότητας'
+      descriptions:
+      - Απάντησε στις ερωτήσεις για να ανακαλύψεις τον τύπο προσωπικότητας και τις δυνάμεις σου.
+      - Είσαι εσωστρεφής ή εξωστρεφής; Μάθε περισσότερα με το κουίζ προσωπικότητάς μας.
+      - Μάθε πώς ο τύπος προσωπικότητας επηρεάζει τη συμπεριφορά και τις σχέσεις σου.
+      - Ανακάλυψε τον τύπο σου και απόκτησε εικόνα για τα δυνατά και αδύνατα σημεία σου.
+    keywords:
+    - text: personality test
+      match_type: BROAD
+    - text: personality type test
+      match_type: BROAD
+    - text: free personality test
+      match_type: BROAD
+    - text: free personality type test
+      match_type: BROAD
+    - text: personality test free
+      match_type: BROAD
+    - text: personality type test free
+      match_type: BROAD
+    - text: mbti test
+      match_type: BROAD
+    - text: mbti test free
+      match_type: BROAD
+    - text: free mbti test
+      match_type: BROAD
+    - text: myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs personality test free
+      match_type: BROAD
+    - text: free myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs test
+      match_type: BROAD
+    - text: myers briggs test free
+      match_type: BROAD
+    - text: free myers briggs test
+      match_type: BROAD
+    - text: psychological test
+      match_type: BROAD
+    - text: psychological test free
+      match_type: BROAD
+    - text: free psychological test
+      match_type: BROAD
+    - text: psychological test online
+      match_type: BROAD
+    - text: enneagram test
+      match_type: BROAD
+    - text: enneagram test free
+      match_type: BROAD
+    - text: free enneagram test
+      match_type: BROAD
+    - text: online personality test
+      match_type: BROAD
+    - text: 16 personalities test
+      match_type: BROAD
+    - text: personality quiz
+      match_type: BROAD
+    - text: personality type quiz
+      match_type: BROAD
+    - text: free personality quiz
+      match_type: BROAD
+    - text: free personality type quiz
+      match_type: BROAD
+    - text: personality quiz free
+      match_type: BROAD
+    - text: personality type quiz free
+      match_type: BROAD
+    - text: mbti quiz
+      match_type: BROAD
+    - text: mbti quiz free
+      match_type: BROAD
+    - text: free mbti quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz free
+      match_type: BROAD
+    - text: free myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs quiz
+      match_type: BROAD
+    - text: myers briggs quiz free
+      match_type: BROAD
+    - text: free myers briggs quiz
+      match_type: BROAD
+    - text: psychological quiz
+      match_type: BROAD
+    - text: psychological quiz free
+      match_type: BROAD
+    - text: free psychological quiz
+      match_type: BROAD
+    - text: psychological quiz online
+      match_type: BROAD
+    - text: enneagram quiz
+      match_type: BROAD
+    - text: enneagram quiz free
+      match_type: BROAD
+    - text: free enneagram quiz
+      match_type: BROAD
+    - text: online personality quiz
+      match_type: BROAD
+    - text: 16 personalities quiz
+      match_type: BROAD
+    - text: 16 personality types
+      match_type: BROAD
+    - text: personality type
+      match_type: BROAD
+    - text: personality types
+      match_type: BROAD
+    - text: mbti
+      match_type: BROAD
+    - text: mbti free
+      match_type: BROAD
+    - text: free mbti
+      match_type: BROAD
+    - text: istj
+      match_type: BROAD
+    - text: isfj
+      match_type: BROAD
+    - text: infj
+      match_type: BROAD
+    - text: intj
+      match_type: BROAD
+    - text: istp
+      match_type: BROAD
+    - text: isfp
+      match_type: BROAD
+    - text: infp
+      match_type: BROAD
+    - text: intp
+      match_type: BROAD
+    - text: estp
+      match_type: BROAD
+    - text: esfp
+      match_type: BROAD
+    - text: enfp
+      match_type: BROAD
+    - text: entp
+      match_type: BROAD
+    - text: estj
+      match_type: BROAD
+    - text: esfj
+      match_type: BROAD
+    - text: enfj
+      match_type: BROAD
+    - text: entj
+      match_type: BROAD
+    - text: τεστ προσωπικοτητας
+      match_type: BROAD
+    - text: τεστ προσωπικότητας
+      match_type: BROAD
+    - text: δωρεαν τεστ προσωπικοτητας
+      match_type: BROAD
+    - text: τεστ mbti
+      match_type: BROAD
+    - text: τεστ myers briggs
+      match_type: BROAD
+    - text: τεστ χαρακτηρα
+      match_type: BROAD
+    - text: 16 προσωπικοτητες
+      match_type: BROAD
+    - text: τεστ 16 προσωπικοτητων
+      match_type: BROAD
+    - text: κουιζ προσωπικοτητας
+      match_type: BROAD
+    - text: τυποι προσωπικοτητας
+      match_type: BROAD
+    - text: τεστ εννεαγραμμα
+      match_type: BROAD
+    - text: τεστ προσωπικοτητας online
+      match_type: BROAD
+    - text: ποιος ειναι ο χαρακτηρας μου
+      match_type: BROAD

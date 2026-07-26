@@ -1,0 +1,130 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: lv_ww_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_lv_psychopath__assessment
+  - callout_lv_psychopath__experts
+  - callout_lv_psychopath__instant
+  - callout_lv_psychopath__minutes
+  - callout_lv_psychopath__mobile_friendly
+  - callout_lv_psychopath__secure
+  - efaq_business_name
+  - sitelink_lv_psychopath__callous_unemotional
+  - sitelink_lv_psychopath__dark_triad
+  - sitelink_lv_psychopath__emotional_detachment
+  - sitelink_lv_psychopath__generic
+  - sitelink_lv_psychopath__lack_of_empathy
+  - sitelink_lv_psychopath__manipulation_deceit
+  - sitelink_lv_psychopath__superficial_charm
+  - sitelink_lv_psychopath__what_is_psychopathy
+  - snip_lv_psychopath__types
+spec:
+  budget_daily_usd: 1000.0
+  ad_sets:
+  - name: psychopath
+    ad_templates:
+    - name: psychopath__rsa
+      destination_url: https://efaq.com/lv/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Oficiālā vietne
+      - Aizpildiet psihopātijas testu
+      - Vai esmu psihopāts? Uzziniet
+      - Bezmaksas psihopātijas tests
+      - Psihopātijas pašnovērtējums
+      - Vai jūs esat sociopāts?
+      - Tumšās triādes tests
+      - Saņemiet rezultātus tūlīt
+      - Ekspertu izstrādāts tests
+      - Ātrs un konfidenciāls tests
+      - Atklājiet savas iezīmes šodien
+      descriptions:
+      - Aizpildiet mūsu bezmaksas pašnovērtējumu. Atbildiet uz jautājumiem un saņemiet rezultātus.
+      - Ekspertu izstrādāts tests, kas balstīts uz klīniskiem pētījumiem. Novērtējiet iezīmes.
+      - Uzziniet, kur atrodaties psihopātijas spektrā. Konfidenciāli rezultāti dažu minūšu laikā.
+      - Izpētiet psihopātiskās iezīmes, tumšo triādi un daudz ko citu. Aizpildiet mūsu testu.
+    keywords:
+    - text: psychopath test
+      match_type: BROAD
+    - text: am i a psychopath
+      match_type: BROAD
+    - text: am i a sociopath
+      match_type: BROAD
+    - text: psychopath
+      match_type: BROAD
+    - text: sociopath
+      match_type: BROAD
+    - text: psychopath quiz
+      match_type: BROAD
+    - text: psychopathy test
+      match_type: BROAD
+    - text: sociopath test
+      match_type: BROAD
+    - text: what is psychopathy
+      match_type: BROAD
+    - text: signs of a psychopath
+      match_type: BROAD
+    - text: psychopath traits
+      match_type: BROAD
+    - text: dark triad test
+      match_type: BROAD
+    - text: dark triad
+      match_type: BROAD
+    - text: callous unemotional traits
+      match_type: BROAD
+    - text: lack of empathy test
+      match_type: BROAD
+    - text: lack of empathy
+      match_type: BROAD
+    - text: emotional detachment test
+      match_type: BROAD
+    - text: superficial charm
+      match_type: BROAD
+    - text: manipulation and deceit
+      match_type: BROAD
+    - text: antisocial personality test
+      match_type: BROAD
+    - text: sociopath traits
+      match_type: BROAD
+    - text: psihopātijas tests
+      match_type: BROAD
+    - text: vai es esmu psihopāts
+      match_type: BROAD
+    - text: vai es esmu sociopāts
+      match_type: BROAD
+    - text: psihopāts
+      match_type: BROAD
+    - text: sociopāts
+      match_type: BROAD
+    - text: psihopāta tests
+      match_type: BROAD
+    - text: sociopātijas tests
+      match_type: BROAD
+    - text: sociopāta tests
+      match_type: BROAD
+    - text: kas ir psihopātija
+      match_type: BROAD
+    - text: psihopāta pazīmes
+      match_type: BROAD
+    - text: psihopāta iezīmes
+      match_type: BROAD
+    - text: tumšās triādes tests
+      match_type: BROAD
+    - text: tumšā triāde
+      match_type: BROAD
+    - text: empātijas trūkuma tests
+      match_type: BROAD
+    - text: empātijas trūkums
+      match_type: BROAD
+    - text: emocionālā atsvešinātība
+      match_type: BROAD
+    - text: manipulācija un viltus
+      match_type: BROAD
+    - text: antisociālas personības tests
+      match_type: BROAD
+    - text: sociopāta iezīmes
+      match_type: BROAD

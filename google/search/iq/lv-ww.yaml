@@ -1,0 +1,137 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: lv_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_lv_iq__breakdown
+  - callout_lv_iq__experts
+  - callout_lv_iq__fun_challenging
+  - callout_lv_iq__instant
+  - callout_lv_iq__mobile_friendly
+  - callout_lv_iq__secure
+  - efaq_business_name
+  - sitelink_lv_iq__am_i_gifted
+  - sitelink_lv_iq__can_you_improve
+  - sitelink_lv_iq__generic
+  - sitelink_lv_iq__students
+  - sitelink_lv_iq__what_is_iq
+  - snip_lv_iq__test_types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 12.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/lv/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Oficiālā vietne
+      - Pārbaudiet IQ 20 minūtēs
+      - Oficiālais IQ tests 2026
+      - Precīzākais IQ tests
+      - Netērējiet naudu velti
+      - Sāciet savu IQ testu
+      - Cik gudrs jūs esat?
+      - Ātri un precīzi rezultāti
+      - Zinātniski izstrādāts
+      - Īsts tests, īsti rezultāti
+      - Gudrāks par draugiem?
+      descriptions:
+      - Domājat, ka esat gudrāks par vidējo? Veiciet testu un uzziniet savu patieso reitingu.
+      - Saņemiet ātrus un precīzus IQ rezultātus telefonā mazāk nekā 10 minūšu laikā.
+      - Zinātniski izstrādāts IQ tests, kam uzticas eksperti, lai sniegtu precīzus rezultātus.
+      - Pievienojieties tūkstošiem cilvēku, kuri šodien pārbaudīja savu IQ līmeni.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq test latviski
+      match_type: BROAD
+    - text: iq testu
+      match_type: BROAD
+    - text: iq tests
+      match_type: BROAD
+    - text: iq tests online
+      match_type: BROAD
+    - text: iq tests bezmaksas
+      match_type: BROAD
+    - text: bezmaksas iq tests
+      match_type: BROAD
+    - text: intelekta tests
+      match_type: BROAD
+    - text: iq līmenis
+      match_type: BROAD
+    - text: pārbaudīt iq
+      match_type: BROAD
+    - text: ātrs iq tests
+      match_type: BROAD
+    - text: intelekta koeficients
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/lv/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Oficiālā vietne
+      - Pārbaudiet IQ 20 minūtēs
+      - Oficiālais IQ tests 2026
+      - Precīzākais IQ tests
+      - Cik gudrs es esmu?
+      - Cik gudrs jūs esat?
+      - Netērējiet naudu velti
+      - Intelekta tests tiešsaistē
+      descriptions:
+      - Vai esat domājis, cik gudrs patiesībā esat? Veiciet testu un saņemiet skaidras atbildes.
+      - Uzziniet, vai esat apdāvināts vai virs vidējā līmeņa. Ātri un precīzi IQ rezultāti.
+      - Pārtrauciet minēt. Izmēriet savu inteliģenci ar īstu IQ testu. Uzziniet rezultātu tūlīt.
+      - Pievienojieties tūkstošiem cilvēku, kuri uzdeva šo jautājumu un saņēma atbildes.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: cik gudrs es esmu
+      match_type: BROAD
+    - text: vai es esmu gudrs
+      match_type: BROAD
+    - text: vai es esmu inteliģents
+      match_type: BROAD
+    - text: vai esmu apdāvināts
+      match_type: BROAD
+    - text: vai esmu stulbs
+      match_type: BROAD
+    - text: intelekta pārbaude
+      match_type: BROAD
+    - text: prāta spējas tests
+      match_type: BROAD

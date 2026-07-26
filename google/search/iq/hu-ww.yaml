@@ -1,0 +1,143 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: hu_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_hu_iq__breakdown
+  - callout_hu_iq__experts
+  - callout_hu_iq__fun_challenging
+  - callout_hu_iq__instant
+  - callout_hu_iq__mobile_friendly
+  - callout_hu_iq__secure
+  - efaq_business_name
+  - sitelink_hu_iq__am_i_gifted
+  - sitelink_hu_iq__can_you_improve
+  - sitelink_hu_iq__generic
+  - sitelink_hu_iq__students
+  - sitelink_hu_iq__what_is_iq
+  - snip_hu_iq__test_types
+spec:
+  budget_daily_usd: 800.0
+  target_cpa_usd: 14.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/hu/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Hivatalos Oldal
+      - IQ-teszt 20 perc alatt
+      - Hivatalos IQ-teszt 2026
+      - A legpontosabb IQ-teszt
+      - Ne pazarolja a pénzét
+      - IQ-teszt indítása
+      - Mennyire vagy okos?
+      - Gyors és pontos eredmény
+      - Tudományos alapú teszt
+      - Valós teszt és eredmény
+      - Okosabb, mint a barátai?
+      descriptions:
+      - Okosabbnak hiszi magát az átlagnál? Töltse ki a tesztet, és tudja meg a valódi szintjét.
+      - Gyors és pontos IQ-eredmények 10 perc alatt, bármikor, közvetlenül a telefonján.
+      - Szakértők által tervezett, tudományos IQ-teszt a pontos eredményekért.
+      - Csatlakozzon a több ezer tesztelőhöz, és tudja meg pontosan, hol áll a rangsorban.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq teszt
+      match_type: BROAD
+    - text: iq teszt online
+      match_type: BROAD
+    - text: iq teszt ingyen
+      match_type: BROAD
+    - text: intelligencia teszt
+      match_type: BROAD
+    - text: ingyenes iq teszt
+      match_type: BROAD
+    - text: online iq teszt
+      match_type: BROAD
+    - text: iq mérés
+      match_type: BROAD
+    - text: iq meres
+      match_type: BROAD
+    - text: iq szintem
+      match_type: BROAD
+    - text: iq szint mérés
+      match_type: BROAD
+    - text: iq szint meres
+      match_type: BROAD
+    - text: gyors iq teszt
+      match_type: BROAD
+    - text: hiteles iq teszt
+      match_type: BROAD
+    - text: mennyi az iq-m
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/hu/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Hivatalos Oldal
+      - IQ-teszt 20 perc alatt
+      - Hivatalos IQ-teszt 2026
+      - A legpontosabb IQ-teszt
+      - Mennyire vagyok okos?
+      - Mennyire vagy okos?
+      - Ne pazarolja a pénzét
+      - Online intelligencia teszt
+      descriptions:
+      - Gondolkodott már azon, mennyire okos valójában? Tesztelje le és kapjon tiszta választ.
+      - Tudja meg, átlagos, tehetséges vagy átlag feletti-e. Gyors, pontos IQ-eredmények.
+      - Ne találgasson. Mérje le intelligenciáját egy valódi IQ-teszttel. Kérje pontszámát.
+      - Csatlakozzon több ezer emberhez, akik feltették ezt a kérdést és választ kaptak.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: okos vagyok
+      match_type: BROAD
+    - text: mennyire vagyok okos
+      match_type: BROAD
+    - text: intelligens vagyok e
+      match_type: BROAD
+    - text: tehetséges vagyok e
+      match_type: BROAD
+    - text: tehetseges vagyok e
+      match_type: BROAD
+    - text: tehetseges vagyok
+      match_type: BROAD
+    - text: buta vagyok e
+      match_type: BROAD

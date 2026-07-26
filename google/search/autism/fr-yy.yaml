@@ -1,0 +1,118 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fr_yy_goog_s_efaq_autism
+  platform: google_search
+  vertical: autism
+  extends: autism_search_tmpl
+  geo_preset_ref: anglosphere
+  ad_extension_refs:
+  - callout_fr_autism__assessment
+  - callout_fr_autism__experts
+  - callout_fr_autism__instant
+  - callout_fr_autism__minutes
+  - callout_fr_autism__mobile_friendly
+  - callout_fr_autism__secure
+  - efaq_business_name
+  - sitelink_fr_autism__aspergers
+  - sitelink_fr_autism__behavioral
+  - sitelink_fr_autism__generic
+  - sitelink_fr_autism__indicators
+  - sitelink_fr_autism__interests
+  - sitelink_fr_autism__savant
+  - sitelink_fr_autism__spectrum
+  - sitelink_fr_autism__whatis
+  - snip_fr_autism__types
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: autism
+    ad_templates:
+    - name: autism__rsa
+      destination_url: https://efaq.com/fr/autism/lp/quiz
+      headlines:
+      - eFAQ.com - Site Officiel
+      - Test d'Autisme en Ligne
+      - Auto-Évaluation Autisme
+      - Dépistage de l'Autisme
+      - Qu'est-ce que l'Autisme ?
+      - Test du Spectre Autistique
+      descriptions:
+      - Faites un dépistage rapide en ligne et explorez les traits liés au spectre de l'autisme.
+      - Découvrez où vous vous situez sur le spectre autistique avec cette auto-évaluation.
+      - Vous vous demandez si vous êtes autiste ? Faites ce test de dépistage rapide en ligne.
+      - Un dépistage de l'autisme en ligne rapide, conçu pour la clarté et la compréhension.
+    keywords:
+    - text: autism test
+      match_type: BROAD
+    - text: what is autism
+      match_type: BROAD
+    - text: autism test for adults
+      match_type: BROAD
+    - text: am i autistic
+      match_type: BROAD
+    - text: autism spectrum test
+      match_type: BROAD
+    - text: autism test free
+      match_type: BROAD
+    - text: do i have autism
+      match_type: BROAD
+    - text: autism quiz
+      match_type: BROAD
+    - text: adult autism test
+      match_type: BROAD
+    - text: autism test online
+      match_type: BROAD
+    - text: signs of autism
+      match_type: BROAD
+    - text: signs of autism in adults
+      match_type: BROAD
+    - text: autism screening test
+      match_type: BROAD
+    - text: adult autism symptoms
+      match_type: BROAD
+    - text: autism symptoms
+      match_type: BROAD
+    - text: online autism assessment
+      match_type: BROAD
+    - text: asperger test
+      match_type: BROAD
+    - text: aspergers test
+      match_type: BROAD
+    - text: free autism test
+      match_type: BROAD
+    - text: test autisme
+      match_type: BROAD
+    - text: qu'est ce que l'autisme
+      match_type: BROAD
+    - text: test autisme adulte
+      match_type: BROAD
+    - text: suis je autiste
+      match_type: BROAD
+    - text: test spectre de l'autisme
+      match_type: BROAD
+    - text: test autisme gratuit
+      match_type: BROAD
+    - text: est ce que je suis autiste
+      match_type: BROAD
+    - text: quiz autisme
+      match_type: BROAD
+    - text: test autisme en ligne
+      match_type: BROAD
+    - text: signes autisme
+      match_type: BROAD
+    - text: signes autisme adulte
+      match_type: BROAD
+    - text: dépistage autisme
+      match_type: BROAD
+    - text: symptomes autisme adulte
+      match_type: BROAD
+    - text: symptomes autisme
+      match_type: BROAD
+    - text: évaluation autisme en ligne
+      match_type: BROAD
+    - text: test asperger
+      match_type: BROAD
+    - text: test syndrome d'asperger
+      match_type: BROAD

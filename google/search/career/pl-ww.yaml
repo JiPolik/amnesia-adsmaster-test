@@ -1,0 +1,157 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: pl_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_pl_career__experts
+  - callout_pl_career__instant
+  - callout_pl_career__minutes
+  - callout_pl_career__mobile_friendly
+  - callout_pl_career__plan_future
+  - callout_pl_career__secure
+  - callout_pl_career__strengths
+  - efaq_business_name
+  - sitelink_pl_career__ai
+  - sitelink_pl_career__career_change
+  - sitelink_pl_career__fit
+  - sitelink_pl_career__generic
+  - sitelink_pl_career__graduates
+  - sitelink_pl_career__how_it_works
+  - sitelink_pl_career__plan_future
+  - sitelink_pl_career__science
+  - sitelink_pl_career__strengths
+  - sitelink_pl_career__students
+  - sitelink_pl_career__what_is
+  - snip_pl_career__services
+  - snip_pl_career__styles
+  - snip_pl_career__types
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 13.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/pl/career/lp/quiz
+      headlines:
+      - EFAQ.com - Oficjalna strona
+      - Nie marnuj pieniędzy
+      - Test predyspozycji
+      - Odkryj idealną karierę
+      - Jaka praca pasuje?
+      - Znajdź atuty szybko
+      - Quiz kariery dla każdego
+      - Profesjonalny test atutów
+      - Utknąłeś w złej pracy?
+      - Odkryj styl pracy
+      - Znajdź pracę marzeń
+      - Przewidziimy Twoją pracę?
+      - 5-minutowy quiz kariery
+      - Najlepszy test kariery
+      - Zmień zawód pewnie
+      descriptions:
+      - Odkryj, która kariera pasuje do Twoich atutów i umiejętności dzięki naszemu testowi.
+      - Otrzymaj spersonalizowane pomysły na karierę oparte na Twojej osobowości i stylu pracy.
+      - Myślisz o zmianie zawodu? Odkryj nowe ścieżki, które lepiej do Ciebie pasują.
+      - Zrób nasz oparty na badaniach test predyspozycji i uzyskaj osobistą poradę.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: test kariery
+      match_type: BROAD
+    - text: test predyspozycji zawodowych
+      match_type: BROAD
+    - text: test kompetencji
+      match_type: BROAD
+    - text: darmowy test kariery
+      match_type: BROAD
+    - text: jaka praca do mnie pasuje
+      match_type: BROAD
+    - text: jaki zawód wybrać
+      match_type: BROAD
+    - text: test zawodowy online
+      match_type: BROAD
+    - text: doradztwo zawodowe test
+      match_type: BROAD
+    - text: kierunek studiów test
+      match_type: BROAD
+    - text: quiz zawodowy
+      match_type: BROAD
+    - text: wymarzona praca
+      match_type: BROAD
+    - text: ścieżka kariery test
+      match_type: BROAD
+    - text: zmiana zawodu test
+      match_type: BROAD
+    - text: predyspozycje zawodowe
+      match_type: BROAD
+    - text: test wyboru zawodu
+      match_type: BROAD

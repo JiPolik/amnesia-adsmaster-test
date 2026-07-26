@@ -1,0 +1,167 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: it_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_it_career__experts
+  - callout_it_career__instant
+  - callout_it_career__minutes
+  - callout_it_career__mobile_friendly
+  - callout_it_career__plan_future
+  - callout_it_career__secure
+  - callout_it_career__strengths
+  - efaq_business_name
+  - sitelink_it_career__ai
+  - sitelink_it_career__career_change
+  - sitelink_it_career__fit
+  - sitelink_it_career__generic
+  - sitelink_it_career__graduates
+  - sitelink_it_career__how_it_works
+  - sitelink_it_career__plan_future
+  - sitelink_it_career__science
+  - sitelink_it_career__strengths
+  - sitelink_it_career__students
+  - sitelink_it_career__what_is
+  - snip_it_career__services
+  - snip_it_career__styles
+  - snip_it_career__types
+spec:
+  budget_daily_usd: 600.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/it/career/lp/quiz
+      headlines:
+      - EFAQ.com - Sito Ufficiale
+      - Non Sprecare il Tuo Denaro
+      - Test Attitudinale Carriera
+      - Scopri il Tuo Lavoro Ideale
+      - Qual è il Lavoro per Te?
+      - Trova i Tuoi Talenti Svelto
+      - Quiz Carriera per Tutti
+      - Test Professionale Online
+      - Bloccato nel Lavoro Errato?
+      - Scopri il Tuo Stile di Lavoro
+      - Trova il Lavoro dei Sogni
+      - Prevediamo la Tua Carriera?
+      - Quiz Carriera in 5 Minuti
+      - Test Carriera n. 1
+      - Cambia Lavoro con Fiducia
+      descriptions:
+      - Scopri quale carriera si adatta ai tuoi talenti e abilità con il nostro test attitudinale.
+      - Ottieni idee di carriera personalizzate basate sulla tua personalità e stile di lavoro.
+      - Stai pensando di cambiare carriera? Esplora nuovi percorsi adatti a te.
+      - Fai il nostro test di attitudine basato sulla ricerca e ricevi consigli personalizzati.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: test carriera
+      match_type: BROAD
+    - text: test attitudinale lavoro
+      match_type: BROAD
+    - text: orientamento professionale
+      match_type: BROAD
+    - text: test carriera gratis
+      match_type: BROAD
+    - text: quiz lavoro ideale
+      match_type: BROAD
+    - text: test attitudinale online
+      match_type: BROAD
+    - text: trovare lavoro ideale
+      match_type: BROAD
+    - text: test professione adatta
+      match_type: BROAD
+    - text: cambiare carriera test
+      match_type: BROAD
+    - text: orientamento laurea
+      match_type: BROAD
+    - text: test attitudinale carriera
+      match_type: BROAD
+    - text: test orientamento lavoro
+      match_type: BROAD
+    - text: quale lavoro fa per me
+      match_type: BROAD
+    - text: test competenze lavorative
+      match_type: BROAD
+    - text: test scelta carriera
+      match_type: BROAD
+    - text: test lavoro ideale online
+      match_type: BROAD
+    - text: test inclinazioni professionali
+      match_type: BROAD
+    - text: test vocazionale
+      match_type: BROAD
+    - text: consigli carriera online
+      match_type: BROAD
+    - text: test per scegliere lavoro
+      match_type: BROAD

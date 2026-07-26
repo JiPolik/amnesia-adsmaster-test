@@ -7,14 +7,13 @@ and reconciles them to Google Ads. Dashboard budget/bid edits flow back here as 
 ## Layout
 
 ```
-_base.yaml                                   # global CampaignTemplate `efaq_base` (universal defaults)
 .amnesia/config.yml                          # v2 RepoConfig: Google account + credentials
 geo/<file>.yaml                              # GeoPreset + GeoBlocklist docs
 feeds/<file>.yaml                            # CreativeFeed docs
 google/search/<vertical>/<locale>.yaml       # Search: Campaign (thin extends + delta)
-google/search/<vertical>/_template*.yaml     # Search: per-vertical CampaignTemplate (extends efaq_base)
+google/search/<vertical>/_template*.yaml     # Search: per-vertical CampaignTemplate (self-contained defaults)
 google/demandgen/<vertical>/<locale>.yaml    # Demand Gen: Campaign (thin extends + delta)
-google/demandgen/<vertical>/_template*.yaml  # Demand Gen: per-vertical CampaignTemplate (extends efaq_base)
+google/demandgen/<vertical>/_template*.yaml  # Demand Gen: per-vertical CampaignTemplate (self-contained defaults)
 ```
 
 Each doc carries its `(platform, vertical)` scope in `metadata.platform` / `metadata.vertical`
@@ -26,22 +25,24 @@ ignored by the sync.
 
 ## Campaign templates (`extends`, AMS-426 / AMS-444)
 
-The corpus is fully **base-anchored**. A single global, unscoped `_base.yaml`
-(`kind: CampaignTemplate`, name `efaq_base`) holds the universal defaults every campaign shares —
-`objective`, `status`, and the `ad_set_defaults` / `ad_template_defaults` blocks. One
-per-(platform, vertical) `_template*.yaml` sits above it (`metadata.extends: efaq_base`) and authors
+The corpus is fully **template-anchored** with a **2-tier** model. Each per-(platform, vertical)
+`_template*.yaml` (`kind: CampaignTemplate`) is **self-contained**: it carries the universal defaults
+inline (`objective`, `status`, and the `ad_set_defaults` / `ad_template_defaults` blocks) and authors
 that vertical's shared `ad_sets` / `ad_templates` tree (headlines, descriptions, `creative_feed_ref`,
 `destination_url`) once. Every concrete `Campaign` then `extends` its vertical template and shrinks
 to a thin delta: `metadata.geo_preset_ref` plus a flat `spec` (`budget_daily_usd`, `target_cpa_usd`),
 overriding locale-specific copy only where it diverges from the template (keyed by ad-set /
 ad-template `name`).
 
-The extends chain is therefore **`Campaign → <vertical> _template → _base.yaml`**. git-sync expands
-each `Campaign` back into its full `Campaign + AdSet(s) + AdTemplate(s)` tree before reconciliation,
-so the **materialized output is byte-identical** to the pre-template corpus (machine-verified by
-`tools/verify_byte_equivalence.py`). All 187 campaigns now extend a template — no standalone
-campaigns remain — collapsing the corpus onto 23 templates (22 per-vertical + the shared base) and
-eliminating every byte-duplicated ad tree.
+The extends chain is therefore **`Campaign → <vertical> _template`**. The earlier global, unscoped
+`_base.yaml` (`efaq_base`) tier was removed; its universal defaults (`objective`, `status`,
+`ad_set_defaults`, `ad_template_defaults`) are now inlined onto each of the 22 per-vertical templates
+(materialized output verified byte-identical across the removal).
+git-sync expands each `Campaign` back into its full `Campaign + AdSet(s) + AdTemplate(s)` tree before
+reconciliation, so the **materialized output is byte-identical** to the pre-template corpus
+(machine-verified by `tools/verify_byte_equivalence.py`). All 187 campaigns extend a template — no
+standalone campaigns remain — collapsing the corpus onto 22 per-vertical templates and eliminating
+every byte-duplicated ad tree.
 
 ## Provenance
 
@@ -56,10 +57,15 @@ one-line change at the cutover (AMS-84).
 The converter dropped the following legacy field classes (they are not representable in v2 today;
 re-adding any of them to prod is a separate schema-extension ticket):
 
-- `keywords` (Search match data — no v2 keyword kind yet). Ad extensions (`sitelinks`, `callouts`,
-  `structured_snippets`) now have a v2 git surface via `kind: AdExtension` (AMS-428), but this
-  corpus does not yet author any.
-- `network_settings`, `campaign_group`, `campaign_images`, `multi_size_image_set`
+- `keywords`: **migrated** — the legacy ad_group `keywords` were migrated corpus-wide into
+  ad_set `spec.ad_sets[].keywords[]` (AMS-458).
+- **Ad extensions** (`sitelinks`, `callouts`, `structured_snippets`, `business_name`): **migrated** —
+  authored as `kind: AdExtension` docs under [`extensions/<vertical>/`](extensions/) (AMS-428) and
+  attached to campaigns via `metadata.ad_extension_refs` (AMS-458 Phase 2). The `IMAGE` extension
+  family is deferred — its schema needs an `s3_key` (Spaces object) the legacy config doesn't carry.
+  The full old→new field-coverage record lives at
+  [`docs/audit/ads-field-coverage.md`](docs/audit/ads-field-coverage.md) (46 migrated / 24 dropped / 9 needs-backend).
+- `network_settings`, `contains_eu_political_advertising` (need a backend schema slot); `campaign_group`
 - Demand Gen ads with a 5th+ description: truncated to the schema cap of 4 (source order preserved)
 - **Geo targeting on non-ISO region codes**: resolved by AMS-414 (see below) for all codes
   except `PRESET_DXG_CARIBBEAN_ENGLISH_MARKETS` (3 campaigns — country list exists nowhere
@@ -83,10 +89,10 @@ tROAS (`maximize_conversion_value`) campaigns.
 ## Inventory
 
 Counts below are **materialized** entities (after `extends` expansion). The repo authors 187
-`Campaign` (all thin `extends` deltas) + 23 `CampaignTemplate` (22 per-vertical + the shared
-`efaq_base`); `AdSet` / `AdTemplate` trees are no longer standalone docs — they live inline in the
-templates (and in the few campaigns with locale-specific copy overrides) and materialize on
-expansion. Plus 16 `CreativeFeed`, 13 `GeoPreset`, and 1 `GeoBlocklist`.
+`Campaign` (all thin `extends` deltas) + 22 per-vertical `CampaignTemplate`; `AdSet` / `AdTemplate`
+trees are no longer standalone docs — they live inline in the templates (and in the few campaigns
+with locale-specific copy overrides) and materialize on expansion. Plus 16 `CreativeFeed`,
+13 `GeoPreset`, and 1 `GeoBlocklist`.
 
 **google/search** — 171 campaigns / 207 ad-sets / 207 ad-templates
 

@@ -6,6 +6,64 @@ metadata:
   vertical: autism
   extends: autism_search_tmpl
   geo_preset_ref: us
+  ad_extension_refs:
+  - callout_en_autism__assessment
+  - callout_en_autism__experts
+  - callout_en_autism__instant
+  - callout_en_autism__minutes
+  - callout_en_autism__mobile_friendly
+  - callout_en_autism__secure
+  - efaq_business_name
+  - sitelink_en_autism__aspergers
+  - sitelink_en_autism__behavioral
+  - sitelink_en_autism__generic
+  - sitelink_en_autism__indicators
+  - sitelink_en_autism__interests
+  - sitelink_en_autism__savant
+  - sitelink_en_autism__spectrum
+  - sitelink_en_autism__whatis
+  - snip_en_autism__types
 spec:
   budget_daily_usd: 3000.0
   target_cpa_usd: 20.0
+  ad_sets:
+  - name: autism
+    keywords:
+    - text: autism test
+      match_type: BROAD
+    - text: what is autism
+      match_type: BROAD
+    - text: autism test for adults
+      match_type: BROAD
+    - text: am i autistic
+      match_type: BROAD
+    - text: autism spectrum test
+      match_type: BROAD
+    - text: autism test free
+      match_type: BROAD
+    - text: do i have autism
+      match_type: BROAD
+    - text: autism quiz
+      match_type: BROAD
+    - text: adult autism test
+      match_type: BROAD
+    - text: autism test online
+      match_type: BROAD
+    - text: signs of autism
+      match_type: BROAD
+    - text: signs of autism in adults
+      match_type: BROAD
+    - text: autism screening test
+      match_type: BROAD
+    - text: adult autism symptoms
+      match_type: BROAD
+    - text: autism symptoms
+      match_type: BROAD
+    - text: online autism assessment
+      match_type: BROAD
+    - text: asperger test
+      match_type: BROAD
+    - text: aspergers test
+      match_type: BROAD
+    - text: free autism test
+      match_type: BROAD

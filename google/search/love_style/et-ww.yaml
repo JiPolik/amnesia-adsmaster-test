@@ -1,0 +1,142 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: et_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_et_lovestyle__experts
+  - callout_et_lovestyle__find_your
+  - callout_et_lovestyle__improve
+  - callout_et_lovestyle__instant
+  - callout_et_lovestyle__mobile_friendly
+  - callout_et_lovestyle__secure
+  - efaq_business_name
+  - sitelink_et_lovestyle__generic
+  - sitelink_et_lovestyle__heartbreak
+  - sitelink_et_lovestyle__improve_relationship
+  - sitelink_et_lovestyle__what_are
+  - sitelink_et_lovestyle__what_is
+  - snip_et_lovestyle__types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 14.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/et/love-style/lp/quiz
+      headlines:
+      - EFAQ.com – Ametlik leht
+      - Ära raiska raha
+      - Milline on sinu stiil?
+      - Parim armastuse test 2026
+      - Tee armastuse stiili test
+      - Avasta oma armastuse stiil
+      - Kuidas näitad armastust?
+      - Armastuse test paaridele
+      - Paranda oma suhet
+      - Armasta paremini
+      - Mõista teise vajadusi
+      - Mida su süda vajab?
+      - Ole parem partner täna
+      - 5 min armastuse test
+      - '#1 armastuse stiili test'
+      descriptions:
+      - 'Avasta oma armastuse stiil: Tee test ja saa teada, kuidas sa täna armastust välja näitad.'
+      - Kasuta meie lühikest testi, et leida oma armastuse stiil ja parandada oma suhet.
+      - Õpi oma partnerit paremini armastama, mõistes oma armastuse stiili.
+      - Muuda oma suhet meie teaduslikult koostatud armastuse stiili testiga.
+    keywords:
+    - text: love language test
+      match_type: BROAD
+    - text: love language quiz
+      match_type: BROAD
+    - text: love language test online
+      match_type: BROAD
+    - text: love language quiz online
+      match_type: BROAD
+    - text: love language test free
+      match_type: BROAD
+    - text: love language quiz free
+      match_type: BROAD
+    - text: free love language test
+      match_type: BROAD
+    - text: free love language quiz
+      match_type: BROAD
+    - text: 5 love languages
+      match_type: BROAD
+    - text: five love languages
+      match_type: BROAD
+    - text: love languages test
+      match_type: BROAD
+    - text: love languages quiz
+      match_type: BROAD
+    - text: what's my love language
+      match_type: BROAD
+    - text: whats my love language
+      match_type: BROAD
+    - text: what is my love language
+      match_type: BROAD
+    - text: love language
+      match_type: BROAD
+    - text: love languages
+      match_type: BROAD
+    - text: relationship quiz
+      match_type: BROAD
+    - text: love style test
+      match_type: BROAD
+    - text: love style quiz
+      match_type: BROAD
+    - text: love style test online
+      match_type: BROAD
+    - text: love style quiz online
+      match_type: BROAD
+    - text: love style test free
+      match_type: BROAD
+    - text: love style quiz free
+      match_type: BROAD
+    - text: free love style test
+      match_type: BROAD
+    - text: free love style quiz
+      match_type: BROAD
+    - text: 5 love styles
+      match_type: BROAD
+    - text: five love styles
+      match_type: BROAD
+    - text: love styles test
+      match_type: BROAD
+    - text: love styles quiz
+      match_type: BROAD
+    - text: what's my love style
+      match_type: BROAD
+    - text: whats my love style
+      match_type: BROAD
+    - text: what is my love style
+      match_type: BROAD
+    - text: love style
+      match_type: BROAD
+    - text: love styles
+      match_type: BROAD
+    - text: armastuse keeled test
+      match_type: BROAD
+    - text: 5 armastuse keelt
+      match_type: BROAD
+    - text: armastuse stiili test
+      match_type: BROAD
+    - text: suhte test
+      match_type: BROAD
+    - text: sobivuse test
+      match_type: BROAD
+    - text: milline on minu armastuse keel
+      match_type: BROAD
+    - text: tasuta armastuse test
+      match_type: BROAD
+    - text: test paaridele
+      match_type: BROAD
+    - text: armastuse keeled
+      match_type: BROAD
+    - text: suhte parandamine
+      match_type: BROAD

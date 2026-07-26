@@ -1,0 +1,143 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_licenseplate__accidents
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/license-plate/lp/accidents
+  title: Accident Records
+  description1: See reported accidents fast
+  description2: Damage and collision history
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_licenseplate__auction
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/license-plate/lp/auction-history
+  title: Auction History
+  description1: Check past auction listings
+  description2: Past sales and auction data
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_licenseplate__car_history
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/license-plate/lp/car-history
+  title: Car History Reports
+  description1: Full car history by plate
+  description2: Ownership, title, mileage
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_licenseplate__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/license-plate/lp/license-plate-lookup
+  title: License Plate Lookup
+  description1: Enter Any Plate and Hit Search
+  description2: Find detailed vehicle records
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_licenseplate__theft
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/license-plate/lp/theft
+  title: Stolen Vehicle Check
+  description1: Check if a vehicle was stolen
+  description2: Search theft records by plate
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_licenseplate__vehicle_history
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/license-plate/lp/vehicle-history
+  title: Vehicle History Reports
+  description1: Detailed vehicle history
+  description2: Accidents, owners, recalls
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_licenseplate__accidents
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/license-plate/lp/accidents
+  title: Historial de Accidentes
+  description1: Vea accidentes rápido
+  description2: Historial de daños
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_licenseplate__auction
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/license-plate/lp/auction-history
+  title: Historial de Subastas
+  description1: Revise listados pasados
+  description2: Datos de ventas pasadas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_licenseplate__car_history
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/license-plate/lp/car-history
+  title: Reporte Historial Carro
+  description1: Historial por placa
+  description2: Dueños, título, millas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_licenseplate__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/license-plate/lp/license-plate-lookup
+  title: Búsqueda de Placa
+  description1: Ingrese la Placa y Busque
+  description2: Vea registros detallados
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_licenseplate__theft
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/license-plate/lp/theft
+  title: Verificar Robo de Auto
+  description1: Revise si fue robado
+  description2: Busque robos por placa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_esus_licenseplate__vehicle_history
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-us/license-plate/lp/vehicle-history
+  title: Historial del Vehículo
+  description1: Historial detallado
+  description2: Accidentes y dueños

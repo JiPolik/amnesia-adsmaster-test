@@ -1,0 +1,303 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: no_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_no_iq__breakdown
+  - callout_no_iq__experts
+  - callout_no_iq__fun_challenging
+  - callout_no_iq__instant
+  - callout_no_iq__mobile_friendly
+  - callout_no_iq__secure
+  - efaq_business_name
+  - sitelink_no_iq__am_i_gifted
+  - sitelink_no_iq__can_you_improve
+  - sitelink_no_iq__generic
+  - sitelink_no_iq__students
+  - sitelink_no_iq__what_is_iq
+  - snip_no_iq__test_types
+spec:
+  budget_daily_usd: 3000.0
+  target_cpa_usd: 27.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/no/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Offisiell side
+      - Sjekk IQ-en på 20 minutter
+      - Offisiell IQ-test 2026
+      - Den mest presise IQ-testen
+      - Ikke kast bort pengene
+      - Start IQ-testen nå
+      - Hvor smart er du?
+      - Raske og presise resultater
+      - Vitenskapelig utviklet test
+      - Ekte IQ-test, ekte resultater
+      - Smartere enn vennene dine?
+      descriptions:
+      - Tror du at du er smartere enn snittet? Ta testen og se hvor du virkelig ligger.
+      - Få raske og nøyaktige IQ-resultater på under 10 minutter, rett på mobilen.
+      - Vitenskapelig utviklet IQ-test brukt av eksperter for presise resultater.
+      - Bli med tusenvis som har testet IQ-en sin og se nøyaktig hvordan du scorer.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq test norsk
+      match_type: BROAD
+    - text: iq test på nett
+      match_type: BROAD
+    - text: gratis iq test
+      match_type: BROAD
+    - text: iq test gratis
+      match_type: BROAD
+    - text: ta iq test
+      match_type: BROAD
+    - text: hva er min iq
+      match_type: BROAD
+    - text: hvor smart er jeg
+      match_type: BROAD
+    - text: iq quiz norsk
+      match_type: BROAD
+    - text: intelligens test
+      match_type: BROAD
+    - text: intelligens test på nett
+      match_type: BROAD
+    - text: online iq test norsk
+      match_type: BROAD
+    - text: iq test for studenter
+      match_type: BROAD
+    - text: er jeg begavet
+      match_type: BROAD
+    - text: høy iq test
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/no/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Offisiell side
+      - Sjekk IQ-en på 20 minutter
+      - Offisiell IQ-test 2026
+      - Den mest presise IQ-testen
+      - Hvor smart er jeg?
+      - Hvor smart er du?
+      - Ikke kast bort pengene
+      - Intelligenstest på nett
+      descriptions:
+      - Har du lurt på hvor smart du egentlig er? Ta testen og få klare svar.
+      - Finn ut om du er gjennomsnittlig, begavet eller over snittet. Rask IQ-test.
+      - Slutt å gjette. Mål intelligensen din med en ekte IQ-test i dag.
+      - Bli med tusenvis som stilte samme spørsmål og endelig fikk svar.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: er jeg smart
+      match_type: BROAD
+    - text: hvor smart er jeg
+      match_type: BROAD
+    - text: er jeg intelligent
+      match_type: BROAD
+    - text: hvor intelligent er jeg
+      match_type: BROAD
+    - text: er jeg begavet
+      match_type: BROAD
+    - text: er jeg dum
+      match_type: BROAD
+    - text: er jeg smart nok
+      match_type: BROAD
+    - text: hva er min iq
+      match_type: BROAD
+    - text: har jeg høy iq
+      match_type: BROAD
+    - text: iq test hvor smart
+      match_type: BROAD
+---
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: no_ww_goog_sn_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_no_iq__breakdown
+  - callout_no_iq__experts
+  - callout_no_iq__fun_challenging
+  - callout_no_iq__instant
+  - callout_no_iq__mobile_friendly
+  - callout_no_iq__secure
+  - efaq_business_name
+  - sitelink_no_iq__am_i_gifted
+  - sitelink_no_iq__can_you_improve
+  - sitelink_no_iq__generic
+  - sitelink_no_iq__students
+  - sitelink_no_iq__what_is_iq
+  - snip_no_iq__test_types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 20.0
+  network_settings:
+    enable_google_search: true
+    enable_search_network: true
+    enable_display_network: false
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/no/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Offisiell side
+      - Sjekk IQ-en på 20 minutter
+      - Offisiell IQ-test 2026
+      - Den mest presise IQ-testen
+      - Ikke kast bort pengene
+      - Start IQ-testen nå
+      - Hvor smart er du?
+      - Raske og presise resultater
+      - Vitenskapelig utviklet test
+      - Ekte IQ-test, ekte resultater
+      - Smartere enn vennene dine?
+      descriptions:
+      - Tror du at du er smartere enn snittet? Ta testen og se hvor du virkelig ligger.
+      - Få raske og nøyaktige IQ-resultater på under 10 minutter, rett på mobilen.
+      - Vitenskapelig utviklet IQ-test brukt av eksperter for presise resultater.
+      - Bli med tusenvis som har testet IQ-en sin og se nøyaktig hvordan du scorer.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq test norsk
+      match_type: BROAD
+    - text: iq test på nett
+      match_type: BROAD
+    - text: gratis iq test
+      match_type: BROAD
+    - text: iq test gratis
+      match_type: BROAD
+    - text: ta iq test
+      match_type: BROAD
+    - text: hva er min iq
+      match_type: BROAD
+    - text: hvor smart er jeg
+      match_type: BROAD
+    - text: iq quiz norsk
+      match_type: BROAD
+    - text: intelligens test
+      match_type: BROAD
+    - text: intelligens test på nett
+      match_type: BROAD
+    - text: online iq test norsk
+      match_type: BROAD
+    - text: iq test for studenter
+      match_type: BROAD
+    - text: er jeg begavet
+      match_type: BROAD
+    - text: høy iq test
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/no/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Offisiell side
+      - Sjekk IQ-en på 20 minutter
+      - Offisiell IQ-test 2026
+      - Den mest presise IQ-testen
+      - Hvor smart er jeg?
+      - Hvor smart er du?
+      - Ikke kast bort pengene
+      - Intelligenstest på nett
+      descriptions:
+      - Har du lurt på hvor smart du egentlig er? Ta testen og få klare svar.
+      - Finn ut om du er gjennomsnittlig, begavet eller over snittet. Rask IQ-test.
+      - Slutt å gjette. Mål intelligensen din med en ekte IQ-test i dag.
+      - Bli med tusenvis som stilte samme spørsmål og endelig fikk svar.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: er jeg smart
+      match_type: BROAD
+    - text: hvor smart er jeg
+      match_type: BROAD
+    - text: er jeg intelligent
+      match_type: BROAD
+    - text: hvor intelligent er jeg
+      match_type: BROAD
+    - text: er jeg begavet
+      match_type: BROAD
+    - text: er jeg dum
+      match_type: BROAD
+    - text: er jeg smart nok
+      match_type: BROAD
+    - text: hva er min iq
+      match_type: BROAD
+    - text: har jeg høy iq
+      match_type: BROAD
+    - text: iq test hvor smart
+      match_type: BROAD

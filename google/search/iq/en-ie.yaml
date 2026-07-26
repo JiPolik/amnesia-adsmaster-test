@@ -1,0 +1,64 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_ie_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: ie
+  ad_extension_refs:
+  - callout_en_iq__breakdown
+  - callout_en_iq__experts
+  - callout_en_iq__fun_challenging
+  - callout_en_iq__instant
+  - callout_en_iq__mobile_friendly
+  - callout_en_iq__secure
+  - efaq_business_name
+  - sitelink_en_iq__am_i_gifted
+  - sitelink_en_iq__can_you_improve
+  - sitelink_en_iq__generic
+  - sitelink_en_iq__students
+  - sitelink_en_iq__what_is_iq
+  - snip_en_iq__test_types
+spec:
+  budget_daily_usd: 2000.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: iq_test
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+  - name: am_i_smart
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD

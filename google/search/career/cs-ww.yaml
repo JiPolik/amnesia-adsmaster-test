@@ -1,0 +1,157 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: cs_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_cs_career__experts
+  - callout_cs_career__instant
+  - callout_cs_career__minutes
+  - callout_cs_career__mobile_friendly
+  - callout_cs_career__plan_future
+  - callout_cs_career__secure
+  - callout_cs_career__strengths
+  - efaq_business_name
+  - sitelink_cs_career__ai
+  - sitelink_cs_career__career_change
+  - sitelink_cs_career__fit
+  - sitelink_cs_career__generic
+  - sitelink_cs_career__graduates
+  - sitelink_cs_career__how_it_works
+  - sitelink_cs_career__plan_future
+  - sitelink_cs_career__science
+  - sitelink_cs_career__strengths
+  - sitelink_cs_career__students
+  - sitelink_cs_career__what_is
+  - snip_cs_career__services
+  - snip_cs_career__styles
+  - snip_cs_career__types
+spec:
+  budget_daily_usd: 900.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/cs/career/lp/quiz
+      headlines:
+      - EFAQ.com - Oficiální web
+      - Nevyhazujte peníze
+      - Test kariérních předpokladů
+      - Objevte ideální kariéru
+      - Jaká práce vám sedí?
+      - Najděte své silné stránky
+      - Kariérní kvíz pro každého
+      - Kvíz vašich silných stránek
+      - Zasekli jste se v kariéře?
+      - Objevte svůj pracovní styl
+      - Najděte práci snů
+      - Předpovíme vaši kariéru?
+      - 5minutový kariérní kvíz
+      - '#1 hodnocený test kariéry'
+      - Změňte kariéru s jistotou
+      descriptions:
+      - Zjistěte, která kariéra vám sedí dle vašich silných stránek a zájmů, pomocí našeho testu.
+      - Získejte nápady na kariéru na míru podle vaší osobnosti, silných stránek a stylu práce.
+      - Přemýšlíte o změně kariéry? Prozkoumejte nové cesty, které vám budou lépe vyhovovat.
+      - Vyzkoušejte náš test kariérních předpokladů a získejte osobní kariérní poradenství.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: test kariéry
+      match_type: BROAD
+    - text: test kariéry online
+      match_type: BROAD
+    - text: test kariéry zdarma
+      match_type: BROAD
+    - text: kariérní test
+      match_type: BROAD
+    - text: test profesní orientace
+      match_type: BROAD
+    - text: test profesního zaměření
+      match_type: BROAD
+    - text: jakou práci dělat
+      match_type: BROAD
+    - text: práce snů
+      match_type: BROAD
+    - text: test povolání
+      match_type: BROAD
+    - text: volba povolání test
+      match_type: BROAD
+    - text: kariérní poradenství test
+      match_type: BROAD
+    - text: jak vybrat kariéru
+      match_type: BROAD
+    - text: změna kariéry
+      match_type: BROAD
+    - text: test silných stránek
+      match_type: BROAD
+    - text: jak najít ideální práci
+      match_type: BROAD

@@ -1,0 +1,8 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: efaq_business_name
+spec:
+  schema_version: 1
+  type: BUSINESS_NAME
+  text: eFAQ.com

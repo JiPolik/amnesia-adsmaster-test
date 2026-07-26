@@ -1,0 +1,207 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: et_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_et_personality__experts
+  - callout_et_personality__instant
+  - callout_et_personality__minutes
+  - callout_et_personality__mobile_friendly
+  - callout_et_personality__secure
+  - callout_et_personality__sixteen
+  - efaq_business_name
+  - sitelink_et_personality__generic
+  - sitelink_et_personality__introverts_extroverts
+  - sitelink_et_personality__rare
+  - sitelink_et_personality__science
+  - sitelink_et_personality__sixteen_types
+  - sitelink_et_personality__traits
+  - sitelink_et_personality__what_is
+  - snip_et_personality__types
+spec:
+  budget_daily_usd: 800.0
+  target_cpa_usd: 17.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/et/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Ametlik leht
+      - Ära raiska oma raha
+      - Isiksusetüübi test
+      - Milline on sinu isiksus?
+      - Kiire 16 tüübi test
+      - ENTJ või ENFP? Tee test
+      - Oled sa INTJ või INFP?
+      - Loogika või emotsioon?
+      - 5-minutiline isiksusetest
+      - Kõrgelt hinnatud test
+      descriptions:
+      - Vasta küsimustele, et avastada oma isiksusetüüp ja peamised tugevused.
+      - Kas oled introvert või ekstravert? Saa teada meie isiksusetesti abil.
+      - Õpi, kuidas sinu isiksusetüüp mõjutab sinu käitumist ja suhteid.
+      - Avasta oma isiksusetüüp ning saa ülevaade oma tugevustest ja nõrkustest.
+    keywords:
+    - text: personality test
+      match_type: BROAD
+    - text: personality type test
+      match_type: BROAD
+    - text: free personality test
+      match_type: BROAD
+    - text: free personality type test
+      match_type: BROAD
+    - text: personality test free
+      match_type: BROAD
+    - text: personality type test free
+      match_type: BROAD
+    - text: mbti test
+      match_type: BROAD
+    - text: mbti test free
+      match_type: BROAD
+    - text: free mbti test
+      match_type: BROAD
+    - text: myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs personality test free
+      match_type: BROAD
+    - text: free myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs test
+      match_type: BROAD
+    - text: myers briggs test free
+      match_type: BROAD
+    - text: free myers briggs test
+      match_type: BROAD
+    - text: psychological test
+      match_type: BROAD
+    - text: psychological test free
+      match_type: BROAD
+    - text: free psychological test
+      match_type: BROAD
+    - text: psychological test online
+      match_type: BROAD
+    - text: enneagram test
+      match_type: BROAD
+    - text: enneagram test free
+      match_type: BROAD
+    - text: free enneagram test
+      match_type: BROAD
+    - text: online personality test
+      match_type: BROAD
+    - text: 16 personalities test
+      match_type: BROAD
+    - text: personality quiz
+      match_type: BROAD
+    - text: personality type quiz
+      match_type: BROAD
+    - text: free personality quiz
+      match_type: BROAD
+    - text: free personality type quiz
+      match_type: BROAD
+    - text: personality quiz free
+      match_type: BROAD
+    - text: personality type quiz free
+      match_type: BROAD
+    - text: mbti quiz
+      match_type: BROAD
+    - text: mbti quiz free
+      match_type: BROAD
+    - text: free mbti quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz free
+      match_type: BROAD
+    - text: free myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs quiz
+      match_type: BROAD
+    - text: myers briggs quiz free
+      match_type: BROAD
+    - text: free myers briggs quiz
+      match_type: BROAD
+    - text: psychological quiz
+      match_type: BROAD
+    - text: psychological quiz free
+      match_type: BROAD
+    - text: free psychological quiz
+      match_type: BROAD
+    - text: psychological quiz online
+      match_type: BROAD
+    - text: enneagram quiz
+      match_type: BROAD
+    - text: enneagram quiz free
+      match_type: BROAD
+    - text: free enneagram quiz
+      match_type: BROAD
+    - text: online personality quiz
+      match_type: BROAD
+    - text: 16 personalities quiz
+      match_type: BROAD
+    - text: 16 personality types
+      match_type: BROAD
+    - text: personality type
+      match_type: BROAD
+    - text: personality types
+      match_type: BROAD
+    - text: mbti
+      match_type: BROAD
+    - text: mbti free
+      match_type: BROAD
+    - text: free mbti
+      match_type: BROAD
+    - text: istj
+      match_type: BROAD
+    - text: isfj
+      match_type: BROAD
+    - text: infj
+      match_type: BROAD
+    - text: intj
+      match_type: BROAD
+    - text: istp
+      match_type: BROAD
+    - text: isfp
+      match_type: BROAD
+    - text: infp
+      match_type: BROAD
+    - text: intp
+      match_type: BROAD
+    - text: estp
+      match_type: BROAD
+    - text: esfp
+      match_type: BROAD
+    - text: enfp
+      match_type: BROAD
+    - text: entp
+      match_type: BROAD
+    - text: estj
+      match_type: BROAD
+    - text: esfj
+      match_type: BROAD
+    - text: enfj
+      match_type: BROAD
+    - text: entj
+      match_type: BROAD
+    - text: isiksusetest
+      match_type: BROAD
+    - text: isiksusetüübi test
+      match_type: BROAD
+    - text: tasuta isiksusetest
+      match_type: BROAD
+    - text: isiksuse test
+      match_type: BROAD
+    - text: isiksusetüübid
+      match_type: BROAD
+    - text: 16 isiksuse test
+      match_type: BROAD
+    - text: mbti test eesti keeles
+      match_type: BROAD
+    - text: isiksuse tüübid
+      match_type: BROAD
+    - text: isiksuseomaduste test
+      match_type: BROAD

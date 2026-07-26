@@ -1,0 +1,127 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_gb_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: gb
+  ad_extension_refs:
+  - callout_en_career__experts
+  - callout_en_career__instant
+  - callout_en_career__minutes
+  - callout_en_career__mobile_friendly
+  - callout_en_career__plan_future
+  - callout_en_career__secure
+  - callout_en_career__strengths
+  - efaq_business_name
+  - sitelink_en_career__ai
+  - sitelink_en_career__career_change
+  - sitelink_en_career__fit
+  - sitelink_en_career__generic
+  - sitelink_en_career__graduates
+  - sitelink_en_career__how_it_works
+  - sitelink_en_career__plan_future
+  - sitelink_en_career__science
+  - sitelink_en_career__strengths
+  - sitelink_en_career__students
+  - sitelink_en_career__what_is
+  - snip_en_career__services
+  - snip_en_career__styles
+  - snip_en_career__types
+spec:
+  budget_daily_usd: 2000.0
+  target_cpa_usd: 18.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/career/lp/quiz
+      headlines:
+      - EFAQ.com - Official Site
+      - Don't Waste Your Money
+      - Career Aptitude Test
+      - Discover Your Ideal Career
+      - What's Your Best Job Fit?
+      - Find Your Strengths Fast
+      - Career Quiz for Everyone
+      - Professional Strengths Quiz
+      - Stuck in the Wrong Career?
+      - Discover Your Work Style
+      - Find Your Dream Job
+      - Can We Predict Your Career?
+      - 5-Minute Career Quiz
+      - '#1 Rated Career Test'
+      - Switch Careers With Confidence
+      descriptions:
+      - Discover which career fits your strengths, skills, and interests with our aptitude test.
+      - Get personalized career ideas based on your personality, strengths, and work style.
+      - Thinking of changing careers? Explore new paths that fit you better.
+      - Take our research-based career aptitude test and get personalized career advice.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD

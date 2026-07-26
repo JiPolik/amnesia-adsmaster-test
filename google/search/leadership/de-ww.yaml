@@ -1,0 +1,139 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: de_ww_goog_s_efaq_leadership
+  platform: google_search
+  vertical: leadership
+  extends: leadership_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_de_leadership__assessment
+  - callout_de_leadership__better
+  - callout_de_leadership__experts
+  - callout_de_leadership__instant
+  - callout_de_leadership__minutes
+  - callout_de_leadership__mobile_friendly
+  - callout_de_leadership__secure
+  - efaq_business_name
+  - sitelink_de_leadership__generic
+  - sitelink_de_leadership__in_the_workplace
+  - sitelink_de_leadership__rare_styles
+  - sitelink_de_leadership__styles_explained
+  - sitelink_de_leadership__traits
+  - sitelink_de_leadership__what_is_style
+  - sitelink_de_leadership__why_it_matters
+  - snip_de_leadership__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: leadership
+    ad_templates:
+    - name: leadership__rsa
+      destination_url: https://efaq.com/de/leadership-style/lp/quiz
+      headlines:
+      - EFAQ.com - Offizielle Seite
+      - Führungsstil-Quiz
+      - Was ist Ihr Führungsstil?
+      - Machen Sie den Test
+      - Führungstyp entdecken
+      - Führungsstil herausfinden
+      - Sind Sie ein Naturtalent?
+      - Schneller Führungstest
+      - Heute besserer Leader werden
+      descriptions:
+      - Machen Sie unser Führungsstil-Quiz. Entdecken Sie in Minuten, welcher Typ Sie sind!
+      - Finden Sie Ihren einzigartigen Führungsstil in Minuten. Von Experten für Sie entwickelt.
+      - Sind Sie visionär, demokratisch oder dienend? Machen Sie heute unsere Selbsteinschätzung.
+      - Entfalten Sie Ihr Führungspotenzial. Kennen Sie Ihre Stärken und wachsen Sie als Leader.
+    keywords:
+    - text: leadership style quiz
+      match_type: BROAD
+    - text: leadership style
+      match_type: BROAD
+    - text: become a better leader
+      match_type: BROAD
+    - text: am i a leader
+      match_type: BROAD
+    - text: how to lead people
+      match_type: BROAD
+    - text: leadership style test
+      match_type: BROAD
+    - text: what type of leader am i
+      match_type: BROAD
+    - text: leadership assessment
+      match_type: BROAD
+    - text: leadership skills test
+      match_type: BROAD
+    - text: what is my leadership style
+      match_type: BROAD
+    - text: leadership qualities quiz
+      match_type: BROAD
+    - text: leadership in the workplace
+      match_type: BROAD
+    - text: leadership styles explained
+      match_type: BROAD
+    - text: leadership traits
+      match_type: BROAD
+    - text: rare leadership styles
+      match_type: BROAD
+    - text: what is leadership style
+      match_type: BROAD
+    - text: why leadership style matters
+      match_type: BROAD
+    - text: types of leadership styles
+      match_type: BROAD
+    - text: leadership style at work
+      match_type: BROAD
+    - text: traits of a good leader
+      match_type: BROAD
+    - text: leadership
+      match_type: BROAD
+    - text: führungsstil quiz
+      match_type: BROAD
+    - text: führungsstil
+      match_type: BROAD
+    - text: bessere führungskraft werden
+      match_type: BROAD
+    - text: besserer leader werden
+      match_type: BROAD
+    - text: bin ich eine führungskraft
+      match_type: BROAD
+    - text: menschen führen
+      match_type: BROAD
+    - text: führungsstil test
+      match_type: BROAD
+    - text: welcher führungstyp bin ich
+      match_type: BROAD
+    - text: führungskompetenz test
+      match_type: BROAD
+    - text: führungsqualitäten test
+      match_type: BROAD
+    - text: was ist mein führungsstil
+      match_type: BROAD
+    - text: führungseigenschaften quiz
+      match_type: BROAD
+    - text: führung am arbeitsplatz
+      match_type: BROAD
+    - text: führungsstile erklärt
+      match_type: BROAD
+    - text: führungsmerkmale
+      match_type: BROAD
+    - text: führungseigenschaften
+      match_type: BROAD
+    - text: seltene führungsstile
+      match_type: BROAD
+    - text: was ist ein führungsstil
+      match_type: BROAD
+    - text: warum führungsstil wichtig ist
+      match_type: BROAD
+    - text: arten von führungsstilen
+      match_type: BROAD
+    - text: führungsstil im job
+      match_type: BROAD
+    - text: eigenschaften gute führungskraft
+      match_type: BROAD
+    - text: führung
+      match_type: BROAD
+    - text: leadership deutsch
+      match_type: BROAD

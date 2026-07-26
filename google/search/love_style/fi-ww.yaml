@@ -1,0 +1,142 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fi_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_fi_lovestyle__experts
+  - callout_fi_lovestyle__find_your
+  - callout_fi_lovestyle__improve
+  - callout_fi_lovestyle__instant
+  - callout_fi_lovestyle__mobile_friendly
+  - callout_fi_lovestyle__secure
+  - efaq_business_name
+  - sitelink_fi_lovestyle__generic
+  - sitelink_fi_lovestyle__heartbreak
+  - sitelink_fi_lovestyle__improve_relationship
+  - sitelink_fi_lovestyle__what_are
+  - sitelink_fi_lovestyle__what_is
+  - snip_fi_lovestyle__types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/fi/love-style/lp/quiz
+      headlines:
+      - EFAQ.com – Virallinen sivu
+      - Älä tuhlaa rahojasi
+      - Mikä on rakkaustyylisi?
+      - Paras rakkaustesti 2026
+      - Tee rakkaustyylitesti
+      - Löydä rakkaustyylisi
+      - Miten osoitat rakkautta?
+      - Rakkaustesti pareille
+      - Paranna parisuhdettasi
+      - Rakasta paremmin
+      - Ymmärrä toisen tarpeet
+      - Mitä sydämesi kaipaa?
+      - Ole parempi kumppani
+      - 5 minuutin rakkaustesti
+      - '#1 Rakkaustyylitesti'
+      descriptions:
+      - 'Selvitä rakkaustyylisi: Tee testi ja oivalla, miten osoitat rakkautta kumppanillesi.'
+      - Tee lyhyt testimme, selvitä oma rakkaustyylisi ja paranna parisuhdettasi heti.
+      - Opi rakastamaan kumppaniasi paremmin ymmärtämällä oman rakkauden kielesi.
+      - Muuta parisuhteesi suuntaa tieteellisesti suunnitellun rakkaustyylitestin avulla.
+    keywords:
+    - text: love language test
+      match_type: BROAD
+    - text: love language quiz
+      match_type: BROAD
+    - text: love language test online
+      match_type: BROAD
+    - text: love language quiz online
+      match_type: BROAD
+    - text: love language test free
+      match_type: BROAD
+    - text: love language quiz free
+      match_type: BROAD
+    - text: free love language test
+      match_type: BROAD
+    - text: free love language quiz
+      match_type: BROAD
+    - text: 5 love languages
+      match_type: BROAD
+    - text: five love languages
+      match_type: BROAD
+    - text: love languages test
+      match_type: BROAD
+    - text: love languages quiz
+      match_type: BROAD
+    - text: what's my love language
+      match_type: BROAD
+    - text: whats my love language
+      match_type: BROAD
+    - text: what is my love language
+      match_type: BROAD
+    - text: love language
+      match_type: BROAD
+    - text: love languages
+      match_type: BROAD
+    - text: relationship quiz
+      match_type: BROAD
+    - text: love style test
+      match_type: BROAD
+    - text: love style quiz
+      match_type: BROAD
+    - text: love style test online
+      match_type: BROAD
+    - text: love style quiz online
+      match_type: BROAD
+    - text: love style test free
+      match_type: BROAD
+    - text: love style quiz free
+      match_type: BROAD
+    - text: free love style test
+      match_type: BROAD
+    - text: free love style quiz
+      match_type: BROAD
+    - text: 5 love styles
+      match_type: BROAD
+    - text: five love styles
+      match_type: BROAD
+    - text: love styles test
+      match_type: BROAD
+    - text: love styles quiz
+      match_type: BROAD
+    - text: what's my love style
+      match_type: BROAD
+    - text: whats my love style
+      match_type: BROAD
+    - text: what is my love style
+      match_type: BROAD
+    - text: love style
+      match_type: BROAD
+    - text: love styles
+      match_type: BROAD
+    - text: rakkauden kielet testi
+      match_type: BROAD
+    - text: rakkauskielet testi
+      match_type: BROAD
+    - text: 5 rakkauden kieltä
+      match_type: BROAD
+    - text: mikä on minun rakkauskieli
+      match_type: BROAD
+    - text: parisuhdetesti
+      match_type: BROAD
+    - text: rakkaustyyli testi
+      match_type: BROAD
+    - text: ilmainen rakkaustesti
+      match_type: BROAD
+    - text: testi pareille
+      match_type: BROAD
+    - text: paranna parisuhdetta
+      match_type: BROAD
+    - text: rakkauden kieli
+      match_type: BROAD

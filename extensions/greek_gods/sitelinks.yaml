@@ -1,0 +1,155 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__aphrodite
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/aphrodite
+  title: Aphrodite
+  description1: Love, beauty, magnetism
+  description2: Discover your charm
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__apollo
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/apollo
+  title: Apollo
+  description1: Light, music, and creativity
+  description2: Are you the radiant Apollo?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__ares
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/ares
+  title: Ares
+  description1: Strength, fire, bold action
+  description2: Meet your inner warrior
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__artemis
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/artemis
+  title: Artemis
+  description1: Independence and wild spirit
+  description2: Hunt your own path
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__athena
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/athena
+  title: Athena
+  description1: Wisdom and clever strategy
+  description2: Uncover your sharpest mind
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__demeter
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/demeter
+  title: Demeter
+  description1: Nurture, harvest, growth
+  description2: Are you the giving soul?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__dionysus
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/dionysus
+  title: Dionysus
+  description1: Passion, joy, celebration
+  description2: Embrace your wild side
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/quiz
+  title: Greek God Quiz
+  description1: Find your Greek God
+  description2: Learn more about yourself
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__hephaestus
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/hephaestus
+  title: Hephaestus
+  description1: Craft, fire, resilience
+  description2: Forge your own destiny
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__hera
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/hera
+  title: Hera
+  description1: Loyalty, devotion, grace
+  description2: Discover your inner queen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__hermes
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/hermes
+  title: Hermes
+  description1: Wit, speed, adaptability
+  description2: Are you swift like Hermes?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__poseidon
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/poseidon
+  title: Poseidon
+  description1: Depth, emotion, raw force
+  description2: Ride the waves with Poseidon
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_greekgods__zeus
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/greek-gods/lp/zeus
+  title: Zeus
+  description1: Power, authority, command
+  description2: Are you king of Olympus?

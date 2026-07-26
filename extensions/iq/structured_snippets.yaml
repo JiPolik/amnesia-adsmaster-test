@@ -1,0 +1,399 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_bg_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Вербален
+  - Невербален
+  - Пространствен
+  - Математически
+  - Логически
+  language: BULGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ca_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - No verbal
+  - Espacial
+  - Matemàtic
+  - Lògic
+  language: CATALAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_cs_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbální
+  - Neverbální
+  - Prostorové
+  - Matematické
+  - Logické
+  language: CZECH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_da_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - Ikke-verbal
+  - Rumlig
+  - Matematisk
+  - Logisk
+  language: DANISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - Nicht-verbal
+  - Räumlich
+  - Mathematisch
+  - Logisch
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - Nonverbal
+  - Spatial
+  - Mathematical
+  - Logical
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eses_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - No verbal
+  - Espacial
+  - Matemático
+  - Lógico
+  language: SPANISH_EUROPE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eslatam_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - No verbal
+  - Espacial
+  - Matemático
+  - Lógico
+  language: SPANISH_LATAM
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_esus_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - No verbal
+  - Espacial
+  - Matemático
+  - Lógico
+  language: SPANISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_et_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbaalne
+  - Mitteverbaalne
+  - Ruumiline
+  - Matemaatiline
+  - Loogiline
+  language: ESTONIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fi_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbaalinen
+  - Ei-verbaalinen
+  - Avaruudellinen
+  - Matemaattinen
+  - Looginen
+  language: FINNISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fr_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - Non verbal
+  - Spatial
+  - Mathématique
+  - Logique
+  language: FRENCH_FRANCE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hr_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbalni
+  - Neverbalni
+  - Prostorni
+  - Matematički
+  - Logički
+  language: CROATIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hu_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbális
+  - Nonverbális
+  - Térbeli
+  - Matematikai
+  - Logikai
+  language: HUNGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_is_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Munnlegt
+  - Ómunnlegt
+  - Rýmisgreind
+  - Stærðfræðilegt
+  - Rökfræðilegt
+  language: ICELANDIC
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lt_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbalinis
+  - Neverbalinis
+  - Erdvinis
+  - Matematinis
+  - Loginis
+  language: LITHUANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lv_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbālais
+  - Neverbālais
+  - Telpiskais
+  - Matemātiskais
+  - Loģiskais
+  language: LATVIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbaal
+  - Non-verbaal
+  - Ruimtelijk
+  - Wiskundig
+  - Logisch
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - Ikke-verbal
+  - Romlig
+  - Matematisk
+  - Logisk
+  language: NORWEGIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ptpt_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - Não verbal
+  - Espacial
+  - Matemático
+  - Lógico
+  language: PORTUGUESE_PORTUGAL
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ro_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - Nonverbal
+  - Spațial
+  - Matematic
+  - Logic
+  language: ROMANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sl_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbalni
+  - Neverbalni
+  - Prostorski
+  - Matematični
+  - Logični
+  language: SLOVENIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sr_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: STYLES
+  values:
+  - Вербални
+  - Невербални
+  - Просторни
+  - Математички
+  - Логички
+  language: SERBIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sv_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Verbal
+  - Icke-verbal
+  - Spatial
+  - Matematisk
+  - Logisk
+  language: SWEDISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_tr_iq__test_types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Sözel
+  - Sözel Olmayan
+  - Mekansal
+  - Matematiksel
+  - Mantıksal
+  language: TURKISH

@@ -1,0 +1,132 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_psychopath__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Interpersonal
+  - Deception
+  - Grandiosity
+  - Lack of Remorse
+  - Impulsivity
+  - Irresponsibility
+  - Dark Cognition
+  - Cynical Worldview
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fi_psychopath__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Ihmissuhteet
+  - Petollisuus
+  - Suuruudenhulluus
+  - Katumuksen puute
+  - Impulsiivisuus
+  - Vastuuttomuus
+  - Pimeä kognitio
+  - Kyyninen maailmankuva
+  language: FINNISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hu_psychopath__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Interperszonális
+  - Megtévesztés
+  - Grandiozitás
+  - Bűntudat Hiánya
+  - Impulzivitás
+  - Felelőtlenség
+  - Sötét Kogníció
+  - Cinikus Világnézet
+  language: HUNGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_is_psychopath__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Samskiptalegt
+  - Blekking
+  - Stórmennskubrjálæði
+  - Iðrunarleysi
+  - Hvatvísi
+  - Ábyrgðarleysi
+  - Myrk hugsun
+  - Kaldhæðin heimsmynd
+  language: ICELANDIC
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lv_psychopath__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Starppersonu
+  - Maldināšana
+  - Grandiozitāte
+  - Nožēlas trūkums
+  - Impulsivitāte
+  - Bezatbildība
+  - Tumšā domāšana
+  - Cinisms
+  language: LATVIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_psychopath__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Mellommenneskelig
+  - Bedrag
+  - Grandiositet
+  - Mangel på anger
+  - Impulsivitet
+  - Ansvarsløshet
+  - Mørk kognisjon
+  - Kynisk verdensbilde
+  language: NORWEGIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ptpt_psychopath__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Interpessoal
+  - Engano
+  - Grandiosidade
+  - Falta de Remorso
+  - Impulsividade
+  - Irresponsabilidade
+  - Cognição Negra
+  - Visão Cínica do Mundo
+  language: PORTUGUESE_PORTUGAL

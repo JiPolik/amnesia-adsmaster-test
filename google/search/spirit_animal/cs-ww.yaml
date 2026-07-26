@@ -1,0 +1,130 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: cs_ww_goog_s_efaq_spiritanimal
+  platform: google_search
+  vertical: spirit_animal
+  extends: spirit_animal_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_cs_spiritanimal__experts
+  - callout_cs_spiritanimal__find
+  - callout_cs_spiritanimal__guide
+  - callout_cs_spiritanimal__instant
+  - callout_cs_spiritanimal__minutes
+  - callout_cs_spiritanimal__mobile_friendly
+  - callout_cs_spiritanimal__secure
+  - efaq_business_name
+  - sitelink_cs_spiritanimal__bear
+  - sitelink_cs_spiritanimal__cat
+  - sitelink_cs_spiritanimal__dolphin
+  - sitelink_cs_spiritanimal__eagle
+  - sitelink_cs_spiritanimal__generic
+  - sitelink_cs_spiritanimal__how
+  - sitelink_cs_spiritanimal__lion
+  - sitelink_cs_spiritanimal__narwhale
+  - sitelink_cs_spiritanimal__owl
+  - sitelink_cs_spiritanimal__snake
+  - sitelink_cs_spiritanimal__unicorn
+  - sitelink_cs_spiritanimal__what
+  - sitelink_cs_spiritanimal__wolf
+  - snip_cs_spiritanimal__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 12.0
+  ad_sets:
+  - name: spirit_animal
+    ad_templates:
+    - name: spirit_animal__rsa
+      destination_url: https://efaq.com/cs/spirit-animal/lp/quiz
+      headlines:
+      - EFAQ.com - Oficiální web
+      - Nevyhazujte své peníze
+      - Kvíz, který dělají všichni
+      - Kvíz o duchovním zvířeti
+      - Najdi své duchovní zvíře
+      - Objevte své duchovní zvíře
+      - Kdo je váš zvířecí průvodce?
+      - Vaše duchovní zvíře čeká
+      - Udělejte si zvířecí kvíz
+      - Objevte svou zvířecí duši
+      - Poznejte svého ochránce
+      - Odhalte svou zvířecí stránku
+      descriptions:
+      - Objevte duchovní zvíře, které odráží vaše skryté silné stránky a přirozenost.
+      - Odhalte zvíře v sobě – svého průvodce osobností a účelem. Vaše duchovní zvíře.
+      - Zajímá vás, jaké zvíře se ve vás skrývá? Tento kvíz odhalí vaši divokou stránku.
+      - Zábavné, rychlé a děsivě přesné – zjistěte, jaké duchovní zvíře ladí s vaší duší.
+    keywords:
+    - text: spirit animal quiz
+      match_type: BROAD
+    - text: spirit animal quiz free
+      match_type: BROAD
+    - text: free spirit animal quiz
+      match_type: BROAD
+    - text: spirit animal test
+      match_type: BROAD
+    - text: spirit animal test free
+      match_type: BROAD
+    - text: free spirit animal test
+      match_type: BROAD
+    - text: what is my spirit animal
+      match_type: BROAD
+    - text: what's my spirit animal
+      match_type: BROAD
+    - text: whats my spirit animal
+      match_type: BROAD
+    - text: what animal am i
+      match_type: BROAD
+    - text: what animal am i quiz
+      match_type: BROAD
+    - text: my spirit animal
+      match_type: BROAD
+    - text: spirit animal
+      match_type: BROAD
+    - text: how to find your spirit animal
+      match_type: BROAD
+    - text: find your spirit animal
+      match_type: BROAD
+    - text: find spirit animal
+      match_type: BROAD
+    - text: what is my spiritual animal
+      match_type: BROAD
+    - text: what is my spirit animal test
+      match_type: BROAD
+    - text: what animal would i be
+      match_type: BROAD
+    - text: your spirit animal
+      match_type: BROAD
+    - text: spirit animal finder
+      match_type: BROAD
+    - text: kvíz o duchovním zvířeti
+      match_type: BROAD
+    - text: kvíz o duchovním zvířeti zdarma
+      match_type: BROAD
+    - text: duchovní zvíře test
+      match_type: BROAD
+    - text: duchovní zvíře test zdarma
+      match_type: BROAD
+    - text: jaké je mé duchovní zvíře
+      match_type: BROAD
+    - text: jaké zvíře jsem
+      match_type: BROAD
+    - text: jaké zvíře jsem kvíz
+      match_type: BROAD
+    - text: moje duchovní zvíře
+      match_type: BROAD
+    - text: duchovní zvíře
+      match_type: BROAD
+    - text: jak najít své duchovní zvíře
+      match_type: BROAD
+    - text: najdi své duchovní zvíře
+      match_type: BROAD
+    - text: jaké bych byl zvíře
+      match_type: BROAD
+    - text: tvé duchovní zvíře
+      match_type: BROAD
+    - text: totemové zvíře
+      match_type: BROAD
+    - text: jaké je mé totemové zvíře
+      match_type: BROAD

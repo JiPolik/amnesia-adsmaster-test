@@ -1,0 +1,20 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_greekgods__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - Zeus
+  - Poseidon
+  - Hera
+  - Athena
+  - Apollo
+  - Artemis
+  - Ares
+  - Aphrodite
+  - Hermes
+  - Dionysus
+  language: ENGLISH_US

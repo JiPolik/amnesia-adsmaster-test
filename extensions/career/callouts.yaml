@@ -1,0 +1,1763 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Създаден от експерти
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Незабавни резултати
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Отнема само минути
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Сайт за мобилни
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Планирай бъдещето
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Сигурен уебсайт
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Базиран на уменията
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dissenyat per Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultats Immediats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Només Uns Minuts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web Adaptat a Mòbils
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planifica el Teu Futur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Lloc Web Segur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Basat en els Teus Forts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Navrženo experty
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Okamžité výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zabere jen minuty
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web vhodný pro mobily
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Plánujte budoucnost
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bezpečný web
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dle silných stránek
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designet af eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultat med det samme
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tager kun få minutter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvenlig hjemmeside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planlæg din fremtid
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker hjemmeside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Baseret på dine styrker
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Von Experten entwickelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sofortiges Ergebnis
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dauert nur Minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Für Mobilgeräte
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Plane deine Zukunft
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sichere Webseite
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Basiert auf Stärken
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Σχεδιασμένο από Ειδικούς
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Άμεσα Αποτελέσματα
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Μόνο Λίγα Λεπτά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Φιλικό προς Κινητά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Σχεδίασε το Μέλλον
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ασφαλής Ιστότοπος
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Βάσει των Προσόντων σου
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takes Only Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Plan Your Future
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Based on Your Strengths
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Diseñado por Expertos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados al Instante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Solo Toma Minutos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Compatible con Móvil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planifica Tu Futuro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Web Seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Basado en Fortalezas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Diseñado por Expertos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados Instantáneos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Toma Solo Minutos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Móvil Amigable
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planea Tu Futuro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Web Seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eslatam_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Basado en Tus Fuerzas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertide loodud
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Kohesed tulemused
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Võtab vaid minuteid
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobiilisõbralik leht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planeeri tulevikku
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvaline veebileht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Põhineb tugevustel
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Asiantuntijoiden luoma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tulokset heti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Vain muutama minuutti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobiiliystävällinen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Suunnittele tulevaisuus
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvallinen sivusto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Perustuu vahvuuksiisi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Conçu par des Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Résultats Instantanés
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Prend Quelques Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Mobile Compatible
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planifiez Votre Avenir
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Web Sécurisé
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Basé sur Vos Forces
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dizajnirali stručnjaci
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Trenutni rezultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Traje samo par minuta
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web prilagođen mobitelu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planirajte budućnost
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sigurna web stranica
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Temeljeno na snagama
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Szakértők tervezték
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Azonnali eredmények
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Csak pár perc
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilbarát weboldal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tervezd a jövődet
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Biztonságos weboldal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Erősségeidre alapozva
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Hannað af sérfræðingum
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Niðurstöður strax
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tekur nokkrar mínútur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Virkar í síma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Skipuleggðu framtíð
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Örugg vefsíða
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Byggt á styrkleikum
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Progettato da Esperti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Risultati Istantanei
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Richiede Pochi Minuti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Mobile-Friendly
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Pianifica il Tuo Futuro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Web Sicuro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Basato sui Tuoi Talenti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sukurta ekspertų
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Momentiniai rezultatai
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Užtrunka kelias min.
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Pritaikyta mobiliesiems
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planuokite ateitį
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Saugi svetainė
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Pagal jūsų stiprybes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertu veidots
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tūlītēji rezultāti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Aizņem dažas minūtes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ērti lietot telefonā
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Plāno savu nākotni
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Droša vietne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tavām stiprajām pusēm
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ontworpen door Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Direct Resultaat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Slechts Enkele Minuten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobielvriendelijke Site
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Plan je Toekomst
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Veilige Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Op Basis van je Kracht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Laget av eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Få svar med en gang
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tar bare noen minutter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvennlig nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planlegg fremtiden
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Basert på dine styrker
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Stworzone przez ekspertów
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Wyniki natychmiast
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zajmuje tylko minuty
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Strona mobilna
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zaplanuj przyszłość
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bezpieczna strona
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Oparte na atutach
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Criado por Especialistas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados Imediatos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Demora Poucos Minutos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Compatível com Telemóvel
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planeie o Seu Futuro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Baseado nos Pontos Fortes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Creat de Experți
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Rezultate Instantanee
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Durează Doar Câteva Min
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Optimizat Mobil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planifică-ți Viitorul
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Securizat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bazat pe Atuurile Tale
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Navrhnuté odborníkmi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Okamžité výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Trvá to len pár minút
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web pre mobily
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Naplánujte si budúcnosť
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zabezpečený web
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Podľa silných stránok
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zasnovali strokovnjaki
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takojšnji rezultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Traja le nekaj minut
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Spletna stran za mobilne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Načrtujte prihodnost
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Varna spletna stran
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Glede na vaše prednosti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Дизајнирали стручњаци
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Тренутни резултати
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Траје само пар минута
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Сајт за мобилне уређаје
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Планирајте будућност
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Безбедан веб-сајт
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: На основу ваших снага
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Skapad Av Experter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Snabba Resultat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tar Bara Några Minuter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvänlig Webbplats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Planera Din Framtid
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Säker Webbplats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Baserat På Dina Styrkor
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_career__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Uzmanlar Tarafından
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_career__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Anında Sonuçlar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_career__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sadece Dakikalar Sürer
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_career__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobil Uyumlu Web Sitesi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_career__plan_future
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Geleceğinizi Planlayın
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_career__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Güvenli Web Sitesi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_career__strengths
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Güçlü Yanlarınıza Göre

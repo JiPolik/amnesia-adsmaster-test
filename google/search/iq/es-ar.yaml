@@ -1,0 +1,98 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: es_ar_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_2
+  geo_preset_ref: ar
+  ad_extension_refs:
+  - callout_eslatam_iq__breakdown
+  - callout_eslatam_iq__experts
+  - callout_eslatam_iq__fun_challenging
+  - callout_eslatam_iq__instant
+  - callout_eslatam_iq__mobile_friendly
+  - callout_eslatam_iq__secure
+  - efaq_business_name
+  - sitelink_eslatam_iq__am_i_gifted
+  - sitelink_eslatam_iq__can_you_improve
+  - sitelink_eslatam_iq__generic
+  - sitelink_eslatam_iq__students
+  - sitelink_eslatam_iq__what_is_iq
+  - snip_eslatam_iq__test_types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 8.0
+  ad_sets:
+  - name: iq_test
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: prueba de iq
+      match_type: BROAD
+    - text: examen de iq gratis
+      match_type: BROAD
+    - text: test de inteligencia
+      match_type: BROAD
+    - text: medir coeficiente intelectual
+      match_type: BROAD
+    - text: prueba iq en linea
+      match_type: BROAD
+    - text: evaluacion de inteligencia
+      match_type: BROAD
+    - text: test iq latinoamerica
+      match_type: BROAD
+    - text: quiz de inteligencia gratis
+      match_type: BROAD
+    - text: test de iq preciso
+      match_type: BROAD
+    - text: iq test oficial
+      match_type: BROAD
+  - name: am_i_smart
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: que tan inteligente soy
+      match_type: BROAD
+    - text: soy inteligente
+      match_type: BROAD
+    - text: soy un genio
+      match_type: BROAD
+    - text: como saber mi iq
+      match_type: BROAD
+    - text: prueba de inteligencia online
+      match_type: BROAD
+    - text: examen para saber si soy listo
+      match_type: BROAD
+    - text: medir mi inteligencia gratis
+      match_type: BROAD

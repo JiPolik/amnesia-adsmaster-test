@@ -1,0 +1,38 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: spirit_animal_search_tmpl
+  platform: google_search
+  vertical: spirit_animal
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  ad_set_defaults:
+    status: PAUSED
+    bid_strategy: TARGET_CPA
+  ad_template_defaults:
+    status: ENABLED
+  ad_sets:
+  - name: spirit_animal
+    ad_templates:
+    - name: spirit_animal__rsa
+      creative_feed_ref: spirit_animal_search_feed
+      destination_url: https://efaq.com/spirit-animal/lp/quiz
+      headlines:
+      - EFAQ.com - Official Site
+      - Don't Waste Your Money
+      - The Quiz Everyone’s Taking
+      - Spirit Animal Quiz
+      - Spirit Animal Finder
+      - Discover Your Spirit Animal
+      - Who Is Your Animal Guide?
+      - Your Spirit Animal Awaits
+      - Take the Spirit Animal Quiz
+      - Discover Your Animal Spirit
+      - Meet Your Spirit Protector
+      - Dare To Meet Your Animal Side?
+      descriptions:
+      - Discover the spirit animal that reflects your hidden strengths and nature.
+      - Reveal the animal within you — your guide to personality and purpose. Your Spirit Animal.
+      - Wonder which animal you are inside? This quiz reveals your wild side.
+      - Fun, fast, and scarily accurate — see which spirit animal matches your soul.

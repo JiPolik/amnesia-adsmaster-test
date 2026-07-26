@@ -1,0 +1,66 @@
+apiVersion: amnesia/v1
+kind: CampaignTemplate
+metadata:
+  name: spirit_animal_dg_tmpl
+  platform: google_demand_gen
+  vertical: spirit_animal
+spec:
+  objective: TRAFFIC
+  status: PAUSED
+  ad_set_defaults:
+    status: PAUSED
+    bid_strategy: TARGET_CPA
+  ad_template_defaults:
+    status: ENABLED
+  ad_sets:
+  - name: multiasset
+    demand_gen: {}
+    ad_templates:
+    - name: animals_watching
+      creative_feed_ref: spirit_animal_dg_feed
+      logo_asset_ref: image__dg__128x128_logo
+      business_name: eFAQ.com
+      destination_url: https://efaq.com/spirit-animal/lp/quiz
+      headlines:
+      - Find Your Spirit Animal
+      - Discover Your True Nature
+      - Meet Your Inner Animal
+      - Which Animal Are You?
+      - Your Spirit Animal Awaits
+      descriptions:
+      - Take the quiz and discover your spirit animal in just minutes.
+      - Unlock your instincts and discover your spirit animal today.
+      - Curious which animal you are? Find out instantly.
+      - Which animal matches your personality? Take the test.
+    - name: brunette_wolf
+      creative_feed_ref: spirit_animal_dg_feed
+      logo_asset_ref: image__dg__128x128_logo
+      business_name: eFAQ.com
+      destination_url: https://efaq.com/spirit-animal/lp/quiz
+      headlines:
+      - Find Your Spirit Animal
+      - Discover Your True Nature
+      - Meet Your Inner Animal
+      - Which Animal Are You?
+      - Your Spirit Animal Awaits
+      descriptions:
+      - There’s a wild side in you. Discover your spirit animal now.
+      - Your instincts say more than you think. Find your animal.
+      - Are you driven, calm, or fierce? Reveal your true nature.
+      - A fast, powerful quiz to uncover your inner animal.
+    - name: face_contrast
+      creative_feed_ref: spirit_animal_dg_feed
+      logo_asset_ref: image__dg__128x128_logo
+      business_name: eFAQ.com
+      destination_url: https://efaq.com/spirit-animal/lp/quiz
+      headlines:
+      - Find Your Spirit Animal
+      - Discover Your True Nature
+      - Meet Your Inner Animal
+      - Which Animal Are You?
+      - Your Spirit Animal Awaits
+      descriptions:
+      - Two sides, one truth. Discover your spirit animal in minutes.
+      - There’s another side of you. Find your true animal now.
+      - Logic or instinct? Reveal your inner animal identity.
+      - See the hidden side of yourself. Take the test now.

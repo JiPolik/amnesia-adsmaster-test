@@ -1,0 +1,126 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: de_ww_goog_s_efaq_spiritanimal
+  platform: google_search
+  vertical: spirit_animal
+  extends: spirit_animal_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_de_spiritanimal__experts
+  - callout_de_spiritanimal__find
+  - callout_de_spiritanimal__guide
+  - callout_de_spiritanimal__instant
+  - callout_de_spiritanimal__minutes
+  - callout_de_spiritanimal__mobile_friendly
+  - callout_de_spiritanimal__secure
+  - efaq_business_name
+  - sitelink_de_spiritanimal__bear
+  - sitelink_de_spiritanimal__cat
+  - sitelink_de_spiritanimal__dolphin
+  - sitelink_de_spiritanimal__eagle
+  - sitelink_de_spiritanimal__generic
+  - sitelink_de_spiritanimal__how
+  - sitelink_de_spiritanimal__lion
+  - sitelink_de_spiritanimal__narwhale
+  - sitelink_de_spiritanimal__owl
+  - sitelink_de_spiritanimal__snake
+  - sitelink_de_spiritanimal__unicorn
+  - sitelink_de_spiritanimal__what
+  - sitelink_de_spiritanimal__wolf
+  - snip_de_spiritanimal__types
+spec:
+  budget_daily_usd: 700.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: spirit_animal
+    ad_templates:
+    - name: spirit_animal__rsa
+      destination_url: https://efaq.com/de/spirit-animal/lp/quiz
+      headlines:
+      - EFAQ.com - Offizielle Seite
+      - Spar dir dein Geld
+      - Das beliebte Quiz
+      - Krafttier-Quiz
+      - Krafttier-Finder
+      - Entdecke dein Krafttier
+      - Wer ist dein Tierführer?
+      - Dein Krafttier wartet
+      - Mach das Krafttier-Quiz
+      - Finde deinen Tiergeist
+      - Triff deinen Beschützer
+      - Kennst du deine Tierseite?
+      descriptions:
+      - Entdecke das Krafttier, das deine verborgenen Stärken und deine Natur widerspiegelt.
+      - Enthülle das Tier in dir – Wegweiser zu Persönlichkeit und Bestimmung. Dein Krafttier.
+      - Welches Tier steckt in dir? Dieses Quiz enthüllt deine wilde Seite.
+      - Spaßig, schnell und präzise – finde das Krafttier, das zu deiner Seele passt.
+    keywords:
+    - text: spirit animal quiz
+      match_type: BROAD
+    - text: spirit animal quiz free
+      match_type: BROAD
+    - text: free spirit animal quiz
+      match_type: BROAD
+    - text: spirit animal test
+      match_type: BROAD
+    - text: spirit animal test free
+      match_type: BROAD
+    - text: free spirit animal test
+      match_type: BROAD
+    - text: what is my spirit animal
+      match_type: BROAD
+    - text: what's my spirit animal
+      match_type: BROAD
+    - text: whats my spirit animal
+      match_type: BROAD
+    - text: what animal am i
+      match_type: BROAD
+    - text: what animal am i quiz
+      match_type: BROAD
+    - text: my spirit animal
+      match_type: BROAD
+    - text: spirit animal
+      match_type: BROAD
+    - text: how to find your spirit animal
+      match_type: BROAD
+    - text: find your spirit animal
+      match_type: BROAD
+    - text: find spirit animal
+      match_type: BROAD
+    - text: what is my spiritual animal
+      match_type: BROAD
+    - text: what is my spirit animal test
+      match_type: BROAD
+    - text: what animal would i be
+      match_type: BROAD
+    - text: your spirit animal
+      match_type: BROAD
+    - text: spirit animal finder
+      match_type: BROAD
+    - text: krafttier
+      match_type: BROAD
+    - text: krafttier quiz
+      match_type: BROAD
+    - text: krafttier quiz kostenlos
+      match_type: BROAD
+    - text: kostenloses krafttier quiz
+      match_type: BROAD
+    - text: krafttier test
+      match_type: BROAD
+    - text: krafttier test kostenlos
+      match_type: BROAD
+    - text: was ist mein krafttier
+      match_type: BROAD
+    - text: welches tier bin ich
+      match_type: BROAD
+    - text: mein krafttier
+      match_type: BROAD
+    - text: krafttier finden
+      match_type: BROAD
+    - text: krafttier berechnen
+      match_type: BROAD
+    - text: totemtier finden
+      match_type: BROAD
+    - text: seelentier test
+      match_type: BROAD

@@ -1,0 +1,503 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ca_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: CATALAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_cs_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: CZECH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_da_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: DANISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_de_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: GERMAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_el_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: GREEK
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_en_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: ENGLISH_US
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_eslatam_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: SPANISH_LATAM
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_et_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: ESTONIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fi_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: FINNISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_fr_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: FRENCH_FRANCE
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hr_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: CROATIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_hu_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: HUNGARIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_is_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: ICELANDIC
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_it_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: ITALIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lt_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: LITHUANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_lv_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: LATVIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_nl_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: DUTCH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_no_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: NORWEGIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ptpt_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: PORTUGUESE_PORTUGAL
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_ro_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: ROMANIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sl_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: SLOVENIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sr_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: SERBIAN
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_sv_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: SWEDISH
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: snip_tr_personality__types
+spec:
+  schema_version: 1
+  type: STRUCTURED_SNIPPET
+  header: TYPES
+  values:
+  - ISTJ
+  - ISFJ
+  - INFJ
+  - INTJ
+  - ISTP
+  - ISFP
+  - INFP
+  - INTP
+  - ENTJ
+  - ENTP
+  language: TURKISH

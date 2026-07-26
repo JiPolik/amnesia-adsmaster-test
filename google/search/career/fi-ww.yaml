@@ -1,0 +1,151 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: fi_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_fi_career__experts
+  - callout_fi_career__instant
+  - callout_fi_career__minutes
+  - callout_fi_career__mobile_friendly
+  - callout_fi_career__plan_future
+  - callout_fi_career__secure
+  - callout_fi_career__strengths
+  - efaq_business_name
+  - sitelink_fi_career__ai
+  - sitelink_fi_career__career_change
+  - sitelink_fi_career__fit
+  - sitelink_fi_career__generic
+  - sitelink_fi_career__graduates
+  - sitelink_fi_career__how_it_works
+  - sitelink_fi_career__plan_future
+  - sitelink_fi_career__science
+  - sitelink_fi_career__strengths
+  - sitelink_fi_career__students
+  - sitelink_fi_career__what_is
+  - snip_fi_career__services
+  - snip_fi_career__styles
+  - snip_fi_career__types
+spec:
+  budget_daily_usd: 1500.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/fi/career/lp/quiz
+      headlines:
+      - EFAQ.com - Virallinen sivu
+      - Älä tuhlaa rahojasi
+      - Ura- ja soveltuvuustesti
+      - Löydä ihanteellinen urasi
+      - Mikä työ sopii sinulle?
+      - Löydä vahvuutesi nopeasti
+      - Uratesti kaikille
+      - Ammatillinen vahvuustesti
+      - Oletko väärällä alalla?
+      - Tunnista työtapasi
+      - Löydä unelmatyösi
+      - Ennustammeko urasi?
+      - 5 minuutin uratesti
+      - Suosituin uratesti
+      - Vaihda alaa varmuudella
+      descriptions:
+      - Selvitä soveltuvuustestillä, mikä ura sopii vahvuuksiisi, taitoihisi ja kiinnostuksiisi.
+      - Saat henkilökohtaisia uraideoita, jotka perustuvat vahvuuksiisi ja työtapoihisi.
+      - Harkitsetko alanvaihtoa? Tutki uusia urapolkuja, jotka sopivat sinulle paremmin.
+      - Tee tutkimukseen perustuva uratesti ja saat henkilökohtaista uraohjausta.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: uratesti
+      match_type: BROAD
+    - text: ilmainen uratesti
+      match_type: BROAD
+    - text: ammatinvalintatesti
+      match_type: BROAD
+    - text: mikä ammatti sopii minulle
+      match_type: BROAD
+    - text: soveltuvuustesti
+      match_type: BROAD
+    - text: uravalinta
+      match_type: BROAD
+    - text: unelma-ammatti
+      match_type: BROAD
+    - text: työuratesti
+      match_type: BROAD
+    - text: mikä työ sopii minulle
+      match_type: BROAD
+    - text: ammatinvalinta
+      match_type: BROAD
+    - text: urapolku
+      match_type: BROAD
+    - text: testaa ammattisi
+      match_type: BROAD

@@ -1,0 +1,153 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: hr_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_hr_career__experts
+  - callout_hr_career__instant
+  - callout_hr_career__minutes
+  - callout_hr_career__mobile_friendly
+  - callout_hr_career__plan_future
+  - callout_hr_career__secure
+  - callout_hr_career__strengths
+  - efaq_business_name
+  - sitelink_hr_career__ai
+  - sitelink_hr_career__career_change
+  - sitelink_hr_career__fit
+  - sitelink_hr_career__generic
+  - sitelink_hr_career__graduates
+  - sitelink_hr_career__how_it_works
+  - sitelink_hr_career__plan_future
+  - sitelink_hr_career__science
+  - sitelink_hr_career__strengths
+  - sitelink_hr_career__students
+  - sitelink_hr_career__what_is
+  - snip_hr_career__services
+  - snip_hr_career__styles
+  - snip_hr_career__types
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 17.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/hr/career/lp/quiz
+      headlines:
+      - EFAQ.com - Službena stranica
+      - Ne bacajte novac
+      - Test sklonosti karijeri
+      - Otkrijte idealnu karijeru
+      - Koji vam posao najbolje leži?
+      - Brzo pronađite svoje snage
+      - Kviz karijere za svakoga
+      - Kviz profesionalnih snaga
+      - Zapeli u krivoj karijeri?
+      - Otkrijte svoj stil rada
+      - Pronađite posao iz snova
+      - Možemo li predvidjeti posao?
+      - 5-minutni kviz karijere
+      - '#1 Test karijere'
+      - Promijenite karijeru sigurno
+      descriptions:
+      - Otkrijte koja karijera odgovara vašim snagama, vještinama i interesima uz naš test.
+      - Dobijte ideje za karijeru temeljene na osobnosti, snagama i stilu rada.
+      - Razmišljate o promjeni karijere? Istražite nove puteve koji vam bolje odgovaraju.
+      - Riješite naš test sklonosti karijeri i dobijte personalizirane savjete.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: test karijere
+      match_type: BROAD
+    - text: test profesionalne orijentacije
+      match_type: BROAD
+    - text: profesionalna orijentacija
+      match_type: BROAD
+    - text: koji posao odabrati
+      match_type: BROAD
+    - text: test za posao
+      match_type: BROAD
+    - text: besplatni test karijere
+      match_type: BROAD
+    - text: kviz karijere
+      match_type: BROAD
+    - text: test sposobnosti za posao
+      match_type: BROAD
+    - text: idealan posao za mene
+      match_type: BROAD
+    - text: test zanimanja
+      match_type: BROAD
+    - text: odabir karijere
+      match_type: BROAD
+    - text: posao iz snova
+      match_type: BROAD
+    - text: koji je posao za mene
+      match_type: BROAD

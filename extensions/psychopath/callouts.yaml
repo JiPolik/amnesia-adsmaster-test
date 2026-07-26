@@ -1,0 +1,377 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_psychopath__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online Self-Assessment
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_psychopath__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_psychopath__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_psychopath__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takes Only Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_psychopath__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_psychopath__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_psychopath__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Itsearviointi netissä
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_psychopath__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Asiantuntijoiden luoma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_psychopath__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Välittömät tulokset
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_psychopath__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Kestää vain minuutteja
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_psychopath__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobiiliystävällinen sivu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_psychopath__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvallinen verkkosivusto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_psychopath__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Online Önértékelés
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_psychopath__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Szakértők Által Tervezve
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_psychopath__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Azonnali Eredmények
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_psychopath__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Csak Néhány Perc
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_psychopath__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilbarát Weboldal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_psychopath__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Biztonságos Weboldal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_psychopath__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sjálfsmat á netinu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_psychopath__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Hannað af sérfræðingum
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_psychopath__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Niðurstöður strax
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_psychopath__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tekur aðeins nokkrar mín
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_psychopath__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Farsímavænn vefur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_psychopath__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Örugg vefsíða
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_psychopath__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tiešsaistes tests
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_psychopath__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertu izstrādāts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_psychopath__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tūlītēji rezultāti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_psychopath__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Aizņem tikai dažas min.
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_psychopath__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Pielāgots viedtālruņiem
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_psychopath__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Droša tīmekļa vietne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_psychopath__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Egenevaluering på nett
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_psychopath__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designet av eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_psychopath__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Øyeblikkelige resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_psychopath__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tar bare noen minutter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_psychopath__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvennlig nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_psychopath__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_psychopath__assessment
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Autoavaliação Online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_psychopath__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Criado Por Especialistas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_psychopath__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados Instantâneos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_psychopath__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Demora Apenas Minutos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_psychopath__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Otimizado Telemóvel
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_psychopath__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site 100% Seguro

@@ -1,0 +1,221 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: it_ww_goog_s_efaq_personality
+  platform: google_search
+  vertical: personality
+  extends: personality_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_it_personality__experts
+  - callout_it_personality__instant
+  - callout_it_personality__minutes
+  - callout_it_personality__mobile_friendly
+  - callout_it_personality__secure
+  - callout_it_personality__sixteen
+  - efaq_business_name
+  - sitelink_it_personality__generic
+  - sitelink_it_personality__introverts_extroverts
+  - sitelink_it_personality__rare
+  - sitelink_it_personality__science
+  - sitelink_it_personality__sixteen_types
+  - sitelink_it_personality__traits
+  - sitelink_it_personality__what_is
+  - snip_it_personality__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: personality
+    ad_templates:
+    - name: personality__rsa
+      destination_url: https://efaq.com/it/personality/lp/quiz
+      headlines:
+      - EFAQ.com - Sito Ufficiale
+      - Non Sprecare Soldi
+      - Test di Personalità
+      - Qual è la Tua Personalità?
+      - Quiz Veloce sui 16 Tipi
+      - ENTJ o ENFP? Fai il Quiz
+      - Sei un INTJ o un INFP?
+      - Sei Logica o Emozione?
+      - 'Quiz Personalità: 5 Minuti'
+      - Test Personalità N.1
+      descriptions:
+      - Rispondi alle domande per scoprire il tuo tipo di personalità e i tuoi punti di forza.
+      - Sei introverso o estroverso? Scopri di più con il nostro quiz sulla personalità.
+      - Scopri come il tuo tipo di personalità influenza il tuo comportamento e le relazioni.
+      - Scopri il tuo tipo di personalità e ottieni informazioni su pregi e difetti.
+    keywords:
+    - text: personality test
+      match_type: BROAD
+    - text: personality type test
+      match_type: BROAD
+    - text: free personality test
+      match_type: BROAD
+    - text: free personality type test
+      match_type: BROAD
+    - text: personality test free
+      match_type: BROAD
+    - text: personality type test free
+      match_type: BROAD
+    - text: mbti test
+      match_type: BROAD
+    - text: mbti test free
+      match_type: BROAD
+    - text: free mbti test
+      match_type: BROAD
+    - text: myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs personality test free
+      match_type: BROAD
+    - text: free myers briggs personality test
+      match_type: BROAD
+    - text: myers briggs test
+      match_type: BROAD
+    - text: myers briggs test free
+      match_type: BROAD
+    - text: free myers briggs test
+      match_type: BROAD
+    - text: psychological test
+      match_type: BROAD
+    - text: psychological test free
+      match_type: BROAD
+    - text: free psychological test
+      match_type: BROAD
+    - text: psychological test online
+      match_type: BROAD
+    - text: enneagram test
+      match_type: BROAD
+    - text: enneagram test free
+      match_type: BROAD
+    - text: free enneagram test
+      match_type: BROAD
+    - text: online personality test
+      match_type: BROAD
+    - text: 16 personalities test
+      match_type: BROAD
+    - text: personality quiz
+      match_type: BROAD
+    - text: personality type quiz
+      match_type: BROAD
+    - text: free personality quiz
+      match_type: BROAD
+    - text: free personality type quiz
+      match_type: BROAD
+    - text: personality quiz free
+      match_type: BROAD
+    - text: personality type quiz free
+      match_type: BROAD
+    - text: mbti quiz
+      match_type: BROAD
+    - text: mbti quiz free
+      match_type: BROAD
+    - text: free mbti quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs personality quiz free
+      match_type: BROAD
+    - text: free myers briggs personality quiz
+      match_type: BROAD
+    - text: myers briggs quiz
+      match_type: BROAD
+    - text: myers briggs quiz free
+      match_type: BROAD
+    - text: free myers briggs quiz
+      match_type: BROAD
+    - text: psychological quiz
+      match_type: BROAD
+    - text: psychological quiz free
+      match_type: BROAD
+    - text: free psychological quiz
+      match_type: BROAD
+    - text: psychological quiz online
+      match_type: BROAD
+    - text: enneagram quiz
+      match_type: BROAD
+    - text: enneagram quiz free
+      match_type: BROAD
+    - text: free enneagram quiz
+      match_type: BROAD
+    - text: online personality quiz
+      match_type: BROAD
+    - text: 16 personalities quiz
+      match_type: BROAD
+    - text: 16 personality types
+      match_type: BROAD
+    - text: personality type
+      match_type: BROAD
+    - text: personality types
+      match_type: BROAD
+    - text: mbti
+      match_type: BROAD
+    - text: mbti free
+      match_type: BROAD
+    - text: free mbti
+      match_type: BROAD
+    - text: istj
+      match_type: BROAD
+    - text: isfj
+      match_type: BROAD
+    - text: infj
+      match_type: BROAD
+    - text: intj
+      match_type: BROAD
+    - text: istp
+      match_type: BROAD
+    - text: isfp
+      match_type: BROAD
+    - text: infp
+      match_type: BROAD
+    - text: intp
+      match_type: BROAD
+    - text: estp
+      match_type: BROAD
+    - text: esfp
+      match_type: BROAD
+    - text: enfp
+      match_type: BROAD
+    - text: entp
+      match_type: BROAD
+    - text: estj
+      match_type: BROAD
+    - text: esfj
+      match_type: BROAD
+    - text: enfj
+      match_type: BROAD
+    - text: entj
+      match_type: BROAD
+    - text: test personalità
+      match_type: BROAD
+    - text: test di personalità
+      match_type: BROAD
+    - text: test personalità gratis
+      match_type: BROAD
+    - text: test personalità gratuito
+      match_type: BROAD
+    - text: test mbti italiano
+      match_type: BROAD
+    - text: test enneagramma
+      match_type: BROAD
+    - text: 16 personalità
+      match_type: BROAD
+    - text: test 16 personalità
+      match_type: BROAD
+    - text: quiz personalità
+      match_type: BROAD
+    - text: quiz sulla personalità
+      match_type: BROAD
+    - text: test myers briggs
+      match_type: BROAD
+    - text: tipi di personalità
+      match_type: BROAD
+    - text: profilo personalità
+      match_type: BROAD
+    - text: che personalità sei
+      match_type: BROAD
+    - text: test carattere
+      match_type: BROAD
+    - text: conosci te stesso
+      match_type: BROAD

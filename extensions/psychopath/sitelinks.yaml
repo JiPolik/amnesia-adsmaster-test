@@ -1,0 +1,671 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_psychopath__callous_unemotional
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/psychopath/lp/callous-unemotional-traits
+  title: Callous-Unemotional
+  description1: Assess callous-unemotional traits
+  description2: Take our online self-assessment
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_psychopath__dark_triad
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/psychopath/lp/dark-triad
+  title: Dark Triad
+  description1: Explore the dark triad of traits
+  description2: Take the dark triad quiz today
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_psychopath__emotional_detachment
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/psychopath/lp/emotional-detachment
+  title: Emotional Detachment
+  description1: Evaluate emotional detachment
+  description2: Learn about your emotional state
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_psychopath__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/psychopath/lp/quiz
+  title: Psychopath Quiz
+  description1: Take the self-assessment
+  description2: Learn more about yourself
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_psychopath__lack_of_empathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/psychopath/lp/lack-of-empathy
+  title: Lack of Empathy
+  description1: Assess your empathy levels today
+  description2: Online self-assessment available
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_psychopath__manipulation_deceit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/psychopath/lp/manipulation-and-deceit
+  title: Manipulation & Deceit
+  description1: Recognize manipulation patterns
+  description2: Take the online assessment now
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_psychopath__superficial_charm
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/psychopath/lp/superficial-charm
+  title: Superficial Charm
+  description1: Identify superficial charm signs
+  description2: Quick online self-assessment
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_psychopath__what_is_psychopathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/psychopath/lp/what-is-psychopathy
+  title: What Is Psychopathy?
+  description1: Learn about psychopathy traits
+  description2: Expert information and research
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_psychopath__callous_unemotional
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/psychopath/lp/callous-unemotional-traits
+  title: Kylmyys ja tunteettomuus
+  description1: Arvioi tunteettomuuden piirteitä
+  description2: Tee itsearviointi verkossa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_psychopath__dark_triad
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/psychopath/lp/dark-triad
+  title: Pimeä kolmikko
+  description1: Tutki pimeän kolmikon piirteitä
+  description2: Tee pimeän kolmikon testi tänään
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_psychopath__emotional_detachment
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/psychopath/lp/emotional-detachment
+  title: Emotionaalinen etäisyys
+  description1: Arvioi emotionaalista etäisyyttä
+  description2: Opi lisää tunnetilastasi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_psychopath__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/psychopath/lp/quiz
+  title: Psykopaattitesti
+  description1: Tee itsearviointitesti
+  description2: Opi lisää itsestäsi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_psychopath__lack_of_empathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/psychopath/lp/lack-of-empathy
+  title: Empatian puute
+  description1: Arvioi empatiatasosi jo tänään
+  description2: Itsearviointi saatavilla netissä
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_psychopath__manipulation_deceit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/psychopath/lp/manipulation-and-deceit
+  title: Manipulaatio ja petos
+  description1: Tunnista manipulaation merkit
+  description2: Tee arviointi verkossa nyt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_psychopath__superficial_charm
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/psychopath/lp/superficial-charm
+  title: Pinnallinen viehätys
+  description1: Tunnista pinnallinen viehätys
+  description2: Nopea itsearviointi verkossa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_psychopath__what_is_psychopathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/psychopath/lp/what-is-psychopathy
+  title: Mitä psykopatia on?
+  description1: Opi psykopatian piirteistä
+  description2: Asiantuntijatietoa ja tutkimusta
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_psychopath__callous_unemotional
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/psychopath/lp/callous-unemotional-traits
+  title: Érzéketlen Vonások
+  description1: Mérd fel az érzéketlen vonásokat
+  description2: Töltsd ki online tesztünket
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_psychopath__dark_triad
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/psychopath/lp/dark-triad
+  title: Sötét Triád
+  description1: Fedezd fel a sötét triádot
+  description2: Töltsd ki a sötét triád tesztet
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_psychopath__emotional_detachment
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/psychopath/lp/emotional-detachment
+  title: Érzelmi Elszakadás
+  description1: Értékeld az érzelmi elszakadást
+  description2: Ismerd meg érzelmi állapotod
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_psychopath__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/psychopath/lp/quiz
+  title: Pszichopata Teszt
+  description1: Töltsd ki az önértékelést
+  description2: Tudj meg többet magadról
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_psychopath__lack_of_empathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/psychopath/lp/lack-of-empathy
+  title: Empátia Hiánya
+  description1: Mérd fel az empátiaszinted ma
+  description2: Online önértékelés elérhető
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_psychopath__manipulation_deceit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/psychopath/lp/manipulation-and-deceit
+  title: Manipuláció és Csalás
+  description1: Ismerd fel a manipulációt
+  description2: Töltsd ki az online tesztet most
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_psychopath__superficial_charm
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/psychopath/lp/superficial-charm
+  title: Felszínes Báj
+  description1: Felszínes báj jeleinek felismerése
+  description2: Gyors online önértékelés
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_psychopath__what_is_psychopathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/psychopath/lp/what-is-psychopathy
+  title: Mi a Pszichopátia?
+  description1: Tudj meg többet a vonásokról
+  description2: Szakértői infók és kutatások
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_psychopath__callous_unemotional
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/psychopath/lp/callous-unemotional-traits
+  title: Tilfinningaleysi
+  description1: Metið tilfinningaleysi
+  description2: Taktu sjálfsmatið á netinu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_psychopath__dark_triad
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/psychopath/lp/dark-triad
+  title: Myrka þrenningin
+  description1: Kannaðu myrku þrenninguna
+  description2: Taktu prófið í dag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_psychopath__emotional_detachment
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/psychopath/lp/emotional-detachment
+  title: Tilfinningaleg fjarlægð
+  description1: Metið tilfinningalega fjarlægð
+  description2: Lærðu um tilfinningalegt ástand
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_psychopath__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/psychopath/lp/quiz
+  title: Siðblindupróf
+  description1: Taktu sjálfsmat á netinu
+  description2: Lærðu meira um sjálfan þig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_psychopath__lack_of_empathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/psychopath/lp/lack-of-empathy
+  title: Skortur á samkennd
+  description1: Metið samkennd þína í dag
+  description2: Sjálfsmat á netinu í boði
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_psychopath__manipulation_deceit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/psychopath/lp/manipulation-and-deceit
+  title: Stjórnun og blekking
+  description1: Þekktu stjórnunarmynstur
+  description2: Taktu matið á netinu núna
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_psychopath__superficial_charm
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/psychopath/lp/superficial-charm
+  title: Yfirborðskenndur þokki
+  description1: Þekktu yfirborðskenndan þokka
+  description2: Fljótlegt sjálfsmat á netinu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_psychopath__what_is_psychopathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/psychopath/lp/what-is-psychopathy
+  title: Hvað er siðblinda?
+  description1: Lærðu um einkenni siðblindu
+  description2: Upplýsingar frá sérfræðingum
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_psychopath__callous_unemotional
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/psychopath/lp/callous-unemotional-traits
+  title: Nejūtīgums un aukstums
+  description1: Novērtējiet savas īpašības
+  description2: Aizpildiet testu tiešsaistē
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_psychopath__dark_triad
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/psychopath/lp/dark-triad
+  title: Tumšā triāde
+  description1: Izpētiet tumšās triādes iezīmes
+  description2: Aizpildiet testu jau šodien
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_psychopath__emotional_detachment
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/psychopath/lp/emotional-detachment
+  title: Emocionālā atsvešinātība
+  description1: Novērtējiet atsvešinātību
+  description2: Izprotiet savu emocionālo stāvokli
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_psychopath__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/psychopath/lp/quiz
+  title: Psihopātijas tests
+  description1: Aizpildiet pašnovērtējumu
+  description2: Uzziniet vairāk par sevi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_psychopath__lack_of_empathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/psychopath/lp/lack-of-empathy
+  title: Empātijas trūkums
+  description1: Novērtējiet savu empātijas līmeni
+  description2: Pieejams tiešsaistes tests
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_psychopath__manipulation_deceit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/psychopath/lp/manipulation-and-deceit
+  title: Manipulācija un viltus
+  description1: Atpazīstiet manipulāciju
+  description2: Aizpildiet tiešsaistes testu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_psychopath__superficial_charm
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/psychopath/lp/superficial-charm
+  title: Virsējais šarms
+  description1: Atpazīstiet šarma pazīmes
+  description2: Ātrs tiešsaistes pašnovērtējums
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_psychopath__what_is_psychopathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/psychopath/lp/what-is-psychopathy
+  title: Kas ir psihopātija?
+  description1: Uzziniet par psihopātiju
+  description2: Ekspertu informācija un pētījumi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_psychopath__callous_unemotional
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/psychopath/lp/callous-unemotional-traits
+  title: Kald og ufølsom
+  description1: Vurder ufølsomme trekk
+  description2: Ta vår egenevaluering på nett
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_psychopath__dark_triad
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/psychopath/lp/dark-triad
+  title: Den mørke triaden
+  description1: Utforsk den mørke triaden
+  description2: Ta testen for mørk triade
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_psychopath__emotional_detachment
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/psychopath/lp/emotional-detachment
+  title: Følelsesmessig avstand
+  description1: Vurder emosjonell distanse
+  description2: Lær om din emosjonelle tilstand
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_psychopath__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/psychopath/lp/quiz
+  title: Psykopat-test
+  description1: Ta vår egenevaluering
+  description2: Lær mer om deg selv
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_psychopath__lack_of_empathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/psychopath/lp/lack-of-empathy
+  title: Mangel på empati
+  description1: Vurder ditt empatinivå i dag
+  description2: Egenevaluering på nett
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_psychopath__manipulation_deceit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/psychopath/lp/manipulation-and-deceit
+  title: Manipulasjon og svik
+  description1: Gjenkjenn manipulasjon
+  description2: Ta testen på nett nå
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_psychopath__superficial_charm
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/psychopath/lp/superficial-charm
+  title: Overfladisk sjarm
+  description1: Kjenn igjen overfladisk sjarm
+  description2: Rask egenevaluering på nett
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_psychopath__what_is_psychopathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/psychopath/lp/what-is-psychopathy
+  title: Hva er psykopati?
+  description1: Lær om psykopatiske trekk
+  description2: Ekspertinformasjon og forskning
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_psychopath__callous_unemotional
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/psychopath/lp/callous-unemotional-traits
+  title: Frieza e Insensibilidade
+  description1: Avalie traços de insensibilidade
+  description2: Faça a nossa autoavaliação
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_psychopath__dark_triad
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/psychopath/lp/dark-triad
+  title: Tríade Negra
+  description1: Explore a tríade negra de traços
+  description2: Faça o teste da tríade negra
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_psychopath__emotional_detachment
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/psychopath/lp/emotional-detachment
+  title: Desapego Emocional
+  description1: Avalie o desapego emocional
+  description2: Conheça o seu estado emocional
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_psychopath__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/psychopath/lp/quiz
+  title: Teste de Psicopatia
+  description1: Faça a autoavaliação online
+  description2: Saiba mais sobre si mesmo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_psychopath__lack_of_empathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/psychopath/lp/lack-of-empathy
+  title: Falta de Empatia
+  description1: Avalie os seus níveis de empatia
+  description2: Autoavaliação online disponível
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_psychopath__manipulation_deceit
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/psychopath/lp/manipulation-and-deceit
+  title: Manipulação e Falsidade
+  description1: Reconheça padrões de manipulação
+  description2: Faça já a avaliação online
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_psychopath__superficial_charm
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/psychopath/lp/superficial-charm
+  title: Charme Superficial
+  description1: Identifique sinais de charme
+  description2: Autoavaliação online rápida
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_psychopath__what_is_psychopathy
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/psychopath/lp/what-is-psychopathy
+  title: O Que É A Psicopatia?
+  description1: Conheça os traços da psicopatia
+  description2: Informação de especialistas

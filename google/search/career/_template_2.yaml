@@ -4,8 +4,14 @@ metadata:
   name: career_search_tmpl_2
   platform: google_search
   vertical: career
-  extends: efaq_base
 spec:
+  objective: TRAFFIC
+  status: PAUSED
+  ad_set_defaults:
+    status: PAUSED
+    bid_strategy: TARGET_CPA
+  ad_template_defaults:
+    status: ENABLED
   ad_sets:
   - name: career
     target_cpa_usd: 18.0

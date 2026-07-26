@@ -1,0 +1,149 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: lt_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_lt_career__experts
+  - callout_lt_career__instant
+  - callout_lt_career__minutes
+  - callout_lt_career__mobile_friendly
+  - callout_lt_career__plan_future
+  - callout_lt_career__secure
+  - callout_lt_career__strengths
+  - efaq_business_name
+  - sitelink_lt_career__ai
+  - sitelink_lt_career__career_change
+  - sitelink_lt_career__fit
+  - sitelink_lt_career__generic
+  - sitelink_lt_career__graduates
+  - sitelink_lt_career__how_it_works
+  - sitelink_lt_career__plan_future
+  - sitelink_lt_career__science
+  - sitelink_lt_career__strengths
+  - sitelink_lt_career__students
+  - sitelink_lt_career__what_is
+  - snip_lt_career__services
+  - snip_lt_career__styles
+  - snip_lt_career__types
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/lt/career/lp/quiz
+      headlines:
+      - EFAQ.com - Oficiali svetainė
+      - Nešvaistykite pinigų
+      - Karjeros tinkamumo testas
+      - Atraskite idealią karjerą
+      - Koks darbas jums tinka?
+      - Raskite stiprybes greitai
+      - Karjeros testas visiems
+      - Profesinių stiprybių testas
+      - Dirbate nemėgstamą darbą?
+      - Sužinokite darbo stilių
+      - Raskite svajonių darbą
+      - Ar nuspėsime jūsų karjerą?
+      - 5 minučių karjeros testas
+      - Geriausiai įvertintas testas
+      - Keiskite karjerą užtikrintai
+      descriptions:
+      - Sužinokite, kuri karjera atitinka jūsų stiprybes, įgūdžius ir pomėgius su mūsų testu.
+      - Gaukite asmenines karjeros idėjas, pagrįstas jūsų stiprybėmis ir darbo stiliumi.
+      - Galvojate keisti karjerą? Atraskite naujus kelius, kurie jums tinka geriau.
+      - Atlikite tyrimais pagrįstą karjeros testą ir gaukite asmeninius patarimus.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: karjeros testas
+      match_type: BROAD
+    - text: karjeros testas internetu
+      match_type: BROAD
+    - text: nemokamas karjeros testas
+      match_type: BROAD
+    - text: profesijos testas
+      match_type: BROAD
+    - text: koks darbas man tinka
+      match_type: BROAD
+    - text: profesinis orientavimas
+      match_type: BROAD
+    - text: karjeros pasirinkimas
+      match_type: BROAD
+    - text: svajonių darbas
+      match_type: BROAD
+    - text: tinkamiausia profesija
+      match_type: BROAD
+    - text: darbo testas
+      match_type: BROAD
+    - text: profesijos pasirinkimo testas
+      match_type: BROAD

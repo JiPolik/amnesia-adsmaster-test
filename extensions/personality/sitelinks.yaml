@@ -1,0 +1,2015 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/personality/lp/quiz
+  title: Test de Personalitat
+  description1: Descobreix el teu tipus
+  description2: Aprèn més sobre tu mateix
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/personality/lp/introverts-vs-extroverts
+  title: Introvertit o Extrovertit
+  description1: Diferències clau explicades
+  description2: Quin encaixa amb tu?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/personality/lp/rare-personality-types
+  title: Personalitats Rares
+  description1: Perfils poc comuns
+  description2: Mira si el teu és rar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/personality/lp/personality-test-science
+  title: La Ciència del Test
+  description1: Basat en psicologia
+  description2: Com es mesuren els trets
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/personality/lp/16-personality-types
+  title: 16 Tipus de Personalitat
+  description1: Tot sobre els 16 tipus
+  description2: Quin tipus ets tu?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/personality/lp/personality-traits-explained
+  title: Trets de Personalitat
+  description1: Aprèn els trets principals
+  description2: Com afecten el comportament
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ca_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ca/personality/lp/what-is-a-personality-test
+  title: Què és un Test?
+  description1: Què mesuren els tests
+  description2: Com funcionen els tests
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/personality/lp/quiz
+  title: Test osobnosti
+  description1: Zjistěte svůj typ osobnosti
+  description2: Poznejte lépe sami sebe
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/personality/lp/introverts-vs-extroverts
+  title: Introverti a extroverti
+  description1: Jasné vysvětlení rozdílů
+  description2: Co sedí na vaši osobnost?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/personality/lp/rare-personality-types
+  title: Vzácné typy osobnosti
+  description1: Neobvyklé profily
+  description2: Je váš typ vzácný?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/personality/lp/personality-test-science
+  title: Vědecký základ testu
+  description1: Založeno na výzkumu
+  description2: Jak měříme rysy
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/personality/lp/16-personality-types
+  title: 16 typů osobnosti
+  description1: Vše o 16 typech osobnosti
+  description2: Který typ jste vy?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/personality/lp/personality-traits-explained
+  title: Osobnostní rysy
+  description1: Poznejte hlavní rysy
+  description2: Vliv rysů na chování
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_cs_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/cs/personality/lp/what-is-a-personality-test
+  title: Co je test osobnosti
+  description1: Co testy měří
+  description2: Princip těchto testů
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/personality/lp/quiz
+  title: Personlighedstypetest
+  description1: Find din personlighedstype
+  description2: Lær mere om dig selv
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/personality/lp/introverts-vs-extroverts
+  title: Introvert vs Ekstrovert
+  description1: Forskelle forklaret klart
+  description2: Hvad passer på dig?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/personality/lp/rare-personality-types
+  title: Sjældne personligheder
+  description1: Usædvanlige profiler
+  description2: Er din type sjælden?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/personality/lp/personality-test-science
+  title: Videnskaben bag testen
+  description1: Baseret på forskning
+  description2: Hvordan testen måler træk
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/personality/lp/16-personality-types
+  title: 16 personlighedstyper
+  description1: Alt om de 16 personlighedstyper
+  description2: Hvilken type er du?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/personality/lp/personality-traits-explained
+  title: Personlighedstræk
+  description1: Lær om kernetræk
+  description2: Hvordan træk påvirker dig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_da_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/da/personality/lp/what-is-a-personality-test
+  title: Hvad er en test?
+  description1: Hvad måler testen?
+  description2: Hvordan virker de?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/personality/lp/quiz
+  title: Persönlichkeitstest
+  description1: Finde deinen Typ heraus
+  description2: Lerne mehr über dich
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/personality/lp/introverts-vs-extroverts
+  title: Intro- vs. Extrovertiert
+  description1: Unterschiede erklärt
+  description2: Was passt zu dir?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/personality/lp/rare-personality-types
+  title: Seltene Persönlichkeiten
+  description1: Ungewöhnliche Profile
+  description2: Ist dein Typ selten?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/personality/lp/personality-test-science
+  title: Wissenschaftlicher Test
+  description1: Basiert auf Psychologie
+  description2: Wie der Test misst
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/personality/lp/16-personality-types
+  title: 16 Persönlichkeitstypen
+  description1: Alles über die 16 Typen
+  description2: Welcher Typ bist du?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/personality/lp/personality-traits-explained
+  title: Persönlichkeitsmerkmale
+  description1: Lerne Kernmerkmale kennen
+  description2: Einfluss auf Verhalten
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_de_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/de/personality/lp/what-is-a-personality-test
+  title: Was ist ein Typentest?
+  description1: Was der Test misst
+  description2: Wie Tests funktionieren
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/personality/lp/quiz
+  title: Τεστ Προσωπικότητας
+  description1: Βρες τον τύπο προσωπικότητάς σου
+  description2: Μάθε περισσότερα για εσένα
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/personality/lp/introverts-vs-extroverts
+  title: Εσωστρεφείς - Εξωστρεφείς
+  description1: Οι βασικές διαφορές
+  description2: Τι ταιριάζει σε εσένα;
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/personality/lp/rare-personality-types
+  title: Σπάνιοι Τύποι
+  description1: Ασυνήθιστα προφίλ
+  description2: Είναι ο τύπος σου σπάνιος;
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/personality/lp/personality-test-science
+  title: Η Επιστήμη του Τεστ
+  description1: Βάσει ερευνών ψυχολογίας
+  description2: Πώς μετρώνται τα χαρακτηριστικά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/personality/lp/16-personality-types
+  title: 16 Τύποι Προσωπικότητας
+  description1: Όλα για τους 16 τύπους
+  description2: Ποιος τύπος είσαι εσύ;
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/personality/lp/personality-traits-explained
+  title: Χαρακτηριστικά
+  description1: Μάθε τα βασικά στοιχεία
+  description2: Πώς επηρεάζουν τη συμπεριφορά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_el_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/el/personality/lp/what-is-a-personality-test
+  title: Τι είναι το Τεστ;
+  description1: Τι μετρούν τα τεστ
+  description2: Πώς λειτουργούν αυτά τα τεστ
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/personality/lp/quiz
+  title: Personality Type Test
+  description1: Find out your personality type
+  description2: Learn more about yourself
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/personality/lp/introverts-vs-extroverts
+  title: Introverts vs Extroverts
+  description1: Key differences explained clearly
+  description2: Which one fits your personality?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/personality/lp/rare-personality-types
+  title: Rare Personality Types
+  description1: Uncommon personality profiles
+  description2: See if your type is rare
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/personality/lp/personality-test-science
+  title: Science of The Test
+  description1: Based on psychology research
+  description2: How the test measures traits
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/personality/lp/16-personality-types
+  title: 16 Personality Types
+  description1: All about the 16 personality types
+  description2: Which type are you?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/personality/lp/personality-traits-explained
+  title: Personality Traits
+  description1: Learn core personality traits
+  description2: How traits affect behavior
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_en_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/personality/lp/what-is-a-personality-test
+  title: What's a Personality Test
+  description1: What personality tests measure
+  description2: How these tests work
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/personality/lp/quiz
+  title: Test de Personalidad
+  description1: Descubre tu tipo de personalidad
+  description2: Aprende más sobre ti mismo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/personality/lp/introverts-vs-extroverts
+  title: Introvertidos vs Extrover
+  description1: Diferencias clave explicadas
+  description2: ¿Cuál se ajusta a tu personalidad?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/personality/lp/rare-personality-types
+  title: Tipos Raros de Persona
+  description1: Perfiles de personalidad inusuales
+  description2: Mira si tu tipo es raro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/personality/lp/personality-test-science
+  title: Ciencia del Test
+  description1: Basado en investigación psicológica
+  description2: Cómo el test mide rasgos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/personality/lp/16-personality-types
+  title: 16 Tipos de Personalidad
+  description1: Todo sobre los 16 tipos
+  description2: ¿Cuál tipo eres tú?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/personality/lp/personality-traits-explained
+  title: Rasgos de Personalidad
+  description1: Aprende rasgos fundamentales
+  description2: Cómo los rasgos afectan conducta
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_eslatam_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/es-latam/personality/lp/what-is-a-personality-test
+  title: Qué es un Test
+  description1: Qué miden los tests de personalidad
+  description2: Cómo funcionan estos tests
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/personality/lp/quiz
+  title: Isiksusetüübi test
+  description1: Leia oma isiksusetüüp
+  description2: Õpi ennast tundma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/personality/lp/introverts-vs-extroverts
+  title: Introvert vs ekstravert
+  description1: Erinevuste selgitus
+  description2: Kumb sobib sinule?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/personality/lp/rare-personality-types
+  title: Haruldased tüübid
+  description1: Ebatavalised profiilid
+  description2: Kas oled haruldane tüüp?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/personality/lp/personality-test-science
+  title: Testi teaduslik taust
+  description1: Põhineb uuringutel
+  description2: Kuidas omadusi mõõdetakse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/personality/lp/16-personality-types
+  title: 16 isiksusetüüpi
+  description1: Kõik 16 isiksusetüübist
+  description2: Milline tüüp oled sina?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/personality/lp/personality-traits-explained
+  title: Isiksuseomadused
+  description1: Õpi põhiomadusi
+  description2: Kuidas need mõjutavad
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_et_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/et/personality/lp/what-is-a-personality-test
+  title: Mis on isiksusetest?
+  description1: Mida testid mõõdavad
+  description2: Kuidas testid töötavad
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/personality/lp/quiz
+  title: Persoonallisuustesti
+  description1: Selvitä persoonallisuustyyppisi
+  description2: Opi lisää itsestäsi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/personality/lp/introverts-vs-extroverts
+  title: Introvertti/Ekstrovertti
+  description1: Erot selitetty selkeästi
+  description2: Kumpi kuvaa sinua?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/personality/lp/rare-personality-types
+  title: Harvinaiset tyypit
+  description1: Harvinaiset profiilit
+  description2: Onko tyyppisi harvinainen?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/personality/lp/personality-test-science
+  title: Testin tiedepohja
+  description1: Perustuu psykologiatutkimukseen
+  description2: Miten testi mittaa piirteitä
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/personality/lp/16-personality-types
+  title: 16 persoonallisuustyyppiä
+  description1: Tietoa 16 persoonallisuudesta
+  description2: Mikä tyyppi sinä olet?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/personality/lp/personality-traits-explained
+  title: Persoonallisuuspiirteet
+  description1: Opi keskeiset piirteet
+  description2: Miten piirteet vaikuttavat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fi_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fi/personality/lp/what-is-a-personality-test
+  title: Persoonallisuustestit
+  description1: Mitä testit mittaavat
+  description2: Miten testit toimivat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/personality/lp/quiz
+  title: Test de Personnalité
+  description1: Découvrez votre type
+  description2: Apprenez sur vous-même
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/personality/lp/introverts-vs-extroverts
+  title: Introverti vs Extraverti
+  description1: Différences expliquées
+  description2: Lequel êtes-vous ?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/personality/lp/rare-personality-types
+  title: Personnalités Rares
+  description1: Profils peu communs
+  description2: Votre type est-il rare ?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/personality/lp/personality-test-science
+  title: La Science du Test
+  description1: Basé sur la psychologie
+  description2: Mesure des traits
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/personality/lp/16-personality-types
+  title: 16 Types Personnalité
+  description1: Tout sur les 16 types
+  description2: Quel est votre type ?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/personality/lp/personality-traits-explained
+  title: Traits de Personnalité
+  description1: Traits fondamentaux
+  description2: Impact sur le comportement
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_fr_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/fr/personality/lp/what-is-a-personality-test
+  title: Qu'est-ce qu'un Test ?
+  description1: Ce que le test mesure
+  description2: Comment ça marche
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/personality/lp/quiz
+  title: Test osobnosti
+  description1: Saznajte svoj tip osobnosti
+  description2: Saznajte više o sebi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/personality/lp/introverts-vs-extroverts
+  title: Introverti i ekstroverti
+  description1: Jasno objašnjene razlike
+  description2: Što odgovara vašoj osobnosti?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/personality/lp/rare-personality-types
+  title: Rijetki tipovi osobnosti
+  description1: Neobični profili osobnosti
+  description2: Provjerite je li vaš tip rijedak
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/personality/lp/personality-test-science
+  title: Znanost iza testa
+  description1: Temeljeno na psihologiji
+  description2: Kako test mjeri osobine
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/personality/lp/16-personality-types
+  title: 16 tipova osobnosti
+  description1: Sve o 16 tipova osobnosti
+  description2: Koji ste vi tip?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/personality/lp/personality-traits-explained
+  title: Osobine ličnosti
+  description1: Naučite glavne osobine
+  description2: Utjecaj osobina na ponašanje
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hr_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hr/personality/lp/what-is-a-personality-test
+  title: Što je test osobnosti
+  description1: Što mjere testovi osobnosti
+  description2: Kako ovi testovi rade
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/personality/lp/quiz
+  title: Személyiségtípus teszt
+  description1: Tudja meg személyiségtípusát
+  description2: Tudjon meg többet magáról
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/personality/lp/introverts-vs-extroverts
+  title: Introvertált/Extrovertált
+  description1: Fő különbségek érthetően
+  description2: Melyik illik Önre?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/personality/lp/rare-personality-types
+  title: Ritka személyiségtípusok
+  description1: Szokatlan profilok
+  description2: Ritka az Ön típusa?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/personality/lp/personality-test-science
+  title: A teszt tudománya
+  description1: Pszichológiai alapokon
+  description2: Hogyan mér a teszt?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/personality/lp/16-personality-types
+  title: 16 személyiségtípus
+  description1: Minden a 16 típusról
+  description2: Melyik típusba tartozik?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/personality/lp/personality-traits-explained
+  title: Személyiségjegyek
+  description1: Fő jellemvonások
+  description2: Hatásuk a viselkedésre
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_hu_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/hu/personality/lp/what-is-a-personality-test
+  title: Mi a személyiségteszt?
+  description1: Mit mérnek a tesztek?
+  description2: Hogyan működnek?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/personality/lp/quiz
+  title: Persónuleikapróf
+  description1: Finndu þína persónuleikagerð
+  description2: Lærðu meira um sjálfan þig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/personality/lp/introverts-vs-extroverts
+  title: Innhverfur eða úthverfur
+  description1: Lykilmunur útskýrður vel
+  description2: Hvort passar við þig?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/personality/lp/rare-personality-types
+  title: Sjaldgæfar gerðir
+  description1: Óalgengar persónuleikagerðir
+  description2: Er þín gerð sjaldgæf?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/personality/lp/personality-test-science
+  title: Vísindin bak við prófið
+  description1: Byggt á sálfræðirannsóknum
+  description2: Hvernig prófið mælir eiginleika
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/personality/lp/16-personality-types
+  title: 16 persónuleikagerðir
+  description1: Allt um 16 persónuleikagerðir
+  description2: Hvaða gerð ert þú?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/personality/lp/personality-traits-explained
+  title: Persónuleikaeinkenni
+  description1: Lærðu um helstu einkenni
+  description2: Áhrif einkenna á hegðun
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_is_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/is/personality/lp/what-is-a-personality-test
+  title: Hvað er persónuleikapróf?
+  description1: Hvað mæla persónuleikapróf?
+  description2: Hvernig virka þessi próf?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/personality/lp/quiz
+  title: Test di Personalità
+  description1: Scopri la tua personalità
+  description2: Impara di più su di te
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/personality/lp/introverts-vs-extroverts
+  title: Introversi o Estroversi
+  description1: Differenze spiegate bene
+  description2: Quale ti descrive meglio?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/personality/lp/rare-personality-types
+  title: Tipi di Personalità Rari
+  description1: Profili non comuni
+  description2: Il tuo tipo è raro?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/personality/lp/personality-test-science
+  title: La Scienza del Test
+  description1: Basato sulla psicologia
+  description2: Come misuriamo i tratti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/personality/lp/16-personality-types
+  title: 16 Tipi di Personalità
+  description1: Tutto sui 16 tipi
+  description2: Quale tipo sei tu?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/personality/lp/personality-traits-explained
+  title: Tratti di Personalità
+  description1: Scopri i tratti chiave
+  description2: Effetti sul comportamento
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_it_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/it/personality/lp/what-is-a-personality-test
+  title: Cos'è un Test Personalità
+  description1: Cosa misurano i test
+  description2: Come funzionano i test
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/personality/lp/quiz
+  title: Asmenybės testas
+  description1: Sužinokite savo tipą
+  description2: Sužinokite daugiau apie save
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/personality/lp/introverts-vs-extroverts
+  title: Intravertai, ekstravertai
+  description1: Aiškiai paaiškinti skirtumai
+  description2: Kuris atitinka jus?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/personality/lp/rare-personality-types
+  title: Reti asmenybės tipai
+  description1: Reti asmenybės profiliai
+  description2: Ar jūsų tipas retas?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/personality/lp/personality-test-science
+  title: Testo mokslas
+  description1: Paremta psichologijos tyrimais
+  description2: Kaip testas matuoja bruožus
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/personality/lp/16-personality-types
+  title: 16 asmenybės tipų
+  description1: Viskas apie 16 asmenybės tipų
+  description2: Kuris tipas esate jūs?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/personality/lp/personality-traits-explained
+  title: Asmenybės bruožai
+  description1: Pagrindiniai asmenybės bruožai
+  description2: Kaip bruožai veikia elgesį
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lt_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lt/personality/lp/what-is-a-personality-test
+  title: Kas yra asmenybės testas
+  description1: Ką matuoja asmenybės testai
+  description2: Kaip veikia šie testai
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/personality/lp/quiz
+  title: Personības tipa tests
+  description1: Uzzini savu personības tipu
+  description2: Uzzini vairāk par sevi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/personality/lp/introverts-vs-extroverts
+  title: Introverti un ekstraverti
+  description1: Skaidrotas galvenās atšķirības
+  description2: Kurš atbilst tavai personībai?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/personality/lp/rare-personality-types
+  title: Reti personības tipi
+  description1: Neparasti personības profili
+  description2: Uzzini, vai tavs tips ir rets
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/personality/lp/personality-test-science
+  title: Testa zinātniskā bāze
+  description1: Balstīts psiholoģijas pētījumos
+  description2: Kā tests mēra iezīmes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/personality/lp/16-personality-types
+  title: 16 personības tipi
+  description1: Viss par 16 personības tipiem
+  description2: Kurš tips esi tu?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/personality/lp/personality-traits-explained
+  title: Personības iezīmes
+  description1: Uzzini galvenās iezīmes
+  description2: Kā iezīmes ietekmē uzvedību
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_lv_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/lv/personality/lp/what-is-a-personality-test
+  title: Kas ir personības tests
+  description1: Ko mēra personības testi
+  description2: Kā šie testi darbojas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/personality/lp/quiz
+  title: Persoonlijkheidstest
+  description1: Ontdek jouw persoonlijkheid
+  description2: Leer meer over jezelf
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/personality/lp/introverts-vs-extroverts
+  title: Introvert vs Extravert
+  description1: Verschillen duidelijk uitgelegd
+  description2: Wat past bij jouw karakter?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/personality/lp/rare-personality-types
+  title: Zeldzame Types
+  description1: Unieke persoonlijkheden
+  description2: Is jouw type zeldzaam?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/personality/lp/personality-test-science
+  title: Wetenschap van de Test
+  description1: Gebaseerd op onderzoek
+  description2: Hoe de test werkt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/personality/lp/16-personality-types
+  title: 16 Persoonlijkheidstypes
+  description1: Alles over de 16 types
+  description2: Welk type ben jij?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/personality/lp/personality-traits-explained
+  title: Persoonlijkheidstrekken
+  description1: Leer de kerneigenschappen
+  description2: Invloed op gedrag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_nl_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/nl/personality/lp/what-is-a-personality-test
+  title: Wat is een Karaktertest?
+  description1: Wat deze tests meten
+  description2: Hoe deze tests werken
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/personality/lp/quiz
+  title: Personlighetstest
+  description1: Finn din personlighetstype
+  description2: Lær mer om deg selv
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/personality/lp/introverts-vs-extroverts
+  title: Introvert vs Ekstrovert
+  description1: Forskjellene forklart
+  description2: Hva passer deg best?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/personality/lp/rare-personality-types
+  title: Sjeldne personligheter
+  description1: Uvanlige profiler
+  description2: Er din type sjelden?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/personality/lp/personality-test-science
+  title: Vitenskapen bak testen
+  description1: Basert på psykologi
+  description2: Hvordan testen måler trekk
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/personality/lp/16-personality-types
+  title: 16 personlighetstyper
+  description1: Alt om de 16 typene
+  description2: Hvilken type er du?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/personality/lp/personality-traits-explained
+  title: Personlighetstrekk
+  description1: Lær om kjernetrekkene
+  description2: Hvordan trekk påvirker deg
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_no_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/no/personality/lp/what-is-a-personality-test
+  title: Hva er personlighetstest
+  description1: Hva testene måler
+  description2: Hvordan de fungerer
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/personality/lp/quiz
+  title: Teste de Personalidade
+  description1: Descubra o seu tipo
+  description2: Saiba mais sobre si
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/personality/lp/introverts-vs-extroverts
+  title: Introvertido/Extrovertido
+  description1: Diferenças explicadas
+  description2: Qual é o seu perfil?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/personality/lp/rare-personality-types
+  title: Tipos Raros
+  description1: Perfis pouco comuns
+  description2: O seu tipo é raro?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/personality/lp/personality-test-science
+  title: A Ciência do Teste
+  description1: Baseado em psicologia
+  description2: Como medimos traços
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/personality/lp/16-personality-types
+  title: 16 Tipos Personalidade
+  description1: Tudo sobre os 16 tipos
+  description2: Qual é o seu tipo?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/personality/lp/personality-traits-explained
+  title: Traços de Personalidade
+  description1: Conheça os traços base
+  description2: Impacto no comportamento
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ptpt_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/pt/personality/lp/what-is-a-personality-test
+  title: O Que é um Teste?
+  description1: O que o teste mede
+  description2: Como funcionam
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/personality/lp/quiz
+  title: Test de Personalitate
+  description1: Află ce tip ești
+  description2: Află mai multe despre tine
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/personality/lp/introverts-vs-extroverts
+  title: Introvertit vs Extrovert
+  description1: Diferențe explicate clar
+  description2: Care ți se potrivește?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/personality/lp/rare-personality-types
+  title: Tipuri Rare Personalitate
+  description1: Profile mai puțin comune
+  description2: Vezi dacă tipul tău e rar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/personality/lp/personality-test-science
+  title: Știința Testului
+  description1: Bazat pe psihologie
+  description2: Cum sunt măsurate trăsăturile
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/personality/lp/16-personality-types
+  title: 16 Tipuri Personalitate
+  description1: Totul despre cele 16 tipuri
+  description2: Tu ce tip ești?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/personality/lp/personality-traits-explained
+  title: Trăsături Personalitate
+  description1: Află trăsăturile de bază
+  description2: Influența asupra comportamentului
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_ro_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/ro/personality/lp/what-is-a-personality-test
+  title: Ce este un Test?
+  description1: Ce măsoară testele
+  description2: Cum funcționează acestea
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/personality/lp/quiz
+  title: Test osebnosti
+  description1: Spoznajte svoj tip osebnosti
+  description2: Izvedite več o sebi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/personality/lp/introverts-vs-extroverts
+  title: Introverti in ekstroverti
+  description1: Jasno razložene razlike
+  description2: Kateri ustreza vam?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/personality/lp/rare-personality-types
+  title: Redki tipi osebnosti
+  description1: Nenavadni profili osebnosti
+  description2: Preverite, če ste redki
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/personality/lp/personality-test-science
+  title: Znanost testa
+  description1: Temelji na raziskavah
+  description2: Kako test meri lastnosti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/personality/lp/16-personality-types
+  title: 16 tipov osebnosti
+  description1: Vse o 16 tipih osebnosti
+  description2: Kateri tip ste vi?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/personality/lp/personality-traits-explained
+  title: Osebnostne lastnosti
+  description1: Spoznajte glavne lastnosti
+  description2: Vpliv lastnosti na vedenje
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sl_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sl/personality/lp/what-is-a-personality-test
+  title: Kaj je test osebnosti
+  description1: Kaj merijo testi osebnosti
+  description2: Kako ti testi delujejo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/personality/lp/quiz
+  title: Тест типа личности
+  description1: Сазнајте свој тип личности
+  description2: Сазнајте више о себи
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/personality/lp/introverts-vs-extroverts
+  title: Интроверти и екстроверти
+  description1: Јасно објашњене разлике
+  description2: Шта одговара вама?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/personality/lp/rare-personality-types
+  title: Ретки типови личности
+  description1: Необични профили личности
+  description2: Да ли је ваш тип редак?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/personality/lp/personality-test-science
+  title: Наука иза теста
+  description1: Засновано на истраживању
+  description2: Како тест мери особине
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/personality/lp/16-personality-types
+  title: 16 типова личности
+  description1: Све о 16 типова личности
+  description2: Који сте ви тип?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/personality/lp/personality-traits-explained
+  title: Особине личности
+  description1: Сазнајте главне особине
+  description2: Утицај особина на понашање
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sr_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sr/personality/lp/what-is-a-personality-test
+  title: Шта је тест личности
+  description1: Шта мере тестови личности
+  description2: Како ови тестови раде
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/personality/lp/quiz
+  title: Personlighetstest
+  description1: Ta reda på din personlighet
+  description2: Lär dig mer om dig själv
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/personality/lp/introverts-vs-extroverts
+  title: Introvert vs extrovert
+  description1: Skillnaderna förklarade
+  description2: Vilken passar dig bäst?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/personality/lp/rare-personality-types
+  title: Ovanliga personligheter
+  description1: Ovanliga profiler
+  description2: Se om din typ är sällsynt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/personality/lp/personality-test-science
+  title: Vetenskapen bakom
+  description1: Baserat på psykologi
+  description2: Hur testet mäter drag
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/personality/lp/16-personality-types
+  title: 16 personlighetstyper
+  description1: Allt om de 16 typerna
+  description2: Vilken typ är du?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/personality/lp/personality-traits-explained
+  title: Personlighetsdrag
+  description1: Lär dig om viktiga drag
+  description2: Hur drag påverkar dig
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_sv_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/sv/personality/lp/what-is-a-personality-test
+  title: Vad är personlighetstest
+  description1: Vad testerna mäter
+  description2: Hur dessa tester fungerar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_personality__generic
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/personality/lp/quiz
+  title: Kişilik Tipi Testi
+  description1: Kişilik tipinizi öğrenin
+  description2: Kendiniz hakkında bilgi edinin
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_personality__introverts_extroverts
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/personality/lp/introverts-vs-extroverts
+  title: İçe Dönük ve Dışa Dönük
+  description1: Temel farklar açıkça anlatıldı
+  description2: Hangisi size uyuyor?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_personality__rare
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/personality/lp/rare-personality-types
+  title: Nadir Kişilik Tipleri
+  description1: Yaygın olmayan profiller
+  description2: Tipiniz nadir mi görün
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_personality__science
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/personality/lp/personality-test-science
+  title: Testin Bilimi
+  description1: Psikolojik araştırmalara dayalı
+  description2: Özellikler nasıl ölçülür
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_personality__sixteen_types
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/personality/lp/16-personality-types
+  title: 16 Kişilik Tipi
+  description1: 16 kişilik tipi hakkında her şey
+  description2: Hangi tipsiniz?
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_personality__traits
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/personality/lp/personality-traits-explained
+  title: Kişilik Özellikleri
+  description1: Temel özellikleri öğrenin
+  description2: Özellikler davranışı etkiler
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: sitelink_tr_personality__what_is
+spec:
+  schema_version: 1
+  type: SITELINK
+  url: https://efaq.com/tr/personality/lp/what-is-a-personality-test
+  title: Kişilik Testi Nedir?
+  description1: Kişilik testleri neyi ölçer
+  description2: Bu testler nasıl çalışır

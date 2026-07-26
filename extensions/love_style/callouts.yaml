@@ -1,0 +1,1457 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Създаден от експерти
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Намери своя стил
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Подобри връзката си
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Незабавни резултати
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Мобилен уебсайт
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_bg_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Сигурен уебсайт
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dissenyat per Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Troba el teu Estil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Millora la Relació
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultats Immediats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web Adaptat a Mòbils
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ca_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Lloc Web Segur
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Navrženo experty
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Najděte svůj styl
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zlepšete svůj vztah
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Okamžité výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web pro mobily
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_cs_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bezpečný web
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designet af eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Find din kærlighedsstil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Forbedr dit forhold
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Øjeblikkelige resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvenlig hjemmeside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_da_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker hjemmeside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Von Experten entwickelt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Finde deinen Liebestyp
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Beziehung verbessern
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sofortige Ergebnisse
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilfreundliche Seite
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_de_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sichere Webseite
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Σχεδιασμένο από Ειδικούς
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Βρες το Στυλ Αγάπης
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Βελτίωσε τη Σχέση Σου
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Άμεσα Αποτελέσματα
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Φιλικό προς Κινητά
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_el_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ασφαλής Ιστότοπος
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Find Your Love Style
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Improve Your Relationship
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Diseñado por Expertos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Halla tu Estilo de Amor
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mejora tu Relación
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados Instantáneos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web Optimizada Móvil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_eses_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sitio Web Seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertide loodud
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Leia armastuse stiil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Paranda oma suhet
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tulemused kohe
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobiilisõbralik leht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_et_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvaline veebileht
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Asiantuntijoiden luoma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Löydä rakkaustyylisi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Paranna suhdetta
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Tulokset heti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Toimii mobiilissa
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fi_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Turvallinen sivusto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Conçu par des Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Trouvez votre Langage
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Améliorez votre Relation
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Résultats Immédiats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Compatible Mobile
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_fr_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Web Sécurisé
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Dizajnirali stručnjaci
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Nađite svoj stil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Poboljšajte vezu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Trenutni rezultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web za mobitele
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hr_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sigurna web stranica
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Szakértők tervezték
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Találd meg a stílusod
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Javíts a kapcsolatodon
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Azonnali eredmények
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilbarát weboldal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_hu_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Biztonságos weboldal
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Hannað af sérfræðingum
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Finndu þinn ástarstíl
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bættu sambandið
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Niðurstöður strax
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Vefsíða fyrir síma
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_is_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Örugg vefsíða
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Creato da Esperti
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Trova il Tuo Stile
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Migliora la Relazione
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Risultati Immediati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Ottimizzato Mobile
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_it_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sito Web Sicuro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sukurta ekspertų
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Rask savo meilės stilių
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Pagerinkite santykius
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Rezultatai iškart
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Pritaikyta mobiliesiems
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lt_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Saugi svetainė
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ekspertu izstrādāts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Atrodi savu stilu
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Uzlabo savas attiecības
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Rezultāti uzreiz
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilajiem draudzīga
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_lv_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Droša vietne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Ontworpen door experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Vind jouw liefdestijl
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Verbeter je relatie
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Direct resultaat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobielvriendelijke site
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_nl_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Veilige website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designet av eksperter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Finn din kjærlighetsstil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Forbedre forholdet ditt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Øyeblikkelige resultater
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvennlig nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_no_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Sikker nettside
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Stworzony przez ekspertów
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Znajdź styl miłości
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Popraw swoją relację
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Wyniki natychmiast
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Strona na telefon
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_pl_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bezpieczna strona
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Criado por Especialistas
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Descobre o Teu Estilo
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Melhora a Tua Relação
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultados Imediatos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Compatível Móvel
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ptpt_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Website Seguro
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Creat de Experți
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Găsește Stilul Tău
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Îmbunătățește Relația
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Rezultate Instante
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Site Optimizat Mobil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_ro_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Website Securizat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Navrhnuté expertmi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Nájdite svoj štýl
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Zlepšite svoj vzťah
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Okamžité výsledky
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Web pre mobily
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sk_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Bezpečná stránka
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Oblikovali strokovnjaki
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Najdite svoj slog
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Izboljšajte svoj odnos
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takojšnji rezultati
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Spletna stran za mobilne
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sl_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Varno spletno mesto
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Дизајнирали стручњаци
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Нађи свој љубавни стил
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Побољшајте своју везу
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Тренутни резултати
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Сајт за мобилне
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sr_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Сигуран веб-сајт
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Utformad av experter
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Hitta din kärleksstil
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Förbättra relationen
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Resultat direkt
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobilvänlig webbplats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_sv_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Säker webbplats
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_lovestyle__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Uzmanlarca Tasarlandı
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_lovestyle__find_your
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Aşk Dilini Bul
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_lovestyle__improve
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: İlişkinizi Geliştirin
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_lovestyle__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Anında Sonuçlar
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_lovestyle__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobil Uyumlu Web Sitesi
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_tr_lovestyle__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Güvenli Web Sitesi

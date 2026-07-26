@@ -1,0 +1,125 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: et_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_et_iq__breakdown
+  - callout_et_iq__experts
+  - callout_et_iq__fun_challenging
+  - callout_et_iq__instant
+  - callout_et_iq__mobile_friendly
+  - callout_et_iq__secure
+  - efaq_business_name
+  - sitelink_et_iq__am_i_gifted
+  - sitelink_et_iq__can_you_improve
+  - sitelink_et_iq__generic
+  - sitelink_et_iq__students
+  - sitelink_et_iq__what_is_iq
+  - snip_et_iq__test_types
+spec:
+  budget_daily_usd: 900.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/et/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Ametlik leht
+      - Sinu IQ 20 minutiga
+      - Ametlik IQ-test 2026
+      - Kõige täpsem IQ-test
+      - Ära raiska raha
+      - Alusta oma IQ-testi
+      - Kui tark sa oled?
+      - Kiired ja täpsed tulemused
+      - Teaduslikult loodud test
+      - Päris test, päris vastused
+      - Targem kui sõbrad?
+      descriptions:
+      - Arvad, et oled keskmisest targem? Tee test ja vaata, milline on sinu tegelik tase.
+      - Saa kiired ja täpsed IQ-tulemused vähem kui 10 minutiga otse oma telefonis.
+      - Teaduslikult välja töötatud IQ-test, mida eksperdid usaldavad täpsete tulemuste saamiseks.
+      - Liitu tuhandetega, kes testisid oma IQ-d täna, ja saa teada oma täpne tase.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: iq test eesti
+      match_type: BROAD
+    - text: iq test internetis
+      match_type: BROAD
+    - text: tasuta iq test
+      match_type: BROAD
+    - text: intelligentsustest
+      match_type: BROAD
+    - text: kiire iq test
+      match_type: BROAD
+    - text: iq skoor
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/et/iq/lp/iq-test
+      headlines:
+      - EFAQ.com – Ametlik leht
+      - Sinu IQ 20 minutiga
+      - Ametlik IQ-test 2026
+      - Kõige täpsem IQ-test
+      - Kui tark ma olen?
+      - Kui tark sa oled?
+      - Ära raiska raha
+      - Intelligentsustest veebis
+      descriptions:
+      - Oled mõelnud, kui tark sa tegelikult oled? Tee test ja saa selged vastused.
+      - Uuri, kas oled keskmine või andekas. Kiired ja täpsed IQ-tulemused.
+      - Lõpeta oletamine. Mõõda oma intelligentsust päris IQ-testiga. Vaata oma skoori.
+      - Liitu tuhandetega, kes küsisid sama küsimuse ja said lõpuks vastused.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: kui tark ma olen
+      match_type: BROAD
+    - text: kas ma olen tark
+      match_type: BROAD
+    - text: kas ma olen andekas
+      match_type: BROAD
+    - text: kas ma olen loll
+      match_type: BROAD
+    - text: intelligentsuse test
+      match_type: BROAD
+    - text: mõistuse test
+      match_type: BROAD

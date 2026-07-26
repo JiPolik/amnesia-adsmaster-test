@@ -1,0 +1,133 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: hu_ww_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_hu_psychopath__assessment
+  - callout_hu_psychopath__experts
+  - callout_hu_psychopath__instant
+  - callout_hu_psychopath__minutes
+  - callout_hu_psychopath__mobile_friendly
+  - callout_hu_psychopath__secure
+  - efaq_business_name
+  - sitelink_hu_psychopath__callous_unemotional
+  - sitelink_hu_psychopath__dark_triad
+  - sitelink_hu_psychopath__emotional_detachment
+  - sitelink_hu_psychopath__generic
+  - sitelink_hu_psychopath__lack_of_empathy
+  - sitelink_hu_psychopath__manipulation_deceit
+  - sitelink_hu_psychopath__superficial_charm
+  - sitelink_hu_psychopath__what_is_psychopathy
+  - snip_hu_psychopath__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: psychopath
+    ad_templates:
+    - name: psychopath__rsa
+      destination_url: https://efaq.com/hu/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Hivatalos Oldal
+      - Pszichopata Teszt Kitöltése
+      - Pszichopata Vagyok? Tudd Meg
+      - Ingyenes Pszichopata Teszt
+      - Pszichopata Önértékelés
+      - Szociopata Vagy?
+      - Sötét Triád Személyiségteszt
+      - Azonnali Eredmények Most
+      - Szakértői Tesztelés
+      - Gyors és Bizalmas Kvíz
+      - Fedezd Fel a Vonásaidat Ma
+      descriptions:
+      - Töltsd ki ingyenes pszichopata önértékelésünket. Válaszolj és kapj azonnali eredményt.
+      - Klinikai kutatásokon alapuló szakértői teszt. Értékeld a pszichopata vonásokat.
+      - Tudd meg, hol helyezkedsz el a pszichopátia spektrumán. Privát eredmények percek alatt.
+      - Fedezd fel a pszichopata vonásokat, a sötét triádot és még sok mást. Töltsd ki a tesztet.
+    keywords:
+    - text: psychopath test
+      match_type: BROAD
+    - text: am i a psychopath
+      match_type: BROAD
+    - text: am i a sociopath
+      match_type: BROAD
+    - text: psychopath
+      match_type: BROAD
+    - text: sociopath
+      match_type: BROAD
+    - text: psychopath quiz
+      match_type: BROAD
+    - text: psychopathy test
+      match_type: BROAD
+    - text: sociopath test
+      match_type: BROAD
+    - text: what is psychopathy
+      match_type: BROAD
+    - text: signs of a psychopath
+      match_type: BROAD
+    - text: psychopath traits
+      match_type: BROAD
+    - text: dark triad test
+      match_type: BROAD
+    - text: dark triad
+      match_type: BROAD
+    - text: callous unemotional traits
+      match_type: BROAD
+    - text: lack of empathy test
+      match_type: BROAD
+    - text: lack of empathy
+      match_type: BROAD
+    - text: emotional detachment test
+      match_type: BROAD
+    - text: superficial charm
+      match_type: BROAD
+    - text: manipulation and deceit
+      match_type: BROAD
+    - text: antisocial personality test
+      match_type: BROAD
+    - text: sociopath traits
+      match_type: BROAD
+    - text: pszichopata teszt
+      match_type: BROAD
+    - text: pszichopata vagyok
+      match_type: BROAD
+    - text: szociopata vagyok
+      match_type: BROAD
+    - text: pszichopata
+      match_type: BROAD
+    - text: szociopata
+      match_type: BROAD
+    - text: pszichopátia teszt
+      match_type: BROAD
+    - text: szociopata teszt
+      match_type: BROAD
+    - text: mi a pszichopátia
+      match_type: BROAD
+    - text: pszichopata jelei
+      match_type: BROAD
+    - text: pszichopata vonások
+      match_type: BROAD
+    - text: sötét triád teszt
+      match_type: BROAD
+    - text: sötét triád
+      match_type: BROAD
+    - text: érzéketlen vonások
+      match_type: BROAD
+    - text: empátia hiánya teszt
+      match_type: BROAD
+    - text: empátia hiánya
+      match_type: BROAD
+    - text: érzelmi elszakadás teszt
+      match_type: BROAD
+    - text: felszínes báj
+      match_type: BROAD
+    - text: manipuláció és csalás
+      match_type: BROAD
+    - text: antiszociális személyiség teszt
+      match_type: BROAD
+    - text: szociopata vonások
+      match_type: BROAD

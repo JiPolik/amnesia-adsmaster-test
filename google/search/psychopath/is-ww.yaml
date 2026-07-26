@@ -1,0 +1,135 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: is_ww_goog_s_efaq_psychopath
+  platform: google_search
+  vertical: psychopath
+  extends: psychopath_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_is_psychopath__assessment
+  - callout_is_psychopath__experts
+  - callout_is_psychopath__instant
+  - callout_is_psychopath__minutes
+  - callout_is_psychopath__mobile_friendly
+  - callout_is_psychopath__secure
+  - efaq_business_name
+  - sitelink_is_psychopath__callous_unemotional
+  - sitelink_is_psychopath__dark_triad
+  - sitelink_is_psychopath__emotional_detachment
+  - sitelink_is_psychopath__generic
+  - sitelink_is_psychopath__lack_of_empathy
+  - sitelink_is_psychopath__manipulation_deceit
+  - sitelink_is_psychopath__superficial_charm
+  - sitelink_is_psychopath__what_is_psychopathy
+  - snip_is_psychopath__types
+spec:
+  budget_daily_usd: 500.0
+  target_cpa_usd: 19.0
+  ad_sets:
+  - name: psychopath
+    ad_templates:
+    - name: psychopath__rsa
+      destination_url: https://efaq.com/is/psychopath/lp/quiz
+      headlines:
+      - EFAQ.com - Opinber vefsíða
+      - Taktu siðblinduprófið
+      - Er ég siðblindur? Komdu að því
+      - Ókeypis siðblindupróf á netinu
+      - Sjálfsmat fyrir siðblindu
+      - Ert þú andfélagslegur?
+      - Myrka þrenningin persónupróf
+      - Fáðu niðurstöður strax
+      - Hannað af sérfræðingum
+      - Fljótlegt og leynilegt próf
+      - Uppgötvaðu einkenni þín í dag
+      descriptions:
+      - Taktu ókeypis sjálfsmat fyrir siðblindu. Svaraðu spurningum og fáðu niðurstöður strax.
+      - Sérfræðihannað próf byggt á klínískum rannsóknum. Metið einkenni siðblindu.
+      - Uppgötvaðu hvar þú ert á rófi siðblindu. Persónulegar niðurstöður á örfáum mínútum.
+      - Kannaðu einkenni siðblindu, myrku þrenninguna og fleira. Taktu prófið núna.
+    keywords:
+    - text: psychopath test
+      match_type: BROAD
+    - text: am i a psychopath
+      match_type: BROAD
+    - text: am i a sociopath
+      match_type: BROAD
+    - text: psychopath
+      match_type: BROAD
+    - text: sociopath
+      match_type: BROAD
+    - text: psychopath quiz
+      match_type: BROAD
+    - text: psychopathy test
+      match_type: BROAD
+    - text: sociopath test
+      match_type: BROAD
+    - text: what is psychopathy
+      match_type: BROAD
+    - text: signs of a psychopath
+      match_type: BROAD
+    - text: psychopath traits
+      match_type: BROAD
+    - text: dark triad test
+      match_type: BROAD
+    - text: dark triad
+      match_type: BROAD
+    - text: callous unemotional traits
+      match_type: BROAD
+    - text: lack of empathy test
+      match_type: BROAD
+    - text: lack of empathy
+      match_type: BROAD
+    - text: emotional detachment test
+      match_type: BROAD
+    - text: superficial charm
+      match_type: BROAD
+    - text: manipulation and deceit
+      match_type: BROAD
+    - text: antisocial personality test
+      match_type: BROAD
+    - text: sociopath traits
+      match_type: BROAD
+    - text: siðblindupróf
+      match_type: BROAD
+    - text: er ég siðblindur
+      match_type: BROAD
+    - text: er ég andfélagslegur
+      match_type: BROAD
+    - text: siðblinda
+      match_type: BROAD
+    - text: andfélagslegur
+      match_type: BROAD
+    - text: siðblindu próf
+      match_type: BROAD
+    - text: próf fyrir siðblindu
+      match_type: BROAD
+    - text: andfélagslegt próf
+      match_type: BROAD
+    - text: hvað er siðblinda
+      match_type: BROAD
+    - text: einkenni siðblindu
+      match_type: BROAD
+    - text: siðblindueinkenni
+      match_type: BROAD
+    - text: myrka þrenningin próf
+      match_type: BROAD
+    - text: myrka þrenningin
+      match_type: BROAD
+    - text: tilfinningaleysi einkenni
+      match_type: BROAD
+    - text: skortur á samkennd próf
+      match_type: BROAD
+    - text: skortur á samkennd
+      match_type: BROAD
+    - text: tilfinningaleg fjarlægð próf
+      match_type: BROAD
+    - text: yfirborðskenndur þokki
+      match_type: BROAD
+    - text: stjórnun og blekking
+      match_type: BROAD
+    - text: andfélagsleg persónuleikapróf
+      match_type: BROAD
+    - text: andfélagsleg einkenni
+      match_type: BROAD

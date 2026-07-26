@@ -1,0 +1,62 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_greekgods__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_greekgods__find
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Find Your Greek God
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_greekgods__guide
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Guide to Greek Gods
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_greekgods__instant
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Instant Results
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_greekgods__minutes
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Takes Only Minutes
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_greekgods__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_greekgods__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website

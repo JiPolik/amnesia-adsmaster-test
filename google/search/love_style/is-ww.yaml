@@ -1,0 +1,142 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: is_ww_goog_s_efaq_lovestyle
+  platform: google_search
+  vertical: love_style
+  extends: love_style_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_is_lovestyle__experts
+  - callout_is_lovestyle__find_your
+  - callout_is_lovestyle__improve
+  - callout_is_lovestyle__instant
+  - callout_is_lovestyle__mobile_friendly
+  - callout_is_lovestyle__secure
+  - efaq_business_name
+  - sitelink_is_lovestyle__generic
+  - sitelink_is_lovestyle__heartbreak
+  - sitelink_is_lovestyle__improve_relationship
+  - sitelink_is_lovestyle__what_are
+  - sitelink_is_lovestyle__what_is
+  - snip_is_lovestyle__types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 15.0
+  ad_sets:
+  - name: love_style
+    ad_templates:
+    - name: love_style__rsa
+      destination_url: https://efaq.com/is/love-style/lp/quiz
+      headlines:
+      - EFAQ.com - Opinber síða
+      - Ekki sóa peningum
+      - Hver er þinn ástarstíll?
+      - Besta ástarprófið 2026
+      - Taktu ástarstílsprófið
+      - Uppgötvaðu ástarstíl þinn
+      - Hvernig sýnir þú ást?
+      - Ástarstílspróf fyrir pör
+      - Bættu sambandið þitt
+      - Elskaðu betur, lifðu glaðar
+      - Skiljið þarfir hvors annars
+      - Hvað þarfnast hjartað?
+      - Vertu betri maki í dag
+      - 5 mínútna ástarpróf
+      - '#1 ástarstílspróf'
+      descriptions:
+      - 'Finndu þinn ástarstíl: Taktu prófið og uppgötvaðu hvernig þú sýnir ást í dag.'
+      - Notaðu stutta prófið okkar til að finna þinn ástarstíl og bæta sambandið strax.
+      - Lærðu að elska makann betur með því að skilja þinn eigin ástarstíl.
+      - Breyttu sambandinu til hins betra með vísindalega hönnuðu ástarstílsprófi okkar.
+    keywords:
+    - text: love language test
+      match_type: BROAD
+    - text: love language quiz
+      match_type: BROAD
+    - text: love language test online
+      match_type: BROAD
+    - text: love language quiz online
+      match_type: BROAD
+    - text: love language test free
+      match_type: BROAD
+    - text: love language quiz free
+      match_type: BROAD
+    - text: free love language test
+      match_type: BROAD
+    - text: free love language quiz
+      match_type: BROAD
+    - text: 5 love languages
+      match_type: BROAD
+    - text: five love languages
+      match_type: BROAD
+    - text: love languages test
+      match_type: BROAD
+    - text: love languages quiz
+      match_type: BROAD
+    - text: what's my love language
+      match_type: BROAD
+    - text: whats my love language
+      match_type: BROAD
+    - text: what is my love language
+      match_type: BROAD
+    - text: love language
+      match_type: BROAD
+    - text: love languages
+      match_type: BROAD
+    - text: relationship quiz
+      match_type: BROAD
+    - text: love style test
+      match_type: BROAD
+    - text: love style quiz
+      match_type: BROAD
+    - text: love style test online
+      match_type: BROAD
+    - text: love style quiz online
+      match_type: BROAD
+    - text: love style test free
+      match_type: BROAD
+    - text: love style quiz free
+      match_type: BROAD
+    - text: free love style test
+      match_type: BROAD
+    - text: free love style quiz
+      match_type: BROAD
+    - text: 5 love styles
+      match_type: BROAD
+    - text: five love styles
+      match_type: BROAD
+    - text: love styles test
+      match_type: BROAD
+    - text: love styles quiz
+      match_type: BROAD
+    - text: what's my love style
+      match_type: BROAD
+    - text: whats my love style
+      match_type: BROAD
+    - text: what is my love style
+      match_type: BROAD
+    - text: love style
+      match_type: BROAD
+    - text: love styles
+      match_type: BROAD
+    - text: kærleikstungumál
+      match_type: BROAD
+    - text: 5 kærleikstungumál
+      match_type: BROAD
+    - text: ástarstílspróf
+      match_type: BROAD
+    - text: ástarmál
+      match_type: BROAD
+    - text: próf fyrir pör
+      match_type: BROAD
+    - text: hvernig á að bæta sambandið
+      match_type: BROAD
+    - text: sambandspróf
+      match_type: BROAD
+    - text: ókeypis ástarpróf
+      match_type: BROAD
+    - text: ástarstíll
+      match_type: BROAD
+    - text: hvað er mitt kærleikstungumál
+      match_type: BROAD

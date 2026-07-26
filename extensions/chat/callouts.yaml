@@ -1,0 +1,53 @@
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_chat__advanced
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Advanced AI Chat
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_chat__brainstorm
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Brainstorm with AI
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_chat__experts
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Designed by The Experts
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_chat__mobile_friendly
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Mobile-Friendly Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_chat__secure
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: Secure Website
+---
+apiVersion: amnesia/v1
+kind: AdExtension
+metadata:
+  name: callout_en_chat__tenx
+spec:
+  schema_version: 1
+  type: CALLOUT
+  text: 10x Productivity with AI

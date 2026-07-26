@@ -1,0 +1,71 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: en_us_goog_s_efaq_greekgods
+  platform: google_search
+  vertical: greek_gods
+  extends: greek_gods_search_tmpl
+  geo_preset_ref: us
+  ad_extension_refs:
+  - callout_en_greekgods__experts
+  - callout_en_greekgods__find
+  - callout_en_greekgods__guide
+  - callout_en_greekgods__instant
+  - callout_en_greekgods__minutes
+  - callout_en_greekgods__mobile_friendly
+  - callout_en_greekgods__secure
+  - efaq_business_name
+  - sitelink_en_greekgods__aphrodite
+  - sitelink_en_greekgods__apollo
+  - sitelink_en_greekgods__ares
+  - sitelink_en_greekgods__artemis
+  - sitelink_en_greekgods__athena
+  - sitelink_en_greekgods__demeter
+  - sitelink_en_greekgods__dionysus
+  - sitelink_en_greekgods__generic
+  - sitelink_en_greekgods__hephaestus
+  - sitelink_en_greekgods__hera
+  - sitelink_en_greekgods__hermes
+  - sitelink_en_greekgods__poseidon
+  - sitelink_en_greekgods__zeus
+  - snip_en_greekgods__types
+spec:
+  budget_daily_usd: 1000.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: general
+    keywords:
+    - text: greek god quiz
+      match_type: BROAD
+    - text: greek god quiz free
+      match_type: BROAD
+    - text: free greek god quiz
+      match_type: BROAD
+    - text: greek god test
+      match_type: BROAD
+    - text: greek god test free
+      match_type: BROAD
+    - text: free greek god test
+      match_type: BROAD
+    - text: what greek god am i
+      match_type: BROAD
+    - text: what greek god am i quiz
+      match_type: BROAD
+    - text: which greek god am i
+      match_type: BROAD
+    - text: which greek god are you
+      match_type: BROAD
+    - text: what greek god are you
+      match_type: BROAD
+    - text: greek god
+      match_type: BROAD
+    - text: greek gods
+      match_type: BROAD
+    - text: greek mythology quiz
+      match_type: BROAD
+    - text: greek mythology
+      match_type: BROAD
+    - text: greek mythology test
+      match_type: BROAD
+    - text: ancient greek gods
+      match_type: BROAD

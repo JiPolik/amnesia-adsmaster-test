@@ -1,0 +1,84 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: nl_ww_goog_s_efaq_exback
+  platform: google_search
+  vertical: ex_back
+  extends: ex_back_search_tmpl
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_nl_exback__experts
+  - callout_nl_exback__fix
+  - callout_nl_exback__instant
+  - callout_nl_exback__mobile_friendly
+  - callout_nl_exback__secure
+  - callout_nl_exback__win_back
+  - efaq_business_name
+  - sitelink_nl_exback__build_plan
+  - sitelink_nl_exback__generic
+  - sitelink_nl_exback__grow
+  - sitelink_nl_exback__missing
+  - sitelink_nl_exback__move
+  - sitelink_nl_exback__pattern
+  - sitelink_nl_exback__worth
+  - snip_nl_exback__services
+spec:
+  budget_daily_usd: 400.0
+  target_cpa_usd: 20.0
+  ad_sets:
+  - name: ex_back
+    ad_templates:
+    - name: ex_back__rsa
+      destination_url: https://efaq.com/nl/ex-back/lp/plan
+      headlines:
+      - EFAQ.com - Officiële site
+      - Verspil je geld niet
+      - Ex terug methode die werkt
+      - Persoonlijk ex terug plan
+      - 2-minuten ex terug quiz
+      - AI Ex Terug Plan Maken
+      - Bewezen ex terug strategieën
+      - Gebruik AI om ze te winnen
+      - Krijg inzicht en strategie
+      descriptions:
+      - Krijg een persoonlijk ex terug plan gebaseerd op je breuk, emoties en de beste stap.
+      - Stop met gissen. Gebruik AI om een heldere strategie te bouwen die daadwerkelijk werkt.
+      - Beantwoord een paar vragen en krijg een slim plan om te herstellen of verder te gaan.
+      - Ontworpen om je te helpen verbeteren, beter te communiceren en fouten te voorkomen.
+    keywords:
+    - text: relationship advice
+      match_type: BROAD
+    - text: win back ex
+      match_type: BROAD
+    - text: win ex back
+      match_type: BROAD
+    - text: get back ex
+      match_type: BROAD
+    - text: get ex back
+      match_type: BROAD
+    - text: how to get your ex back
+      match_type: BROAD
+    - text: how to get my ex back
+      match_type: BROAD
+    - text: will my ex come back
+      match_type: BROAD
+    - text: how to get your ex girlfriend back
+      match_type: BROAD
+    - text: how to get your ex boyfriend back
+      match_type: BROAD
+    - text: relatieadvies
+      match_type: BROAD
+    - text: ex terugwinnen
+      match_type: BROAD
+    - text: ex terugkrijgen
+      match_type: BROAD
+    - text: hoe krijg ik mijn ex terug
+      match_type: BROAD
+    - text: komt mijn ex terug
+      match_type: BROAD
+    - text: ex vriendin terugkrijgen
+      match_type: BROAD
+    - text: ex vriend terugkrijgen
+      match_type: BROAD
+    - text: relatie herstellen
+      match_type: BROAD

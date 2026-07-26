@@ -1,0 +1,157 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: nl_ww_goog_s_efaq_career
+  platform: google_search
+  vertical: career
+  extends: career_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_nl_career__experts
+  - callout_nl_career__instant
+  - callout_nl_career__minutes
+  - callout_nl_career__mobile_friendly
+  - callout_nl_career__plan_future
+  - callout_nl_career__secure
+  - callout_nl_career__strengths
+  - efaq_business_name
+  - sitelink_nl_career__ai
+  - sitelink_nl_career__career_change
+  - sitelink_nl_career__fit
+  - sitelink_nl_career__generic
+  - sitelink_nl_career__graduates
+  - sitelink_nl_career__how_it_works
+  - sitelink_nl_career__plan_future
+  - sitelink_nl_career__science
+  - sitelink_nl_career__strengths
+  - sitelink_nl_career__students
+  - sitelink_nl_career__what_is
+  - snip_nl_career__services
+  - snip_nl_career__styles
+  - snip_nl_career__types
+spec:
+  budget_daily_usd: 2300.0
+  target_cpa_usd: 14.0
+  ad_sets:
+  - name: career
+    ad_templates:
+    - name: career__rsa
+      destination_url: https://efaq.com/nl/career/lp/quiz
+      headlines:
+      - EFAQ.com - Officiële Site
+      - Verspil Geen Geld
+      - Beroepskeuzetest
+      - Ontdek Je Ideale Carrière
+      - Welke Baan Past Bij Jou?
+      - Vind Snel Je Sterke Punten
+      - Beroepstest Voor Iedereen
+      - Professionele Krachttest
+      - Vast In De Verkeerde Baan?
+      - Ontdek Je Werkstijl
+      - Vind Je Droombaan
+      - Voorspel Je Carrière
+      - 5-Minuten Beroepstest
+      - '#1 Best Beoordeelde Test'
+      - Zelfverzekerd Switchen
+      descriptions:
+      - Ontdek welke carrière past bij jouw sterke punten, vaardigheden en interesses.
+      - Ontvang gepersonaliseerde carrière-ideeën op basis van je persoonlijkheid en werkstijl.
+      - Denk je aan een carrièreverandering? Ontdek nieuwe paden die beter bij je passen.
+      - Doe onze wetenschappelijke beroepskeuzetest en krijg persoonlijk loopbaanadvies.
+    keywords:
+    - text: career test
+      match_type: BROAD
+    - text: career test online
+      match_type: BROAD
+    - text: career test free
+      match_type: BROAD
+    - text: career aptitude test
+      match_type: BROAD
+    - text: career aptitude test online
+      match_type: BROAD
+    - text: career aptitude test free
+      match_type: BROAD
+    - text: free career test
+      match_type: BROAD
+    - text: online career test
+      match_type: BROAD
+    - text: free career aptitude test
+      match_type: BROAD
+    - text: online career aptitude test
+      match_type: BROAD
+    - text: career test quiz
+      match_type: BROAD
+    - text: what career is right for me
+      match_type: BROAD
+    - text: career quiz
+      match_type: BROAD
+    - text: career quiz free
+      match_type: BROAD
+    - text: dream job
+      match_type: BROAD
+    - text: find my dream job
+      match_type: BROAD
+    - text: career test for students
+      match_type: BROAD
+    - text: career test for graduates
+      match_type: BROAD
+    - text: career test for adults
+      match_type: BROAD
+    - text: what job should I have
+      match_type: BROAD
+    - text: college major quiz
+      match_type: BROAD
+    - text: college major test
+      match_type: BROAD
+    - text: career path quiz
+      match_type: BROAD
+    - text: career path test
+      match_type: BROAD
+    - text: career path quiz free
+      match_type: BROAD
+    - text: career path test free
+      match_type: BROAD
+    - text: aptitude test
+      match_type: BROAD
+    - text: free aptitude test
+      match_type: BROAD
+    - text: jobs for me quiz
+      match_type: BROAD
+    - text: jobs for me test
+      match_type: BROAD
+    - text: job assessment quiz
+      match_type: BROAD
+    - text: job quiz
+      match_type: BROAD
+    - text: job aptitude test
+      match_type: BROAD
+    - text: beroepskeuzetest
+      match_type: BROAD
+    - text: beroepskeuzetest online
+      match_type: BROAD
+    - text: gratis beroepskeuzetest
+      match_type: BROAD
+    - text: studiekeuzetest
+      match_type: BROAD
+    - text: wat voor werk past bij mij
+      match_type: BROAD
+    - text: welke baan past bij mij
+      match_type: BROAD
+    - text: loopbaantest
+      match_type: BROAD
+    - text: online beroepskeuzetest
+      match_type: BROAD
+    - text: beroepstest
+      match_type: BROAD
+    - text: welke studie kiezen
+      match_type: BROAD
+    - text: gratis loopbaantest
+      match_type: BROAD
+    - text: persoonlijkheidstest werk
+      match_type: BROAD
+    - text: test voor studiekeuze
+      match_type: BROAD
+    - text: competentietest
+      match_type: BROAD
+    - text: loopbaanadvies test
+      match_type: BROAD

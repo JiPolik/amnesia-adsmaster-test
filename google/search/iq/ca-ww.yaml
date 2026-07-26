@@ -1,0 +1,139 @@
+apiVersion: amnesia/v1
+kind: Campaign
+metadata:
+  name: ca_ww_goog_s_efaq_iq
+  platform: google_search
+  vertical: iq
+  extends: iq_search_tmpl_1
+  geo_preset_ref: worldwide_ex_sanctioned
+  ad_extension_refs:
+  - callout_ca_iq__breakdown
+  - callout_ca_iq__experts
+  - callout_ca_iq__fun_challenging
+  - callout_ca_iq__instant
+  - callout_ca_iq__mobile_friendly
+  - callout_ca_iq__secure
+  - efaq_business_name
+  - sitelink_ca_iq__am_i_gifted
+  - sitelink_ca_iq__can_you_improve
+  - sitelink_ca_iq__generic
+  - sitelink_ca_iq__students
+  - sitelink_ca_iq__what_is_iq
+  - snip_ca_iq__test_types
+spec:
+  budget_daily_usd: 300.0
+  target_cpa_usd: 16.0
+  ad_sets:
+  - name: iq_test
+    ad_templates:
+    - name: iq_test__rsa
+      destination_url: https://efaq.com/ca/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Lloc Oficial
+      - El teu QI en 20 minuts
+      - Test de QI Oficial 2026
+      - El test de QI més precís
+      - No malgastis els diners
+      - Comença el test de QI
+      - Ets intel·ligent?
+      - Resultats ràpids i precisos
+      - Test dissenyat per experts
+      - Test real, resultats reals
+      - Més llest que els amics?
+      descriptions:
+      - Et creus més llest que la mitjana? Fes el test i descobreix on et situes realment.
+      - Obtén resultats de QI ràpids i precisos en menys de 10 minuts, directament al mòbil.
+      - Test de QI dissenyat científicament per experts per oferir resultats precisos.
+      - Uneix-te als milers que han provat el seu QI avui i descobreix la teva puntuació.
+    keywords:
+    - text: iq test
+      match_type: BROAD
+    - text: iq test online
+      match_type: BROAD
+    - text: iq test free
+      match_type: BROAD
+    - text: iq test quiz
+      match_type: BROAD
+    - text: free iq test
+      match_type: BROAD
+    - text: online iq test
+      match_type: BROAD
+    - text: online iq test free
+      match_type: BROAD
+    - text: iq quiz
+      match_type: BROAD
+    - text: intelligence test
+      match_type: BROAD
+    - text: test intelligence
+      match_type: BROAD
+    - text: test de qi
+      match_type: BROAD
+    - text: test de qi online
+      match_type: BROAD
+    - text: test de qi gratuït
+      match_type: BROAD
+    - text: test intel·ligència
+      match_type: BROAD
+    - text: test coeficient intel·lectual
+      match_type: BROAD
+    - text: calcular qi
+      match_type: BROAD
+    - text: prova de qi
+      match_type: BROAD
+    - text: test de qi ràpid
+      match_type: BROAD
+    - text: el meu qi
+      match_type: BROAD
+    - text: mesurar la intel·ligència
+      match_type: BROAD
+  - name: am_i_smart
+    ad_templates:
+    - name: am_i_smart__rsa
+      destination_url: https://efaq.com/ca/iq/lp/iq-test
+      headlines:
+      - EFAQ.com - Lloc Oficial
+      - El teu QI en 20 minuts
+      - Test de QI Oficial 2026
+      - El test de QI més precís
+      - Com sóc d'intel·ligent?
+      - Ets intel·ligent?
+      - No malgastis els diners
+      - Test d'intel·ligència online
+      descriptions:
+      - T'has preguntat mai com d'intel·ligent ets? Fes el test i obtén respostes clares.
+      - Descobreix si ets mitjà, superdotat o superior. Resultats de QI ràpids i precisos.
+      - Deixa d'endevinar. Mesura la teva intel·ligència amb un test de QI real avui mateix.
+      - Uneix-te als milers que s'han fet la mateixa pregunta i finalment han obtingut respostes.
+    keywords:
+    - text: am i smart
+      match_type: BROAD
+    - text: how smart am i
+      match_type: BROAD
+    - text: am i intelligent
+      match_type: BROAD
+    - text: how intelligent am i
+      match_type: BROAD
+    - text: am i gifted
+      match_type: BROAD
+    - text: am i dumb
+      match_type: BROAD
+    - text: am i stupid
+      match_type: BROAD
+    - text: sóc llest
+      match_type: BROAD
+    - text: com sóc d'intel·ligent
+      match_type: BROAD
+    - text: com sóc d intelligent
+      match_type: BROAD
+    - text: sóc intel·ligent
+      match_type: BROAD
+    - text: sóc un geni
+      match_type: BROAD
+    - text: sóc superdotat
+      match_type: BROAD
+    - text: sóc ximple
+      match_type: BROAD
+    - text: test de llestos
+      match_type: BROAD
+    - text: coeficient intellectual test
+      match_type: BROAD
