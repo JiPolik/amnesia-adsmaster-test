@@ -9,7 +9,7 @@ spec:
   status: PAUSED
   ad_set_defaults:
     status: PAUSED
-    bid_strategy: TARGET_CPA
+    bid_strategy: MAXIMIZE_CONVERSIONS
   ad_template_defaults:
     status: ENABLED
   ad_sets:
